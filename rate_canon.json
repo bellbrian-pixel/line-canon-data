@@ -4,10 +4,10 @@
     "reference": "Rate canon — MMB globals by guild/union. Machine-readable extract of the drive canons.",
     "sources": {
       "DGA": "DGA_ratecanon_v1",
-      "SAG": "SAG_ratecanon_v23",
+      "SAG": "SAG_rate-canon_v22",
       "WGA": "WGA_ratecanon_v1",
       "ASA": "ASA_ratecanon_v6",
-      "NY IATSE/Teamsters": "NY_IATSE_ratecanon_v14"
+      "NY IATSE/Teamsters": "NY_BTL_ratecanon_consolidated_v1_1"
     },
     "note": "value = current published minimum; next = first projected step. Guild scale for the app's 'Scale' fee basis; engine uses the same globals for budget output."
   },
