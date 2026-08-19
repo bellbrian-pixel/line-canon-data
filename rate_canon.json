@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-14",
+  "generated_at": "2026-08-19",
   "_meta": {
     "reference": "Rate canon — MMB globals by guild/union. Machine-readable extract of the drive canons.",
     "sources": {
       "DGA": "DGA_ratecanon_v1",
-      "SAG": "SAG_rate-canon_v22",
+      "SAG": "SAG_ratecanon_v23",
       "WGA": "WGA_ratecanon_v1",
       "ASA": "ASA_ratecanon_v6",
       "NY IATSE/Teamsters": "NY_BTL_ratecanon_consolidated_v1_1"
