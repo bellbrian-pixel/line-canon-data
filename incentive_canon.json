@@ -241,16 +241,14 @@
       "project_cap": "$10M",
       "verified_on": "2026-08-19",
       "notes": "35% resident / enhanced counties. $25M reserved for continuous productions. ~$42.9M remaining as of 5/28/26.",
-      "pending": [
+      "pending": [],
+      "rejected": [
         {
           "field": "annual_cap",
-          "current": "$75M",
-          "detected": "TEST FLAG — verifying the panel. Safe to Reject.",
-          "detected_at": "2026-08-19",
-          "source_url": "https://github.com/bellbrian-pixel/line-canon-data",
+          "value": "TEST FLAG — verifying the panel. Safe to Reject.",
           "locator": "verification test",
           "locator_hash": "test-verify-0001",
-          "status": "unconfirmed"
+          "rejected_at": "2026-08-19"
         }
       ]
     },
