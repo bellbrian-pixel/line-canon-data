@@ -1,0 +1,40 @@
+{
+  "name": "Local 80 Jurisdictional Language.pdf",
+  "bytes": 21684172,
+  "md5Checksum": "6a0876983b23e9bbb6b0964cb682b2a9",
+  "chunkBytes": 5242880,
+  "chunkCount": 5,
+  "chunks": [
+    {
+      "file": "Local 80 Jurisdictional Language.pdf",
+      "part": "part-0001.bin",
+      "bytes": 5242880,
+      "sha256": "fee2739b24733484d818fe3837718e1fe78f185595c850cd1354c10b694639d4"
+    },
+    {
+      "file": "Local 80 Jurisdictional Language.pdf",
+      "part": "part-0002.bin",
+      "bytes": 5242880,
+      "sha256": "19d25a72977b0089eb660d9231b8c73eaf1693c9b9d1181ed276c6a5e8192603"
+    },
+    {
+      "file": "Local 80 Jurisdictional Language.pdf",
+      "part": "part-0003.bin",
+      "bytes": 5242880,
+      "sha256": "9bff1bf7ffceca120d0dc3c42ede52247cc23762f2721cc42358d6b1fc5f370f"
+    },
+    {
+      "file": "Local 80 Jurisdictional Language.pdf",
+      "part": "part-0004.bin",
+      "bytes": 5242880,
+      "sha256": "428580811414c2580b2357d06bf7025fbf3eac95ccca5e75c5a67314a6e3bcc0"
+    },
+    {
+      "file": "Local 80 Jurisdictional Language.pdf",
+      "part": "part-0005.bin",
+      "bytes": 712652,
+      "sha256": "e54a59ede71bfd84528f0d56bc9dbca0c0a1c930fd173789e3592751b68bc17b"
+    }
+  ],
+  "generated": "2026-08-25T21:38:38.198Z"
+}
