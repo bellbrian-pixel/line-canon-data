@@ -1,0 +1,58 @@
+{
+  "name": "2023 BA and FLTTA MOA.pdf",
+  "bytes": 38785971,
+  "md5Checksum": "f4ee51fc5ec5dfab531e176e897f86c6",
+  "chunkBytes": 5242880,
+  "chunkCount": 8,
+  "chunks": [
+    {
+      "file": "2023 BA and FLTTA MOA.pdf",
+      "part": "part-0001.bin",
+      "bytes": 5242880,
+      "sha256": "4833b40548829216f8072deb6b1c042ae2362a8bf32a7d39b2ce9cd3ab36f139"
+    },
+    {
+      "file": "2023 BA and FLTTA MOA.pdf",
+      "part": "part-0002.bin",
+      "bytes": 5242880,
+      "sha256": "50e0b283e2d2e9401dd9124d099b27eac49eb85f0b2835536aa8bbaa0020ae06"
+    },
+    {
+      "file": "2023 BA and FLTTA MOA.pdf",
+      "part": "part-0003.bin",
+      "bytes": 5242880,
+      "sha256": "0e428e76ca144019bb2109e4c2070b6cd8b04fa2a8fda71f08b2116df3ec6548"
+    },
+    {
+      "file": "2023 BA and FLTTA MOA.pdf",
+      "part": "part-0004.bin",
+      "bytes": 5242880,
+      "sha256": "2de4923c53262061b1a7a5579c8a75f4e10c9c7ea9b00f2a1dbebef69ee1d516"
+    },
+    {
+      "file": "2023 BA and FLTTA MOA.pdf",
+      "part": "part-0005.bin",
+      "bytes": 5242880,
+      "sha256": "96b5adaed1a983c2c4066a4adfc19bc203e8605544e672c1438194970e41376b"
+    },
+    {
+      "file": "2023 BA and FLTTA MOA.pdf",
+      "part": "part-0006.bin",
+      "bytes": 5242880,
+      "sha256": "404ec08390651b7ed6fb7ea1213e15dda7f8ef0b63e22225cfe3c87a1a7a2e30"
+    },
+    {
+      "file": "2023 BA and FLTTA MOA.pdf",
+      "part": "part-0007.bin",
+      "bytes": 5242880,
+      "sha256": "1e39ab47f656887957f7a59c760b90f0021506cdbbc92b9deceb0f93c4e689d6"
+    },
+    {
+      "file": "2023 BA and FLTTA MOA.pdf",
+      "part": "part-0008.bin",
+      "bytes": 2085811,
+      "sha256": "c49c2cfb5d1a7cb0c9ad7f8b86f67e08498958aa2706280a274087e4efaa9793"
+    }
+  ],
+  "generated": "2026-08-25T21:31:22.977Z"
+}
