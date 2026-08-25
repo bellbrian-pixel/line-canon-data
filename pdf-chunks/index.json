@@ -1,12 +1,442 @@
 {
-  "generated": "2026-08-25T21:49:20.580Z",
+  "generated": "2026-08-25T22:51:45.599Z",
   "chunkBytes": 5242880,
+  "fileCount": 87,
   "files": {
-    "2023 BA and FLTTA MOA.pdf": 8,
-    "2026 BA and FLTTA MOA.pdf": 5,
-    "2023 Basic Agreement (BA).pdf": 4,
-    "2023 CBA and TVA MOA.pdf": 3,
-    "Local 80 Jurisdictional Language.pdf": 5,
-    "2024 Local 399 (Location Managers) MOA.pdf": 3
+    "Wage_Scales_-_2024-27_Local_399__Location_Managers__Agreement": {
+      "name": "Wage Scales - 2024-27 Local 399 (Location Managers) Agreement.pdf",
+      "bytes": 58276,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-27_Local_399-817_Casting_Directors": {
+      "name": "Wage Scales - 2024-27 Local 399-817 Casting Directors.pdf",
+      "bytes": 63290,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-28_Local_817_Locations_Personnel": {
+      "name": "Wage Scales - 2024-28 Local 817 Locations Personnel.pdf",
+      "bytes": 65529,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-27_Chef_Assistant_Drivers_and_Chef_Assistants": {
+      "name": "Wage Scales - 2024-27 Chef Assistant Drivers and Chef Assistants.pdf",
+      "bytes": 66857,
+      "chunks": 1
+    },
+    "2020_BC_Animation_Agreement_MOA": {
+      "name": "2020 BC Animation Agreement MOA.pdf",
+      "bytes": 114927,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2025-28_Local_769_Miami_Location_Managers": {
+      "name": "Wage Scales - 2025-28 Local 769 Miami Location Managers.pdf",
+      "bytes": 114995,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2023-26_TV_and_BC_Animation_Agreements": {
+      "name": "Wage Scales - 2023-26 TV and BC Animation Agreements.pdf",
+      "bytes": 117672,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-27_Local_USA_829_Agreement": {
+      "name": "Wage Scales - 2024-27 Local USA 829 Agreement.pdf",
+      "bytes": 118822,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2025-28_Local_769_Miami_Drivers": {
+      "name": "Wage Scales - 2025-28 Local 769 Miami Drivers.pdf",
+      "bytes": 128844,
+      "chunks": 1
+    },
+    "2018_BC_Animation_Agreement_MOA": {
+      "name": "2018 BC Animation Agreement MOA.pdf",
+      "bytes": 129096,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2025-28_Local_817__Drivers__Agreement": {
+      "name": "Wage Scales - 2025-28 Local 817 (Drivers) Agreement.pdf",
+      "bytes": 150513,
+      "chunks": 1
+    },
+    "2014_Basic_Cable_Animation_Agreement": {
+      "name": "2014 Basic Cable Animation Agreement.pdf",
+      "bytes": 153415,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2025-28_UBCP_Master_Agreement": {
+      "name": "Wage Scales - 2025-28 UBCP Master Agreement.pdf",
+      "bytes": 178257,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-27_Local_78_Agreement": {
+      "name": "Wage Scales - 2024-27 Local 78 Agreement.pdf",
+      "bytes": 184799,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-27_Local_755_Agreement": {
+      "name": "Wage Scales - 2024-27 Local 755 Agreement.pdf",
+      "bytes": 190177,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2025-28_DGC-BC_Collective_Agreement": {
+      "name": "Wage Scales - 2025-28 DGC-BC Collective Agreement.pdf",
+      "bytes": 196619,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-27_Theatrical_and_Television_Agreements": {
+      "name": "Wage Scales - 2024-27 Theatrical and Television Agreements.pdf",
+      "bytes": 198511,
+      "chunks": 1
+    },
+    "2020_TV_Animation_Agreement_MOA": {
+      "name": "2020 TV Animation Agreement MOA.pdf",
+      "bytes": 206330,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-27_Local_724_Agreement": {
+      "name": "Wage Scales - 2024-27 Local 724 Agreement.pdf",
+      "bytes": 206787,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-27_Local_52_Agreement": {
+      "name": "Wage Scales - 2024-27 Local 52 Agreement.pdf",
+      "bytes": 228531,
+      "chunks": 1
+    },
+    "2023_BC_Animation_Agreement_MOA": {
+      "name": "2023 BC Animation Agreement MOA.pdf",
+      "bytes": 230106,
+      "chunks": 1
+    },
+    "2018_TV_Animation_Agreement_MOA": {
+      "name": "2018 TV Animation Agreement MOA.pdf",
+      "bytes": 256370,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-27_ASA": {
+      "name": "Wage Scales - 2024-27 ASA.pdf",
+      "bytes": 275863,
+      "chunks": 1
+    },
+    "2025_Intimacy_Coordinators_MOA": {
+      "name": "2025 Intimacy Coordinators MOA.pdf",
+      "bytes": 280403,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2025-28_Local_764_Agreement": {
+      "name": "Wage Scales - 2025-28 Local 764 Agreement.pdf",
+      "bytes": 292807,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-27_Local_40_Agreement": {
+      "name": "Wage Scales - 2024-27 Local 40 Agreement.pdf",
+      "bytes": 319193,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-27_Local_399__Drivers__Agreement": {
+      "name": "Wage Scales - 2024-27 Local 399 (Drivers) Agreement.pdf",
+      "bytes": 327669,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-27_Videotape_Agreement": {
+      "name": "Wage Scales - 2024-27 Videotape Agreement.pdf",
+      "bytes": 391460,
+      "chunks": 1
+    },
+    "2024_Local_817__Locations_Personnel__MOA": {
+      "name": "2024 Local 817 (Locations Personnel) MOA.pdf",
+      "bytes": 392075,
+      "chunks": 1
+    },
+    "2025-2028_DGC_BC_Memorandum_of_Agreement": {
+      "name": "2025-2028 DGC BC Memorandum of Agreement.pdf",
+      "bytes": 396615,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-28_Local_873_Toronto": {
+      "name": "Wage Scales - 2024-28 Local 873 Toronto.pdf",
+      "bytes": 401432,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2026-30_BA": {
+      "name": "Wage Scales - 2026-30 BA.pdf",
+      "bytes": 411726,
+      "chunks": 1
+    },
+    "2025_Local_769__Drivers__Agreement": {
+      "name": "2025 Local 769 (Drivers) Agreement.pdf",
+      "bytes": 421069,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2025-28_Local_798_Agreement": {
+      "name": "Wage Scales - 2025-28 Local 798 Agreement.pdf",
+      "bytes": 474362,
+      "chunks": 1
+    },
+    "2014_Television_Animation_Agreement": {
+      "name": "2014 Television Animation Agreement.pdf",
+      "bytes": 495693,
+      "chunks": 1
+    },
+    "2025_Local_817__Drivers__Agreement": {
+      "name": "2025 Local 817 (Drivers) Agreement.pdf",
+      "bytes": 497469,
+      "chunks": 1
+    },
+    "2024_Local_78_MOA": {
+      "name": "2024 Local 78 MOA.pdf",
+      "bytes": 498882,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2025-28_BC_Council_of_Film_Unions": {
+      "name": "Wage Scales - 2025-28 BC Council of Film Unions.pdf",
+      "bytes": 507468,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2026-30_FLTTA": {
+      "name": "Wage Scales - 2026-30 FLTTA.pdf",
+      "bytes": 519438,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2025-28_Local_161_Agreement": {
+      "name": "Wage Scales - 2025-28 Local 161 Agreement.pdf",
+      "bytes": 548692,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2026-30_MBA": {
+      "name": "Wage Scales - 2026-30 MBA.pdf",
+      "bytes": 572206,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2026-30_CBA_and_TVA": {
+      "name": "Wage Scales - 2026-30 CBA and TVA.pdf",
+      "bytes": 606770,
+      "chunks": 1
+    },
+    "2023_MBA_MOA": {
+      "name": "2023 MBA MOA.pdf",
+      "bytes": 631688,
+      "chunks": 1
+    },
+    "2024_Local_399-817_Casting_Directors_Agreement": {
+      "name": "2024 Local 399-817 Casting Directors Agreement.pdf",
+      "bytes": 688093,
+      "chunks": 1
+    },
+    "Wage_Scales_-_2024-27_Local_839": {
+      "name": "Wage Scales - 2024-27 Local 839.pdf",
+      "bytes": 809645,
+      "chunks": 1
+    },
+    "2025_Local_769__Location_Managers__Agreement": {
+      "name": "2025 Local 769 (Location Managers) Agreement.pdf",
+      "bytes": 928400,
+      "chunks": 1
+    },
+    "2024_Local_52_Supplemental_Digital_Production_Agreement__SDPA_": {
+      "name": "2024 Local 52 Supplemental Digital Production Agreement (SDPA).pdf",
+      "bytes": 980590,
+      "chunks": 1
+    },
+    "2025_Local_798_Majors_Agreement": {
+      "name": "2025 Local 798 Majors Agreement.pdf",
+      "bytes": 1111263,
+      "chunks": 1
+    },
+    "2017_CBA_and_TVA_Memorandum_of_Agreement__MOA_": {
+      "name": "2017 CBA and TVA Memorandum of Agreement (MOA).pdf",
+      "bytes": 1129725,
+      "chunks": 1
+    },
+    "2025_Local_161_Supplemental_Digital_Production_Agreement__SDPA_": {
+      "name": "2025 Local 161 Supplemental Digital Production Agreement (SDPA).pdf",
+      "bytes": 1385472,
+      "chunks": 1
+    },
+    "2024_Local_399__Location_Managers__Agreement": {
+      "name": "2024 Local 399 (Location Managers) Agreement.pdf",
+      "bytes": 1445788,
+      "chunks": 1
+    },
+    "2025_Local_798_Supplemental_Digital_Production_Agreement__SDPA_": {
+      "name": "2025 Local 798 Supplemental Digital Production Agreement (SDPA).pdf",
+      "bytes": 1586507,
+      "chunks": 1
+    },
+    "2021_Local_817__Locations_Personnel__Agreement": {
+      "name": "2021 Local 817 (Locations Personnel) Agreement.pdf",
+      "bytes": 1682678,
+      "chunks": 1
+    },
+    "2025-2028_DGC_BC_Collective_Agreement": {
+      "name": "2025-2028 DGC BC Collective Agreement.pdf",
+      "bytes": 1738178,
+      "chunks": 1
+    },
+    "2024_Local_52_Majors_Agreement": {
+      "name": "2024 Local 52 Majors Agreement.pdf",
+      "bytes": 1777687,
+      "chunks": 1
+    },
+    "2025_Local_161_Majors_Agreement": {
+      "name": "2025 Local 161 Majors Agreement.pdf",
+      "bytes": 1800002,
+      "chunks": 1
+    },
+    "2024_Area_Standards_Agreement": {
+      "name": "2024 Area Standards Agreement.pdf",
+      "bytes": 1888930,
+      "chunks": 1
+    },
+    "2026_CBA_and_TVA_MOA": {
+      "name": "2026 CBA and TVA MOA.pdf",
+      "bytes": 2166670,
+      "chunks": 1
+    },
+    "2025_Local_764_Majors_Agreement": {
+      "name": "2025 Local 764 Majors Agreement.pdf",
+      "bytes": 2179456,
+      "chunks": 1
+    },
+    "2021_Local_78_Agreement": {
+      "name": "2021 Local 78 Agreement.pdf",
+      "bytes": 2276514,
+      "chunks": 1
+    },
+    "2024_IATSE_Local_873_Long_Term_Agreement": {
+      "name": "2024 IATSE Local 873 Long Term Agreement.pdf",
+      "bytes": 2444056,
+      "chunks": 1
+    },
+    "2024_Local_724_Agreement": {
+      "name": "2024 Local 724 Agreement.pdf",
+      "bytes": 2521607,
+      "chunks": 1
+    },
+    "2024_Local_755_Agreement": {
+      "name": "2024 Local 755 Agreement.pdf",
+      "bytes": 2576509,
+      "chunks": 1
+    },
+    "2024_Television_Agreement": {
+      "name": "2024 Television Agreement.pdf",
+      "bytes": 2732333,
+      "chunks": 1
+    },
+    "2020_Theatrical_and_Television_Basic_Agreement__MBA_": {
+      "name": "2020 Theatrical and Television Basic Agreement (MBA).pdf",
+      "bytes": 2825520,
+      "chunks": 1
+    },
+    "2024_Animation_Guild_Local_839_Agreement": {
+      "name": "2024 Animation Guild Local 839 Agreement.pdf",
+      "bytes": 2864608,
+      "chunks": 1
+    },
+    "2025-2028_BCCFU_Memorandum_of_Agreement": {
+      "name": "2025-2028 BCCFU Memorandum of Agreement.pdf",
+      "bytes": 2946104,
+      "chunks": 1
+    },
+    "2020_CBA_and_TVA_MOA": {
+      "name": "2020 CBA and TVA MOA.pdf",
+      "bytes": 2960309,
+      "chunks": 1
+    },
+    "2024_IATSE_Basic_Agreement": {
+      "name": "2024 IATSE Basic Agreement.pdf",
+      "bytes": 2989190,
+      "chunks": 1
+    },
+    "2025_Local_764_Supplemental_Digital_Production_Agreement__SDPA_": {
+      "name": "2025 Local 764 Supplemental Digital Production Agreement (SDPA).pdf",
+      "bytes": 3003614,
+      "chunks": 1
+    },
+    "2024_Videotape_Agreement": {
+      "name": "2024 Videotape Agreement.pdf",
+      "bytes": 3036885,
+      "chunks": 1
+    },
+    "2024_Theatrical_Agreement": {
+      "name": "2024 Theatrical Agreement.pdf",
+      "bytes": 3281381,
+      "chunks": 1
+    },
+    "2024_Local_USA_829_Majors_Agreement": {
+      "name": "2024 Local USA 829 Majors Agreement.pdf",
+      "bytes": 3663245,
+      "chunks": 1
+    },
+    "2024_Local_40_Agreement": {
+      "name": "2024 Local 40 Agreement.pdf",
+      "bytes": 3680540,
+      "chunks": 1
+    },
+    "2014_Television_Agreement__TVA_": {
+      "name": "2014 Television Agreement (TVA).pdf",
+      "bytes": 3708936,
+      "chunks": 1
+    },
+    "2023_TV_Animation_Agreement_MOA": {
+      "name": "2023 TV Animation Agreement MOA.pdf",
+      "bytes": 3940976,
+      "chunks": 1
+    },
+    "2020_Freelance_Live_and_Tape_Television_Agreement__FLTTA_": {
+      "name": "2020 Freelance Live and Tape Television Agreement (FLTTA).pdf",
+      "bytes": 4073958,
+      "chunks": 1
+    },
+    "2024_Local_399__Drivers__Agreement": {
+      "name": "2024 Local 399 (Drivers) Agreement.pdf",
+      "bytes": 4458911,
+      "chunks": 1
+    },
+    "2014_Codified_Basic_Agreement__CBA_": {
+      "name": "2014 Codified Basic Agreement (CBA).pdf",
+      "bytes": 5542552,
+      "chunks": 2
+    },
+    "2026_MBA_MOA": {
+      "name": "2026 MBA MOA.pdf",
+      "bytes": 5848212,
+      "chunks": 2
+    },
+    "2025-2028_UBCP_Master_Production_Agreement": {
+      "name": "2025-2028 UBCP Master Production Agreement.pdf",
+      "bytes": 7716727,
+      "chunks": 2
+    },
+    "2025-2028_BCCFU_Master_Agreement": {
+      "name": "2025-2028 BCCFU Master Agreement.pdf",
+      "bytes": 7819583,
+      "chunks": 2
+    },
+    "2023_CBA_and_TVA_MOA": {
+      "name": "2023 CBA and TVA MOA.pdf",
+      "bytes": 12782172,
+      "chunks": 3
+    },
+    "2024_Local_399__Location_Managers__MOA": {
+      "name": "2024 Local 399 (Location Managers) MOA.pdf",
+      "bytes": 13506387,
+      "chunks": 3
+    },
+    "2023_Basic_Agreement__BA_": {
+      "name": "2023 Basic Agreement (BA).pdf",
+      "bytes": 17790692,
+      "chunks": 4
+    },
+    "2026_BA_and_FLTTA_MOA": {
+      "name": "2026 BA and FLTTA MOA.pdf",
+      "bytes": 25386173,
+      "chunks": 5
+    },
+    "2023_BA_and_FLTTA_MOA": {
+      "name": "2023 BA and FLTTA MOA.pdf",
+      "bytes": 38785971,
+      "chunks": 8
+    }
   }
 }
