@@ -1,0 +1,28 @@
+{
+  "name": "2024 Local 399 (Location Managers) MOA.pdf",
+  "bytes": 13506387,
+  "md5Checksum": "9ec64f74b42b3907cb424fc5373292cb",
+  "chunkBytes": 5242880,
+  "chunkCount": 3,
+  "chunks": [
+    {
+      "file": "2024 Local 399 (Location Managers) MOA.pdf",
+      "part": "part-0001.bin",
+      "bytes": 5242880,
+      "sha256": "d662df5e5040635dc74cc448119ac48f55c0be6bbff5b9b2aab86ec8214c8116"
+    },
+    {
+      "file": "2024 Local 399 (Location Managers) MOA.pdf",
+      "part": "part-0002.bin",
+      "bytes": 5242880,
+      "sha256": "8ee1bdaec8caaf0d57736d5ac4ba2bfebe355955ba78d752aa58a246a87a75e7"
+    },
+    {
+      "file": "2024 Local 399 (Location Managers) MOA.pdf",
+      "part": "part-0003.bin",
+      "bytes": 3020627,
+      "sha256": "8f7153e6639862ec0655d8ae4e0c3596d1d8bee3d046d9f7afd4128162d51c8a"
+    }
+  ],
+  "generated": "2026-08-25T21:49:17.998Z"
+}
