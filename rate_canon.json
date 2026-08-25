@@ -1,5 +1,13 @@
 {
-  "generated_at": "2026-08-19",
+  "generated_at": "2026-08-25",
+  "last_changed_at": "2026-08-19",
+  "sources_modified_at": {
+    "DGA": "2026-07-30T19:23:14Z",
+    "SAG": "2026-07-29T23:18:00Z",
+    "WGA": "2026-07-30T20:42:46Z",
+    "ASA": "2026-07-08T15:32:54Z",
+    "NY": "2026-08-19T16:59:38Z"
+  },
   "_meta": {
     "reference": "Rate canon — MMB globals by guild/union. Machine-readable extract of the drive canons.",
     "sources": {
