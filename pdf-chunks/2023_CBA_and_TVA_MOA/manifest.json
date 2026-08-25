@@ -1,0 +1,28 @@
+{
+  "name": "2023 CBA and TVA MOA.pdf",
+  "bytes": 12782172,
+  "md5Checksum": "f7ac0f19ad5e108ce1f1fe68cb433c0b",
+  "chunkBytes": 5242880,
+  "chunkCount": 3,
+  "chunks": [
+    {
+      "file": "2023 CBA and TVA MOA.pdf",
+      "part": "part-0001.bin",
+      "bytes": 5242880,
+      "sha256": "e149629ce41a457935bca153276dab75cf77867502a92ae92e4eba677759944c"
+    },
+    {
+      "file": "2023 CBA and TVA MOA.pdf",
+      "part": "part-0002.bin",
+      "bytes": 5242880,
+      "sha256": "6e39047b275377759cb33d3ea59aabbd3b57404973eb1b1e8c95553d4e12ff40"
+    },
+    {
+      "file": "2023 CBA and TVA MOA.pdf",
+      "part": "part-0003.bin",
+      "bytes": 2296412,
+      "sha256": "71df514c3069fe45dfc9cffbe1a9de71cea0c0cb76e8f5e2acd6de21aa8af6aa"
+    }
+  ],
+  "generated": "2026-08-25T21:37:24.481Z"
+}
