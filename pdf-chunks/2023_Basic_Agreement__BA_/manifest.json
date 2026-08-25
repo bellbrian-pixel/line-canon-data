@@ -1,0 +1,34 @@
+{
+  "name": "2023 Basic Agreement (BA).pdf",
+  "bytes": 17790692,
+  "md5Checksum": "d0a2517cacb72ed6617c005a4af7d961",
+  "chunkBytes": 5242880,
+  "chunkCount": 4,
+  "chunks": [
+    {
+      "file": "2023 Basic Agreement (BA).pdf",
+      "part": "part-0001.bin",
+      "bytes": 5242880,
+      "sha256": "6447e5a84f63d918b1fca4f51dc604d4c54d3d14973c18859708ceba1f17275a"
+    },
+    {
+      "file": "2023 Basic Agreement (BA).pdf",
+      "part": "part-0002.bin",
+      "bytes": 5242880,
+      "sha256": "f0efeb186ce1c86a6c8556df48f0974000f281715bada38d91f2eff7fe0a5086"
+    },
+    {
+      "file": "2023 Basic Agreement (BA).pdf",
+      "part": "part-0003.bin",
+      "bytes": 5242880,
+      "sha256": "7a1d7ef6a87eb195b28a4aca2d7fd4772a6e5a6e4394503fb2c792d64539e23d"
+    },
+    {
+      "file": "2023 Basic Agreement (BA).pdf",
+      "part": "part-0004.bin",
+      "bytes": 2062052,
+      "sha256": "677b87fe7b8248061820076f95aed524e8c738243b6c35e8dfcadc313573414d"
+    }
+  ],
+  "generated": "2026-08-25T21:33:44.649Z"
+}
