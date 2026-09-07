@@ -9,7 +9,7 @@
   "source_file": "Wage Scales - 2024-27 Local 871 Agreement.pdf",
   "source_file_id": "1QazBNdkZ4HiBWeMnk6iRxM4bHg1gNI_y",
   "source_sha256": "4b324393f635452fc2074e92a9c8bb3505dbb2a0cfec30bd201f8238673394ef",
-  "extracted_at": "2026-09-07T15:14:15.416Z",
+  "extracted_at": "2026-09-07T20:53:07.856Z",
   "extracted_by": "AnnexExtractor.gs / claude-sonnet-5",
   "schedule_map": {
     "studio_schedule": 1,
@@ -36,23 +36,28 @@
       17,
       18
     ],
-    "notes": "Schedule #9 (Preparation Pay for Free Television Pictures, Limited Series Productions (Mini-Series) and Theatrical Motion Pictures, pages 42-43) also applies to Theatrical Motion Pictures at full/undiscounted rates and includes a dedicated Theatrical Motion Pictures pay table on page 43, but it was excluded from studio_schedule/distant_schedule selections since it is a Preparation Pay schedule rather than the primary Studio Minimum or Distant Location wage schedule. If Preparation Pay schedules are also desired, Schedule #9 (pages 42-43) is the correct full-rate theatrical preparation pay schedule (with #10 and #11 being its 3%-reduced and one-year-lag counterparts, respectively, and thus excluded)."
+    "notes": "Schedules 1 and 14 are the only ones whose title/description lists 'Theatrical Motion Pictures' as an applicable category while carrying no reduction, lag, or sideletter qualifier in the schedule name itself (i.e., full, undiscounted current-period rates). Schedules 2/3 and 15/16 are the 3%-reduced and one-year-lag counterparts of 1 and 14, respectively, and are excluded. Schedules 4/5 (HB SVOD one-year/two-year lag with Long-Form Sideletter terms) and 9-13 (Preparation Pay) also list Theatrical Motion Pictures but are excluded because they are either lag/sideletter-modified rates or preparation-pay (not base wage) schedules. Schedules 6-8 apply only to one-half hour prime time dramatic television and do not cover theatrical motion pictures at all. Schedules 17-18 cover Coordinators/Writers' Room Assistants, a different classification, not applicable here."
   },
   "row_count": 14,
   "flagged_count": 0,
   "provenance_vocabulary": {
-    "TRANSCRIBED_PENDING": "Read from the annex, passed every invariant, not yet checked by a person.",
+    "CORROBORATED": "Two independent passes agreed AND at least one invariant covered the row. Approvable. Still not read by a person.",
+    "AGREED_UNCOVERED": "Two passes agreed but no invariant applied. Agreement alone is not evidence — a systematic misreading repeats. Needs eyes.",
+    "TRANSCRIBED_PENDING": "Read from the annex, passed every invariant, not yet compared across passes.",
     "TRANSCRIBED_FLAGGED": "Read from the annex, failed at least one invariant. See flags.",
-    "RECONSTRUCTED_SUSPECT": "Daily figure is exactly 6/25 of its weekly parent — a 20% premium on one fifth of weekly. That is the reconstruction signature, but only the page settles whether it was printed or derived. Promote to RECONSTRUCTED or PRIMARY by eye.",
-    "_note": "None of these is PRIMARY. Nothing here is sourced."
+    "PRIMARY": "Approved. Only reachable through the approval path.",
+    "_removed": "RECONSTRUCTED_SUSPECT was dropped. It flagged a daily figure exactly 6/25 of its weekly parent as possibly derived. Local 44 settles that this cannot work: 7390 is printed in the annex and satisfies the ratio exactly, because 6/25 is the bargaining convention. Printed and derived values are indistinguishable by arithmetic. Only the page decides.",
+    "_note": "Nothing below PRIMARY is sourced."
   },
   "rows": [
     {
       "occ_code": "7701",
       "classification": "Script Supervisor 1st Year in Industry",
       "schedule_letter": "A",
-      "daily_hourly": 49.2,
-      "weekly_hourly": null,
+      "schedule_basis": "Daily Employees",
+      "hourly_rate": 49.2,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": null,
       "weekly_on_call": null,
       "min_call_hours": 10.5,
@@ -74,8 +79,10 @@
       "occ_code": "7701",
       "classification": "Script Supervisor 1st Year in Industry",
       "schedule_letter": "B",
-      "daily_hourly": null,
-      "weekly_hourly": 48.36,
+      "schedule_basis": "Weekly Employees",
+      "hourly_rate": 48.36,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": 2949.96,
       "weekly_on_call": null,
       "min_call_hours": 9,
@@ -89,7 +96,8 @@
       "region": "S",
       "provenance": "CORROBORATED",
       "invariant_coverage": [
-        "GUARANTEE_RECONCILES"
+        "GUARANTEE_RECONCILES",
+        "CROSS_REGION_TWIN"
       ],
       "flags": []
     },
@@ -97,8 +105,10 @@
       "occ_code": "7702",
       "classification": "Script Supervisor 2nd Year in Industry",
       "schedule_letter": "A",
-      "daily_hourly": 52.38,
-      "weekly_hourly": null,
+      "schedule_basis": "Daily Employees",
+      "hourly_rate": 52.38,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": null,
       "weekly_on_call": null,
       "min_call_hours": 10.5,
@@ -120,8 +130,10 @@
       "occ_code": "7702",
       "classification": "Script Supervisor 2nd Year in Industry",
       "schedule_letter": "B",
-      "daily_hourly": null,
-      "weekly_hourly": 50.83,
+      "schedule_basis": "Weekly Employees",
+      "hourly_rate": 50.83,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": 3100.63,
       "weekly_on_call": null,
       "min_call_hours": 9,
@@ -135,7 +147,8 @@
       "region": "S",
       "provenance": "CORROBORATED",
       "invariant_coverage": [
-        "GUARANTEE_RECONCILES"
+        "GUARANTEE_RECONCILES",
+        "CROSS_REGION_TWIN"
       ],
       "flags": []
     },
@@ -143,8 +156,10 @@
       "occ_code": "7703",
       "classification": "Script Supervisor 3rd Year in Industry and thereafter",
       "schedule_letter": "A",
-      "daily_hourly": 55.36,
-      "weekly_hourly": null,
+      "schedule_basis": "Daily Employees",
+      "hourly_rate": 55.36,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": null,
       "weekly_on_call": null,
       "min_call_hours": 10.5,
@@ -166,8 +181,10 @@
       "occ_code": "7703",
       "classification": "Script Supervisor 3rd Year in Industry and thereafter",
       "schedule_letter": "B",
-      "daily_hourly": null,
-      "weekly_hourly": 54.72,
+      "schedule_basis": "Weekly Employees",
+      "hourly_rate": 54.72,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": 3337.92,
       "weekly_on_call": null,
       "min_call_hours": 9,
@@ -181,7 +198,8 @@
       "region": "S",
       "provenance": "CORROBORATED",
       "invariant_coverage": [
-        "GUARANTEE_RECONCILES"
+        "GUARANTEE_RECONCILES",
+        "CROSS_REGION_TWIN"
       ],
       "flags": []
     },
@@ -189,8 +207,10 @@
       "occ_code": "7704",
       "classification": "Teleprompter Operator",
       "schedule_letter": "A",
-      "daily_hourly": 58.46,
-      "weekly_hourly": null,
+      "schedule_basis": "Daily Employees",
+      "hourly_rate": 58.46,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": null,
       "weekly_on_call": null,
       "min_call_hours": 8,
@@ -212,8 +232,10 @@
       "occ_code": "7701",
       "classification": "Script Supervisor 1st Year in Industry",
       "schedule_letter": "A",
-      "daily_hourly": 49.2,
-      "weekly_hourly": null,
+      "schedule_basis": "Daily Employees",
+      "hourly_rate": 49.2,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": null,
       "weekly_on_call": null,
       "min_call_hours": 10.5,
@@ -235,8 +257,10 @@
       "occ_code": "7701",
       "classification": "Script Supervisor 1st Year in Industry",
       "schedule_letter": "B",
-      "daily_hourly": null,
-      "weekly_hourly": 48.36,
+      "schedule_basis": "Weekly Employees",
+      "hourly_rate": 48.36,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": 3385.2,
       "weekly_on_call": null,
       "min_call_hours": 8,
@@ -250,7 +274,8 @@
       "region": "D",
       "provenance": "CORROBORATED",
       "invariant_coverage": [
-        "GUARANTEE_RECONCILES"
+        "GUARANTEE_RECONCILES",
+        "CROSS_REGION_TWIN"
       ],
       "flags": []
     },
@@ -258,8 +283,10 @@
       "occ_code": "7702",
       "classification": "Script Supervisor 2nd Year in Industry",
       "schedule_letter": "A",
-      "daily_hourly": 52.38,
-      "weekly_hourly": null,
+      "schedule_basis": "Daily Employees",
+      "hourly_rate": 52.38,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": null,
       "weekly_on_call": null,
       "min_call_hours": 10.5,
@@ -281,8 +308,10 @@
       "occ_code": "7702",
       "classification": "Script Supervisor 2nd Year in Industry",
       "schedule_letter": "B",
-      "daily_hourly": null,
-      "weekly_hourly": 50.83,
+      "schedule_basis": "Weekly Employees",
+      "hourly_rate": 50.83,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": 3558.1,
       "weekly_on_call": null,
       "min_call_hours": 8,
@@ -296,7 +325,8 @@
       "region": "D",
       "provenance": "CORROBORATED",
       "invariant_coverage": [
-        "GUARANTEE_RECONCILES"
+        "GUARANTEE_RECONCILES",
+        "CROSS_REGION_TWIN"
       ],
       "flags": []
     },
@@ -304,8 +334,10 @@
       "occ_code": "7703",
       "classification": "Script Supervisor 3rd Year in Industry and thereafter",
       "schedule_letter": "A",
-      "daily_hourly": 55.36,
-      "weekly_hourly": null,
+      "schedule_basis": "Daily Employees",
+      "hourly_rate": 55.36,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": null,
       "weekly_on_call": null,
       "min_call_hours": 10.5,
@@ -327,8 +359,10 @@
       "occ_code": "7703",
       "classification": "Script Supervisor 3rd Year in Industry and thereafter",
       "schedule_letter": "B",
-      "daily_hourly": null,
-      "weekly_hourly": 54.72,
+      "schedule_basis": "Weekly Employees",
+      "hourly_rate": 54.72,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": 3830.4,
       "weekly_on_call": null,
       "min_call_hours": 8,
@@ -342,7 +376,8 @@
       "region": "D",
       "provenance": "CORROBORATED",
       "invariant_coverage": [
-        "GUARANTEE_RECONCILES"
+        "GUARANTEE_RECONCILES",
+        "CROSS_REGION_TWIN"
       ],
       "flags": []
     },
@@ -350,8 +385,10 @@
       "occ_code": "7704",
       "classification": "Teleprompter Operator",
       "schedule_letter": "A",
-      "daily_hourly": 58.46,
-      "weekly_hourly": null,
+      "schedule_basis": "Daily Employees",
+      "hourly_rate": 58.46,
+      "daily_rate": null,
+      "rate_unit_as_printed": "Per Hour",
       "weekly_guarantee": null,
       "weekly_on_call": null,
       "min_call_hours": 8,
