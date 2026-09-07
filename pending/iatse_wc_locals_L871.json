@@ -9,15 +9,15 @@
   "source_file": "Wage Scales - 2024-27 Local 871 Agreement.pdf",
   "source_file_id": "1QazBNdkZ4HiBWeMnk6iRxM4bHg1gNI_y",
   "source_sha256": "4b324393f635452fc2074e92a9c8bb3505dbb2a0cfec30bd201f8238673394ef",
-  "extracted_at": "2026-09-07T20:53:07.856Z",
+  "extracted_at": "2026-09-07T21:42:09.653Z",
   "extracted_by": "AnnexExtractor.gs / claude-sonnet-5",
   "schedule_map": {
     "studio_schedule": 1,
     "studio_schedule_title": "Studio Minimum Wage Schedule for Other than One-Half Hour Prime Time Dramatic Television Motion Pictures Recorded Digitally",
-    "studio_pages": "10-13",
+    "studio_pages": "13",
     "distant_schedule": 14,
     "distant_schedule_title": "Distant Location Minimum Wage Schedule",
-    "distant_pages": "50-53",
+    "distant_pages": "53",
     "excluded_schedules": [
       2,
       3,
@@ -36,7 +36,7 @@
       17,
       18
     ],
-    "notes": "Schedules 1 and 14 are the only ones whose title/description lists 'Theatrical Motion Pictures' as an applicable category while carrying no reduction, lag, or sideletter qualifier in the schedule name itself (i.e., full, undiscounted current-period rates). Schedules 2/3 and 15/16 are the 3%-reduced and one-year-lag counterparts of 1 and 14, respectively, and are excluded. Schedules 4/5 (HB SVOD one-year/two-year lag with Long-Form Sideletter terms) and 9-13 (Preparation Pay) also list Theatrical Motion Pictures but are excluded because they are either lag/sideletter-modified rates or preparation-pay (not base wage) schedules. Schedules 6-8 apply only to one-half hour prime time dramatic television and do not cover theatrical motion pictures at all. Schedules 17-18 cover Coordinators/Writers' Room Assistants, a different classification, not applicable here."
+    "notes": "Schedule #1 (pages 10-13 in the ToC) covers Theatrical Motion Pictures and certain TV categories at undiscounted rates; the 8/2/26-7/31/27 printing appears only on PDF page 13. Schedule #14 (pages 50-53 in the ToC) is the corresponding Distant Location schedule also covering Theatrical Motion Pictures at undiscounted rates; its 8/2/26-7/31/27 printing appears only on PDF page 53. Schedule #9 covers Preparation Pay (not studio/distant minimums) for theatrical pictures and was excluded as it is a distinct pay category, not the studio or distant location minimum wage schedule requested. Schedules #2-8, 10-13, and 15-16 all involve 3% reductions, one-year lag, two-year lag, or long-form sideletter terms, which excludes them per the prompt's criteria. Schedules #17-18 cover Coordinators/Writers' Room Assistants, unrelated to Script Supervisors' studio/distant schedules."
   },
   "row_count": 14,
   "flagged_count": 0,
@@ -94,6 +94,8 @@
       "term_is_exception": false,
       "page": 13,
       "region": "S",
+      "guarantee_basis": "OVERTIME_WEIGHTED",
+      "equivalent_hours": 61,
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "GUARANTEE_RECONCILES",
@@ -145,6 +147,8 @@
       "term_is_exception": false,
       "page": 13,
       "region": "S",
+      "guarantee_basis": "OVERTIME_WEIGHTED",
+      "equivalent_hours": 61,
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "GUARANTEE_RECONCILES",
@@ -196,6 +200,8 @@
       "term_is_exception": false,
       "page": 13,
       "region": "S",
+      "guarantee_basis": "OVERTIME_WEIGHTED",
+      "equivalent_hours": 61,
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "GUARANTEE_RECONCILES",
@@ -222,7 +228,7 @@
       "term_is_exception": false,
       "page": 13,
       "region": "S",
-      "provenance": "CORROBORATED",
+      "provenance": "TRANSCRIBED_PENDING",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
       ],
@@ -272,6 +278,8 @@
       "term_is_exception": false,
       "page": 53,
       "region": "D",
+      "guarantee_basis": "OVERTIME_WEIGHTED",
+      "equivalent_hours": 70,
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "GUARANTEE_RECONCILES",
@@ -323,6 +331,8 @@
       "term_is_exception": false,
       "page": 53,
       "region": "D",
+      "guarantee_basis": "OVERTIME_WEIGHTED",
+      "equivalent_hours": 70,
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "GUARANTEE_RECONCILES",
@@ -374,6 +384,8 @@
       "term_is_exception": false,
       "page": 53,
       "region": "D",
+      "guarantee_basis": "OVERTIME_WEIGHTED",
+      "equivalent_hours": 70,
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "GUARANTEE_RECONCILES",
