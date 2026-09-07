@@ -9,7 +9,7 @@
   "source_file": "Wage Scales - 2024-27 Local 871 Agreement.pdf",
   "source_file_id": "1QazBNdkZ4HiBWeMnk6iRxM4bHg1gNI_y",
   "source_sha256": "4b324393f635452fc2074e92a9c8bb3505dbb2a0cfec30bd201f8238673394ef",
-  "extracted_at": "2026-09-07T21:42:09.653Z",
+  "extracted_at": "2026-09-07T22:19:04.032Z",
   "extracted_by": "AnnexExtractor.gs / claude-sonnet-5",
   "schedule_map": {
     "studio_schedule": 1,
@@ -36,7 +36,7 @@
       17,
       18
     ],
-    "notes": "Schedule #1 (pages 10-13 in the ToC) covers Theatrical Motion Pictures and certain TV categories at undiscounted rates; the 8/2/26-7/31/27 printing appears only on PDF page 13. Schedule #14 (pages 50-53 in the ToC) is the corresponding Distant Location schedule also covering Theatrical Motion Pictures at undiscounted rates; its 8/2/26-7/31/27 printing appears only on PDF page 53. Schedule #9 covers Preparation Pay (not studio/distant minimums) for theatrical pictures and was excluded as it is a distinct pay category, not the studio or distant location minimum wage schedule requested. Schedules #2-8, 10-13, and 15-16 all involve 3% reductions, one-year lag, two-year lag, or long-form sideletter terms, which excludes them per the prompt's criteria. Schedules #17-18 cover Coordinators/Writers' Room Assistants, unrelated to Script Supervisors' studio/distant schedules."
+    "notes": "Schedule #1 (pages 10-13) is the full-rate studio schedule applicable to Theatrical Motion Pictures per the TOC; its 8/2/26-7/31/27 printing appears on PDF page 13 only. Schedule #14 (pages 50-53) is the full-rate Distant Location Minimum Wage Schedule applicable to Theatrical Motion Pictures per the TOC; its 8/2/26-7/31/27 printing appears on PDF page 53 only. Schedules #9-13 are Preparation Pay schedules (not base studio/distant minimum wage schedules) and were excluded as a different category, though #9 (undiscounted) and #11 (one-year lag) etc. also cover theatrical - however since the request specifically asks for the studio and distant location wage schedules (not prep pay), only #1 and #14 were selected as the primary studio/distant schedules. All schedules with 3% reductions, one-year lag, two-year lag, or long-form sideletter terms were excluded as instructed."
   },
   "row_count": 14,
   "flagged_count": 0,
@@ -69,6 +69,9 @@
       "term_is_exception": false,
       "page": 13,
       "region": "S",
+      "merged_from_pages": [
+        13
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -94,6 +97,9 @@
       "term_is_exception": false,
       "page": 13,
       "region": "S",
+      "merged_from_pages": [
+        13
+      ],
       "guarantee_basis": "OVERTIME_WEIGHTED",
       "equivalent_hours": 61,
       "provenance": "CORROBORATED",
@@ -122,6 +128,9 @@
       "term_is_exception": false,
       "page": 13,
       "region": "S",
+      "merged_from_pages": [
+        13
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -147,6 +156,9 @@
       "term_is_exception": false,
       "page": 13,
       "region": "S",
+      "merged_from_pages": [
+        13
+      ],
       "guarantee_basis": "OVERTIME_WEIGHTED",
       "equivalent_hours": 61,
       "provenance": "CORROBORATED",
@@ -175,6 +187,9 @@
       "term_is_exception": false,
       "page": 13,
       "region": "S",
+      "merged_from_pages": [
+        13
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -200,6 +215,9 @@
       "term_is_exception": false,
       "page": 13,
       "region": "S",
+      "merged_from_pages": [
+        13
+      ],
       "guarantee_basis": "OVERTIME_WEIGHTED",
       "equivalent_hours": 61,
       "provenance": "CORROBORATED",
@@ -228,6 +246,9 @@
       "term_is_exception": false,
       "page": 13,
       "region": "S",
+      "merged_from_pages": [
+        13
+      ],
       "provenance": "TRANSCRIBED_PENDING",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -253,6 +274,9 @@
       "term_is_exception": false,
       "page": 53,
       "region": "D",
+      "merged_from_pages": [
+        53
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -278,6 +302,9 @@
       "term_is_exception": false,
       "page": 53,
       "region": "D",
+      "merged_from_pages": [
+        53
+      ],
       "guarantee_basis": "OVERTIME_WEIGHTED",
       "equivalent_hours": 70,
       "provenance": "CORROBORATED",
@@ -306,6 +333,9 @@
       "term_is_exception": false,
       "page": 53,
       "region": "D",
+      "merged_from_pages": [
+        53
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -331,6 +361,9 @@
       "term_is_exception": false,
       "page": 53,
       "region": "D",
+      "merged_from_pages": [
+        53
+      ],
       "guarantee_basis": "OVERTIME_WEIGHTED",
       "equivalent_hours": 70,
       "provenance": "CORROBORATED",
@@ -359,6 +392,9 @@
       "term_is_exception": false,
       "page": 53,
       "region": "D",
+      "merged_from_pages": [
+        53
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -384,6 +420,9 @@
       "term_is_exception": false,
       "page": 53,
       "region": "D",
+      "merged_from_pages": [
+        53
+      ],
       "guarantee_basis": "OVERTIME_WEIGHTED",
       "equivalent_hours": 70,
       "provenance": "CORROBORATED",
@@ -412,6 +451,9 @@
       "term_is_exception": false,
       "page": 53,
       "region": "D",
+      "merged_from_pages": [
+        53
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
