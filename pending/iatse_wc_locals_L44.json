@@ -9,15 +9,15 @@
   "source_file": "Wage Scales - 2024-27 Local 44 Agreement.pdf",
   "source_file_id": "18ZJGhHWa_lGr6vu-7S4BUe72Jo6oD1CN",
   "source_sha256": "ac0c96198c000c289fef2ea14eeeeb87d5237867fe0d31cc96290114ec78aa79",
-  "extracted_at": "2026-09-07T20:56:59.040Z",
+  "extracted_at": "2026-09-07T22:28:34.495Z",
   "extracted_by": "AnnexExtractor.gs / claude-sonnet-5",
   "schedule_map": {
     "studio_schedule": 1,
     "studio_schedule_title": "Studio Minimum Wage Schedule for Other than One-Half Hour Prime Time Dramatic Television Motion Pictures Recorded Digitally",
-    "studio_pages": "8-13",
+    "studio_pages": "12-13",
     "distant_schedule": 9,
     "distant_schedule_title": "Distant Location Minimum Wage Schedule",
-    "distant_pages": "56-61",
+    "distant_pages": "60-61",
     "excluded_schedules": [
       2,
       3,
@@ -29,7 +29,7 @@
       10,
       11
     ],
-    "notes": "Theatrical Motion Pictures are explicitly listed as a covered category under Schedule #1 (studio) and Schedule #9 (distant location), both of which apply undiscounted full rates with no 3% reduction, no lag, and no long-form sideletter terms. Schedules #2/#3/#4/#5 are reduced-rate, lag-rate, or long-form sideletter variants of the 'other than one-half hour' schedule and only apply to television programs (pilots, episodic series, mini-series, HB SVOD/AVOD/FAST programs), not theatrical films. Schedules #6/#7/#8 apply only to one-half hour prime time dramatic television and do not list Theatrical Motion Pictures at all. Schedules #10 and #11 are the reduced-rate and lag-rate versions of the distant location schedule, applicable only to television pilots/series/mini-series, not theatrical pictures."
+    "notes": "Schedules 2, 3 (and their 6-8 half-hour counterparts) are excluded because they apply 3% reductions, one-year lag rates, or are specific to one-half hour prime time dramatic television (not theatrical). Schedules 4 and 5 are excluded as they apply only to High Budget SVOD programs/series under Long-Form Sideletter terms with one- or two-year lag rates. Schedule 10 (Distant Location, 3% reduction) and Schedule 11 (Distant Location, one-year lag) are excluded for the same reasons as their studio counterparts. Schedules 1 and 9 are the only ones listing 'Theatrical Motion Pictures' as an applicable category at full, undiscounted, non-lagged rates. Page ranges include the footnote pages immediately following each rate table, since those footnotes pertain specifically to the 8/2/26-7/31/27 rates shown on the preceding page."
   },
   "row_count": 54,
   "flagged_count": 0,
@@ -62,6 +62,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -87,6 +90,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -110,6 +116,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -135,6 +144,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -160,6 +172,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -185,6 +200,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -208,6 +226,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -233,6 +254,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -258,6 +282,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -283,6 +310,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -308,6 +338,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -333,6 +366,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -356,6 +392,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -375,18 +414,25 @@
       "min_call_hours": 9,
       "cumulative_hours": 54,
       "consecutive_days": 5,
-      "footnote_markers": "",
+      "footnote_markers": "6",
       "term_start": "2026-08-02",
       "term_end": "2027-07-31",
       "term_is_exception": false,
       "page": 12,
       "region": "S",
-      "provenance": "CORROBORATED",
+      "merged_from_pages": [
+        12
+      ],
+      "guarantee_basis": "OVERTIME_WEIGHTED",
+      "equivalent_hours": 61,
+      "provenance": "TRANSCRIBED_FLAGGED",
       "invariant_coverage": [
         "GUARANTEE_RECONCILES",
         "CROSS_REGION_TWIN"
       ],
-      "flags": []
+      "flags": [
+        "DISAGREES_ACROSS_RUNS"
+      ]
     },
     {
       "occ_code": "7332",
@@ -407,6 +453,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -432,12 +481,19 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
-      "provenance": "CORROBORATED",
+      "merged_from_pages": [
+        12
+      ],
+      "guarantee_basis": "OVERTIME_WEIGHTED",
+      "equivalent_hours": 61,
+      "provenance": "TRANSCRIBED_FLAGGED",
       "invariant_coverage": [
         "GUARANTEE_RECONCILES",
         "CROSS_REGION_TWIN"
       ],
-      "flags": []
+      "flags": [
+        "DISAGREES_ACROSS_RUNS"
+      ]
     },
     {
       "occ_code": "7351",
@@ -458,6 +514,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -483,12 +542,19 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
-      "provenance": "CORROBORATED",
+      "merged_from_pages": [
+        12
+      ],
+      "guarantee_basis": "OVERTIME_WEIGHTED",
+      "equivalent_hours": 61,
+      "provenance": "TRANSCRIBED_FLAGGED",
       "invariant_coverage": [
         "GUARANTEE_RECONCILES",
         "CROSS_REGION_TWIN"
       ],
-      "flags": []
+      "flags": [
+        "DISAGREES_ACROSS_RUNS"
+      ]
     },
     {
       "occ_code": "7369",
@@ -509,6 +575,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -517,7 +586,7 @@
     },
     {
       "occ_code": "7390",
-      "classification": "Set Decorator (\"On Call\")",
+      "classification": "Set Decorator",
       "schedule_letter": "A",
       "schedule_basis": "Daily Employees",
       "hourly_rate": null,
@@ -534,6 +603,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "unit_differs_from_header": true,
       "provenance": "CORROBORATED",
       "invariant_coverage": [
@@ -560,13 +632,16 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
     },
     {
       "occ_code": "7392",
-      "classification": "Coordinator \"(On Call)\"",
+      "classification": "Coordinator",
       "schedule_letter": "A",
       "schedule_basis": "Daily Employees",
       "hourly_rate": null,
@@ -583,6 +658,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "unit_differs_from_header": true,
       "provenance": "CORROBORATED",
       "invariant_coverage": [
@@ -592,7 +670,7 @@
     },
     {
       "occ_code": "7392",
-      "classification": "Coordinator \"(On Call)\"",
+      "classification": "Coordinator (\"On Call\")",
       "schedule_letter": "C",
       "schedule_basis": "Exempt",
       "hourly_rate": null,
@@ -609,6 +687,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -632,6 +713,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -655,6 +739,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -678,6 +765,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -701,6 +791,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -724,6 +817,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -747,6 +843,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -770,6 +869,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -793,6 +895,9 @@
       "term_is_exception": false,
       "page": 12,
       "region": "S",
+      "merged_from_pages": [
+        12
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -816,6 +921,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -841,6 +950,9 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -864,6 +976,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -889,6 +1005,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -914,6 +1034,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -939,6 +1063,9 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -962,6 +1089,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -987,6 +1118,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -1012,6 +1147,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -1037,6 +1176,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -1045,7 +1188,7 @@
     },
     {
       "occ_code": "7320",
-      "classification": "Draper/Floor Coverer/Greens/Property/ Sewing/Upholsterer Foreperson",
+      "classification": "Draper/Floor Coverer/Greens/Property/Sewing/Upholsterer Foreperson",
       "schedule_letter": "A",
       "schedule_basis": "Daily Employees",
       "hourly_rate": 60.81,
@@ -1062,6 +1205,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -1070,7 +1217,7 @@
     },
     {
       "occ_code": "7320",
-      "classification": "Draper/Floor Coverer/Greens/Property/ Sewing/Upholsterer Foreperson",
+      "classification": "Draper/Floor Coverer/Greens/Property/Sewing/Upholsterer Foreperson",
       "schedule_letter": "C",
       "schedule_basis": "Exempt",
       "hourly_rate": null,
@@ -1087,6 +1234,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -1110,6 +1261,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -1129,12 +1284,18 @@
       "min_call_hours": 8,
       "cumulative_hours": 60,
       "consecutive_days": 6,
-      "footnote_markers": "7",
+      "footnote_markers": "",
       "term_start": "2026-08-02",
       "term_end": "2027-07-31",
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
+      "guarantee_basis": "OVERTIME_WEIGHTED",
+      "equivalent_hours": 70,
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "GUARANTEE_RECONCILES",
@@ -1161,6 +1322,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -1180,12 +1345,18 @@
       "min_call_hours": 8,
       "cumulative_hours": 60,
       "consecutive_days": 6,
-      "footnote_markers": "8,9",
+      "footnote_markers": "9",
       "term_start": "2026-08-02",
       "term_end": "2027-07-31",
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
+      "guarantee_basis": "OVERTIME_WEIGHTED",
+      "equivalent_hours": 70,
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "GUARANTEE_RECONCILES",
@@ -1195,7 +1366,7 @@
     },
     {
       "occ_code": "7351",
-      "classification": "Draper/Floor Coverer/Greens/Property/ Upholsterer Gang Boss",
+      "classification": "Draper/Floor Coverer/Greens/Property/Upholsterer Gang Boss",
       "schedule_letter": "A",
       "schedule_basis": "Daily Employees",
       "hourly_rate": 56.71,
@@ -1212,6 +1383,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -1220,7 +1395,7 @@
     },
     {
       "occ_code": "7351",
-      "classification": "Draper/Floor Coverer/Greens/Property/ Upholsterer Gang Boss",
+      "classification": "Draper/Floor Coverer/Greens/Property/Upholsterer Gang Boss",
       "schedule_letter": "B",
       "schedule_basis": "Weekly Employees",
       "hourly_rate": 55.88,
@@ -1231,12 +1406,18 @@
       "min_call_hours": 8,
       "cumulative_hours": 60,
       "consecutive_days": 6,
-      "footnote_markers": "11,12,12",
+      "footnote_markers": "11, 12",
       "term_start": "2026-08-02",
       "term_end": "2027-07-31",
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
+      "guarantee_basis": "OVERTIME_WEIGHTED",
+      "equivalent_hours": 70,
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "GUARANTEE_RECONCILES",
@@ -1257,12 +1438,16 @@
       "min_call_hours": 9.5,
       "cumulative_hours": null,
       "consecutive_days": null,
-      "footnote_markers": "14,13",
+      "footnote_markers": "14",
       "term_start": "2026-08-02",
       "term_end": "2027-07-31",
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "CORROBORATED",
       "invariant_coverage": [
         "CROSS_REGION_TWIN"
@@ -1288,6 +1473,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "unit_differs_from_header": true,
       "provenance": "CORROBORATED",
       "invariant_coverage": [
@@ -1314,6 +1503,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
@@ -1337,6 +1530,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "unit_differs_from_header": true,
       "provenance": "CORROBORATED",
       "invariant_coverage": [
@@ -1363,6 +1560,10 @@
       "term_is_exception": false,
       "page": 60,
       "region": "D",
+      "merged_from_pages": [
+        60,
+        61
+      ],
       "provenance": "AGREED_UNCOVERED",
       "invariant_coverage": [],
       "flags": []
