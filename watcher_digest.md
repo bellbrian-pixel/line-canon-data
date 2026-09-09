@@ -1,12 +1,12 @@
 # Incentive Watcher — review needed — 2026-09-09
 
-**Coverage: 25 of 45 targets live, 20 blind.** A blind target reports nothing, which looks exactly like good news.
+**Coverage: 26 of 45 targets live, 19 blind.** A blind target reports nothing, which looks exactly like good news.
 
 ```
 INCENTIVE CANON WATCHER — 2026-09-09
 Targets: 45 | staged to pending[]: 0
 
-NOTE: Text normaliser v1 -> v2. All fingerprints discarded and re-baselined; no CHANGED comparison this run.
+NOTE: Text normaliser v2 -> v3. All fingerprints discarded and re-baselined; no CHANGED comparison this run.
 
 LIVE VALUES (semantics=value):
   KY detected=$75,000,000  https://kyfilm.org/incentives/
@@ -21,7 +21,6 @@ LOCATOR NOT FOUND (likely redesign — re-derive locator, NOT a value change):
   KY ky_ced  https://ced.ky.gov/Locating_Expanding/KEI/
   ME me_legis  https://legislature.maine.gov/doc/9940
   MO mo_ded  https://ded.mo.gov/programs/business-workforce/motion-media-production-tax-credit-program
-  NJ nj_treasury  https://www.nj.gov/treasury/taxation/gardenstatefilm.shtml
   OK ok_film  https://www.okfilmmusic.org/incentives
   SC sc_prt  https://www.scprt.com/film-commission/incentives/production-incentives
   TN tn_tec  https://www.tnentertainment.com/film/incentives/
@@ -35,7 +34,7 @@ BLOCKED (403 — needs a fallback source):
   MN mn_emn  https://www.exploreminnesota.com/film/incentives
 
 FETCH ERRORS:
-  MS ms_code — HTTP 504
+  MS ms_code — HTTP 404
   PR pr_ddec — Exception: Address unavailable: https://puertoricofilm.ddec.pr.gov/incentives/
 
 Source-ranking exceptions in play: statute/reg > revenue > film office > industry.
