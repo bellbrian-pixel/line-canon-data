@@ -1,25 +1,28 @@
 # Incentive Watcher — review needed — 2026-09-09
 
-**Coverage: 26 of 45 targets live, 19 blind.** A blind target reports nothing, which looks exactly like good news.
+**Coverage: 25 of 45 targets live, 20 blind.** A blind target reports nothing, which looks exactly like good news.
 
 ```
 INCENTIVE CANON WATCHER — 2026-09-09
 Targets: 45 | staged to pending[]: 0
 
+NOTE: Text normaliser v1 -> v2. All fingerprints discarded and re-baselined; no CHANGED comparison this run.
+
 LIVE VALUES (semantics=value):
-  KY detected=$25,000,000  https://kyfilm.org/incentives/
+  KY detected=$75,000,000  https://kyfilm.org/incentives/
   MO detected=$7,860,522  https://mofilm.org/tax-incentives/motion-media-production/
 
 LOCATOR NOT FOUND (likely redesign — re-derive locator, NOT a value change):
   CA ca_guidelines  https://cdn.film.ca.gov/wp-content/uploads/2025/08/4.0-Program-Guidelines-1.pdf
   CO co_oedit  https://oedit.colorado.gov/colorado-film-incentive
+  CT ct_decd  https://portal.ct.gov/decd/content/film-tv-digital-media/02_learn_about_tax_incentives/02-digital-media-motion-picture-tax-credit
   DE de_legis  https://legis.delaware.gov/BillDetail?LegislationId=142661
   HI hi_film  https://filmoffice.hawaii.gov/incentives-tax-credits/
   KY ky_ced  https://ced.ky.gov/Locating_Expanding/KEI/
   ME me_legis  https://legislature.maine.gov/doc/9940
   MO mo_ded  https://ded.mo.gov/programs/business-workforce/motion-media-production-tax-credit-program
+  NJ nj_treasury  https://www.nj.gov/treasury/taxation/gardenstatefilm.shtml
   OK ok_film  https://www.okfilmmusic.org/incentives
-  PA pa_dced  https://dced.pa.gov/programs/film-tax-credit-program/
   SC sc_prt  https://www.scprt.com/film-commission/incentives/production-incentives
   TN tn_tec  https://www.tnentertainment.com/film/incentives/
   TX tx_film  https://gov.texas.gov/uploads/files/film/Incentive_One_Sheet_FY26.pdf
