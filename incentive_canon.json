@@ -241,8 +241,20 @@
       "project_cap": "$10M",
       "verified_on": "2026-08-19",
       "notes": "35% resident / enhanced counties. $25M reserved for continuous productions. ~$42.9M remaining as of 5/28/26.",
-      "pending": [],
-      "rejected": [
+      "pending": [
+        {
+          "field": "annual_cap",
+          "current": "$75M",
+          "detected": "TEST FLAG 2026-09-10 #6 - base44-canon-write deleted at GitHub. If this reject lands, the backend is not on it. NOT a real value. REJECT this.",
+          "detected_at": "2026-09-10",
+          "source_url": "https://github.com/bellbrian-pixel/line-canon-data",
+          "locator": "token attribution test 2026-09-10 #6",
+          "locator_hash": "test-verify-0006",
+          "kind": "CHANGED",
+          "window": "Synthetic. test-verify-0005 landed but base44-incentiveCanonDecision still reads Never used. Old token removed to force the answer.",
+          "status": "unconfirmed"
+        }
+      ],      "rejected": [
         {
           "field": "annual_cap",
           "value": "TEST FLAG — verifying the panel. Safe to Reject.",
