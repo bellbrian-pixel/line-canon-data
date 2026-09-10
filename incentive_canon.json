@@ -241,20 +241,7 @@
       "project_cap": "$10M",
       "verified_on": "2026-08-19",
       "notes": "35% resident / enhanced counties. $25M reserved for continuous productions. ~$42.9M remaining as of 5/28/26.",
-      "pending": [
-        {
-          "field": "annual_cap",
-          "current": "$75M",
-          "detected": "TEST FLAG 2026-09-10 - verifying the rotated Base44 GITHUB_TOKEN. NOT a real value. REJECT this.",
-          "detected_at": "2026-09-10",
-          "source_url": "https://github.com/bellbrian-pixel/line-canon-data",
-          "locator": "token rotation test 2026-09-10",
-          "locator_hash": "test-verify-0002",
-          "kind": "CHANGED",
-          "window": "Synthetic entry. Placed by hand to prove the app can still write to the repo after the Base44 secret was rotated to a token Brian created. Rejecting it exercises the exact path an approve would take, without putting a value anywhere near a canon field.",
-          "status": "unconfirmed"
-        }
-      ],
+      "pending": [],
       "rejected": [
         {
           "field": "annual_cap",
@@ -262,6 +249,13 @@
           "locator": "verification test",
           "locator_hash": "test-verify-0001",
           "rejected_at": "2026-08-19"
+        },
+        {
+          "field": "annual_cap",
+          "value": "TEST FLAG 2026-09-10 - verifying the rotated Base44 GITHUB_TOKEN. NOT a real value. REJECT this.",
+          "locator": "token rotation test 2026-09-10",
+          "locator_hash": "test-verify-0002",
+          "rejected_at": "2026-09-10"
         }
       ]
     },
