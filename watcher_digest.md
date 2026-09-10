@@ -1,20 +1,17 @@
 # Incentive Watcher — review needed — 2026-09-10
 
-**Coverage: 37 of 45 targets live, 8 blind.** A blind target reports nothing, which looks exactly like good news.
+**Coverage: 42 of 46 targets live, 4 blind.** A blind target reports nothing, which looks exactly like good news.
 
 ```
 INCENTIVE CANON WATCHER — 2026-09-10
-Targets: 45 | staged to pending[]: 0
+Targets: 46 | staged to pending[]: 1
+
+CHANGED (staged for approval):
+  VA [sunset] detected=$250,000  prior to January 1, 2031, any motion picture production company with qualifying expenses of at least $250,000  https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-439.12:03/
 
 LIVE VALUES (semantics=value):
   KY detected=$75,000,000  https://kyfilm.org/incentives/
   MO detected=$7,860,522  https://mofilm.org/tax-incentives/motion-media-production/
-
-LOCATOR NOT FOUND (likely redesign — re-derive locator, NOT a value change):
-  CA ca_guidelines  https://cdn.film.ca.gov/wp-content/uploads/2025/08/4.0-Program-Guidelines-1.pdf
-  ME me_legis  https://legislature.maine.gov/doc/9940
-  TX tx_film  https://gov.texas.gov/uploads/files/film/Incentive_One_Sheet_FY26.pdf
-  UT ut_film  https://film.utah.gov/wp-content/uploads/2025/04/IncentiveProgram_SummaryFAQ_April2025.pdf
 
 BLOCKED (403 — needs a fallback source):
   AZ az_cc  https://www.azcommerce.com/film-media/incentive/
