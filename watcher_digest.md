@@ -4,10 +4,9 @@
 
 ```
 INCENTIVE CANON WATCHER — 2026-09-10
-Targets: 46 | staged to pending[]: 1
+Targets: 46 | staged to pending[]: 0
 
-CHANGED (staged for approval):
-  VA [sunset] detected=$250,000  prior to January 1, 2031, any motion picture production company with qualifying expenses of at least $250,000  https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-439.12:03/
+NOTE: Text normaliser v4 -> v5. All fingerprints discarded and re-baselined; no CHANGED comparison this run.
 
 LIVE VALUES (semantics=value):
   KY detected=$75,000,000  https://kyfilm.org/incentives/
