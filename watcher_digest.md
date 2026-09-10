@@ -1,12 +1,10 @@
-# Incentive Watcher — review needed — 2026-09-09
+# Incentive Watcher — review needed — 2026-09-10
 
-**Coverage: 32 of 45 targets live, 13 blind.** A blind target reports nothing, which looks exactly like good news.
+**Coverage: 37 of 45 targets live, 8 blind.** A blind target reports nothing, which looks exactly like good news.
 
 ```
-INCENTIVE CANON WATCHER — 2026-09-09
+INCENTIVE CANON WATCHER — 2026-09-10
 Targets: 45 | staged to pending[]: 0
-
-NOTE: Text normaliser v3 -> v4. All fingerprints discarded and re-baselined; no CHANGED comparison this run.
 
 LIVE VALUES (semantics=value):
   KY detected=$75,000,000  https://kyfilm.org/incentives/
@@ -14,12 +12,7 @@ LIVE VALUES (semantics=value):
 
 LOCATOR NOT FOUND (likely redesign — re-derive locator, NOT a value change):
   CA ca_guidelines  https://cdn.film.ca.gov/wp-content/uploads/2025/08/4.0-Program-Guidelines-1.pdf
-  DE de_legis  https://legis.delaware.gov/BillDetail?LegislationId=142661
-  KY ky_ced  https://ced.ky.gov/Locating_Expanding/KEI/
   ME me_legis  https://legislature.maine.gov/doc/9940
-  MO mo_ded  https://ded.mo.gov/programs/business-workforce/motion-media-production-tax-credit-program
-  OK ok_film  https://www.okfilmmusic.org/incentives
-  TN tn_tec  https://www.tnentertainment.com/film/incentives/
   TX tx_film  https://gov.texas.gov/uploads/files/film/Incentive_One_Sheet_FY26.pdf
   UT ut_film  https://film.utah.gov/wp-content/uploads/2025/04/IncentiveProgram_SummaryFAQ_April2025.pdf
 
