@@ -587,8 +587,8 @@
       "min_spend": "$500K",
       "annual_cap": "Set annually",
       "project_cap": "None",
-      "verified_on": "2026-08-19",
-      "notes": "Discretionary, not first-come. TEC's own page states both $200K and $500K as the minimum. [UNRESOLVED]"
+      "verified_on": "2026-09-10",
+      "notes": "Discretionary, not first-come. Minimum is $500K: TEC states a 25% grant on $500,000 or more of Qualified Tennessee Spend, per episode or per project, with no per-project cap. The earlier $200K/$500K self-contradiction on the TEC page is gone as of 2026-09-09."
     },
     {
       "code": "TX",
@@ -639,8 +639,8 @@
       "min_spend": "$250K (credit); none (grant)",
       "annual_cap": "$6.5M",
       "project_cap": "None",
-      "verified_on": "2026-08-19",
-      "notes": "[UNRESOLVED] Sunset unresolved — statute reads \"prior to 1/1/2027\"; bills show 2030 and 2031. Grant fund has no minimum spend.",
+      "verified_on": "2026-09-10",
+      "notes": "Sunset 1/1/2031. Va. Code § 58.1-439.12:03 now reads \"prior to January 1, 2031\"; the statute has been amended to match the bills, resolving the conflict with the former 1/1/2027 reading. Confirmed against law.lis.virginia.gov (rank-0 legislative source) on 2026-09-09 and again on 2026-09-10. Operative terms unchanged: 15% base, 20% in an economically distressed area, $250,000 minimum. Grant fund has no minimum spend.",
       "pending": [],
       "rejected": [
         {
