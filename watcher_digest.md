@@ -6,8 +6,6 @@
 INCENTIVE CANON WATCHER — 2026-09-10
 Targets: 46 | staged to pending[]: 0
 
-NOTE: Text normaliser v4 -> v5. All fingerprints discarded and re-baselined; no CHANGED comparison this run.
-
 LIVE VALUES (semantics=value):
   KY detected=$75,000,000  https://kyfilm.org/incentives/
   MO detected=$7,860,522  https://mofilm.org/tax-incentives/motion-media-production/
