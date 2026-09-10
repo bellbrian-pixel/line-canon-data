@@ -640,7 +640,22 @@
       "annual_cap": "$6.5M",
       "project_cap": "None",
       "verified_on": "2026-08-19",
-      "notes": "[UNRESOLVED] Sunset unresolved — statute reads \"prior to 1/1/2027\"; bills show 2030 and 2031. Grant fund has no minimum spend."
+      "notes": "[UNRESOLVED] Sunset unresolved — statute reads \"prior to 1/1/2027\"; bills show 2030 and 2031. Grant fund has no minimum spend.",
+      "pending": [
+        {
+          "field": "sunset",
+          "current": null,
+          "detected": "$250,000",
+          "detected_at": "2026-09-10",
+          "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-439.12:03/",
+          "locator": "prior to January 1, 2031, any motion picture production company with qualifying expenses of at least $250,000",
+          "locator_hash": "8b45020c2711a22030730b8aace9907d",
+          "kind": "CHANGED",
+          "window": "report. Code of Virginia Title 58.1. Taxation Chapter 3. Income Tax 9/10/2026 § 58.1-439.12:03 . Motion picture production tax credit. A. For taxable years beginning on and after January 1, 2011, but prior to January 1, 2031, any motion picture production company with qualifying expenses of at least $250,000 with respect to a motion picture production filmed in Virginia shall be allowed a refundab",
+          "status": "unconfirmed"
+        }
+      ],
+      "rejected": []
     },
     {
       "code": "WA",
