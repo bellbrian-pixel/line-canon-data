@@ -241,7 +241,7 @@
       "project_cap": "$10M",
       "verified_on": "2026-08-19",
       "notes": "35% resident / enhanced counties. $25M reserved for continuous productions. ~$42.9M remaining as of 5/28/26.",
-      "pending": [{"field": "annual_cap", "detected": "TEST FLAG 2026-09-11 #7 - panel fix verification. NOT a real value. REJECT this.", "value": "TEST FLAG 2026-09-11 #7 - panel fix verification. NOT a real value. REJECT this.", "locator": "panel fix test 2026-09-11 #7", "locator_hash": "test-verify-0007", "window": "synthetic test record, no source page", "staged_at": "2026-09-11"}],
+      "pending": [],
       "rejected": [
         {
           "field": "annual_cap",
@@ -284,6 +284,13 @@
           "locator": "token attribution test 2026-09-10 #6",
           "locator_hash": "test-verify-0006",
           "rejected_at": "2026-09-10"
+        },
+        {
+          "field": "annual_cap",
+          "value": "TEST FLAG 2026-09-11 #7 - panel fix verification. NOT a real value. REJECT this.",
+          "locator": "panel fix test 2026-09-11 #7",
+          "locator_hash": "test-verify-0007",
+          "rejected_at": "2026-09-11"
         }
       ]
     },
