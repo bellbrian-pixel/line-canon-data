@@ -1,9 +1,9 @@
-# Incentive Watcher — review needed — 2026-09-10
+# Incentive Watcher — review needed — 2026-09-14
 
 **Coverage: 42 of 46 targets live, 4 blind.** A blind target reports nothing, which looks exactly like good news.
 
 ```
-INCENTIVE CANON WATCHER — 2026-09-10
+INCENTIVE CANON WATCHER — 2026-09-14
 Targets: 46 | staged to pending[]: 0
 
 LIVE VALUES (semantics=value):
