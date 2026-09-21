@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20",
+  "generated_at": "2026-09-21",
   "_meta": {
     "canon": "US State Film Production Incentives",
     "verified_on": "2026-08-19",
@@ -110,7 +110,22 @@
       "annual_cap": "$10M",
       "project_cap": null,
       "verified_on": "2026-08-19",
-      "notes": "Signed 7/1/26; fiscal note places funding in FY2028–29. Confirm window before relying."
+      "notes": "Signed 7/1/26; fiscal note places funding in FY2028–29. Confirm window before relying.",
+      "pending": [
+        {
+          "field": "review",
+          "current": null,
+          "detected": null,
+          "detected_at": "2026-09-21",
+          "source_url": "https://legis.delaware.gov/BillDetail?LegislationId=142661",
+          "locator": "Progress Status: House Revenue & Finance",
+          "locator_hash": "daedb720ef7dbb93de36cff2d1fab50b",
+          "kind": "CHANGED",
+          "window": "t Finance Hearing Room - YouTube View All Legislation View All Senate Legislation View All House Legislation House Rules Senate Rules Glossary of Terms House Bill 237 153rd General Assembly (Present) Progress Status: House Revenue & Finance 6/30/25 What typically happens next? Committee Hearing takes place within twelve legislative days. Details Introduced on: 6/30/25 Primary Sponsor: Michael Smit",
+          "status": "unconfirmed"
+        }
+      ],
+      "rejected": []
     },
     {
       "code": "DC",
