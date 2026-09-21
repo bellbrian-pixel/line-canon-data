@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14",
+  "generated_at": "2026-09-20",
   "_meta": {
     "canon": "US State Film Production Incentives",
     "verified_on": "2026-08-19",
@@ -461,7 +461,135 @@
       "annual_cap": "$100M",
       "project_cap": null,
       "verified_on": "2026-08-19",
-      "notes": "Three pools: $100M general, $150M Studio Partner, $150M Film-lease. 30% within 30 mi of Columbus Circle. Buyback at 95%, capped annually. To 2049."
+      "notes": "Three pools: $100M general, $150M Studio Partner, $150M Film-lease. 30% within 30 mi of Columbus Circle. Buyback at 95%, capped annually. To 2049.",
+      "programs": [
+        {
+          "id": "nj_general",
+          "name": "Film & Digital Media Tax Credit (standard)",
+          "eligibility": {
+            "setup": "any",
+            "partner_designation": null
+          },
+          "base_pct": 35,
+          "base_pct_within_30mi_columbus_circle": 30,
+          "uplifts": [
+            {
+              "key": "hiring_plan",
+              "label": "Approved hiring plan (25% from distressed areas)",
+              "pct": 4
+            },
+            {
+              "key": "promote_nj",
+              "label": "Promote NJ plan",
+              "pct": 4
+            }
+          ],
+          "uplift_cap_pct": 5,
+          "max_pct": 40,
+          "atl_per_person_cap": "$750K",
+          "atl_aggregate_cap": null,
+          "annual_pool": "$100M (per existing canon notes; not restated on the NJEDA page)",
+          "sunset": "2049-06-30",
+          "source": [
+            "https://www.njeda.gov/film/",
+            "https://www.wrapbook.com/blog/new-jersey-partner-programs"
+          ],
+          "verified_on": "2026-09-20"
+        },
+        {
+          "id": "nj_studio_partner",
+          "name": "New Jersey Studio Partner project",
+          "eligibility": {
+            "setup": "studio",
+            "partner_designation": "studio_partner",
+            "partners": [
+              "Lionsgate",
+              "Netflix",
+              "Paramount"
+            ],
+            "note": "Designated partner has site control of a >=250,000 sq ft NJ facility for >=10 years; max 3 designations, all three awarded as of Oct 2025."
+          },
+          "base_pct": 40,
+          "uplifts": [
+            {
+              "key": "hiring_plan",
+              "label": "Approved hiring plan (25% from distressed areas)",
+              "pct": 4
+            },
+            {
+              "key": "promote_nj",
+              "label": "Promote NJ plan",
+              "pct": 4
+            }
+          ],
+          "uplift_cap_pct": 5,
+          "max_pct": 45,
+          "atl_per_person_cap": "$750K",
+          "atl_aggregate_cap": [
+            {
+              "when": "qualified_spend < $25M",
+              "cap": "$18M per project"
+            },
+            {
+              "when": "qualified_spend >= $25M",
+              "cap": "$72M per project"
+            }
+          ],
+          "annual_pool": "$150M per fiscal year (own queue; NJEDA text may mean shared with film-lease)",
+          "sunset": "2049-06-30",
+          "source": [
+            "https://www.njeda.gov/film/",
+            "https://www.wrapbook.com/production-incentives/us/studio-partners-nj",
+            "https://mblawfirm.com/insights/new-jersey-film-media-tax-credit-2025/"
+          ],
+          "verified_on": "2026-09-20"
+        },
+        {
+          "id": "nj_film_lease",
+          "name": "Film-Lease Production Company",
+          "eligibility": {
+            "setup": "any",
+            "partner_designation": "film_lease",
+            "facilities": [
+              "1888 Studios (Bayonne)"
+            ],
+            "note": ">=50% of principal photography days at the facility, or facility-related qualified expenses >=33% of total; facility designation applications currently paused at NJEDA."
+          },
+          "base_pct": 40,
+          "base_pct_within_30mi_columbus_circle": 35,
+          "uplifts": [
+            {
+              "key": "hiring_plan",
+              "pct": 4
+            },
+            {
+              "key": "promote_nj",
+              "pct": 4
+            }
+          ],
+          "uplift_cap_pct": 5,
+          "max_pct": 45,
+          "atl_per_person_cap": "$750K",
+          "atl_aggregate_cap": [
+            {
+              "when": "qualified_spend < $50M",
+              "cap": "$15M per project"
+            },
+            {
+              "when": "qualified_spend >= $50M",
+              "cap": "$60M per project"
+            }
+          ],
+          "annual_pool": "$150M per fiscal year",
+          "sunset": "2049-06-30",
+          "source": [
+            "https://www.njeda.gov/film/",
+            "https://www.wrapbook.com/blog/new-jersey-partner-programs"
+          ],
+          "verified_on": "2026-09-20"
+        }
+      ],
+      "programs_note": "Program tiers added 2026-09-20 from NJEDA (primary) and Wrapbook. App: findIncentive(region, setup, answers) picks the first program whose eligibility matches, else the flat row. prefill = base_pct + min(sum of chosen uplifts, uplift_cap_pct). The user chooses uplifts and the ATL spend tier; the app never assumes them."
     },
     {
       "code": "NM",
