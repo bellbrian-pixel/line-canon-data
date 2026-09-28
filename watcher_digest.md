@@ -1,13 +1,10 @@
-# Incentive Watcher — review needed — 2026-09-21
+# Incentive Watcher — review needed — 2026-09-28
 
 **Coverage: 42 of 46 targets live, 4 blind.** A blind target reports nothing, which looks exactly like good news.
 
 ```
-INCENTIVE CANON WATCHER — 2026-09-21
-Targets: 46 | staged to pending[]: 1
-
-CHANGED (staged for approval):
-  DE [review] detected=(none)  Progress Status: House Revenue & Finance  https://legis.delaware.gov/BillDetail?LegislationId=142661
+INCENTIVE CANON WATCHER — 2026-09-28
+Targets: 46 | staged to pending[]: 0
 
 LIVE VALUES (semantics=value):
   KY detected=$75,000,000  https://kyfilm.org/incentives/
