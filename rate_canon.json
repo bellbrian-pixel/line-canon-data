@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-10",
-  "last_changed_at": "2026-08-19",
+  "generated_at": "2026-10-04",
+  "last_changed_at": "2026-10-04",
   "sources_modified_at": {
     "DGA": "2026-07-30T19:23:14Z",
-    "SAG": "2026-07-29T23:18:00Z",
-    "WGA": "2026-07-30T20:42:46Z",
-    "ASA": "2026-07-08T15:32:54Z",
-    "NY": "2026-08-19T16:59:38Z"
+    "SAG": "2026-10-02T17:01:38Z",
+    "WGA": "2026-09-12T18:13:08Z",
+    "ASA": "2026-09-13T20:28:53Z",
+    "NY": "2026-10-02T17:01:39Z",
+    "USA829": "2026-09-12T18:13:09Z",
+    "CWA": "2026-10-04T12:30:26Z",
+    "ICG600": "2026-10-04T12:30:26Z"
   },
   "_meta": {
     "reference": "Rate canon — MMB globals by guild/union. Machine-readable extract of the drive canons.",
@@ -15,7 +18,10 @@
       "SAG": "SAG_ratecanon_v23",
       "WGA": "WGA_ratecanon_v1",
       "ASA": "ASA_ratecanon_v6",
-      "NY IATSE/Teamsters": "NY_BTL_ratecanon_consolidated_v1_1"
+      "NY IATSE/Teamsters": "NY_BTL_ratecanon_consolidated_v1_1",
+      "USA 829": "USA829_ratecanon_v1",
+      "CWA": "CWA_ratecanon_v1",
+      "ICG 600": "ICG_Local600_ratecanon_v1_1"
     },
     "note": "value = current published minimum; next = first projected step. Guild scale for the app's 'Scale' fee basis; engine uses the same globals for budget output."
   },
@@ -861,6 +867,150 @@
       "next_effective": ""
     },
     {
+      "global": "SAGBG8",
+      "guild": "SAG-AFTRA",
+      "description": "SAG background actor (Sch. X-I and X-II), 8-hour day. Source: SAG-AFTRA 2026 Theatrical Wage Table (Basic Agreement baseline), p.1, 'Background Actors' block, 'Schedules X-I & X-II'.",
+      "group": "BG",
+      "class": "Sch. X",
+      "value": 224.0,
+      "value_effective": "",
+      "type": "INPUT",
+      "next": 231.0,
+      "next_effective": "07/01/26"
+    },
+    {
+      "global": "SAGBG8HR",
+      "guild": "SAG-AFTRA",
+      "description": "SAG background actor hourly rate: daily scale divided by 8.",
+      "group": "BG",
+      "class": "Sch. X",
+      "value": 28.0,
+      "value_effective": "",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": ""
+    },
+    {
+      "global": "SAGBG12",
+      "guild": "SAG-AFTRA",
+      "description": "SAG background actor, 12-hour day: 8 straight, 2 at time-and-a-half, 2 at double time.",
+      "group": "BG",
+      "class": "Sch. X",
+      "value": 420.0,
+      "value_effective": "",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": ""
+    },
+    {
+      "global": "SAGBGDBL",
+      "guild": "SAG-AFTRA",
+      "description": "SAG background photographic doubling adjustment, flat per day (Sch. X-I and X-II). Flat in every period; does not ride SAGRI. Source: SAG-AFTRA 2026 Theatrical Wage Table (Basic Agreement baseline), p.1, 'Background Actors' block, 'Photographic Doubling Adjustment'.",
+      "group": "BG",
+      "class": "Sch. X",
+      "value": 150.0,
+      "value_effective": "",
+      "type": "INPUT",
+      "next": 150.0,
+      "next_effective": "07/01/26"
+    },
+    {
+      "global": "SAGSI8",
+      "guild": "SAG-AFTRA",
+      "description": "SAG stand-in / photo double (Sch. X-I and X-II), 8-hour day. Source: SAG-AFTRA 2026 Theatrical Wage Table (Basic Agreement baseline), p.1, 'Stand-Ins / Photo Doubles' block, 'Schedules X-I & X-II'.",
+      "group": "BG",
+      "class": "Sch. X",
+      "value": 262.0,
+      "value_effective": "",
+      "type": "INPUT",
+      "next": 270.0,
+      "next_effective": "07/01/26"
+    },
+    {
+      "global": "SAGSI8HR",
+      "guild": "SAG-AFTRA",
+      "description": "SAG stand-in / photo double hourly rate: daily scale divided by 8.",
+      "group": "BG",
+      "class": "Sch. X",
+      "value": 32.75,
+      "value_effective": "",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": ""
+    },
+    {
+      "global": "SAGSI12",
+      "guild": "SAG-AFTRA",
+      "description": "SAG stand-in / photo double, 12-hour day: 8 straight, 2 at time-and-a-half, 2 at double time.",
+      "group": "BG",
+      "class": "Sch. X",
+      "value": 491.25,
+      "value_effective": "",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": ""
+    },
+    {
+      "global": "SAGSIRH",
+      "guild": "SAG-AFTRA",
+      "description": "SAG stand-in as rehearsal actor adjustment, flat per day. Flat in every period; does not ride SAGRI. Source: SAG-AFTRA 2026 Theatrical Wage Table, p.1, 'Stand-Ins / Photo Doubles' block.",
+      "group": "BG",
+      "class": "Sch. X",
+      "value": 150.0,
+      "value_effective": "",
+      "type": "INPUT",
+      "next": 150.0,
+      "next_effective": "07/01/26"
+    },
+    {
+      "global": "SAGSIBG",
+      "guild": "SAG-AFTRA",
+      "description": "SAG stand-in adjustment for background double duty, flat per day. New from 7/1/26: the wage table prints four $27 figures, starting in the 7/1/26 column, so the 7/1/25 value is 0 (not yet in effect). Does not ride SAGRI. Source: SAG-AFTRA 2026 Theatrical Wage Table, p.1, 'Stand-Ins / Photo Doubles' block.",
+      "group": "BG",
+      "class": "Sch. X",
+      "value": 0.0,
+      "value_effective": "",
+      "type": "INPUT",
+      "next": 27.0,
+      "next_effective": "07/01/26"
+    },
+    {
+      "global": "SAGSWM8",
+      "guild": "SAG-AFTRA",
+      "description": "SAG swimmer / skater (Sch. X-I and X-II), 8-hour day. Source: SAG-AFTRA 2026 Theatrical Wage Table, p.1, 'Swimmers and Skaters', 'Schedules X-I & X-II'.",
+      "group": "BG",
+      "class": "Sch. X",
+      "value": 580.0,
+      "value_effective": "",
+      "type": "INPUT",
+      "next": 597.0,
+      "next_effective": "07/01/26"
+    },
+    {
+      "global": "SAGSWM8HR",
+      "guild": "SAG-AFTRA",
+      "description": "SAG swimmer / skater hourly rate: daily scale divided by 8.",
+      "group": "BG",
+      "class": "Sch. X",
+      "value": 72.5,
+      "value_effective": "",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": ""
+    },
+    {
+      "global": "SAGSWM12",
+      "guild": "SAG-AFTRA",
+      "description": "SAG swimmer / skater, 12-hour day: 8 straight, 2 at time-and-a-half, 2 at double time.",
+      "group": "BG",
+      "class": "Sch. X",
+      "value": 1087.5,
+      "value_effective": "",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": ""
+    },
+    {
       "global": "WGAHSI",
       "guild": "WGA",
       "description": "High Budget feature, Screenplay including treatment.",
@@ -1022,11 +1172,11 @@
       "description": "Maryland theatrical feature, Key tier. Minimum hourly scale.",
       "group": "Maryland",
       "class": "Key",
-      "value": 52.71,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 54.55,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 54.55,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASAMDS",
@@ -1034,11 +1184,11 @@
       "description": "Maryland theatrical feature, Second tier. Minimum hourly scale.",
       "group": "Maryland",
       "class": "Second",
-      "value": 47.78,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 49.45,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 49.45,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASAMDT",
@@ -1046,11 +1196,11 @@
       "description": "Maryland theatrical feature, Third tier. Minimum hourly scale.",
       "group": "Maryland",
       "class": "Third",
-      "value": 44.73,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 46.3,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 46.3,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASAMDU",
@@ -1058,11 +1208,11 @@
       "description": "Maryland theatrical feature, Utility tier. Minimum hourly scale.",
       "group": "Maryland",
       "class": "Utility",
-      "value": 38.79,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 40.15,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 40.15,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASANMK",
@@ -1070,11 +1220,11 @@
       "description": "Non-Maryland theatrical feature, Key tier. Minimum hourly scale.",
       "group": "Non-Maryland",
       "class": "Key",
-      "value": 47.61,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 50.26,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 50.26,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASANMS",
@@ -1082,11 +1232,11 @@
       "description": "Non-Maryland theatrical feature, Second tier. Minimum hourly scale.",
       "group": "Non-Maryland",
       "class": "Second",
-      "value": 43.43,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 45.85,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 45.85,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASANMT",
@@ -1094,11 +1244,11 @@
       "description": "Non-Maryland theatrical feature, Third tier. Minimum hourly scale.",
       "group": "Non-Maryland",
       "class": "Third",
-      "value": 39.28,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 41.47,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 41.47,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASANMU",
@@ -1106,11 +1256,11 @@
       "description": "Non-Maryland theatrical feature, Utility tier. Minimum hourly scale.",
       "group": "Non-Maryland",
       "class": "Utility",
-      "value": 35.16,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 37.12,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 37.12,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASADCK",
@@ -1118,11 +1268,11 @@
       "description": "Washington, D.C. theatrical feature, Key tier. Minimum hourly scale.",
       "group": "Washington, D.C.",
       "class": "Key",
-      "value": 60.21,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 62.32,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 62.32,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASADCS",
@@ -1130,11 +1280,11 @@
       "description": "Washington, D.C. theatrical feature, Second tier. Minimum hourly scale.",
       "group": "Washington, D.C.",
       "class": "Second",
-      "value": 55.69,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 57.64,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 57.64,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASADCT",
@@ -1142,11 +1292,11 @@
       "description": "Washington, D.C. theatrical feature, Third tier. Minimum hourly scale.",
       "group": "Washington, D.C.",
       "class": "Third",
-      "value": 50.21,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 51.97,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 51.97,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASADCU",
@@ -1154,11 +1304,11 @@
       "description": "Washington, D.C. theatrical feature, Utility tier. Minimum hourly scale.",
       "group": "Washington, D.C.",
       "class": "Utility",
-      "value": 43.39,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 44.91,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 44.91,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASANEK",
@@ -1166,11 +1316,11 @@
       "description": "New England 5 theatrical feature, Key tier. STN: no published scale. Assumed rate derived; overwrite when a deal is set.",
       "group": "New England 5",
       "class": "Key",
-      "value": 56.5683,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 58.5462,
+      "value_effective": "08/02/26-07/31/27",
       "type": "STN",
-      "next": 58.5462,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASANES",
@@ -1178,11 +1328,11 @@
       "description": "New England 5 theatrical feature, Second tier. Minimum hourly scale.",
       "group": "New England 5",
       "class": "Second",
-      "value": 51.73,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 53.54,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 53.54,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASANET",
@@ -1190,11 +1340,11 @@
       "description": "New England 5 theatrical feature, Third tier. Minimum hourly scale.",
       "group": "New England 5",
       "class": "Third",
-      "value": 47.78,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 49.45,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 49.45,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "ASANEU",
@@ -1202,11 +1352,11 @@
       "description": "New England 5 theatrical feature, Utility tier. Minimum hourly scale.",
       "group": "New England 5",
       "class": "Utility",
-      "value": 39.27,
-      "value_effective": "08/03/25-08/01/26",
+      "value": 40.64,
+      "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
-      "next": 40.64,
-      "next_effective": "08/02/26-07/31/27 (projected)"
+      "next": null,
+      "next_effective": ""
     },
     {
       "global": "L52APM",
@@ -1607,8 +1757,8 @@
       "value": 1211.51,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 1253.91,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1620,8 +1770,8 @@
       "value": 947.58,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 980.75,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1633,8 +1783,8 @@
       "value": 753.93,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 780.32,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1646,8 +1796,8 @@
       "value": 624.18,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 646.03,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1659,8 +1809,8 @@
       "value": 494.27,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 511.57,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1672,8 +1822,8 @@
       "value": 416.4,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 430.96,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1685,8 +1835,8 @@
       "value": 5182.25,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 5363.63,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1698,8 +1848,8 @@
       "value": 3813.26,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 3946.72,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1711,8 +1861,8 @@
       "value": 3031.62,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 3137.73,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1724,8 +1874,8 @@
       "value": 2534.4,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 2623.2,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1737,8 +1887,8 @@
       "value": 2343.54,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 2425.56,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1750,8 +1900,8 @@
       "value": 1163.6,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 1204.32,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1763,8 +1913,8 @@
       "value": 719.28,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 744.48,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1776,8 +1926,8 @@
       "value": 626.88,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 648.8,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1789,8 +1939,8 @@
       "value": 5596.56,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 5792.26,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1802,8 +1952,8 @@
       "value": 3559.25,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 3683.66,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1815,8 +1965,8 @@
       "value": 2907.6,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 3009.2,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1828,8 +1978,8 @@
       "value": 2838.53,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 2937.98,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1841,8 +1991,8 @@
       "value": 2623.94,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 2715.78,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1854,8 +2004,8 @@
       "value": 3328.64,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 3445.12,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1867,8 +2017,8 @@
       "value": 719.12,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 744.32,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1880,8 +2030,8 @@
       "value": 572.8,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 592.88,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1893,8 +2043,8 @@
       "value": 545.84,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 564.96,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1906,8 +2056,8 @@
       "value": 375.52,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 388.64,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1919,8 +2069,8 @@
       "value": 3295.6,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 3410.8,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1932,8 +2082,8 @@
       "value": 2658.8,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 2752.0,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -1945,8 +2095,8 @@
       "value": 2446.0,
       "value_effective": "08/03/25-08/01/26",
       "type": "INPUT",
-      "next": null,
-      "next_effective": "",
+      "next": 2531.6,
+      "next_effective": "08/02/26-07/31/27",
       "local": "600"
     },
     {
@@ -2104,6 +2254,704 @@
       "next": 30.68,
       "next_effective": "10/04/26-10/02/27",
       "local": "817 Locations"
+    },
+    {
+      "global": "L829AD",
+      "guild": "IATSE",
+      "description": "Art Director (alternatively entitled Production Designer).",
+      "group": "NYC 5 boroughs / Nassau / Meadowlands",
+      "class": "5 Day Week",
+      "value": 5798.31,
+      "value_effective": "09/28/25-10/03/26",
+      "type": "INPUT",
+      "next": 6001.25,
+      "next_effective": "10/04/26-09/30/27 (projected)",
+      "local": "USA 829"
+    },
+    {
+      "global": "L829AAD",
+      "guild": "IATSE",
+      "description": "Assistant Art Director.",
+      "group": "NYC 5 boroughs / Nassau / Meadowlands",
+      "class": "Daily (8 hrs)",
+      "value": 817.97,
+      "value_effective": "09/28/25-10/03/26",
+      "type": "INPUT",
+      "next": 846.6,
+      "next_effective": "10/04/26-09/30/27 (projected)",
+      "local": "USA 829"
+    },
+    {
+      "global": "L829CDT",
+      "guild": "IATSE",
+      "description": "Costume Designer - theatrical motion pictures.",
+      "group": "NYC 5 boroughs / Nassau / Meadowlands",
+      "class": "5 Day Week",
+      "value": 5798.31,
+      "value_effective": "09/28/25-10/03/26",
+      "type": "INPUT",
+      "next": 6001.25,
+      "next_effective": "10/04/26-09/30/27 (projected)",
+      "local": "USA 829"
+    },
+    {
+      "global": "L829ACD",
+      "guild": "IATSE",
+      "description": "Assistant Costume Designer.",
+      "group": "NYC 5 boroughs / Nassau / Meadowlands",
+      "class": "Daily (8 hrs)",
+      "value": 566.19,
+      "value_effective": "09/28/25-10/03/26",
+      "type": "INPUT",
+      "next": 586.01,
+      "next_effective": "10/04/26-09/30/27 (projected)",
+      "local": "USA 829"
+    },
+    {
+      "global": "L829CSA",
+      "guild": "IATSE",
+      "description": "Charge Scenic Artist.",
+      "group": "NYC 5 boroughs / Nassau / Meadowlands",
+      "class": "Daily (8 hrs)",
+      "value": 774.32,
+      "value_effective": "09/28/25-10/03/26",
+      "type": "INPUT",
+      "next": 801.42,
+      "next_effective": "10/04/26-09/30/27 (projected)",
+      "local": "USA 829"
+    },
+    {
+      "global": "L829JSA",
+      "guild": "IATSE",
+      "description": "Journey Scenic Artist (Journeyperson Scenic Artist).",
+      "group": "NYC 5 boroughs / Nassau / Meadowlands",
+      "class": "Daily (8 hrs)",
+      "value": 631.47,
+      "value_effective": "09/28/25-10/03/26",
+      "type": "INPUT",
+      "next": 653.57,
+      "next_effective": "10/04/26-09/30/27 (projected)",
+      "local": "USA 829"
+    },
+    {
+      "global": "L829SHOP",
+      "guild": "IATSE",
+      "description": "Shopperson / Industrial.",
+      "group": "NYC 5 boroughs / Nassau / Meadowlands",
+      "class": "Daily (8 hrs)",
+      "value": 376.85,
+      "value_effective": "09/28/25-10/03/26",
+      "type": "INPUT",
+      "next": 390.04,
+      "next_effective": "10/04/26-09/30/27 (projected)",
+      "local": "USA 829"
+    },
+    {
+      "global": "CWAPPA",
+      "guild": "CWA",
+      "description": "Parking Production Assistant, theatrical, hourly.",
+      "group": "NYC / 30 mi Columbus Circle",
+      "class": "Hourly",
+      "value": 22.59,
+      "value_effective": "11/30/25-11/28/26",
+      "type": "INPUT",
+      "next": 23.38,
+      "next_effective": "11/29/26-12/04/27 (projected)"
+    },
+    {
+      "global": "CWALPPA",
+      "guild": "CWA",
+      "description": "Lead Parking Production Assistant, theatrical, hourly.",
+      "group": "NYC / 30 mi Columbus Circle",
+      "class": "Hourly",
+      "value": 22.59,
+      "value_effective": "11/30/25-11/28/26",
+      "type": "INPUT",
+      "next": 23.38,
+      "next_effective": "11/29/26-12/04/27 (projected)"
+    },
+    {
+      "global": "CWAPPA8",
+      "guild": "CWA",
+      "description": "Parking PA, 8-hour minimum call: 8 x hourly.",
+      "group": "NYC / 30 mi Columbus Circle",
+      "class": "Daily (8 hrs)",
+      "value": 180.72,
+      "value_effective": "11/30/25-11/28/26",
+      "type": "LOCKED",
+      "next": 187.04,
+      "next_effective": "11/29/26-12/04/27 (projected)"
+    },
+    {
+      "global": "CWAPPA12",
+      "guild": "CWA",
+      "description": "Parking PA, 12-hour day: 8 straight + 4 at time-and-a-half = 14 straight-time hours.",
+      "group": "NYC / 30 mi Columbus Circle",
+      "class": "Daily (12 hrs)",
+      "value": 316.26,
+      "value_effective": "11/30/25-11/28/26",
+      "type": "LOCKED",
+      "next": 327.32,
+      "next_effective": "11/29/26-12/04/27 (projected)"
+    },
+    {
+      "global": "L600WDP",
+      "guild": "IATSE",
+      "description": "Director of Photography (Occ. 1901).",
+      "group": "Western",
+      "class": "600-W-HOU",
+      "value": 150.54,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600WCO",
+      "guild": "IATSE",
+      "description": "Camera Operator (Occ. 1911).",
+      "group": "Western",
+      "class": "600-W-HOU",
+      "value": 93.06,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600WSP",
+      "guild": "IATSE",
+      "description": "Still Photographer (Occ. 1931).",
+      "group": "Western",
+      "class": "600-W-HOU",
+      "value": 81.1,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600WA1",
+      "guild": "IATSE",
+      "description": "1st Assistant Photographer (Occ. 1941).",
+      "group": "Western",
+      "class": "600-W-HOU",
+      "value": 67.99,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600WA2",
+      "guild": "IATSE",
+      "description": "2nd Assistant Photographer (Occ. 1951).",
+      "group": "Western",
+      "class": "600-W-HOU",
+      "value": 62.71,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600WTC",
+      "guild": "IATSE",
+      "description": "Technician (Occ. 1961).",
+      "group": "Western",
+      "class": "600-W-HOU",
+      "value": 81.1,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600WFL",
+      "guild": "IATSE",
+      "description": "Film Loader (Occ. 1971).",
+      "group": "Western",
+      "class": "600-W-HOU",
+      "value": 53.87,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600WDIT",
+      "guild": "IATSE",
+      "description": "Digital Imaging Technician (Occ. 1981).",
+      "group": "Western",
+      "class": "600-W-HOU",
+      "value": 93.04,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600WVC",
+      "guild": "IATSE",
+      "description": "Video Controller / Shader (Occ. 1982).",
+      "group": "Western",
+      "class": "600-W-HOU",
+      "value": 74.11,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600WCU",
+      "guild": "IATSE",
+      "description": "Camera Utility Person (Occ. 1983).",
+      "group": "Western",
+      "class": "600-W-HOU",
+      "value": 70.62,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600WDU",
+      "guild": "IATSE",
+      "description": "Digital Utility Person (Occ. 1984).",
+      "group": "Western",
+      "class": "600-W-HOU",
+      "value": 48.58,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600CRDP",
+      "guild": "IATSE",
+      "description": "Director of Photography (Occ. 1901).",
+      "group": "Central",
+      "class": "600-C-HOU",
+      "value": 146.02,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600CRCO",
+      "guild": "IATSE",
+      "description": "Camera Operator (Occ. 1911).",
+      "group": "Central",
+      "class": "600-C-HOU",
+      "value": 90.27,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600CRSP",
+      "guild": "IATSE",
+      "description": "Still Photographer (Occ. 1931).",
+      "group": "Central",
+      "class": "600-C-HOU",
+      "value": 78.67,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600CRA1",
+      "guild": "IATSE",
+      "description": "1st Assistant Photographer (Occ. 1941).",
+      "group": "Central",
+      "class": "600-C-HOU",
+      "value": 65.95,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600CRA2",
+      "guild": "IATSE",
+      "description": "2nd Assistant Photographer (Occ. 1951).",
+      "group": "Central",
+      "class": "600-C-HOU",
+      "value": 60.83,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600CRTC",
+      "guild": "IATSE",
+      "description": "Technician (Occ. 1961).",
+      "group": "Central",
+      "class": "600-C-HOU",
+      "value": 78.67,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600CRFL",
+      "guild": "IATSE",
+      "description": "Film Loader (Occ. 1971).",
+      "group": "Central",
+      "class": "600-C-HOU",
+      "value": 52.25,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600CRDIT",
+      "guild": "IATSE",
+      "description": "Digital Imaging Technician (Occ. 1981).",
+      "group": "Central",
+      "class": "600-C-HOU",
+      "value": 90.25,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600CRVC",
+      "guild": "IATSE",
+      "description": "Video Controller / Shader (Occ. 1982).",
+      "group": "Central",
+      "class": "600-C-HOU",
+      "value": 71.89,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600CRCU",
+      "guild": "IATSE",
+      "description": "Camera Utility Person (Occ. 1983).",
+      "group": "Central",
+      "class": "600-C-HOU",
+      "value": 68.5,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600CRDU",
+      "guild": "IATSE",
+      "description": "Digital Utility Person (Occ. 1984).",
+      "group": "Central",
+      "class": "600-C-HOU",
+      "value": 47.12,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EIDP",
+      "guild": "IATSE",
+      "description": "Director of Photography (Occ. 1901).",
+      "group": "Eastern · Inside Corridor",
+      "class": "600-EI-HOU",
+      "value": 156.74,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EICO",
+      "guild": "IATSE",
+      "description": "Camera Operator (Occ. 1911).",
+      "group": "Eastern · Inside Corridor",
+      "class": "600-EI-HOU",
+      "value": 122.59,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EISP",
+      "guild": "IATSE",
+      "description": "Still Photographer (Occ. 1931).",
+      "group": "Eastern · Inside Corridor",
+      "class": "600-EI-HOU",
+      "value": 97.54,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EIA1",
+      "guild": "IATSE",
+      "description": "1st Assistant Photographer (Occ. 1941).",
+      "group": "Eastern · Inside Corridor",
+      "class": "600-EI-HOU",
+      "value": 80.75,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EIA2",
+      "guild": "IATSE",
+      "description": "2nd Assistant Photographer (Occ. 1951).",
+      "group": "Eastern · Inside Corridor",
+      "class": "600-EI-HOU",
+      "value": 63.95,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EIFL",
+      "guild": "IATSE",
+      "description": "Film Loader (Occ. 1971).",
+      "group": "Eastern · Inside Corridor",
+      "class": "600-EI-HOU",
+      "value": 53.87,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EIDIT",
+      "guild": "IATSE",
+      "description": "Digital Imaging Technician (Occ. 1981).",
+      "group": "Eastern · Inside Corridor",
+      "class": "600-EI-HOU",
+      "value": 93.04,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EIVC",
+      "guild": "IATSE",
+      "description": "Video Controller / Shader (Occ. 1982).",
+      "group": "Eastern · Inside Corridor",
+      "class": "600-EI-HOU",
+      "value": 74.11,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EICU",
+      "guild": "IATSE",
+      "description": "Camera Utility Person (Occ. 1983).",
+      "group": "Eastern · Inside Corridor",
+      "class": "600-EI-HOU",
+      "value": 70.62,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EIDU",
+      "guild": "IATSE",
+      "description": "Digital Utility Person (Occ. 1984).",
+      "group": "Eastern · Inside Corridor",
+      "class": "600-EI-HOU",
+      "value": 48.58,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EODP",
+      "guild": "IATSE",
+      "description": "Director of Photography (Occ. 1901).",
+      "group": "Eastern · Outside Corridor",
+      "class": "600-EO-HOU",
+      "value": 150.54,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EOCO",
+      "guild": "IATSE",
+      "description": "Camera Operator (Occ. 1911).",
+      "group": "Eastern · Outside Corridor",
+      "class": "600-EO-HOU",
+      "value": 93.06,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EOSP",
+      "guild": "IATSE",
+      "description": "Still Photographer (Occ. 1931).",
+      "group": "Eastern · Outside Corridor",
+      "class": "600-EO-HOU",
+      "value": 81.1,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EOA1",
+      "guild": "IATSE",
+      "description": "1st Assistant Photographer (Occ. 1941).",
+      "group": "Eastern · Outside Corridor",
+      "class": "600-EO-HOU",
+      "value": 67.99,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EOA2",
+      "guild": "IATSE",
+      "description": "2nd Assistant Photographer (Occ. 1951).",
+      "group": "Eastern · Outside Corridor",
+      "class": "600-EO-HOU",
+      "value": 62.71,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EOTC",
+      "guild": "IATSE",
+      "description": "Technician (Occ. 1961).",
+      "group": "Eastern · Outside Corridor",
+      "class": "600-EO-HOU",
+      "value": 81.1,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EOFL",
+      "guild": "IATSE",
+      "description": "Film Loader (Occ. 1971).",
+      "group": "Eastern · Outside Corridor",
+      "class": "600-EO-HOU",
+      "value": 53.87,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EODIT",
+      "guild": "IATSE",
+      "description": "Digital Imaging Technician (Occ. 1981).",
+      "group": "Eastern · Outside Corridor",
+      "class": "600-EO-HOU",
+      "value": 93.04,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EOVC",
+      "guild": "IATSE",
+      "description": "Video Controller / Shader (Occ. 1982).",
+      "group": "Eastern · Outside Corridor",
+      "class": "600-EO-HOU",
+      "value": 74.11,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EOCU",
+      "guild": "IATSE",
+      "description": "Camera Utility Person (Occ. 1983).",
+      "group": "Eastern · Outside Corridor",
+      "class": "600-EO-HOU",
+      "value": 70.62,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
+    },
+    {
+      "global": "L600EODU",
+      "guild": "IATSE",
+      "description": "Digital Utility Person (Occ. 1984).",
+      "group": "Eastern · Outside Corridor",
+      "class": "600-EO-HOU",
+      "value": 48.58,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "PUBLISHED",
+      "next": null,
+      "next_effective": "",
+      "local": "600"
     }
   ]
 }
