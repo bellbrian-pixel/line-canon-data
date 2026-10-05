@@ -1,9 +1,9 @@
-# Incentive Watcher — review needed — 2026-09-28
+# Incentive Watcher — review needed — 2026-10-05
 
-**Coverage: 42 of 46 targets live, 4 blind.** A blind target reports nothing, which looks exactly like good news.
+**Coverage: 41 of 46 targets live, 5 blind.** A blind target reports nothing, which looks exactly like good news.
 
 ```
-INCENTIVE CANON WATCHER — 2026-09-28
+INCENTIVE CANON WATCHER — 2026-10-05
 Targets: 46 | staged to pending[]: 0
 
 LIVE VALUES (semantics=value):
@@ -15,6 +15,7 @@ BLOCKED (403 — needs a fallback source):
   MN mn_emn  https://www.exploreminnesota.com/film/incentives
 
 FETCH ERRORS:
+  MD md_commerce — HTTP 404
   MS ms_code — HTTP 404
   PR pr_ddec — Exception: Address unavailable: https://puertoricofilm.ddec.pr.gov/incentives/
 
