@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05",
+  "generated_at": "2026-10-12",
   "_meta": {
     "canon": "US State Film Production Incentives",
     "verified_on": "2026-08-19",
@@ -159,7 +159,22 @@
       "annual_cap": "None",
       "project_cap": "None",
       "verified_on": "2026-08-19",
-      "notes": "20% base + 10% logo. Mandatory audit. Post-production credit reinstated 2026 ($11M)."
+      "notes": "20% base + 10% logo. Mandatory audit. Post-production credit reinstated 2026 ($11M).",
+      "pending": [
+        {
+          "field": "review",
+          "current": null,
+          "detected": null,
+          "detected_at": "2026-10-12",
+          "source_url": "https://dor.georgia.gov/film-tax-credits",
+          "locator": "Georgia Entertainment Industry Investment Act",
+          "locator_hash": "d9ac9cfb83006c166632777157780ad5",
+          "kind": "CHANGED",
+          "window": "oliday. We will reopen on Tuesday. Breadcrumb Home Taxes Tax Credits Film Tax Credits Film Tax Credits Film & Interactive projects created in Georgia may be eligible for a Georgia film tax credit The Georgia Entertainment Industry Investment Act provides a film tax credit for feature film, series, pilots, movies for television, televised commercial advertisements, and music video productions, and ",
+          "status": "unconfirmed"
+        }
+      ],
+      "rejected": []
     },
     {
       "code": "HI",
@@ -829,7 +844,20 @@
       "project_cap": "None",
       "verified_on": "2026-09-10",
       "notes": "Sunset 1/1/2031. Va. Code § 58.1-439.12:03 now reads \"prior to January 1, 2031\"; the statute has been amended to match the bills, resolving the conflict with the former 1/1/2027 reading. Confirmed against law.lis.virginia.gov (rank-0 legislative source) on 2026-09-09 and again on 2026-09-10. Operative terms unchanged: 15% base, 20% in an economically distressed area, $250,000 minimum. Grant fund has no minimum spend.",
-      "pending": [],
+      "pending": [
+        {
+          "field": "review",
+          "current": null,
+          "detected": "$250,000",
+          "detected_at": "2026-10-12",
+          "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-439.12:03/",
+          "locator": "prior to January 1, 2031, any motion picture production company with qualifying expenses of at least $250,000",
+          "locator_hash": "c666b12278b36725c33050e6c538bbdb",
+          "kind": "CHANGED",
+          "window": "eport. Code of Virginia Title 58.1. Taxation Chapter 3. Income Tax 10/12/2026 § 58.1-439.12:03 . Motion picture production tax credit. A. For taxable years beginning on and after January 1, 2011, but prior to January 1, 2031, any motion picture production company with qualifying expenses of at least $250,000 with respect to a motion picture production filmed in Virginia shall be allowed a refundab",
+          "status": "unconfirmed"
+        }
+      ],
       "rejected": [
         {
           "field": "sunset",
