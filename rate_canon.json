@@ -1484,6 +1484,20 @@
       "local": "52"
     },
     {
+      "global": "L52APMHR",
+      "guild": "IATSE",
+      "description": "Production Mixer. Hourly: daily (8 hrs) / 8.",
+      "group": "New York / New Jersey",
+      "class": "Hourly (derived)",
+      "value": 88.68125,
+      "value_effective": "10/04/26-09/30/27",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "local": "52"
+    },
+    {
       "global": "L52ABU",
       "guild": "IATSE",
       "description": "Boom Operator; Utility Person.",
@@ -1492,6 +1506,20 @@
       "value": 566.54,
       "value_effective": "10/04/26-09/30/27",
       "type": "INPUT",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "local": "52"
+    },
+    {
+      "global": "L52ABUHR",
+      "guild": "IATSE",
+      "description": "Boom Operator; Utility Person. Hourly: daily (8 hrs) / 8.",
+      "group": "New York / New Jersey",
+      "class": "Hourly (derived)",
+      "value": 70.8175,
+      "value_effective": "10/04/26-09/30/27",
+      "type": "LOCKED",
       "next": null,
       "next_effective": "",
       "terms_agreement_id": "LOCAL52_MAJORS_2024",
@@ -1512,6 +1540,20 @@
       "local": "52"
     },
     {
+      "global": "L52AHSHR",
+      "guild": "IATSE",
+      "description": "Department Head - Shop Craftsperson. Hourly: daily (8 hrs) / 8.",
+      "group": "New York / New Jersey",
+      "class": "Hourly (derived)",
+      "value": 74.44,
+      "value_effective": "10/04/26-09/30/27",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "local": "52"
+    },
+    {
       "global": "L52AH",
       "guild": "IATSE",
       "description": "Department Head - Electrician; Property Person; Grip; Drapery Person; Generator Person.",
@@ -1520,6 +1562,20 @@
       "value": 555.33,
       "value_effective": "10/04/26-09/30/27",
       "type": "INPUT",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "local": "52"
+    },
+    {
+      "global": "L52AHHR",
+      "guild": "IATSE",
+      "description": "Department Head - Electrician; Property Person; Grip; Drapery Person; Generator Person. Hourly: daily (8 hrs) / 8.",
+      "group": "New York / New Jersey",
+      "class": "Hourly (derived)",
+      "value": 69.41625,
+      "value_effective": "10/04/26-09/30/27",
+      "type": "LOCKED",
       "next": null,
       "next_effective": "",
       "terms_agreement_id": "LOCAL52_MAJORS_2024",
@@ -1540,6 +1596,20 @@
       "local": "52"
     },
     {
+      "global": "L52AFSHR",
+      "guild": "IATSE",
+      "description": "Foreperson - Shop Craftsperson. Hourly: daily (8 hrs) / 8.",
+      "group": "New York / New Jersey",
+      "class": "Hourly (derived)",
+      "value": 70.34625,
+      "value_effective": "10/04/26-09/30/27",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "local": "52"
+    },
+    {
       "global": "L52AF",
       "guild": "IATSE",
       "description": "Foreperson - Electrician; Property Person; Grip.",
@@ -1548,6 +1618,20 @@
       "value": 485.17,
       "value_effective": "10/04/26-09/30/27",
       "type": "INPUT",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "local": "52"
+    },
+    {
+      "global": "L52AFHR",
+      "guild": "IATSE",
+      "description": "Foreperson - Electrician; Property Person; Grip. Hourly: daily (8 hrs) / 8.",
+      "group": "New York / New Jersey",
+      "class": "Hourly (derived)",
+      "value": 60.64625,
+      "value_effective": "10/04/26-09/30/27",
+      "type": "LOCKED",
       "next": null,
       "next_effective": "",
       "terms_agreement_id": "LOCAL52_MAJORS_2024",
@@ -1568,6 +1652,20 @@
       "local": "52"
     },
     {
+      "global": "L52AOSHR",
+      "guild": "IATSE",
+      "description": "Operator - Shop Craftsperson. Hourly: daily (8 hrs) / 8.",
+      "group": "New York / New Jersey",
+      "class": "Hourly (derived)",
+      "value": 67.46375,
+      "value_effective": "10/04/26-09/30/27",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "local": "52"
+    },
+    {
       "global": "L52AO",
       "guild": "IATSE",
       "description": "Operator - Electrician; Property Person; Grip.",
@@ -1576,6 +1674,20 @@
       "value": 463.89,
       "value_effective": "10/04/26-09/30/27",
       "type": "INPUT",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "local": "52"
+    },
+    {
+      "global": "L52AOHR",
+      "guild": "IATSE",
+      "description": "Operator - Electrician; Property Person; Grip. Hourly: daily (8 hrs) / 8.",
+      "group": "New York / New Jersey",
+      "class": "Hourly (derived)",
+      "value": 57.98625,
+      "value_effective": "10/04/26-09/30/27",
+      "type": "LOCKED",
       "next": null,
       "next_effective": "",
       "terms_agreement_id": "LOCAL52_MAJORS_2024",
@@ -1708,6 +1820,20 @@
       "local": "161"
     },
     {
+      "global": "L161SSDHR",
+      "guild": "IATSE",
+      "description": "Script Supervisor. Hourly: daily (8 hrs) / 8.",
+      "group": "All jurisdiction",
+      "class": "Hourly (derived)",
+      "value": 81.9475,
+      "value_effective": "03/08/26-03/06/27",
+      "type": "LOCKED",
+      "next": 84.81625,
+      "next_effective": "03/07/27-03/04/28",
+      "terms_agreement_id": "LOCAL161_MAJORS_2025",
+      "local": "161"
+    },
+    {
       "global": "L161SSW",
       "guild": "IATSE",
       "description": "Script Supervisor.",
@@ -1731,6 +1857,20 @@
       "value_effective": "03/08/26-03/06/27",
       "type": "INPUT",
       "next": 434.94,
+      "next_effective": "03/07/27-03/04/28",
+      "terms_agreement_id": "LOCAL161_MAJORS_2025",
+      "local": "161"
+    },
+    {
+      "global": "L161PCDHR",
+      "guild": "IATSE",
+      "description": "Production Office Coordinator (may also be titled Production Coordinator). Hourly: daily (8 hrs) / 8.",
+      "group": "All jurisdiction",
+      "class": "Hourly (derived)",
+      "value": 52.52875,
+      "value_effective": "03/08/26-03/06/27",
+      "type": "LOCKED",
+      "next": 54.3675,
       "next_effective": "03/07/27-03/04/28",
       "terms_agreement_id": "LOCAL161_MAJORS_2025",
       "local": "161"
@@ -1778,6 +1918,20 @@
       "local": "161"
     },
     {
+      "global": "L161ACD1HR",
+      "guild": "IATSE",
+      "description": "Assistant Production Office Coordinator - shooting in NY, NJ, CT or within 30-mile radius of Independence Hall, Philadelphia. Hourly: daily (8 hrs) / 8.",
+      "group": "NY/NJ/CT or 30 mi Indep. Hall",
+      "class": "Hourly (derived)",
+      "value": 30.365,
+      "value_effective": "03/08/26-03/06/27",
+      "type": "LOCKED",
+      "next": 31.4275,
+      "next_effective": "03/07/27-03/04/28",
+      "terms_agreement_id": "LOCAL161_MAJORS_2025",
+      "local": "161"
+    },
+    {
       "global": "L161ACD2",
       "guild": "IATSE",
       "description": "Assistant Production Office Coordinator - shooting within jurisdiction but outside NY/NJ/CT and the Philadelphia 30-mile radius.",
@@ -1787,6 +1941,20 @@
       "value_effective": "03/08/26-03/06/27",
       "type": "INPUT",
       "next": 248.4,
+      "next_effective": "03/07/27-03/04/28",
+      "terms_agreement_id": "LOCAL161_MAJORS_2025",
+      "local": "161"
+    },
+    {
+      "global": "L161ACD2HR",
+      "guild": "IATSE",
+      "description": "Assistant Production Office Coordinator - shooting within jurisdiction but outside NY/NJ/CT and the Philadelphia 30-mile radius. Hourly: daily (8 hrs) / 8.",
+      "group": "Beyond NY/NJ/CT + 30 mi zone",
+      "class": "Hourly (derived)",
+      "value": 30.0,
+      "value_effective": "03/08/26-03/06/27",
+      "type": "LOCKED",
+      "next": 31.05,
       "next_effective": "03/07/27-03/04/28",
       "terms_agreement_id": "LOCAL161_MAJORS_2025",
       "local": "161"
@@ -1834,6 +2002,20 @@
       "local": "764"
     },
     {
+      "global": "L764WHHR",
+      "guild": "IATSE",
+      "description": "Wardrobe Head. Hourly: daily (8 hrs) / 8.",
+      "group": "Within 50 mi Columbus Circle",
+      "class": "Hourly (derived)",
+      "value": 76.91375,
+      "value_effective": "03/01/26-02/27/27",
+      "type": "LOCKED",
+      "next": 79.60625,
+      "next_effective": "02/28/27-02/29/28",
+      "terms_agreement_id": "LOCAL764_MAJORS_2025",
+      "local": "764"
+    },
+    {
       "global": "L764WA",
       "guild": "IATSE",
       "description": "Wardrobe Assistants; Costume Shop Supervisors.",
@@ -1843,6 +2025,20 @@
       "value_effective": "03/01/26-02/27/27",
       "type": "INPUT",
       "next": 567.6,
+      "next_effective": "02/28/27-02/29/28",
+      "terms_agreement_id": "LOCAL764_MAJORS_2025",
+      "local": "764"
+    },
+    {
+      "global": "L764WAHR",
+      "guild": "IATSE",
+      "description": "Wardrobe Assistants; Costume Shop Supervisors. Hourly: daily (8 hrs) / 8.",
+      "group": "Within 50 mi Columbus Circle",
+      "class": "Hourly (derived)",
+      "value": 68.55125,
+      "value_effective": "03/01/26-02/27/27",
+      "type": "LOCKED",
+      "next": 70.95,
       "next_effective": "02/28/27-02/29/28",
       "terms_agreement_id": "LOCAL764_MAJORS_2025",
       "local": "764"
@@ -1862,6 +2058,20 @@
       "local": "764"
     },
     {
+      "global": "L764COHR",
+      "guild": "IATSE",
+      "description": "Others (Costume Shop). Hourly: daily (8 hrs) / 8.",
+      "group": "Within 50 mi Columbus Circle",
+      "class": "Hourly (derived)",
+      "value": 55.81625,
+      "value_effective": "03/01/26-02/27/27",
+      "type": "LOCKED",
+      "next": 57.77,
+      "next_effective": "02/28/27-02/29/28",
+      "terms_agreement_id": "LOCAL764_MAJORS_2025",
+      "local": "764"
+    },
+    {
       "global": "L798DH",
       "guild": "IATSE",
       "description": "Make-Up Artist Department Head; Hair Stylist Department Head.",
@@ -1871,6 +2081,20 @@
       "value_effective": "03/01/26-02/27/27",
       "type": "INPUT",
       "next": 644.11,
+      "next_effective": "02/28/27-02/29/28",
+      "terms_agreement_id": "LOCAL798_MAJORS_2025",
+      "local": "798"
+    },
+    {
+      "global": "L798DHHR",
+      "guild": "IATSE",
+      "description": "Make-Up Artist Department Head; Hair Stylist Department Head. Hourly: daily (8 hrs) / 8.",
+      "group": "All jurisdiction (19 areas)",
+      "class": "Hourly (derived)",
+      "value": 77.79125,
+      "value_effective": "03/01/26-02/27/27",
+      "type": "LOCKED",
+      "next": 80.51375,
       "next_effective": "02/28/27-02/29/28",
       "terms_agreement_id": "LOCAL798_MAJORS_2025",
       "local": "798"
@@ -1890,6 +2114,20 @@
       "local": "798"
     },
     {
+      "global": "L798A2HR",
+      "guild": "IATSE",
+      "description": "2nd & Additional Make-Up Artist; 2nd & Additional Hair Stylist. Hourly: daily (8 hrs) / 8.",
+      "group": "All jurisdiction (19 areas)",
+      "class": "Hourly (derived)",
+      "value": 73.5375,
+      "value_effective": "03/01/26-02/27/27",
+      "type": "LOCKED",
+      "next": 76.11125,
+      "next_effective": "02/28/27-02/29/28",
+      "terms_agreement_id": "LOCAL798_MAJORS_2025",
+      "local": "798"
+    },
+    {
       "global": "L600CDP",
       "guild": "IATSE",
       "description": "Director of Photography (Occ. 1901).",
@@ -1898,6 +2136,20 @@
       "value": 1253.91,
       "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL600_ICG_2021",
+      "local": "600"
+    },
+    {
+      "global": "L600CDPHR",
+      "guild": "IATSE",
+      "description": "Director of Photography (Occ. 1901). Hourly: daily (8 hrs) / 8.",
+      "group": "Corridor",
+      "class": "Hourly (derived)",
+      "value": 156.73875,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "LOCKED",
       "next": null,
       "next_effective": "",
       "terms_agreement_id": "LOCAL600_ICG_2021",
@@ -1918,6 +2170,20 @@
       "local": "600"
     },
     {
+      "global": "L600CCOHR",
+      "guild": "IATSE",
+      "description": "Camera Operator (Occ. 1911). Hourly: daily (8 hrs) / 8.",
+      "group": "Corridor",
+      "class": "Hourly (derived)",
+      "value": 122.59375,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL600_ICG_2021",
+      "local": "600"
+    },
+    {
       "global": "L600CSP",
       "guild": "IATSE",
       "description": "Still Photographer (Occ. 1931).",
@@ -1926,6 +2192,20 @@
       "value": 780.32,
       "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL600_ICG_2021",
+      "local": "600"
+    },
+    {
+      "global": "L600CSPHR",
+      "guild": "IATSE",
+      "description": "Still Photographer (Occ. 1931). Hourly: daily (8 hrs) / 8.",
+      "group": "Corridor",
+      "class": "Hourly (derived)",
+      "value": 97.54,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "LOCKED",
       "next": null,
       "next_effective": "",
       "terms_agreement_id": "LOCAL600_ICG_2021",
@@ -1946,6 +2226,20 @@
       "local": "600"
     },
     {
+      "global": "L600CA1HR",
+      "guild": "IATSE",
+      "description": "1st Assistant Photographer (Occ. 1941). Hourly: daily (8 hrs) / 8.",
+      "group": "Corridor",
+      "class": "Hourly (derived)",
+      "value": 80.75375,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL600_ICG_2021",
+      "local": "600"
+    },
+    {
       "global": "L600CA2",
       "guild": "IATSE",
       "description": "2nd Assistant Photographer (Occ. 1951).",
@@ -1960,6 +2254,20 @@
       "local": "600"
     },
     {
+      "global": "L600CA2HR",
+      "guild": "IATSE",
+      "description": "2nd Assistant Photographer (Occ. 1951). Hourly: daily (8 hrs) / 8.",
+      "group": "Corridor",
+      "class": "Hourly (derived)",
+      "value": 63.94625,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL600_ICG_2021",
+      "local": "600"
+    },
+    {
       "global": "L600CFL",
       "guild": "IATSE",
       "description": "Film Loader (Occ. 1971).",
@@ -1968,6 +2276,20 @@
       "value": 430.96,
       "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL600_ICG_2021",
+      "local": "600"
+    },
+    {
+      "global": "L600CFLHR",
+      "guild": "IATSE",
+      "description": "Film Loader (Occ. 1971). Hourly: daily (8 hrs) / 8.",
+      "group": "Corridor",
+      "class": "Hourly (derived)",
+      "value": 53.87,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "LOCKED",
       "next": null,
       "next_effective": "",
       "terms_agreement_id": "LOCAL600_ICG_2021",
@@ -2058,6 +2380,20 @@
       "local": "600"
     },
     {
+      "global": "L600ODPHR",
+      "guild": "IATSE",
+      "description": "Director of Photography (Occ. 1901). Hourly: daily (8 hrs) / 8.",
+      "group": "Outside Corridor",
+      "class": "Hourly (derived)",
+      "value": 150.54,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL600_ICG_2021",
+      "local": "600"
+    },
+    {
       "global": "L600OCOPP",
       "guild": "IATSE",
       "description": "Camera Operator (Occ. 1911); Portrait Photographer (Occ. 1921).",
@@ -2072,6 +2408,20 @@
       "local": "600"
     },
     {
+      "global": "L600OCOPPHR",
+      "guild": "IATSE",
+      "description": "Camera Operator (Occ. 1911); Portrait Photographer (Occ. 1921). Hourly: daily (8 hrs) / 8.",
+      "group": "Outside Corridor",
+      "class": "Hourly (derived)",
+      "value": 93.06,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL600_ICG_2021",
+      "local": "600"
+    },
+    {
       "global": "L600OSP",
       "guild": "IATSE",
       "description": "Still Photographer (Occ. 1931).",
@@ -2080,6 +2430,20 @@
       "value": 648.8,
       "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL600_ICG_2021",
+      "local": "600"
+    },
+    {
+      "global": "L600OSPHR",
+      "guild": "IATSE",
+      "description": "Still Photographer (Occ. 1931). Hourly: daily (8 hrs) / 8.",
+      "group": "Outside Corridor",
+      "class": "Hourly (derived)",
+      "value": 81.1,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "LOCKED",
       "next": null,
       "next_effective": "",
       "terms_agreement_id": "LOCAL600_ICG_2021",
@@ -2184,6 +2548,20 @@
       "local": "600"
     },
     {
+      "global": "L600GDTHR",
+      "guild": "IATSE",
+      "description": "Digital Imaging Technician (Occ. 1981). Hourly: daily (8 hrs) / 8.",
+      "group": "Corridor and outside",
+      "class": "Hourly (derived)",
+      "value": 93.04,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL600_ICG_2021",
+      "local": "600"
+    },
+    {
       "global": "L600GVC",
       "guild": "IATSE",
       "description": "Video Controller (Shader) (Occ. 1982).",
@@ -2192,6 +2570,20 @@
       "value": 592.88,
       "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL600_ICG_2021",
+      "local": "600"
+    },
+    {
+      "global": "L600GVCHR",
+      "guild": "IATSE",
+      "description": "Video Controller (Shader) (Occ. 1982). Hourly: daily (8 hrs) / 8.",
+      "group": "Corridor and outside",
+      "class": "Hourly (derived)",
+      "value": 74.11,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "LOCKED",
       "next": null,
       "next_effective": "",
       "terms_agreement_id": "LOCAL600_ICG_2021",
@@ -2212,6 +2604,20 @@
       "local": "600"
     },
     {
+      "global": "L600GCUHR",
+      "guild": "IATSE",
+      "description": "Camera Utility Person (Occ. 1983). Hourly: daily (8 hrs) / 8.",
+      "group": "Corridor and outside",
+      "class": "Hourly (derived)",
+      "value": 70.62,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "LOCKED",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL600_ICG_2021",
+      "local": "600"
+    },
+    {
       "global": "L600GDU",
       "guild": "IATSE",
       "description": "Digital Utility Person (Occ. 1984).",
@@ -2220,6 +2626,20 @@
       "value": 388.64,
       "value_effective": "08/02/26-07/31/27",
       "type": "INPUT",
+      "next": null,
+      "next_effective": "",
+      "terms_agreement_id": "LOCAL600_ICG_2021",
+      "local": "600"
+    },
+    {
+      "global": "L600GDUHR",
+      "guild": "IATSE",
+      "description": "Digital Utility Person (Occ. 1984). Hourly: daily (8 hrs) / 8.",
+      "group": "Corridor and outside",
+      "class": "Hourly (derived)",
+      "value": 48.58,
+      "value_effective": "08/02/26-07/31/27",
+      "type": "LOCKED",
       "next": null,
       "next_effective": "",
       "terms_agreement_id": "LOCAL600_ICG_2021",
@@ -2282,6 +2702,20 @@
       "local": "817 Drivers"
     },
     {
+      "global": "D817CPHR",
+      "guild": "Teamsters",
+      "description": "Captain. Hourly: daily (7 hrs) / 7.",
+      "group": "Within 50 mi Columbus Circle",
+      "class": "Hourly (derived)",
+      "value": 69.105714,
+      "value_effective": "11/02/25-10/31/26",
+      "type": "LOCKED",
+      "next": 71.87,
+      "next_effective": "11/01/26-10/30/27",
+      "terms_agreement_id": "TEAMSTERS817_DRV_2025",
+      "local": "817 Drivers"
+    },
+    {
       "global": "D817GRP",
       "guild": "Teamsters",
       "description": "Co-Captain; Specialized Equipment Driver; DOT Compliance; Dispatcher / DOT Compliance.",
@@ -2291,6 +2725,20 @@
       "value_effective": "11/02/25-10/31/26",
       "type": "INPUT",
       "next": 468.11,
+      "next_effective": "11/01/26-10/30/27",
+      "terms_agreement_id": "TEAMSTERS817_DRV_2025",
+      "local": "817 Drivers"
+    },
+    {
+      "global": "D817GRPHR",
+      "guild": "Teamsters",
+      "description": "Co-Captain; Specialized Equipment Driver; DOT Compliance; Dispatcher / DOT Compliance. Hourly: daily (7 hrs) / 7.",
+      "group": "Within 50 mi Columbus Circle",
+      "class": "Hourly (derived)",
+      "value": 64.301429,
+      "value_effective": "11/02/25-10/31/26",
+      "type": "LOCKED",
+      "next": 66.872857,
       "next_effective": "11/01/26-10/30/27",
       "terms_agreement_id": "TEAMSTERS817_DRV_2025",
       "local": "817 Drivers"
@@ -2310,6 +2758,20 @@
       "local": "817 Drivers"
     },
     {
+      "global": "D817CHHR",
+      "guild": "Teamsters",
+      "description": "Chauffeur. Hourly: daily (7 hrs) / 7.",
+      "group": "Within 50 mi Columbus Circle",
+      "class": "Hourly (derived)",
+      "value": 58.17,
+      "value_effective": "11/02/25-10/31/26",
+      "type": "LOCKED",
+      "next": 60.497143,
+      "next_effective": "11/01/26-10/30/27",
+      "terms_agreement_id": "TEAMSTERS817_DRV_2025",
+      "local": "817 Drivers"
+    },
+    {
       "global": "D817HP",
       "guild": "Teamsters",
       "description": "Helper.",
@@ -2319,6 +2781,20 @@
       "value_effective": "11/02/25-10/31/26",
       "type": "INPUT",
       "next": 405.7,
+      "next_effective": "11/01/26-10/30/27",
+      "terms_agreement_id": "TEAMSTERS817_DRV_2025",
+      "local": "817 Drivers"
+    },
+    {
+      "global": "D817HPHR",
+      "guild": "Teamsters",
+      "description": "Helper. Hourly: daily (7 hrs) / 7.",
+      "group": "Within 50 mi Columbus Circle",
+      "class": "Hourly (derived)",
+      "value": 55.728571,
+      "value_effective": "11/02/25-10/31/26",
+      "type": "LOCKED",
+      "next": 57.957143,
       "next_effective": "11/01/26-10/30/27",
       "terms_agreement_id": "TEAMSTERS817_DRV_2025",
       "local": "817 Drivers"
@@ -2464,6 +2940,20 @@
       "local": "USA 829"
     },
     {
+      "global": "L829AADHR",
+      "guild": "IATSE",
+      "description": "Assistant Art Director. Hourly: daily (8 hrs) / 8.",
+      "group": "NYC 5 boroughs / Nassau / Meadowlands",
+      "class": "Hourly (derived)",
+      "value": 102.24625,
+      "value_effective": "09/28/25-10/03/26",
+      "type": "LOCKED",
+      "next": 105.825,
+      "next_effective": "10/04/26-09/30/27 (projected)",
+      "terms_agreement_id": "USA829_MPPA_2024",
+      "local": "USA 829"
+    },
+    {
       "global": "L829CDT",
       "guild": "IATSE",
       "description": "Costume Designer - theatrical motion pictures.",
@@ -2492,6 +2982,20 @@
       "local": "USA 829"
     },
     {
+      "global": "L829ACDHR",
+      "guild": "IATSE",
+      "description": "Assistant Costume Designer. Hourly: daily (8 hrs) / 8.",
+      "group": "NYC 5 boroughs / Nassau / Meadowlands",
+      "class": "Hourly (derived)",
+      "value": 70.77375,
+      "value_effective": "09/28/25-10/03/26",
+      "type": "LOCKED",
+      "next": 73.25125,
+      "next_effective": "10/04/26-09/30/27 (projected)",
+      "terms_agreement_id": "USA829_MPPA_2024",
+      "local": "USA 829"
+    },
+    {
       "global": "L829CSA",
       "guild": "IATSE",
       "description": "Charge Scenic Artist.",
@@ -2501,6 +3005,20 @@
       "value_effective": "09/28/25-10/03/26",
       "type": "INPUT",
       "next": 801.42,
+      "next_effective": "10/04/26-09/30/27 (projected)",
+      "terms_agreement_id": "USA829_MPPA_2024",
+      "local": "USA 829"
+    },
+    {
+      "global": "L829CSAHR",
+      "guild": "IATSE",
+      "description": "Charge Scenic Artist. Hourly: daily (8 hrs) / 8.",
+      "group": "NYC 5 boroughs / Nassau / Meadowlands",
+      "class": "Hourly (derived)",
+      "value": 96.79,
+      "value_effective": "09/28/25-10/03/26",
+      "type": "LOCKED",
+      "next": 100.1775,
       "next_effective": "10/04/26-09/30/27 (projected)",
       "terms_agreement_id": "USA829_MPPA_2024",
       "local": "USA 829"
@@ -2520,6 +3038,20 @@
       "local": "USA 829"
     },
     {
+      "global": "L829JSAHR",
+      "guild": "IATSE",
+      "description": "Journey Scenic Artist (Journeyperson Scenic Artist). Hourly: daily (8 hrs) / 8.",
+      "group": "NYC 5 boroughs / Nassau / Meadowlands",
+      "class": "Hourly (derived)",
+      "value": 78.93375,
+      "value_effective": "09/28/25-10/03/26",
+      "type": "LOCKED",
+      "next": 81.69625,
+      "next_effective": "10/04/26-09/30/27 (projected)",
+      "terms_agreement_id": "USA829_MPPA_2024",
+      "local": "USA 829"
+    },
+    {
       "global": "L829SHOP",
       "guild": "IATSE",
       "description": "Shopperson / Industrial.",
@@ -2529,6 +3061,20 @@
       "value_effective": "09/28/25-10/03/26",
       "type": "INPUT",
       "next": 390.04,
+      "next_effective": "10/04/26-09/30/27 (projected)",
+      "terms_agreement_id": "USA829_MPPA_2024",
+      "local": "USA 829"
+    },
+    {
+      "global": "L829SHOPHR",
+      "guild": "IATSE",
+      "description": "Shopperson / Industrial. Hourly: daily (8 hrs) / 8.",
+      "group": "NYC 5 boroughs / Nassau / Meadowlands",
+      "class": "Hourly (derived)",
+      "value": 47.10625,
+      "value_effective": "09/28/25-10/03/26",
+      "type": "LOCKED",
+      "next": 48.755,
       "next_effective": "10/04/26-09/30/27 (projected)",
       "terms_agreement_id": "USA829_MPPA_2024",
       "local": "USA 829"
