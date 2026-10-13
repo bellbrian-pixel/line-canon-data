@@ -1,6 +1,6 @@
 {
  "schema": "terms_canon/1",
- "generated": "2026-10-12",
+ "generated": "2026-10-13",
  "rule": "Every contract gets three canons - labor (rates), fringe, terms. A weekly fetch compares each source file sha256 and each term clause_hash; a change in any of the three is flagged.",
  "value_kinds_added": [
   "schedule_header (vet doc sec.4)",
@@ -22,7 +22,30 @@
    "geography": {
     "kind": "named_area",
     "text": "New York, New Jersey and Connecticut; zone = 30 miles from Columbus Circle",
-    "citation": "2021 Art. 2"
+    "citation": "2021 Art. 2",
+    "footprint": {
+     "schema": "footprint/1",
+     "states": {
+      "NY": "full",
+      "NJ": "full",
+      "CT": "full"
+     },
+     "areas": [
+      "the States of New York, New Jersey and Connecticut",
+      "Distant Location: outside the 30-mile radius of New York City’s Columbus Circle"
+     ],
+     "outside": {
+      "kind": "pension_health_only",
+      "text": "An individual employed in NY, NJ or CT to perform services outside those states but within the US, its territories or Canada is covered for pension and health purposes only (unless required to work under another union contract). All terms and conditions, other than pension, health and IAP contributions, shall be subject to individual negotiation between the employee and the Employer. Effective July 1, 2022."
+     },
+     "citation": "2021 Art. 2 (scan; OCR)",
+     "watch": {
+      "anchor": "The jurisdiction of the Union shall include the States of New York, New Jersey and Connecticut",
+      "clause_hash": "sha256:35592f59fa069a1caded54c793df4dc70cd98b7190b773b22953ebaec8d8a9e5",
+      "last_checked": "2026-10-13",
+      "hash_method": "ocr"
+     }
+    }
    },
    "canons": {
     "labor": "NY_BTL_ratecanon_consolidated_v1_1.xlsx > NY_Rates > L817AL/L817LS/L817LC/L817LA",
@@ -128,9 +151,11 @@
       "production_type": [
        "theatrical"
       ],
-      "commencing_on_or_after": "ratification of the 2024 MOA (first Sunday after AMPTP notice; MOA signed 2024-12-18)",
+      "commencing_on_or_after": "2024-12-18",
       "report_mode": null,
-      "production_mode": null
+      "production_mode": null,
+      "commencing_on_or_after_text": "ratification of the 2024 MOA (first Sunday after AMPTP notice; MOA signed 2024-12-18)",
+      "commencing_on_or_after_estimate": true
      },
      "effective": [],
      "value": {
@@ -162,7 +187,7 @@
       "last_checked": "2026-10-11",
       "clause_hash_prev": "sha256:40f9c118b1992c7e8a763bc04f0501abdd8ee73b7b9bf1ec75f0cfe2bf07e3d1"
      },
-     "notes": "Same ladder for weekly and daily employees. 10-minute increments (Art. 19.e.iii). Pictures that began PP before ratification: 1.5x after 8 (weekly: or after 60/week); daily 2x after 12; no 3x step."
+     "notes": "Same ladder for weekly and daily employees. 10-minute increments (Art. 19.e.iii). Pictures that began PP before ratification: 1.5x after 8 (weekly: or after 60/week); daily 2x after 12; no 3x step. W9 (default, 13 Oct): ISO floor 2024-12-18 = MOA signature; ratification date not in hand. Only pictures starting PP between signature and ratification are affected."
     },
     {
      "term_id": "TEAMSTERS817_LOC_2024.ot_ladder.6th",
@@ -178,9 +203,11 @@
       "production_type": [
        "theatrical"
       ],
-      "commencing_on_or_after": "ratification of the 2024 MOA (first Sunday after AMPTP notice; MOA signed 2024-12-18)",
+      "commencing_on_or_after": "2024-12-18",
       "report_mode": null,
-      "production_mode": null
+      "production_mode": null,
+      "commencing_on_or_after_text": "ratification of the 2024 MOA (first Sunday after AMPTP notice; MOA signed 2024-12-18)",
+      "commencing_on_or_after_estimate": true
      },
      "effective": [],
      "value": {
@@ -212,7 +239,7 @@
       "last_checked": "2026-10-11",
       "clause_hash_prev": "sha256:6b4787f6f9f1ae75d93ab6e10d1b2e00b8f7835479498eb27de94cd61f2badc5"
      },
-     "notes": ""
+     "notes": " W9 (default, 13 Oct): ISO floor 2024-12-18 = MOA signature; ratification date not in hand. Only pictures starting PP between signature and ratification are affected."
     },
     {
      "term_id": "TEAMSTERS817_LOC_2024.ot_ladder.7th_holiday",
@@ -229,9 +256,11 @@
       "production_type": [
        "theatrical"
       ],
-      "commencing_on_or_after": "ratification of the 2024 MOA (first Sunday after AMPTP notice; MOA signed 2024-12-18)",
+      "commencing_on_or_after": "2024-12-18",
       "report_mode": null,
-      "production_mode": null
+      "production_mode": null,
+      "commencing_on_or_after_text": "ratification of the 2024 MOA (first Sunday after AMPTP notice; MOA signed 2024-12-18)",
+      "commencing_on_or_after_estimate": true
      },
      "effective": [],
      "value": {
@@ -258,7 +287,7 @@
       "last_checked": "2026-10-11",
       "clause_hash_prev": "sha256:1b540e10a1bbe13528c67d83b7a187fd80dd1fce814e0d76e85632eb2cf9903a"
      },
-     "notes": "Distant Location adds the one-fifth-of-weekly premiums in distant_premium.* on top."
+     "notes": "Distant Location adds the one-fifth-of-weekly premiums in distant_premium.* on top. W9 (default, 13 Oct): ISO floor 2024-12-18 = MOA signature; ratification date not in hand. Only pictures starting PP between signature and ratification are affected."
     },
     {
      "term_id": "TEAMSTERS817_LOC_2024.rest_period",
@@ -274,9 +303,11 @@
       "production_type": [
        "theatrical"
       ],
-      "commencing_on_or_after": "ratification of the 2024 MOA (first Sunday after AMPTP notice; MOA signed 2024-12-18)",
+      "commencing_on_or_after": "2024-12-18",
       "report_mode": null,
-      "production_mode": null
+      "production_mode": null,
+      "commencing_on_or_after_text": "ratification of the 2024 MOA (first Sunday after AMPTP notice; MOA signed 2024-12-18)",
+      "commencing_on_or_after_estimate": true
      },
      "effective": [],
      "value": {
@@ -305,7 +336,7 @@
       "last_checked": "2026-10-11",
       "clause_hash_prev": "sha256:d56b037617788b97a440e6ff754d2d3aa83371754b44c5571a4ae929478474c9"
      },
-     "notes": ""
+     "notes": " W9 (default, 13 Oct): ISO floor 2024-12-18 = MOA signature; ratification date not in hand. Only pictures starting PP between signature and ratification are affected."
     },
     {
      "term_id": "TEAMSTERS817_LOC_2024.workweek",
@@ -1504,8 +1535,92 @@
    },
    "geography": {
     "kind": "named_area",
-    "text": "Part A: New York and New Jersey. Part B (CT, DE, PA) not harvested.",
-    "citation": "Part A heading"
+    "text": "Part A: New York and New Jersey. Part B: Connecticut, Delaware and Pennsylvania (except within 50 mi of Pittsburgh); Part B terms rows not harvested (Sec. 26-30). Footprint: geography.footprint.",
+    "citation": "Part A heading",
+    "footprint": {
+     "schema": "footprint/1",
+     "states": {
+      "NY": "full",
+      "NJ": "full",
+      "CT": "full",
+      "DE": "full",
+      "PA": "partial"
+     },
+     "areas": [
+      "States of New York, New Jersey, Connecticut, Delaware and Pennsylvania"
+     ],
+     "except": [
+      {
+       "kind": "radius",
+       "center": "Pittsburgh, PA",
+       "miles": 50,
+       "text": "except in the city of Pittsburgh and in that area of Pennsylvania within a fifty (50) mile radius of the city of Pittsburgh"
+      }
+     ],
+     "outside": {
+      "kind": "not_covered",
+      "text": "Recognition is limited to the five states."
+     },
+     "parts": [
+      {
+       "part": "A",
+       "states": [
+        "NY",
+        "NJ"
+       ],
+       "text": "Part A: working conditions for employees working on motion pictures in New York and/or New Jersey",
+       "rate_prefix": "L52A"
+      },
+      {
+       "part": "B",
+       "states": [
+        "CT",
+        "DE",
+        "PA"
+       ],
+       "text": "Part B: wage scales and working conditions for employees working on motion pictures in Connecticut, Delaware or Pennsylvania (Sec. 26); Sec. 27 carries listed Part A conditions over",
+       "rate_prefix": "L52B (outside 30 mi of Independence Hall) / L52P (within 30 mi of Independence Hall)"
+      }
+     ],
+     "rate_bands": [
+      {
+       "band": "Part B, outside 30 mi of Independence Hall",
+       "states": [
+        "CT",
+        "DE",
+        "PA"
+       ],
+       "rate_prefix": "L52B",
+       "citation": "Sec. 26(a)(1)"
+      },
+      {
+       "band": "Part B, within 30 mi of Independence Hall",
+       "states": [
+        "PA",
+        "NJ",
+        "DE"
+       ],
+       "rate_prefix": "L52P",
+       "citation": "Sec. 26(a)(2)"
+      }
+     ],
+     "sub": {
+      "first_aid": {
+       "text": "within fifty (50) miles of Columbus Circle, on all of Long Island, and within a fifty (50) mile radius of Independence Hall in Philadelphia, Pennsylvania",
+       "citation": "Art. 1(b) second para."
+      },
+      "wardrobe": {
+       "text": "locations within the geographical jurisdiction of Local 52 which are more than fifty (50) miles from Columbus Circle (inside 50 mi: Local 764 or 705)",
+       "citation": "Art. 1(c)"
+      }
+     },
+     "citation": "Art. 1(b)-(c); Part A and Part B headings; Sec. 26-27",
+     "watch": {
+      "anchor": "The Employer hereby recognizes Local 52 as the exclusive collective bargaining agent for all of its employees in such classifications",
+      "clause_hash": "sha256:0448b4c10ad96a39e5335c3dea0fffa86a1b69cb737b810b73edebb06edeb895",
+      "last_checked": "2026-10-13"
+     }
+    }
    },
    "source": {
     "file": "2024 Local 52 Majors Agreement.pdf",
@@ -1892,6 +2007,69 @@
       "last_checked": "2026-10-11"
      },
      "notes": ""
+    },
+    {
+     "term_id": "LOCAL52_MAJORS_2024.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "President's Day",
+       "Memorial Day",
+       "Fourth of July",
+       "Labor Day",
+       "Veteran's Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day",
+       "Juneteenth (from 2025-01-01)"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday",
+      "worked": "paid as a 7th day (Sec. 21(c)); see ot_ladder.7th_holiday",
+      "not_worked": {
+       "daily": null,
+       "weekly": "not a day line: unworked holiday pay is 4.583% of annual straight-time earnings in 2025-2027 (4% otherwise), paid in a lump sum at completion (Sec. 11(b))",
+       "percent_of_straight_time": [
+        {
+         "from": "2025-01-01",
+         "to": "2027-12-31",
+         "pct": 4.583
+        },
+        {
+         "pct": 4.0,
+         "otherwise": true
+        }
+       ],
+       "paid": "lump sum, separate check, at completion of a theatrical production",
+       "exceptions": "none for long-form TV or pilots; new one-hour series per sideletter"
+      }
+     },
+     "citation": "Sec. 11(a)-(b)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The following holidays shall be recognized for employees employed under the provisions of Part A of this Agreement",
+      "clause_hash": "sha256:d7cb3e9342fe9faecfdb4e578541b355dd410099dcd1a8a81f6bff64ae56c2a1",
+      "last_checked": "2026-10-13"
+     },
+     "notes": "Part A only. Good Friday is not a Local 52 holiday. Unworked holiday pay behaves like a percentage fringe on straight time, not a per-day amount."
     }
    ]
   },
@@ -1906,7 +2084,53 @@
    "geography": {
     "kind": "named_area",
     "text": "Ladder harvested for NY/NJ/CT theatrical only",
-    "citation": "Art. 13(a)(1)"
+    "citation": "Art. 13(a)(1)",
+    "footprint": {
+     "schema": "footprint/1",
+     "states": {
+      "CT": "full",
+      "DE": "full",
+      "FL": "full",
+      "GA": "full",
+      "ME": "full",
+      "MD": "full",
+      "MA": "full",
+      "NH": "full",
+      "NJ": "full",
+      "NY": "full",
+      "NC": "full",
+      "PA": "full",
+      "RI": "full",
+      "SC": "full",
+      "VT": "full",
+      "VA": "full",
+      "WV": "full",
+      "DC": "full"
+     },
+     "areas": [
+      "the seventeen (17) eastern seaboard states: Connecticut, Delaware, Florida, Georgia, Maine, Maryland, Massachusetts, New Hampshire, New Jersey, New York, North Carolina, Pennsylvania, Rhode Island, South Carolina, Vermont, Virginia, West Virginia, and the District of Columbia"
+     ],
+     "outside": {
+      "kind": "not_covered",
+      "text": "Recognition is within the jurisdiction of Local 161."
+     },
+     "conditions": [
+      {
+       "text": "For productions located within fifty (50) miles from Columbus Circle and all of Long Island, the provisions of the Local 161 Agreement shall be applicable.",
+       "citation": "Art. 1(b)"
+      },
+      {
+       "text": "More than 50 mi from Columbus Circle and outside Long Island: POC/APOC hired in Los Angeles County and transported there may be employed on terms not less favorable than the LA agreements.",
+       "citation": "Art. 1(c)"
+      }
+     ],
+     "citation": "Art. 1(a)-(c) and footnote 1",
+     "watch": {
+      "anchor": "The jurisdiction of Local 161 covers the seventeen (17) eastern seaboard states",
+      "clause_hash": "sha256:3cec9870113d37dfe4d776356a73d5a6ec72b682f23930c756e857d89c92e47b",
+      "last_checked": "2026-10-13"
+     }
+    }
    },
    "source": {
     "file": "2025 Local 161 Majors Agreement.pdf",
@@ -2095,7 +2319,30 @@
    "geography": {
     "kind": "named_area",
     "text": "Per agreement jurisdiction",
-    "citation": "Sec. 2"
+    "citation": "Sec. 2",
+    "footprint": {
+     "schema": "footprint/1",
+     "states": {
+      "NY": "partial",
+      "NJ": "partial",
+      "CT": "partial"
+     },
+     "areas": [
+      "the area within a radius of fifty (50) miles from Columbus Circle",
+      "all of Long Island"
+     ],
+     "outside": {
+      "kind": "other_agreement",
+      "agreement_id": "LOCAL52_MAJORS_2024",
+      "text": "Wardrobe more than 50 mi from Columbus Circle inside the Local 52 states is Local 52 jurisdiction (Local 52 Art. 1(c))."
+     },
+     "citation": "Sec. 2",
+     "watch": {
+      "anchor": "The territorial jurisdiction of the Union shall cover the area within a radius of fifty (50) miles from Columbus Circle",
+      "clause_hash": "sha256:7fde1f63ece0238dc5b06f4965352b4c6441e8bcf45130241ada60959dcb2c0d",
+      "last_checked": "2026-10-13"
+     }
+    }
    },
    "source": {
     "file": "2025 Local 764 Majors Agreement.pdf",
@@ -2286,7 +2533,44 @@
    "geography": {
     "kind": "named_area",
     "text": "Ladder harvested for NY/NJ/CT theatrical only",
-    "citation": "Art. 14(a)(1)"
+    "citation": "Art. 14(a)(1)",
+    "footprint": {
+     "schema": "footprint/1",
+     "states": {
+      "CT": "full",
+      "DE": "full",
+      "FL": "full",
+      "GA": "full",
+      "LA": "full",
+      "ME": "full",
+      "MD": "full",
+      "MA": "full",
+      "NH": "full",
+      "NJ": "full",
+      "NY": "full",
+      "NC": "full",
+      "PA": "full",
+      "RI": "full",
+      "SC": "full",
+      "VT": "full",
+      "VA": "full",
+      "WV": "full",
+      "DC": "full"
+     },
+     "areas": [
+      "Connecticut, Delaware, Florida, Georgia, Louisiana, Maine, Maryland, Massachusetts, New Hampshire, New Jersey, New York, North Carolina, Pennsylvania, Rhode Island, South Carolina, Vermont, Virginia, West Virginia and the District of Columbia"
+     ],
+     "outside": {
+      "kind": "agreement_applies",
+      "text": "the provisions of this Agreement shall be in effect, but such person and the Company may in that case make other arrangements such as a \"flat deal\" contract in place and stead of the provisions of this Agreement, provided such \"flat deal\" contract or other arrangement is negotiated and approved by Local 798"
+     },
+     "citation": "Art. 1(d)",
+     "watch": {
+      "anchor": "The geographical jurisdiction of Local 798 shall consist of",
+      "clause_hash": "sha256:0aeb14c82224f4c799724c425bec82c088ad00a26a64da21af03a8bffc36110d",
+      "last_checked": "2026-10-13"
+     }
+    }
    },
    "source": {
     "file": "2025 Local 798 Majors Agreement.pdf",
@@ -2475,7 +2759,29 @@
    "geography": {
     "kind": "named_area",
     "text": "five boroughs of NYC, Nassau County, the Meadowlands",
-    "citation": "Art. 1"
+    "citation": "Art. 1",
+    "footprint": {
+     "schema": "footprint/1",
+     "states": {
+      "NY": "partial",
+      "NJ": "named_area"
+     },
+     "areas": [
+      "the five (5) boroughs of the City of New York",
+      "Nassau County",
+      "that area in the State of New Jersey known as the Meadowlands"
+     ],
+     "outside": {
+      "kind": "negotiated",
+      "text": "terms and conditions for such employment shall be subject to the mutual agreement of the Producer and the Union, except that the terms and conditions governing out-of-town locations already contained in this Agreement shall apply and except that work at a location within a thirty (30) mile radius of Columbus Circle (other than Sandy Hook, New Jersey) shall be treated as a \"report-to\" location"
+     },
+     "citation": "Art. 1.B",
+     "watch": {
+      "anchor": "The application of this entire collective bargaining agreement shall be specifically limited to covered productions",
+      "clause_hash": "sha256:e45d4aa70d5aaf257bec94f537f7cf3a337aba204caeadc6cc9ca08fceb58304",
+      "last_checked": "2026-10-13"
+     }
+    }
    },
    "source": {
     "file": "2024 Local USA 829 Majors Agreement.pdf",
@@ -3406,7 +3712,27 @@
       "pp_commencing_on_or_after": "2024-08-04"
      }
     },
-    "citation": "Amendment Agreement Para. (1)(a), as amended by 2024 Local 600 MOA item 5 (U-5)"
+    "citation": "Amendment Agreement Para. (1)(a), as amended by 2024 Local 600 MOA item 5 (U-5)",
+    "footprint": {
+     "schema": "footprint/1",
+     "kind": "hire_based",
+     "states": {},
+     "areas": [
+      "camerapersons employed in the thirty-seven (37) states of the United States not currently covered under the West Coast Agreement and in Puerto Rico"
+     ],
+     "outside": {
+      "kind": "other_agreement",
+      "agreement_id": "LOCAL600_WC_2021",
+      "text": "West Coast Agreement states"
+     },
+     "notes": "National local; the region (Eastern / Central / Western) is chosen by the resolver from the hire (icgRegionForHire), never by ASA. The Corridor is a rate band, kept in geography.states.",
+     "citation": "Amendment Agreement preamble",
+     "watch": {
+      "anchor": "This Amendment Agreement sets forth the terms and conditions of employment of those camerapersons employed in the thirty-seven (37) states",
+      "clause_hash": "sha256:0370b3ff48b26f294ed43a6cc628344da19d4b27be12974beb4f391cd823fc45",
+      "last_checked": "2026-10-13"
+     }
+    }
    },
    "source": {
     "file": "2021 Local 600 (Camera) Agreement - Fully Executed.pdf",
@@ -3743,7 +4069,45 @@
    "geography": {
     "kind": "radius",
     "text": "Jurisdiction per agreement; location rules keyed to 30 miles from Columbus Circle",
-    "citation": "Art. 6(f)"
+    "citation": "Art. 6(f)",
+    "footprint": {
+     "schema": "footprint/1",
+     "states": {
+      "NY": "full",
+      "NJ": "full",
+      "CT": "full",
+      "RI": "full",
+      "DE": "full",
+      "PA": "partial"
+     },
+     "areas": [
+      "New York metropolitan area: the five boroughs of the City of New York, Long Island, Westchester County and the area within a radius of fifty (50) miles of Columbus Circle",
+      "Distant Location: outside the New York metropolitan area but within the states of New York, New Jersey, Connecticut or Rhode Island",
+      "The State of Delaware and that part of the State of Pennsylvania extending from its eastern border to the parallel that encompasses the city of Harrisburg"
+     ],
+     "rate_bands": [
+      {
+       "band": "Delaware and eastern Pennsylvania",
+       "states": [
+        "DE",
+        "PA"
+       ],
+       "kind": "negotiated",
+       "text": "The parties have not reached agreement on the terms and conditions applicable to drivers employed in the area of Delaware and Pennsylvania covered by the Agreement ... each Company which employs drivers in said geographical area shall negotiate in good faith with Local 817 to establish terms and conditions on a production-by-production basis.",
+       "citation": "Art. 2(a)(2)"
+      }
+     ],
+     "outside": {
+      "kind": "not_covered",
+      "text": "Vehicles originating in the NY metropolitan area and transported outside it carry one driver each (Art. 2(a)(1))."
+     },
+     "citation": "Art. 2(a)",
+     "watch": {
+      "anchor": "The New York metropolitan area, which is defined as the five boroughs of the City of New York",
+      "clause_hash": "sha256:b7022320304dc842d9b09f35d7be22e2d21f92d136b5c13267de3251cfca9d01",
+      "last_checked": "2026-10-13"
+     }
+    }
    },
    "source": {
     "file": "2025 Local 817 (Drivers) Agreement.pdf",
@@ -17098,6 +17462,7 @@
   "ocr": "sha256 of UTF-8 text: tesseract 300 dpi OCR of the cited page (scan, no text layer), all whitespace runs collapsed to one space, starting at the first occurrence of the anchor (matched after the same collapse), 800 characters"
  },
  "schema_notes": {
-  "inherits": "An agreement may list `inherits: [agreement_id]` and `wcsl_local_key`. resolveTerms returns the agreement's own rows plus the inherited agreement's rows whose applies.locals includes wcsl_local_key (or has no locals key) and whose applies.locals_excluded does not. Own rows beat inherited rows of the same topic and day_class."
+  "inherits": "An agreement may list `inherits: [agreement_id]` and `wcsl_local_key`. resolveTerms returns the agreement's own rows plus the inherited agreement's rows whose applies.locals includes wcsl_local_key (or has no locals key) and whose applies.locals_excluded does not. Own rows beat inherited rows of the same topic and day_class.",
+  "footprint": "states    {USPS: coverage}. coverage: \"full\" (whole state), \"partial\" (part of the state,\n            named in `areas`; price the agreement and say where it stops), \"named_area\" (only a\n            small named area of the state; treat a base there as outside unless the location is\n            in the area).\n  areas     plain-language areas, verbatim from the clause.\n  except    carve-outs.\n  outside   what the agreement says happens outside the footprint:\n            kind \"agreement_applies\" | \"negotiated\" | \"pension_health_only\" | \"other_agreement\".\n  sub       footprints for named classifications that differ from the agreement's own.\n  rate_bands  sub-areas that pick a different wage table inside the footprint.\n  watch     anchor + clause_hash (hash_method of the file) for TermsWatch."
  }
 }
