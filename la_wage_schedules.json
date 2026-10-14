@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-12",
- "last_changed_at": "2026-10-12",
+ "generated_at": "2026-10-14",
+ "last_changed_at": "2026-10-14",
  "sources_modified_at": null,
- "content_sha256": "c2adddcec43565c1f188720b78248f213b7caa2a281ff82b00b7170655a2772e",
+ "content_sha256": "5a1741885fda0ee343fafc82de6527bbe64648fc15fb382d1bd9a079dbcda601",
  "_meta": {
   "reference": "LA IATSE and Basic Crafts local wage schedules, extracted from archived AMPTP documents.",
   "schema": 3,
-  "schema_note": "A row carries `rates`, an array of {col, header, value}, and no `value`. Rows are keyed on (local, occ, work_relation) and NOT on a wage schedule number \u2014 the number is a document-local ordinal and the Basic Crafts documents print none. `work_relation`, `production_type` and `rate_variant` are derived from each schedule's own descriptor, which is carried on the row so the selection can be audited against the source.",
+  "schema_note": "A row carries `rates`, an array of {col, header, value}, and no `value`. Rows are keyed on (local, occ, work_relation) and NOT on a wage schedule number — the number is a document-local ordinal and the Basic Crafts documents print none. `work_relation`, `production_type` and `rate_variant` are derived from each schedule's own descriptor, which is carried on the row so the selection can be audited against the source.",
   "scope": "FEATURES ONLY (Brian, 7 Sep 2026). production_type=general, rate_variant=full. The High Budget SVOD schedules (-7.10%, and -15.83% on the Local 44 on-call lines), the one-half hour prime time television schedules, the 3% reduction and one-year lag variants, and the ICG Local 600 Amendment territories are all extracted and present in canon_cells.v2.csv. They are not emitted here. Widening is a change to SELECT.",
   "selection": {
    "production_type": [
@@ -26,13 +26,8 @@
   "resolution_path": "Not reached by `global`. rateCanon.js findLaEntry() matches on local + occ + work relation; findCanonEntry(global) serves only the DGA/WGA/SAG/ASA rows.",
   "sources_modified_at_note": "null, deliberately: these rows come from archived AMPTP PDFs, not a Drive canon, so there is no modifiedTime. Each document's SHA-256 is in la_sources, a stronger detector.",
   "compound_splits": 4,
-  "schedule_conflicts": {
-   "695/distant": [
-    "11",
-    "14"
-   ]
-  },
-  "schedule_conflicts_note": "More than one schedule satisfied the selection for these (local, work relation) pairs, so nothing was emitted for them. Merging would blend columns from two agreements into one row.",
+  "schedule_conflicts": {},
+  "schedule_conflicts_note": "A conflict is now keyed on (local, occ, work relation): emit nothing for an occupation that more than one selected schedule prices. Until 14 Oct 2026 the key was (local, work relation), which refused Local 695 distant outright because Schedule 11 (sound, 20 rows) and Schedule 14 (projection, 5 rows) both read 'distant location minimum wage scale'. They share no occupation code, so no row blends two agreements; all 25 are emitted.",
   "la_sources": {
    "00000IMA": {
     "local": "800-IMA",
@@ -101,7 +96,8 @@
   },
   "la_generated_by": "canon/extract.py + canon/build_canon_v3.py",
   "la_period": "2026-08-02",
-  "terms_stamp_note": "Each row carries terms_agreement_id, the terms_canon.json agreement that says what a day of each kind pays for that local. Stamped from extract.py TERMS_BY_LOCAL; the resolver copies it through."
+  "terms_stamp_note": "Each row carries terms_agreement_id, the terms_canon.json agreement that says what a day of each kind pays for that local. Stamped from extract.py TERMS_BY_LOCAL; the resolver copies it through.",
+  "extract_note_2026_10_14": "extract.py splits a detected column that takes two figures from one printed line (Local 695 p86, $103.56 per hour and $1,009.71 per day under one heading band). Before the split the hourly was overwritten and the day figure carried a 'Per Hour Per Day' header."
  },
  "rates": [
   {
@@ -536,7 +532,7 @@
     {
      "col": 0,
      "header": "Distant / Schedule A / Daily Employees / 1-1/2 after 8 / and/or 40; / Minimum Call - / 9-1/2 Hours / Regular Basic / Hourly Rate / Per Hour",
-     "value": 62.0
+     "value": 62
     }
    ],
    "rate_status": "PUBLISHED",
@@ -564,7 +560,7 @@
     {
      "col": 0,
      "header": "Schedule A / Daily Employees / 1-1/2 after 8 / and/or 40; / Minimum Call - / 8 hours / Regular Basic / Hourly Rate / Per Hour",
-     "value": 62.0
+     "value": 62
     }
    ],
    "rate_status": "PUBLISHED",
@@ -2096,7 +2092,7 @@
     {
      "col": 3,
      "header": "B-2 3 / Employees / Guarantee / days / - 8 Hours / after 40 / Per Week",
-     "value": 2752.0
+     "value": 2752
     }
    ],
    "rate_status": "PUBLISHED",
@@ -3062,6 +3058,1016 @@
    "source_class": "PRIMARY-EXTRACTED",
    "source_doc": "00320346",
    "source_page": 14
+  },
+  {
+   "global": "LA.695.8105.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8105",
+   "description": "Production Mixer Y-1",
+   "footnotes": "2",
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Distant / Daily / Per Hour",
+     "value": 103.56
+    },
+    {
+     "col": 0,
+     "header": "Distant / Weekly / 6 day / Per Hour",
+     "value": 87.84
+    },
+    {
+     "col": 1,
+     "header": "Location / Schedule / Employees / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "value": 1009.71
+    },
+    {
+     "col": 1,
+     "header": "Location / Schedule / Guarantee - / week; 1-1/2 / Minimum / Regular Basic / Journeyman / Per Week",
+     "value": 4743.36
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8109.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8109",
+   "description": "Supervising Engineer Y-3",
+   "footnotes": "2",
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Distant / Daily / Per Hour",
+     "value": 103.56
+    },
+    {
+     "col": 0,
+     "header": "Distant / Weekly / 6 day / Per Hour",
+     "value": 87.84
+    },
+    {
+     "col": 1,
+     "header": "Location / Schedule / Employees / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "value": 1009.71
+    },
+    {
+     "col": 1,
+     "header": "Location / Schedule / Guarantee - / week; 1-1/2 / Minimum / Regular Basic / Journeyman / Per Week",
+     "value": 4743.36
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8131.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8131",
+   "description": "Maintenance Technician Y-6",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Distant / Daily / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 0,
+     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
+     "value": 63.31
+    },
+    {
+     "col": 1,
+     "header": "Location / Schedule / Employees / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "value": 688.55
+    },
+    {
+     "col": 1,
+     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
+     "value": 4146.81
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8144.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8144",
+   "description": "Video Assist Y-7 Utility Sound Technician/",
+   "footnotes": "3",
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 2,
+     "header": "1-1/2 after 9 / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "value": 61.78
+    },
+    {
+     "col": 2,
+     "header": "B-2 5 / 6 consecutive / hours; / Call - 8 hours / Entry / Regular / Basic / Hourly Rate / Per Hour",
+     "value": 55.54
+    },
+    {
+     "col": 3,
+     "header": "and/or 40; / Level 1 / Per Day",
+     "value": 602.36
+    },
+    {
+     "col": 3,
+     "header": "days; / Level 1 / Weekly / Guar. / Per Week",
+     "value": 3637.87
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8151.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8151",
+   "description": "Second Assistant Sound Y-7a Microphone Boom Operator/",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 2,
+     "header": "1-1/2 after 9 / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "value": 61.78
+    },
+    {
+     "col": 2,
+     "header": "B-2 5 / 6 consecutive / hours; / Call - 8 hours / Entry / Regular / Basic / Hourly Rate / Per Hour",
+     "value": 55.54
+    },
+    {
+     "col": 3,
+     "header": "and/or 40; / Level 1 / Per Day",
+     "value": 602.36
+    },
+    {
+     "col": 3,
+     "header": "days; / Level 1 / Weekly / Guar. / Per Week",
+     "value": 3637.87
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8159.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8159",
+   "description": "Chief Projectionist (Supervisory)",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "14",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #14: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Schedule A-2 Schedule B-3 6 Video Ass",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 3,
+     "header": "Rates / Schedule C-1 / (Exempt) / Weekly / \"On Call\" / Per Week",
+     "value": 3534.28
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 107
+  },
+  {
+   "global": "LA.695.8160.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8160",
+   "description": "Projectionist Gang Boss (Working)",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "14",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #14: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Schedule A-2 Schedule B-3 6 Video Ass",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-2 / Daily Employees / 1-1/2 after 8 / and/or 40; / Minimum Call / 9-1/2 hours / Regular Basic / Hourly Rate / Per Hour",
+     "value": 71.14
+    },
+    {
+     "col": 1,
+     "header": "Distant / Schedule / Weekly / Weekly / 57 cumulative / 6 consecutive / Minimum Call / Regular Basic / Hourly Rate / Per Hour",
+     "value": 66.56
+    },
+    {
+     "col": 2,
+     "header": "Location Minimum / B-3 6 / Employees / Guarantee / hours; / days; / - 8 hours / Weekly / Guar. / Per Week",
+     "value": 4359.68
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 107
+  },
+  {
+   "global": "LA.695.8161.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8161",
+   "description": "Sound/Video Service Person III Y-9",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Daily / Per Hour",
+     "value": 56.88
+    },
+    {
+     "col": 0,
+     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
+     "value": 54.27
+    },
+    {
+     "col": 1,
+     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "value": 554.58
+    },
+    {
+     "col": 1,
+     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
+     "value": 3554.69
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8166.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8166",
+   "description": "Projectionist",
+   "footnotes": "9",
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "14",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #14: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Schedule A-2 Schedule B-3 6 Video Ass",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "(the header cell is blank in the source)",
+     "value": 65.96
+    },
+    {
+     "col": 1,
+     "header": "(the header cell is blank in the source)",
+     "value": 61.97
+    },
+    {
+     "col": 2,
+     "header": "(the header cell is blank in the source)",
+     "value": 4059.04
+    },
+    {
+     "col": 3,
+     "header": "Schedule / Weekly / Weekly / 43.2 cumulative / any 6 out of / days; Min. / 1-1/2 for / required / Regular / Basic / Hourly Rate / Per Hour",
+     "value": 64.5
+    },
+    {
+     "col": 4,
+     "header": "B-4 / Employees / Guarantee - / hrs., / 7 consec. / Call - 4 hours; / 7th day if / to work / Weekly / Guar. / Per Week",
+     "value": 2889.6
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 107
+  },
+  {
+   "global": "LA.695.8167.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8167",
+   "description": "Process Projectionists",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "14",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #14: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Schedule A-2 Schedule B-3 6 Video Ass",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "(the header cell is blank in the source)",
+     "value": 68.84
+    },
+    {
+     "col": 1,
+     "header": "(the header cell is blank in the source)",
+     "value": 64.51
+    },
+    {
+     "col": 2,
+     "header": "(the header cell is blank in the source)",
+     "value": 4225.41
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 107
+  },
+  {
+   "global": "LA.695.8168.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8168",
+   "description": "Projection Engineer",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "14",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #14: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Schedule A-2 Schedule B-3 6 Video Ass",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "(the header cell is blank in the source)",
+     "value": 68.84
+    },
+    {
+     "col": 1,
+     "header": "(the header cell is blank in the source)",
+     "value": 64.51
+    },
+    {
+     "col": 2,
+     "header": "(the header cell is blank in the source)",
+     "value": 4225.41
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 107
+  },
+  {
+   "global": "LA.695.8171.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8171",
+   "description": "Production Mixer Y-1",
+   "footnotes": "2",
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 2,
+     "header": "Minimum / A-1 / - 1-1/2 after / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "value": 89.79
+    },
+    {
+     "col": 2,
+     "header": "Minimum / B-1 4 / 54 cumulative / after 54 / Call - 8 hours / Hourly Rate / Entry / Per Hour",
+     "value": 76.4
+    },
+    {
+     "col": 3,
+     "header": "Rates / 9; / Level 1 / Per Day",
+     "value": 875.45
+    },
+    {
+     "col": 3,
+     "header": "Rates / hours; / hours; / Level 1 / Per Week",
+     "value": 4125.6
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8173.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8173",
+   "description": "Supervising Engineer Y-3",
+   "footnotes": "2",
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 2,
+     "header": "Minimum / B-1 4 / 54 cumulative / after 54 / Call - 8 hours / Hourly Rate / Entry / Per Hour",
+     "value": 76.4
+    },
+    {
+     "col": 3,
+     "header": "Rates / hours; / hours; / Level 1 / Per Week",
+     "value": 4125.6
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 87
+  },
+  {
+   "global": "LA.695.8173+8111.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8173+8111",
+   "description": "Supervising Engineer Y-3 1-1/2 after 40 hours Operative Supervisor",
+   "footnotes": "2",
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 2,
+     "header": "Minimum / A-1 / - 1-1/2 after / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "value": 89.79
+    },
+    {
+     "col": 3,
+     "header": "Rates / 9; / Level 1 / Per Day",
+     "value": 875.45
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8174.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8174",
+   "description": "and/or Engineer Y-4 Operative Supervisor",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Distant / Daily / Per Hour",
+     "value": 80.42
+    },
+    {
+     "col": 0,
+     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 1,
+     "header": "Location / Schedule / Employees / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "value": 784.1
+    },
+    {
+     "col": 1,
+     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
+     "value": 4625.61
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8176.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8176",
+   "description": "Maintenance Technician Y-6",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 2,
+     "header": "Minimum / A-1 / - 1-1/2 after / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "value": 61.78
+    },
+    {
+     "col": 3,
+     "header": "Rates / 9; / Level 1 / Per Day",
+     "value": 602.36
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8176+8141.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8176+8141",
+   "description": "Maintenance Technician Y-6 Service Recorder/TV Engineer/",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 2,
+     "header": "B-2 5 / 6 consecutive / hours; / Call - 8 hours / Entry / Regular / Basic / Hourly Rate / Per Hour",
+     "value": 55.54
+    },
+    {
+     "col": 3,
+     "header": "days; / Level 1 / Weekly / Guar. / Per Week",
+     "value": 3637.87
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 87
+  },
+  {
+   "global": "LA.695.8178.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8178",
+   "description": "Video Assist Y-7 Service Recorder/TV Engineer/",
+   "footnotes": "3",
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Daily / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 0,
+     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
+     "value": 63.31
+    },
+    {
+     "col": 1,
+     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "value": 688.55
+    },
+    {
+     "col": 1,
+     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
+     "value": 4146.81
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8180.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8180",
+   "description": "Second Assistant Sound Y-7a Utility Sound Technician/",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Daily / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 0,
+     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
+     "value": 63.31
+    },
+    {
+     "col": 1,
+     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "value": 688.55
+    },
+    {
+     "col": 1,
+     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
+     "value": 4146.81
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8181.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8181",
+   "description": "First Assistant Sound Y-8 Microphone Boom Operator/",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Daily / Per Hour",
+     "value": 80.42
+    },
+    {
+     "col": 0,
+     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 1,
+     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "value": 784.1
+    },
+    {
+     "col": 1,
+     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
+     "value": 4625.61
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8182.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8182",
+   "description": "Sound/Video Service Person III Y-9",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 2,
+     "header": "1-1/2 after 9 / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "value": 45.36
+    },
+    {
+     "col": 2,
+     "header": "B-2 5 / 6 consecutive / hours; / Call - 8 hours / Entry / Regular / Basic / Hourly Rate / Per Hour",
+     "value": 47.84
+    },
+    {
+     "col": 3,
+     "header": "and/or 40; / Level 1 / Per Day",
+     "value": 442.26
+    },
+    {
+     "col": 3,
+     "header": "days; / Level 1 / Weekly / Guar. / Per Week",
+     "value": 3133.52
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8184.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8184",
+   "description": "Sound/Video Service Person II Y-13",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 2,
+     "header": "1-1/2 after 9 / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "value": 34.13
+    },
+    {
+     "col": 2,
+     "header": "B-2 5 / 6 consecutive / hours; / Call - 8 hours / Entry / Regular / Basic / Hourly Rate / Per Hour",
+     "value": 32.64
+    },
+    {
+     "col": 3,
+     "header": "and/or 40; / Level 1 / Per Day",
+     "value": 332.77
+    },
+    {
+     "col": 3,
+     "header": "days; / Level 1 / Weekly / Guar. / Per Week",
+     "value": 2137.92
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8185.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8185",
+   "description": "Sound/Video Service Person I Y-16",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Daily / Per Hour",
+     "value": 28.9
+    },
+    {
+     "col": 1,
+     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "value": 281.78
+    },
+    {
+     "col": 2,
+     "header": "1-1/2 after 9 / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "value": 28.9
+    },
+    {
+     "col": 3,
+     "header": "and/or 40; / Level 1 / Per Day",
+     "value": 281.78
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8192.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8192",
+   "description": "Production Sound/Video Trainee Y-16a",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Daily / Per Hour",
+     "value": 28.9
+    },
+    {
+     "col": 1,
+     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "value": 281.78
+    },
+    {
+     "col": 2,
+     "header": "1-1/2 after 9 / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "value": 28.9
+    },
+    {
+     "col": 3,
+     "header": "and/or 40; / Level 1 / Per Day",
+     "value": 281.78
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8194.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8194",
+   "description": "Sound/Video Service Person II Y-13",
+   "footnotes": null,
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Daily / Per Hour",
+     "value": 39.33
+    },
+    {
+     "col": 0,
+     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
+     "value": 37.56
+    },
+    {
+     "col": 1,
+     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "value": 383.47
+    },
+    {
+     "col": 1,
+     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
+     "value": 2460.18
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
   },
   {
    "global": "LA.700-MAJ.4105.D",
@@ -6419,7 +7425,7 @@
     {
      "col": 2,
      "header": "E-1 / Employees 3 / Guarantee - / consec. days; / - 7 hours / Weekly / Guarantee / Per Week",
-     "value": 2034.0
+     "value": 2034
     }
    ],
    "rate_status": "PUBLISHED",
@@ -6977,7 +7983,7 @@
     {
      "col": 2,
      "header": "Minimum Rates / B-1 1 / Employees / Guarantee / hours; / days / Call - 8 hours / Weekly / Guarantee / Per Week",
-     "value": 4067.0
+     "value": 4067
     }
    ],
    "rate_status": "PUBLISHED",
@@ -13518,7 +14524,7 @@
     {
      "col": 1,
      "header": "Schedule B-1 / Weekly Guarantee / 6 days; / 48-hour guarantee; / 1-1/2 after 40 hours / Minimum Call - / 8 hours all days",
-     "value": 62.0
+     "value": 62
     },
     {
      "col": 2,
@@ -13556,7 +14562,7 @@
     {
      "col": 1,
      "header": "Schedule B-1 / Weekly Guarantee - / 40 hours; / 5 consecutive days; / 1-1/2 after 40 hours / Minimum Call; / 8 hours all days",
-     "value": 62.0
+     "value": 62
     },
     {
      "col": 2,
