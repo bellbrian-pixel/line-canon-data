@@ -418,9 +418,52 @@
         "hours": 8,
         "eligibility": "works the day before and the day after"
        },
-       "weekly": "inside the weekly rate (1/5 per day on a fractional week)"
+       "weekly": "inside the weekly rate (1/5 per day on a fractional week)",
+       "accrual": false
       },
-      "worked": "see ot_ladder.7th_holiday"
+      "worked": "see ot_ladder.7th_holiday",
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "distant"
+       ]
+      }
      },
      "citation": "MOA item 14, Art. 24",
      "status": "READ_FROM_BYTES",
@@ -1399,7 +1442,42 @@
        "daily": {
         "hours": 8,
         "eligibility": "works the last scheduled day before and the first after"
+       },
+       "accrual": false
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
        }
+      ],
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": []
       }
      },
      "citation": "2018 MOA Art. 12",
@@ -2061,7 +2139,56 @@
         }
        ],
        "paid": "lump sum, separate check, at completion of a theatrical production",
-       "exceptions": "none for long-form TV or pilots; new one-hour series per sideletter"
+       "exceptions": "none for long-form TV or pilots; new one-hour series per sideletter",
+       "accrual": true,
+       "accrual_basis": {
+        "kind": "percent_of_straight_time",
+        "pct": 4.583,
+        "from": "2025-01-01",
+        "to": "2027-12-31",
+        "otherwise": 4.0
+       }
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2025-01-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "veterans"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": []
       }
      },
      "citation": "Sec. 11(a)-(b)",
@@ -2307,6 +2434,172 @@
       "last_checked": "2026-10-11"
      },
      "notes": "Holiday-worked rate not in Art. 12-13; read Art. on holidays before wiring."
+    },
+    {
+     "term_id": "LOCAL161_MAJORS_2025.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Memorial Day",
+       "Juneteenth",
+       "Fourth of July",
+       "Labor Day",
+       "Veterans' Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; a Saturday holiday in a six-day week stays on Saturday",
+      "switch": "Veterans' Day may be switched for Good Friday by waiver if the Producer reaches the same agreement with Local 52 (Art. 15(b))",
+      "worked": "2x (see ot_ladder.7th_holiday)",
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "veterans"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "six_day_week"
+       ]
+      },
+      "not_worked": {
+       "daily": null,
+       "accrual": true,
+       "accrual_basis": {
+        "kind": "percent_of_straight_time",
+        "pct": 4.538,
+        "from": "2025-03-09",
+        "otherwise": 4.0
+       },
+       "weekly": "not a day line: unworked holiday pay is 4.538% of annual straight-time earnings (from 3/9/25), paid in a lump sum at completion (Art. 15(c))",
+       "exceptions": "none for long-form TV or pilots; new one-hour series per Art. 15(c)(2)"
+      },
+      "regions": [
+       {
+        "states": [
+         "FL",
+         "GA",
+         "MD",
+         "NC",
+         "SC",
+         "VA",
+         "WV"
+        ],
+        "part": "Southeastern States (Art. 43)",
+        "calendar": [
+         {
+          "key": "new_years"
+         },
+         {
+          "key": "mlk"
+         },
+         {
+          "key": "presidents"
+         },
+         {
+          "key": "good_friday"
+         },
+         {
+          "key": "memorial"
+         },
+         {
+          "key": "juneteenth"
+         },
+         {
+          "key": "independence"
+         },
+         {
+          "key": "labor"
+         },
+         {
+          "key": "thanksgiving"
+         },
+         {
+          "key": "day_after_thanksgiving"
+         },
+         {
+          "key": "christmas"
+         }
+        ],
+        "observance_rule": {
+         "saturday": "friday",
+         "sunday": "monday",
+         "saturday_stays": [
+          "six_day_week"
+         ]
+        },
+        "not_worked": {
+         "accrual": false,
+         "daily": {
+          "hours": 8,
+          "basis": "straight",
+          "eligibility": "works the scheduled workday before and after (none if either side is a hiatus of a week or more)"
+         }
+        },
+        "citation": "Art. 43"
+       }
+      ]
+     },
+     "citation": "Art. 15 (CT, DE, ME, MA, NH, NJ, NY, PA, RI, VT, DC); Art. 43 (FL, GA, MD, NC, SC, VA, WV)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The following holidays shall be recognized: New Year's Day, Martin Luther King Jr. Day, Presidents' Day, Memorial Day, Juneteenth",
+      "clause_hash": "sha256:58996febccfdf4b20db953ad68ff16dd0b81f4f6e64c6a4c38908e0675bd0caa",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "Accrual in the Northeast; day pay incl. Good Friday (no Veterans' Day) in the Southeastern States. A 161 hire is under 161 wherever it shoots (J3)."
     }
    ]
   },
@@ -2521,6 +2814,108 @@
       "last_checked": "2026-10-11"
      },
      "notes": "8-hr minimum."
+    },
+    {
+     "term_id": "LOCAL764_MAJORS_2025.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Memorial Day",
+       "Juneteenth (from 2025-03-02)",
+       "Fourth of July",
+       "Labor Day",
+       "Veterans' Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; a Saturday holiday in a six-day week stays on Saturday",
+      "worked": "2x, 8-hour minimum (Sec. 3)",
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2025-03-02"
+       },
+       {
+        "key": "columbus",
+        "to": "2025-03-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "veterans"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "six_day_week"
+       ]
+      },
+      "not_worked": {
+       "accrual": false,
+       "daily": {
+        "hours": 8,
+        "basis": "straight",
+        "eligibility": "works the 4 consecutive workdays before the holiday (5 in a six-day week) and at least one day in the holiday week; MLK and Juneteenth: the scheduled workday before and after"
+       },
+       "weekly": "weekly employees: 8 hours for any unworked holiday in the workweek"
+      }
+     },
+     "citation": "Sec. 6",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Effective March 2, 2025, the following days shall be designated as holidays",
+      "clause_hash": "sha256:12e2ac0c5d7b0ff843b4903ebb928fc93c3c0ab2258c90c184a55d815254aa8c",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "Non-accrual: every listed holiday is a day line when the eligibility test is met."
     }
    ]
   },
@@ -2747,6 +3142,177 @@
       "last_checked": "2026-10-11"
      },
      "notes": "Holiday worked: Art. 17 says double time (line read, not yet anchored)."
+    },
+    {
+     "term_id": "LOCAL798_MAJORS_2025.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Memorial Day",
+       "Juneteenth",
+       "Independence Day",
+       "Labor Day",
+       "Veteran's Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; a Saturday holiday in a six-day week stays on Saturday",
+      "switch": "Veteran's Day may be switched for Good Friday by waiver if the Employer reaches the same agreement with Local 52 (Art. 17)",
+      "worked": "2x, 8-hour minimum (Art. 17)",
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "veterans"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "six_day_week"
+       ]
+      },
+      "not_worked": {
+       "accrual": false,
+       "daily": {
+        "hours": 8,
+        "basis": "straight",
+        "eligibility": "works the scheduled workday before and after (none if either side is a hiatus of a week or more)"
+       },
+       "pay_days": [
+        "mlk",
+        "juneteenth"
+       ],
+       "distant": {
+        "hours": 8,
+        "basis": "straight",
+        "text": "holidays not worked falling in the regular workweek on distant location: one day at straight time (Art. 18(b)(4))"
+       }
+      },
+      "regions": [
+       {
+        "states": [
+         "GA",
+         "LA",
+         "MD",
+         "NC",
+         "SC",
+         "VA",
+         "WV"
+        ],
+        "part": "Part IV, Southeastern States (Art. 43)",
+        "calendar": [
+         {
+          "key": "new_years"
+         },
+         {
+          "key": "mlk"
+         },
+         {
+          "key": "presidents"
+         },
+         {
+          "key": "good_friday"
+         },
+         {
+          "key": "memorial"
+         },
+         {
+          "key": "juneteenth"
+         },
+         {
+          "key": "independence"
+         },
+         {
+          "key": "labor"
+         },
+         {
+          "key": "thanksgiving"
+         },
+         {
+          "key": "day_after_thanksgiving"
+         },
+         {
+          "key": "christmas"
+         }
+        ],
+        "observance_rule": {
+         "saturday": "friday",
+         "sunday": "monday",
+         "saturday_stays": [
+          "six_day_week"
+         ]
+        },
+        "not_worked": {
+         "accrual": false,
+         "daily": {
+          "hours": 8,
+          "basis": "straight",
+          "eligibility": "works the scheduled workday before and after (none if either side is a hiatus of a week or more)"
+         }
+        },
+        "citation": "Art. 43"
+       }
+      ]
+     },
+     "citation": "Art. 17, 18(b)(4) (Part III: CT, DE, FL, ME, MA, NH, NJ, NY, PA, RI, VT, DC); Art. 43 (Part IV)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "An employee who does not work on Martin Luther King Jr. Day or Juneteenth shall be paid for the holiday on the basis of eight (8) hours",
+      "clause_hash": "sha256:5e0fe6e3793f060b83f7221c5e1e224d147658997e93bd23ad0c3d33eb0558c7",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "Part III: unworked pay only for MLK and Juneteenth, plus every holiday on a distant leg. Part IV: every listed holiday incl. Good Friday. Florida is Part III in 798 (Part IV in 161)."
     }
    ]
   },
@@ -3242,13 +3808,62 @@
       "switch": "Veteran's Day may be switched for Good Friday by waiver, if the Producer reaches the same agreement with Local 52 (Art. 8.C)",
       "worked": "double the regular rate (see ot_ladder.7th_holiday.hourly and premium_day.weekly_on_call)",
       "not_worked": {
-       "daily": null,
+       "daily": {
+        "hours": 8,
+        "basis": "straight",
+        "eligibility": "works the scheduled workday before and after (none if either side is a hiatus of a week or more)"
+       },
        "weekly": "not a day line: Art. 8 pays unworked holidays only for MLK and Juneteenth, 8 hrs straight, to hourly employees who work the scheduled day before and after (none after a hiatus of a week or more); other holidays are paid only when worked. Weekly on-call: not stated in Art. 8.",
        "mlk_juneteenth_hourly": {
         "hours": 8,
         "eligibility": "works the scheduled workday before and after; no pay if either side is a hiatus of one week or more"
        },
-       "accrual": false
+       "accrual": false,
+       "pay_days": [
+        "mlk",
+        "juneteenth"
+       ],
+       "pay_days_note": "hourly employees only (Art. 8); weekly on-call not stated"
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "veterans"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": []
       }
      },
      "citation": "Art. 8.A-C",
@@ -4298,6 +4913,116 @@
       "last_checked": "2026-10-12"
      },
      "notes": ""
+    },
+    {
+     "term_id": "LOCAL600_ICG_2021.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day (from 2022)",
+       "Presidents' Day",
+       "Memorial Day",
+       "Juneteenth (2024 MOA)",
+       "Independence Day",
+       "Labor Day",
+       "Veterans' Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday (stays Saturday on distant location), Sunday -> following Monday",
+      "worked": "2x (Amendment (4)(i)(A))",
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk",
+        "from": "2022-01-01"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2024-08-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "veterans"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "distant"
+       ]
+      },
+      "not_worked": {
+       "accrual": false,
+       "daily": {
+        "hours": 8,
+        "basis": "straight",
+        "eligibility": "works the scheduled workday before and after (none if either side is a hiatus of a week or more)",
+        "weekly": "one-fifth of the weekly guaranteed rate"
+       },
+       "pay_days": [
+        "mlk",
+        "juneteenth"
+       ],
+       "distant": {
+        "hours": 8,
+        "basis": "straight",
+        "text": "Corridor: any recognized holiday not worked while held away on distant location, paid at straight time (daily rate, or pro rata of the weekly scale) (Amendment (4)(i)(B))",
+        "corridor_only": true
+       },
+       "travel": "holiday travel in the Corridor at 2x, except travel to start an assignment (straight time) ((4)(i)(D))"
+      }
+     },
+     "citation": "Amendment Agreement Para. (4); 2024 MOA item 4 (Juneteenth)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The following holiday provision, from the 1994 Local #644 Agreement with the major studios",
+      "clause_hash": "sha256:2fc0c0f7152e2ad5a30a7d082d5f9d3464cbba4eb9b5a1270fa113173f5b16b4",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "Juneteenth effective the later of 8/1/24 or the first Sunday after AMPTP notice of ratification; 2024-08-01 used. Outside the Corridor only (A) and (C) apply: no distant-leg day pay."
     }
    ]
   },
@@ -4617,6 +5342,101 @@
       "last_checked": "2026-10-11"
      },
      "notes": "Lodged overnight 30+ miles from Columbus Circle. Worked 6th/7th on location = overtime pay."
+    },
+    {
+     "term_id": "TEAMSTERS817_DRV_2025.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Memorial Day",
+       "Juneteenth",
+       "July Fourth",
+       "Labor Day",
+       "Veteran's Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; on a scheduled weekday off the Company designates the workday before or after",
+      "worked": "holiday rates (Company)",
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "veterans"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": []
+      },
+      "not_worked": {
+       "daily": null,
+       "accrual": true,
+       "accrual_basis": {
+        "kind": "fund",
+        "fund": "Local 817 I.B.T. Welfare Fund"
+       },
+       "weekly": "not a day line: the Local 817 I.B.T. Welfare Fund pays all unworked holidays; the Company pays holidays worked (Art. 11)"
+      }
+     },
+     "citation": "Art. 11",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The Local 817 I.B.T. Welfare Fund shall pay for all unworked holidays.",
+      "clause_hash": "sha256:e58c2728c2f4e11e32fa0b042b84d6f11a0a5769cb9d66290477aeef49dd1f52",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "Treated as accrual (no budget line): the fund, funded by contributions, pays unworked holidays. Flagged to Brian 13 Oct against the J5 grouping."
     }
    ]
   },
@@ -18203,6 +19023,49 @@
        },
        "accrual": false,
        "exceptions": "none for long-form TV, mini-series, pilots, first season of one-hour or basic cable / CW series; 4 hrs in the second basic cable / CW season"
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2025-01-01"
+       }
+      ],
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "six_day_week"
+       ]
       }
      },
      "citation": "Sec. 37",
