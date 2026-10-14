@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13",
-  "last_changed_at": "2026-10-13",
+  "generated_at": "2026-10-14",
+  "last_changed_at": "2026-10-14",
   "sources_modified_at": {
     "DGA": "2026-10-04T13:22:52Z",
     "SAG": "2026-10-04T13:22:52Z",
@@ -1704,7 +1704,7 @@
       "type": "INPUT",
       "next": null,
       "next_effective": "",
-      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "terms_agreement_id": "LOCAL52_PARTB_2024",
       "local": "52"
     },
     {
@@ -1718,7 +1718,7 @@
       "type": "INPUT",
       "next": null,
       "next_effective": "",
-      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "terms_agreement_id": "LOCAL52_PARTB_2024",
       "local": "52"
     },
     {
@@ -1732,7 +1732,7 @@
       "type": "INPUT",
       "next": null,
       "next_effective": "",
-      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "terms_agreement_id": "LOCAL52_PARTB_2024",
       "local": "52"
     },
     {
@@ -1746,7 +1746,7 @@
       "type": "INPUT",
       "next": null,
       "next_effective": "",
-      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "terms_agreement_id": "LOCAL52_PARTB_2024",
       "local": "52"
     },
     {
@@ -1760,7 +1760,7 @@
       "type": "INPUT",
       "next": null,
       "next_effective": "",
-      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "terms_agreement_id": "LOCAL52_PARTB_2024",
       "local": "52"
     },
     {
@@ -1774,7 +1774,7 @@
       "type": "INPUT",
       "next": null,
       "next_effective": "",
-      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "terms_agreement_id": "LOCAL52_PARTB_2024",
       "local": "52"
     },
     {
@@ -1788,7 +1788,7 @@
       "type": "INPUT",
       "next": null,
       "next_effective": "",
-      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "terms_agreement_id": "LOCAL52_PARTB_2024",
       "local": "52"
     },
     {
@@ -1802,7 +1802,7 @@
       "type": "INPUT",
       "next": null,
       "next_effective": "",
-      "terms_agreement_id": "LOCAL52_MAJORS_2024",
+      "terms_agreement_id": "LOCAL52_PARTB_2024",
       "local": "52"
     },
     {
