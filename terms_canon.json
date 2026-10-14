@@ -1,6 +1,6 @@
 {
  "schema": "terms_canon/1",
- "generated": "2026-10-13",
+ "generated": "2026-10-14",
  "rule": "Every contract gets three canons - labor (rates), fringe, terms. A weekly fetch compares each source file sha256 and each term clause_hash; a change in any of the three is flagged.",
  "value_kinds_added": [
   "schedule_header (vet doc sec.4)",
@@ -1535,7 +1535,7 @@
    },
    "geography": {
     "kind": "named_area",
-    "text": "Part A: New York and New Jersey. Part B: Connecticut, Delaware and Pennsylvania (except within 50 mi of Pittsburgh); Part B terms rows not harvested (Sec. 26-30). Footprint: geography.footprint.",
+    "text": "Part A: New York and New Jersey. Part B (Connecticut, Delaware, Pennsylvania except within 50 mi of Pittsburgh) is LOCAL52_PARTB_2024. Footprint: geography.footprint.",
     "citation": "Part A heading",
     "footprint": {
      "schema": "footprint/1",
@@ -1579,7 +1579,8 @@
         "PA"
        ],
        "text": "Part B: wage scales and working conditions for employees working on motion pictures in Connecticut, Delaware or Pennsylvania (Sec. 26); Sec. 27 carries listed Part A conditions over",
-       "rate_prefix": "L52B (outside 30 mi of Independence Hall) / L52P (within 30 mi of Independence Hall)"
+       "rate_prefix": "L52B (outside 30 mi of Independence Hall) / L52P (within 30 mi of Independence Hall)",
+       "agreement_id": "LOCAL52_PARTB_2024"
       }
      ],
      "rate_bands": [
@@ -1591,17 +1592,18 @@
         "PA"
        ],
        "rate_prefix": "L52B",
-       "citation": "Sec. 26(a)(1)"
+       "citation": "Sec. 26(a)(1)",
+       "agreement_id": "LOCAL52_PARTB_2024"
       },
       {
        "band": "Part B, within 30 mi of Independence Hall",
        "states": [
         "PA",
-        "NJ",
         "DE"
        ],
        "rate_prefix": "L52P",
-       "citation": "Sec. 26(a)(2)"
+       "citation": "Sec. 26(a)(2)",
+       "agreement_id": "LOCAL52_PARTB_2024"
       }
      ],
      "sub": {
@@ -17676,6 +17678,693 @@
     "IATSE_WCSL_2024"
    ],
    "wcsl_local_key": "Local 600 (West Coast)"
+  },
+  {
+   "agreement_id": "LOCAL52_PARTB_2024",
+   "name": "IATSE Local 52 Majors Agreement 2024, Part B (Connecticut, Delaware, Pennsylvania)",
+   "family": "LOCAL_MASTER",
+   "term": {
+    "from": "2024-10-01",
+    "to": null
+   },
+   "geography": {
+    "kind": "named_area",
+    "text": "Part B: Connecticut, Delaware and Local 52 Pennsylvania (not within 50 mi of Pittsburgh). Hourly scales in two bands around Independence Hall. NY / NJ hires keep the Part A rate (Sec. 26(e)).",
+    "citation": "Part B heading; Sec. 26",
+    "footprint": {
+     "schema": "footprint/1",
+     "states": {
+      "CT": "full",
+      "DE": "full",
+      "PA": "partial"
+     },
+     "areas": [
+      "Connecticut, Delaware or those portions of Pennsylvania within the jurisdiction of this Agreement"
+     ],
+     "except": [
+      {
+       "kind": "radius",
+       "center": "Pittsburgh, PA",
+       "lat": 40.4406,
+       "lng": -79.9959,
+       "miles": 50,
+       "text": "Pittsburgh and the area of Pennsylvania within a fifty (50) mile radius of it are outside Local 52 (Art. 1(b))"
+      }
+     ],
+     "outside": {
+      "kind": "other_agreement",
+      "agreement_id": "LOCAL52_MAJORS_2024",
+      "text": "New York and New Jersey are Part A."
+     },
+     "rate_bands": [
+      {
+       "band": "outside 30 mi of Independence Hall",
+       "states": [
+        "CT",
+        "DE",
+        "PA"
+       ],
+       "rate_prefix": "L52B",
+       "test": {
+        "kind": "radius",
+        "center": {
+         "name": "Independence Hall, Philadelphia, PA",
+         "lat": 39.9489,
+         "lng": -75.15
+        },
+        "miles": 30,
+        "inside": false
+       },
+       "citation": "Sec. 26(a)(1)"
+      },
+      {
+       "band": "within 30 mi of Independence Hall",
+       "states": [
+        "PA",
+        "DE"
+       ],
+       "rate_prefix": "L52P",
+       "test": {
+        "kind": "radius",
+        "center": {
+         "name": "Independence Hall, Philadelphia, PA",
+         "lat": 39.9489,
+         "lng": -75.15
+        },
+        "miles": 30,
+        "inside": true
+       },
+       "citation": "Sec. 26(a)(2)",
+       "note": "All of Connecticut is beyond 30 mi. In Delaware only the north of New Castle County (Wilmington) is inside."
+      }
+     ],
+     "rate_map": {
+      "L52B": {
+       "L52APM": "L52B1",
+       "L52AHS": "L52B1",
+       "L52AH": "L52B1",
+       "L52AFS": "L52B2",
+       "L52AF": "L52B2",
+       "L52AOS": "L52B3",
+       "L52AO": "L52B3",
+       "L52ABU": {
+        "boom": "L52B2",
+        "utility": "L52B3"
+       }
+      },
+      "L52P": {
+       "L52APM": "L52P1",
+       "L52AHS": "L52P1",
+       "L52AH": "L52P1",
+       "L52AFS": "L52P3",
+       "L52AF": "L52P3",
+       "L52AOS": "L52P4",
+       "L52AO": "L52P4",
+       "L52ABU": {
+        "boom": "L52P2",
+        "utility": "L52P5"
+       }
+      }
+     },
+     "rate_map_by_position": {
+      "L52ABU": {
+       "Sound|Boom Operator": "boom",
+       "Sound|Additional Boom Operator": "boom",
+       "Sound|Boom Operator / Music Playback Operator": "boom",
+       "Sound|Sound Utility": "utility",
+       "Sound|Utility Sound Technician": "utility",
+       "Sound|Audio Playback": null
+      }
+     },
+     "hire_rule": {
+      "text": "Any individual hired in New York or New Jersey to work in Connecticut, Delaware or Local 52 Pennsylvania is paid the New York rate (Part A, Sec. 1): a NY hire keeps L52A*.",
+      "hired_in": [
+       "NY",
+       "NJ"
+      ],
+      "rate_prefix": "L52A",
+      "citation": "Sec. 26(e)"
+     },
+     "citation": "Part B heading; Sec. 26, 26(e)",
+     "watch": {
+      "anchor": "Notwithstanding the provisions of Section 26(a) above, any individual who is hired in New York or New Jersey to work in Connecticut, Delaware",
+      "clause_hash": "sha256:1df594a3b3a0c50c663ffc41500abc12f2530da780ba691dbe6d60727b945190",
+      "last_checked": "2026-10-14"
+     }
+    }
+   },
+   "source": {
+    "file": "2024 Local 52 Majors Agreement.pdf",
+    "drive_path": "Canons/Union Contracts/AMPTP Contracts/IATSE - New York - Local 52",
+    "pages": 138,
+    "sha256": "1be7c414053f2bf7a151cba8ba4beda3a182eef2089b3323b6b14d7f0007f72b"
+   },
+   "terms": [
+    {
+     "term_id": "LOCAL52_PARTB_2024.schedule_header",
+     "topic": "schedule_header",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "schedule_header",
+      "min_call_hours": 8,
+      "guarantee_hours": null,
+      "guarantee_basis": null,
+      "consecutive_days": 5,
+      "ot_trigger_hours": 8
+     },
+     "citation": "Sec. 28(a), 29, 30(a)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "A work day consists of a minimum of eight (8) hours, excluding meal periods.",
+      "clause_hash": "sha256:2173bbf61a980ee9a49d12409a76cdd90035d14e438e270122b247ed6410a44b",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "Hourly scale. Workweek is 5 or 6 consecutive days out of 7 (Sec. 29). 1.5x also after 40 straight-time hours in the week (Sec. 30(a))."
+    },
+    {
+     "term_id": "LOCAL52_PARTB_2024.ot_ladder.standard",
+     "topic": "ot_ladder",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "standard"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null,
+      "step_gates": {
+       "3.0": "2024-10-20"
+      }
+     },
+     "effective": [],
+     "value": {
+      "kind": "ladder",
+      "increment_hours": 0.1,
+      "steps": [
+       {
+        "after_hours": 8,
+        "basis": "worked",
+        "factor": 1.5
+       },
+       {
+        "after_hours": 12,
+        "basis": "worked",
+        "factor": 2.0
+       },
+       {
+        "after_hours": 15,
+        "basis": "elapsed",
+        "factor": 3.0
+       }
+      ]
+     },
+     "citation": "Sec. 30(a), 30(b)(1), 30(d)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "For all hours worked in excess of eight (8) hours of work on the first through the fifth work days in a workweek",
+      "clause_hash": "sha256:34eea83459580ad0e4748a8344407331591d4795837b74085a90ccd78e066816",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "Theatrical. No 2.5x step anywhere in Part B. 3x after 15 elapsed only for pictures commencing PP on or after 10/20/24. Not compounded."
+    },
+    {
+     "term_id": "LOCAL52_PARTB_2024.ot_ladder.6th",
+     "topic": "ot_ladder",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "6th"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null,
+      "step_gates": {
+       "3.0": "2024-10-20"
+      }
+     },
+     "effective": [],
+     "value": {
+      "kind": "ladder",
+      "increment_hours": 0.1,
+      "steps": [
+       {
+        "after_hours": 0,
+        "basis": "worked",
+        "factor": 1.5
+       },
+       {
+        "after_hours": 12,
+        "basis": "worked",
+        "factor": 2.0
+       },
+       {
+        "after_hours": 15,
+        "basis": "elapsed",
+        "factor": 3.0
+       }
+      ]
+     },
+     "citation": "Sec. 30(a), 30(b)(1)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "and for the first twelve (12) hours worked (or for the first fourteen (14) elapsed hours if applicable",
+      "clause_hash": "sha256:ec0ce9738a1245cd65dc3492c5e02fbb9b0806964df143c9718b519e2fecedd1",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "1.5x for the first 12 hours worked on a 6th day; 2x after 12 (Sec. 30(b)(1), any work day); 3x after 15 elapsed (PP on or after 10/20/24)."
+    },
+    {
+     "term_id": "LOCAL52_PARTB_2024.ot_ladder.7th_holiday",
+     "topic": "ot_ladder",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "7th",
+       "holiday"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null,
+      "step_gates": {
+       "3.0": "2024-10-20"
+      }
+     },
+     "effective": [],
+     "value": {
+      "kind": "ladder",
+      "increment_hours": 0.1,
+      "steps": [
+       {
+        "after_hours": 0,
+        "basis": "worked",
+        "factor": 2.0
+       },
+       {
+        "after_hours": 15,
+        "basis": "elapsed",
+        "factor": 3.0
+       }
+      ]
+     },
+     "citation": "Sec. 30(c)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "For all hours worked on a seventh workday in the employee's workweek or on a holiday",
+      "clause_hash": "sha256:c031f8209c822d481dcb9ae5dc0b8230d84c171d6c0371bea131b875717d7bc1",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "3x after 15 elapsed only for pictures commencing PP on or after 10/20/24."
+    },
+    {
+     "term_id": "LOCAL52_PARTB_2024.meal_period",
+     "topic": "meal_period",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "hours",
+      "min_hours": 0.5,
+      "max_hours": 1.0,
+      "basis": "unpaid",
+      "first_within_hours": 6,
+      "grace_minutes": 12,
+      "second_meal_deductible": "only past the minimum call",
+      "penalty_schedule": {
+       "kind": "figure_table",
+       "unit": "per_half_hour",
+       "rows": [
+        {
+         "half_hours": "1st",
+         "amount": 7.5
+        },
+        {
+         "half_hours": "2nd",
+         "amount": 10.0
+        },
+        {
+         "half_hours": "3rd-4th",
+         "amount": 12.5,
+         "philadelphia": 17.5
+        },
+        {
+         "half_hours": "5th+",
+         "amount": 25.0
+        }
+       ],
+       "after_20_in_week": "1 hour at the prevailing rate per half hour"
+      }
+     },
+     "citation": "Sec. 36 (incorporating Sec. 22)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The meal period provisions set forth in Section 22 above shall apply to employees working on productions in Connecticut, Delaware",
+      "clause_hash": "sha256:8ce4de4b8cbf70f2c6f2d9c9da2af7b5c19eeb835b7b8b5af4e7c630f788b54c",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "Meal periods per Part A Sec. 22; Part B penalty amounts differ (non-studio schedule shown)."
+    },
+    {
+     "term_id": "LOCAL52_PARTB_2024.idle_day.distant",
+     "topic": "idle_pay",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "idle"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "hours",
+      "hours": 4,
+      "basis": "straight",
+      "rate_of": "scale_hourly",
+      "work_time": false,
+      "plus": "one daily benefit plan contribution (Sec. 31) for the day",
+      "nearby": "Nearby Hires on six-day weeks: the daily benefit contribution only, for each idle 7th day (Sec. 34(b))",
+      "fringe_global": null
+     },
+     "citation": "Sec. 34",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The Employer shall pay each employee housed on distant location four (4) hours at the employee's scale hourly rate for each idle sixth or seventh day",
+      "clause_hash": "sha256:b6903350df78f70ebce952855a742d6eb265bdbab423771fbab5710571116a0c",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "Per idle 6th or 7th day in a workweek while housed on distant location. The contribution is a per-day amount, not hours."
+    },
+    {
+     "term_id": "LOCAL52_PARTB_2024.travel.travel_only",
+     "topic": "travel",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "travel"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "travel_rule",
+      "travel_day_pay": {
+       "min_hours": 4,
+       "max_hours": 8,
+       "basis": "straight",
+       "measure": "greater of 4 or actual"
+      },
+      "pension_hours_rule": {
+       "kind": "day_fraction",
+       "effective_from": "2024-10-20",
+       "text": "P&H on travel: half a day of contributions if actual travel is 6 hrs or less, a full day if more (Sec. 38(g))",
+       "steps": [
+        {
+         "max_travel_hours": 6,
+         "fraction": 0.5
+        },
+        {
+         "fraction": 1.0
+        }
+       ]
+      },
+      "travel_time": "Travel to a location outside the 30-mile production zone (from the production office) paid at the regular hourly rate from the edge of the zone, plus IRS mileage unless the Employer provides transport (Sec. 38(a)-(d)); Local and Nearby Hires set to set, Distant Hires portal to portal (38(e)-(f))."
+     },
+     "citation": "Sec. 38(g); 38(a)-(f)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "\"Travel Only\" Day: For any day of the week (including holidays) on which an employee travels only",
+      "clause_hash": "sha256:66301fbf8662f3d15b12cb8bf604721678703826c2b3253090afcc99246ebfdf",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "Sec. 27 also carries Part A Sec. 7(c) travel time over to Part B."
+    },
+    {
+     "term_id": "LOCAL52_PARTB_2024.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Good Friday",
+       "Memorial Day",
+       "Independence Day",
+       "Labor Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day",
+       "Juneteenth (from 2025-01-01)"
+      ],
+      "observance": "Sunday -> following Monday; Saturday -> preceding Friday, except Saturday stays Saturday in six-day workweeks",
+      "worked": "2x (Sec. 30(c)); see ot_ladder.7th_holiday",
+      "not_worked": {
+       "daily": {
+        "hours": 8,
+        "basis": "straight",
+        "eligibility": "works the scheduled workday before and after (no pay if the next workday follows a hiatus of a week or more)"
+       },
+       "accrual": false,
+       "exceptions": "none for long-form TV, mini-series, pilots, first season of one-hour or basic cable / CW series; 4 hrs in the second basic cable / CW season"
+      }
+     },
+     "citation": "Sec. 37",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The following days shall be recognized as holidays for employees employed under the provisions of Part B of this Agreement",
+      "clause_hash": "sha256:fa60874f316afc4373d9817cb95b2cbd5ff90844073a835f532ad6e4e26eb4c5",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "Non-accrual (J5), unlike Part A (4.583% lump sum). Good Friday is a Part B holiday; Veterans' Day is not."
+    },
+    {
+     "term_id": "LOCAL52_PARTB_2024.fringe_basis",
+     "topic": "fringe_basis",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-09-29",
+       "to": "2025-09-27"
+      },
+      {
+       "from": "2025-09-28",
+       "to": "2026-10-03"
+      },
+      {
+       "from": "2026-10-04",
+       "to": "2027-09-30"
+      }
+     ],
+     "value": {
+      "kind": "figure_table",
+      "unit": "per_day",
+      "fund": "IATSE National Benefit Funds (pension, health and welfare, annuity)",
+      "rows": [
+       {
+        "from": "2024-09-29",
+        "amount": 175.0
+       },
+       {
+        "from": "2025-09-28",
+        "amount": 190.0
+       },
+       {
+        "from": "2026-10-04",
+        "amount": 205.0
+       }
+      ],
+      "exception": "Hired in New York, or in New Jersey within 65 mi of Columbus Circle: MPI Pension, Health and Individual Account Plans per Part A Sec. 12 (Sec. 31(b))",
+      "fringe_global": null
+     },
+     "citation": "Sec. 31",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The Employer shall make pension, welfare and annuity contributions on behalf of employees covered under Part B of this Agreement",
+      "clause_hash": "sha256:83db97c0ea81077db73e85935026d36f08ff7450a11b146c37ce473a3e8eb9e9",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "Per day worked, not per hour. No fringe global yet: fringe canon item."
+    },
+    {
+     "term_id": "LOCAL52_PARTB_2024.hire_class",
+     "topic": "work_relation",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-10-20",
+       "to": "2025-10-18"
+      },
+      {
+       "from": "2025-10-19",
+       "to": "2026-10-17"
+      },
+      {
+       "from": "2026-10-18",
+       "to": "2027-09-30"
+      }
+     ],
+     "value": {
+      "kind": "definitions",
+      "local": "principal residence within 60 mi of the production location",
+      "nearby": "outside 60 mi but inside the Local 52 jurisdiction: weekly living allowance",
+      "distant": "outside the Nearby definition: reasonable single-occupancy hotel, per diem",
+      "nearby_allowance": [
+       {
+        "from": "2024-10-20",
+        "weekly": 490,
+        "daily": 70
+       },
+       {
+        "from": "2025-10-19",
+        "weekly": 560,
+        "daily": 80
+       },
+       {
+        "from": "2026-10-18",
+        "weekly": 630,
+        "daily": 90
+       }
+      ],
+      "per_diem": [
+       {
+        "from": "2024-10-01",
+        "breakfast": 10,
+        "lunch": 14,
+        "dinner": 27,
+        "day": 51
+       },
+       {
+        "from": "2024-10-20",
+        "breakfast": 14,
+        "lunch": 21,
+        "dinner": 35,
+        "day": 70
+       },
+       {
+        "from": "2026-10-18",
+        "breakfast": 16,
+        "lunch": 22,
+        "dinner": 37,
+        "day": 75
+       }
+      ],
+      "fringe_global": null
+     },
+     "citation": "Sec. 33",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "A Local Hire is defined as any employee whose principal residence is within sixty (60) miles of the respective production location.",
+      "clause_hash": "sha256:46a89accb8abd42b8e83a0fa56fafbc3a79c87f01671c6bd8e76dd890dd6c7ed",
+      "last_checked": "2026-10-14"
+     },
+     "notes": "Provided meals may be deducted from per diem at the stated rates (33(e)(2))."
+    }
+   ]
   }
  ],
  "hash_method": "sha256 of UTF-8 text: poppler pdftotext -layout output, all whitespace runs collapsed to one space, starting at the first occurrence of the anchor (matched after the same collapse), 800 characters",
