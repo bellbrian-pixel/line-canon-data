@@ -8,7 +8,7 @@
     "ASA": "2026-10-04T20:57:47Z",
     "NY": "2026-10-04T18:22:43Z",
     "USA829": "2026-10-14T01:46:31Z",
-    "CWA": "2026-10-04T18:20:41Z",
+    "CWA": "2026-10-14T02:13:15Z",
     "ICG600": "2026-10-04T18:20:41Z"
   },
   "_meta": {
@@ -3089,7 +3089,7 @@
       "value_effective": "11/30/25-11/28/26",
       "type": "INPUT",
       "next": 23.38,
-      "next_effective": "11/29/26-12/04/27 (projected)",
+      "next_effective": "11/29/26-12/04/27",
       "terms_agreement_id": "CWA_PPA_2024"
     },
     {
@@ -3102,7 +3102,7 @@
       "value_effective": "11/30/25-11/28/26",
       "type": "INPUT",
       "next": 23.38,
-      "next_effective": "11/29/26-12/04/27 (projected)",
+      "next_effective": "11/29/26-12/04/27",
       "terms_agreement_id": "CWA_PPA_2024"
     },
     {
@@ -3115,7 +3115,7 @@
       "value_effective": "11/30/25-11/28/26",
       "type": "LOCKED",
       "next": 187.04,
-      "next_effective": "11/29/26-12/04/27 (projected)",
+      "next_effective": "11/29/26-12/04/27",
       "terms_agreement_id": "CWA_PPA_2024"
     },
     {
@@ -3128,7 +3128,7 @@
       "value_effective": "11/30/25-11/28/26",
       "type": "LOCKED",
       "next": 327.32,
-      "next_effective": "11/29/26-12/04/27 (projected)",
+      "next_effective": "11/29/26-12/04/27",
       "terms_agreement_id": "CWA_PPA_2024"
     },
     {
