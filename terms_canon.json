@@ -3016,6 +3016,247 @@
       "last_checked": "2026-10-11"
      },
      "notes": "Weekly on-call (Art Director, Costume Designer etc.): flat day premium, no hourly steps. Must be authorized in advance. Consistent with Brian 10/11/26: daily or weekly contracts get 1.5x / 2x only on 6th/7th."
+    },
+    {
+     "term_id": "USA829_MPPA_2024.travel.travel_only",
+     "topic": "travel",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "travel"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "travel_rule",
+      "travel_day_pay": {
+       "min_hours": 4,
+       "max_hours": 8,
+       "basis": "straight",
+       "measure": "greater of 4 or actual"
+      },
+      "pension_hours_rule": {
+       "kind": "silent",
+       "note": "P&W is a per-day aggregate (Art. 9), not hours"
+      },
+      "travel_and_work": "on a work day, up to 4 hours travel time in addition, at the applicable rate (straight time or overtime as the case may be)"
+     },
+     "citation": "Art. 11",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "For any day of the week (including holidays) on which an employee travels only, the employee shall receive an allowance equal to four (4) hours of pay at straight time",
+      "clause_hash": "sha256:2d2875926ca551eee16026896032dfd47f1d764165fd07f102afe2ae3370f4f5",
+      "last_checked": "2026-10-13"
+     },
+     "notes": "Weekly on-call hires: the article states hours of pay at straight time; no hourly is defined for a weekly on-call scale, so the app asks rather than derives one."
+    },
+    {
+     "term_id": "USA829_MPPA_2024.idle_day.distant",
+     "topic": "idle_pay",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "idle"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "hours",
+      "hours": 4,
+      "basis": "straight",
+      "rate_of": "minimum_wage_rate",
+      "work_time": false,
+      "weekly_on_call": {
+       "kind": "weekly_fraction",
+       "fraction": 0.08333333333333333,
+       "text": "one-twelfth (1/12) of the scheduled minimum weekly rate"
+      },
+      "plus": "pension and welfare contributions for the day (theatrical: P&W, not the annuity)",
+      "fringe_global": {
+       "daily_hires": "U829PHH",
+       "weekly_on_call": "U829PHW"
+      }
+     },
+     "citation": "Art. 12.B",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "A daily employee required by the Producer to be lodged away from home overnight is guaranteed an allowance equal to four (4) hours of pay",
+      "clause_hash": "sha256:1eea2f374c1d5cb13bff694939c9be3452e95d320977611194969ac693b09600",
+      "last_checked": "2026-10-13"
+     },
+     "notes": "Per sixth or seventh day not worked in the workweek while lodged away from home."
+    },
+    {
+     "term_id": "USA829_MPPA_2024.out_of_town.per_diem",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "figure",
+      "amount": 30,
+      "unit": "per_day",
+      "currency": "USD",
+      "fringe_global": "U829PD",
+      "covers": "local transportation and other expenses, excluding authorized car rental; first class lodging provided"
+     },
+     "citation": "Art. 12.A",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "shall also be provided with a per diem expense allowance of $30 per",
+      "clause_hash": "sha256:b5af7a151438cb94dfb39311ad3e8e1a926dcd7e52a203f9cd2ebf0d69a26978",
+      "last_checked": "2026-10-13"
+     },
+     "notes": ""
+    },
+    {
+     "term_id": "USA829_MPPA_2024.out_of_town.meals",
+     "topic": "meal_allowance",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-10-01",
+       "to": "2026-09-30"
+      },
+      {
+       "from": "2026-10-01",
+       "to": "2027-09-30"
+      }
+     ],
+     "value": {
+      "kind": "figure_table",
+      "unit": "per_meal",
+      "condition": "if no meal is provided",
+      "rows": [
+       {
+        "from": "2024-10-01",
+        "breakfast": 10,
+        "lunch": 10,
+        "dinner": 20
+       },
+       {
+        "from": "2026-10-01",
+        "breakfast": 11,
+        "lunch": 11,
+        "dinner": 23
+       }
+      ],
+      "fringe_global": {
+       "breakfast": "U829MB",
+       "lunch": "U829ML",
+       "dinner": "U829MD",
+       "day": "U829MEAL"
+      }
+     },
+     "citation": "Art. 12.A",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "An employee engaged on an overnight location, out of town, shall be provided with first class lodging accommodations",
+      "clause_hash": "sha256:14c0fdcd142ad50f6229f53de36e1e23961ae514103009868db1c003d5362345",
+      "last_checked": "2026-10-13"
+     },
+     "notes": ""
+    },
+    {
+     "term_id": "USA829_MPPA_2024.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Memorial Day",
+       "Juneteenth (from 2025-01-01)",
+       "Independence Day",
+       "Labor Day",
+       "Veteran's Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday",
+      "switch": "Veteran's Day may be switched for Good Friday by waiver, if the Producer reaches the same agreement with Local 52 (Art. 8.C)",
+      "worked": "double the regular rate (see ot_ladder.7th_holiday.hourly and premium_day.weekly_on_call)",
+      "not_worked": {
+       "daily": null,
+       "weekly": "not a day line: Art. 8 pays unworked holidays only for MLK and Juneteenth, 8 hrs straight, to hourly employees who work the scheduled day before and after (none after a hiatus of a week or more); other holidays are paid only when worked. Weekly on-call: not stated in Art. 8.",
+       "mlk_juneteenth_hourly": {
+        "hours": 8,
+        "eligibility": "works the scheduled workday before and after; no pay if either side is a hiatus of one week or more"
+       },
+       "accrual": false
+      }
+     },
+     "citation": "Art. 8.A-C",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The parties hereto recognize the following holidays",
+      "clause_hash": "sha256:c38bf355ce6c585ea4901f787f7867d83ffbf58c9d4022654b74112c5a5961aa",
+      "last_checked": "2026-10-13"
+     },
+     "notes": "Non-accrual agreement (J5). MLK / Juneteenth are the only unworked holidays with day pay; the app shows the rule without an amount until the holiday model (J5) prices by date."
     }
    ]
   },
