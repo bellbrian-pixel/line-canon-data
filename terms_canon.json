@@ -3348,6 +3348,26 @@
       "anchor": "The application of this entire collective bargaining agreement shall be specifically limited to covered productions",
       "clause_hash": "sha256:e45d4aa70d5aaf257bec94f537f7cf3a337aba204caeadc6cc9ca08fceb58304",
       "last_checked": "2026-10-13"
+     },
+     "outside_ruling": {
+      "ruling": "J8",
+      "date": "2026-10-14",
+      "kind": "other_agreement",
+      "applies_to": "hires that are not Local, working with the base outside the 829 footprint (state coverage null)",
+      "agreement_by_rate": {
+       "L829AD": "LOCAL800_AD_2018",
+       "L829AAD": "LOCAL800_AD_2018",
+       "L829CSA": "LOCAL800_STG_2018",
+       "L829JSA": "LOCAL800_STG_2018"
+      },
+      "not_ruled": [
+       "L829CDT",
+       "L829ACD",
+       "L829SHOP"
+      ],
+      "rate_floor": "the 829 scale",
+      "text": "Outside the five boroughs / Nassau / Meadowlands an 829 designer or art director is budgeted as a Local 800 (Art Directors Guild) hire under the West Coast terms: MPI P&W on hours, 4% vacation, 4.583% holiday; the 829 scale is the floor.",
+      "evidence": "Comeback King (Savannah, 2026): locked budget 814-02 \"NEW YORK HIRE | LOCAL 829 / 800 in GA\"; period bible WE 6/13/26 Mudd (AD) and Ricker (PD): VAC 4%, HOL 4.583%, identical hours-based PHW $1,306.16."
      }
     }
    },
