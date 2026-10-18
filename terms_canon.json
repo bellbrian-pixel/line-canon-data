@@ -1,6 +1,6 @@
 {
  "schema": "terms_canon/1",
- "generated": "2026-10-14",
+ "generated": "2026-10-18",
  "rule": "Every contract gets three canons - labor (rates), fringe, terms. A weekly fetch compares each source file sha256 and each term clause_hash; a change in any of the three is flagged.",
  "value_kinds_added": [
   "schedule_header (vet doc sec.4)",
@@ -3351,23 +3351,46 @@
      },
      "outside_ruling": {
       "ruling": "J8",
-      "date": "2026-10-14",
+      "date": "2026-10-18",
       "kind": "other_agreement",
       "applies_to": "hires that are not Local, working with the base outside the 829 footprint (state coverage null)",
       "agreement_by_rate": {
        "L829AD": "LOCAL800_AD_2018",
-       "L829AAD": "LOCAL800_AD_2018",
-       "L829CSA": "LOCAL800_STG_2018",
-       "L829JSA": "LOCAL800_STG_2018"
+       "L829AAD": "LOCAL800_AD_2018"
       },
-      "not_ruled": [
-       "L829CDT",
-       "L829ACD",
-       "L829SHOP"
-      ],
+      "not_ruled": [],
       "rate_floor": "the 829 scale",
       "text": "Outside the five boroughs / Nassau / Meadowlands an 829 designer or art director is budgeted as a Local 800 (Art Directors Guild) hire under the West Coast terms: MPI P&W on hours, 4% vacation, 4.583% holiday; the 829 scale is the floor.",
-      "evidence": "Comeback King (Savannah, 2026): locked budget 814-02 \"NEW YORK HIRE | LOCAL 829 / 800 in GA\"; period bible WE 6/13/26 Mudd (AD) and Ricker (PD): VAC 4%, HOL 4.583%, identical hours-based PHW $1,306.16."
+      "evidence": "Comeback King (Savannah, 2026): locked budget 814-02 \"NEW YORK HIRE | LOCAL 829 / 800 in GA\"; period bible WE 6/13/26 Mudd (AD) and Ricker (PD): VAC 4%, HOL 4.583%, identical hours-based PHW $1,306.16.",
+      "stays_829": [
+       "L829CDT",
+       "L829ACD",
+       "L829CSA",
+       "L829JSA",
+       "L829SHOP"
+      ],
+      "rulings": [
+       {
+        "ruling": "J8",
+        "date": "2026-10-14",
+        "scope": "L829AD, L829AAD",
+        "text": "Outside the five boroughs / Nassau / Meadowlands an 829 designer or art director is budgeted as a Local 800 (Art Directors Guild) hire under the West Coast terms: MPI P&W on hours, 4% vacation, 4.583% holiday; the 829 scale is the floor."
+       },
+       {
+        "ruling": "J8a",
+        "date": "2026-10-18",
+        "scope": "L829CDT, L829ACD",
+        "text": "An 829 costume designer or assistant costume designer hired from NY keeps 829 terms and 829 benefits outside the area. Follow the most current example (Brian 18 Oct).",
+        "evidence": "Wheat Germ (Ohio, 2021): Ann Roth and Matthew Pactman, \"NYC Distant Hire: 829\", 829 Annuity + 829 Weekly P&W on Ohio lines. Gemini Man (GA, 2018): Larlarb 829 on NY IA; Spiridakas (ACD) under the ASA. Billy Lynn (GA, 2015): Aulisi and Pachtman on NYIA."
+       },
+       {
+        "ruling": "J8a",
+        "date": "2026-10-18",
+        "scope": "L829CSA, L829JSA, L829SHOP",
+        "text": "An 829 scenic brought outside the area keeps 829 terms. On distant shows the charge scenic is normally an LA 729 or local ASA hire.",
+        "evidence": "Hope Springs (CT, 2011): NY-hire Charge Scenic, Scenic Shopperson and Camera Scenic on Maj L829 P/W + Annuity. Gemini Man, Billy Lynn, Wheat Germ: charge scenic LA 729; Comeback King, Cedar Rapids: local ASA."
+       }
+      ]
      }
     }
    },
