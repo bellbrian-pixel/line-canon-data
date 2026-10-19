@@ -1,6 +1,6 @@
 {
  "schema": "terms_canon/1",
- "generated": "2026-10-18",
+ "generated": "2026-10-19",
  "rule": "Every contract gets three canons - labor (rates), fringe, terms. A weekly fetch compares each source file sha256 and each term clause_hash; a change in any of the three is flagged.",
  "value_kinds_added": [
   "schedule_header (vet doc sec.4)",
@@ -2636,6 +2636,40 @@
       "anchor": "The territorial jurisdiction of the Union shall cover the area within a radius of fifty (50) miles from Columbus Circle",
       "clause_hash": "sha256:7fde1f63ece0238dc5b06f4965352b4c6441e8bcf45130241ada60959dcb2c0d",
       "last_checked": "2026-10-13"
+     },
+     "outside_ruling": {
+      "ruling": "J8a (shopper)",
+      "date": "2026-10-18",
+      "kind": "other_agreement",
+      "mode": "BRIAN_RULING",
+      "applies_to": "a Local 764 hire who is not Local, working with the base outside the 764 footprint (50 mi of Columbus Circle and Long Island)",
+      "agreement_by_position": {
+       "Shopper": "IATSE_ASA_2024",
+       "Key Shopper": "IATSE_ASA_2024"
+      },
+      "rate_by_position": {
+       "Shopper": {
+        "agreement": "IATSE_ASA_2024",
+        "tier": "Third",
+        "classification": "Costumer/Buyer/Stylist"
+       },
+       "Key Shopper": {
+        "agreement": "IATSE_ASA_2024",
+        "tier": "Third",
+        "classification": "Costumer/Buyer/Stylist"
+       }
+      },
+      "rate_floor": null,
+      "stays_764": "every other Local 764 position (Wardrobe Head, Wardrobe Assistant, Costume Shop Others: cutters, tailors, fitters, stitchers)",
+      "text": "A costume shopper brought to a location outside Local 764's area works under the local Area Standards Agreement: ASA terms and the ASA Costumer/Buyer/Stylist (Third tier) rate for the region.",
+      "evidence": "Gemini Man (Brian 18 Oct). Local 764 is silent on work outside its area (Sec. 2, Sec. 8(b)).",
+      "watch": {
+       "anchor": "Costumer/Buyer/Stylist",
+       "clause_hash": "sha256:6d59a3758d2e3d47fe8cf8d6f8080e85d53c76c7c13a530aee3792b38d7bdb0f",
+       "source": "2024 Area Standards Agreement.pdf Appendix A",
+       "last_checked": "2026-10-19"
+      },
+      "open": "Key Shopper placed at the Third tier with the Shopper (the ASA lists no key buyer). Confirm, or move it to the Key Costumer tier."
      }
     }
    },
@@ -4225,6 +4259,109 @@
       "source": "2026 BA and FLTTA MOA.pdf"
      },
      "notes": ""
+    },
+    {
+     "term_id": "DGA_BA_2023.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Good Friday",
+       "Memorial Day",
+       "Juneteenth (from 2024-01-01)",
+       "Independence Day",
+       "Labor Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2024-01-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "observance": "Sunday -> following Monday; Saturday -> previous Friday, except on distant locations not on a five-day shooting schedule",
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "distant_not_five_day"
+       ]
+      },
+      "worked": "studio / local: 200% of the actual gross daily salary; distant: an additional 1/5 of the actual gross studio weekly salary (13-113(c))",
+      "not_worked": {
+       "accrual": true,
+       "accrual_basis": {
+        "kind": "percent_of_earnings",
+        "pct": 4.583,
+        "from": "2024-01-01",
+        "otherwise": 4.0
+       },
+       "daily": null,
+       "daily_text": "Daily UPMs and ADs: 4.583% of annual earnings under the schedule, paid by April 15 of the next year; unworked holiday pay received on distant location is offset (13-115(a)).",
+       "weekly": "Inside the weekly salary: no deduction within the guarantee; a full workweek after the guarantee is paid in full; a partial week pays 1/5 of the studio weekly salary (1/7 distant) if the day before and after are worked (13-113(b)). Annual offset against 4.583% of weekly earnings (13-115(b)). No separate budget line.",
+       "day_value": "1/5 of the weekly rate (studio), 1/7 (distant) (13-115(b)(1))"
+      },
+      "new_holidays": "any new holiday granted to SAG-AFTRA, the WGA or the IATSE is deemed included (13-113(e))"
+     },
+     "citation": "BA 13-113, 13-115 (UPMs, ADs, Associate Directors); Directors 4-107",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Holidays -- Assistant Directors, UPMs and Associate Directors",
+      "clause_hash": "sha256:05c868f51387dcfdad14de110401e511271a3fc24723cb11c76d13dcb54beae5",
+      "last_checked": "2026-10-19"
+     },
+     "notes": "Directors (4-107) carry the same list and observance; their pay is a deal, so no line is priced. The 2026 BA MOA is not yet read for holidays."
     }
    ]
   },
@@ -4607,9 +4744,11 @@
       "kind": "holiday_list",
       "days": [
        "New Year's Day",
+       "Martin Luther King Jr. Day (from 2024-01-01)",
        "Presidents' Day",
        "Good Friday",
        "Memorial Day",
+       "Juneteenth (from 2024-01-01)",
        "Independence Day",
        "Labor Day",
        "Thanksgiving Day",
@@ -4629,6 +4768,10 @@
         "key": "new_years"
        },
        {
+        "key": "mlk",
+        "from": "2024-01-01"
+       },
+       {
         "key": "presidents"
        },
        {
@@ -4636,6 +4779,10 @@
        },
        {
         "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2024-01-01"
        },
        {
         "key": "independence"
@@ -4670,14 +4817,20 @@
        "background": "no unworked holiday pay; worked holidays per Sch. X"
       }
      },
-     "citation": "Sch. A Sec. 24; Sch. B Sec. 27; 2017 MOA item 27 (Canadian swap); 2026 MOA item 18 (work past midnight, overseas swap)",
+     "citation": "Sch. A Sec. 24; Sch. B Sec. 27; 2017 MOA item 27 (Canadian swap); 2026 MOA item 18 (work past midnight, overseas swap); 2023 MOA item 17.a (MLK and Juneteenth from 2024-01-01, all CBA schedules)",
      "status": "READ_FROM_BYTES",
      "watch": {
       "anchor": "If a day performer works on any of the following nine (9) holidays",
       "clause_hash": "sha256:68f30d7a083c3c6321fe181681607572347ad876c4d3461b9706bd7ba76270e1",
-      "last_checked": "2026-10-18"
+      "last_checked": "2026-10-19"
      },
-     "notes": "No MLK or Juneteenth in the CBA or the 2017, 2020 and 2026 MOAs. The 2023 MOA (12.8 MB) is not yet read for holidays."
+     "notes": "MLK and Juneteenth added to all CBA schedules effective 2024-01-01 by the 2023 MOA item 17.a (read by OCR from a scanned copy, sha256 948c1eaa...). The 2017, 2020 and 2026 MOAs add no holidays.",
+     "watch_moa": {
+      "anchor": "include Martin Luther King, Jr.",
+      "clause_hash": "sha256:bda1d0b538a87df2a77ef514ca9156d6b05356c8679b387bf6684293b0afc408",
+      "hash_method": "ocr",
+      "last_checked": "2026-10-19"
+     }
     }
    ]
   },
