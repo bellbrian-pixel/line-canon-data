@@ -4583,6 +4583,101 @@
       "last_checked": "2026-10-11"
      },
      "notes": "The 2017 MOA struck \"eleventh and twelfth\" from Part I: LA background now 2x after 10, same as NY. The strikethrough does not survive text extraction; confirmed from the page image (MOA p.42). The 2014 codified text (2x after 12) is superseded."
+    },
+    {
+     "term_id": "SAG_CBA_2014.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Presidents' Day",
+       "Good Friday",
+       "Memorial Day",
+       "Independence Day",
+       "Labor Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Sunday -> following Monday; no Saturday shift",
+      "observance_rule": {
+       "saturday": null,
+       "sunday": "monday",
+       "saturday_stays": [
+        "*"
+       ]
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "worked": "day performer: double the weekday rate (Sch. A 24.A); weekly performer: one additional day of pay (Sch. B 27.B)",
+      "not_worked": {
+       "accrual": false,
+       "daily": {
+        "days": 1,
+        "basis": "day_rate",
+        "eligibility": "employed by Producer the day before and the day after: continuous employment applies over the holiday, except a holiday on a studio sixth day not worked (Sch. A 24.B)"
+       },
+       "distant": {
+        "days": 1,
+        "basis": "day_rate",
+        "text": "a day performer held on an overnight location over a holiday and not worked gets a day of pay (Sch. A 24.C)"
+       },
+       "weekly": "inside the weekly salary; no separate line (Sch. B)",
+       "background": "no unworked holiday pay; worked holidays per Sch. X"
+      }
+     },
+     "citation": "Sch. A Sec. 24; Sch. B Sec. 27; 2017 MOA item 27 (Canadian swap); 2026 MOA item 18 (work past midnight, overseas swap)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "If a day performer works on any of the following nine (9) holidays",
+      "clause_hash": "sha256:68f30d7a083c3c6321fe181681607572347ad876c4d3461b9706bd7ba76270e1",
+      "last_checked": "2026-10-18"
+     },
+     "notes": "No MLK or Juneteenth in the CBA or the 2017, 2020 and 2026 MOAs. The 2023 MOA (12.8 MB) is not yet read for holidays."
     }
    ]
   },
@@ -5793,6 +5888,104 @@
       "last_checked": "2026-10-11"
      },
      "notes": ""
+    },
+    {
+     "term_id": "IATSE_ASA_2024.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Good Friday",
+       "Memorial Day",
+       "Juneteenth (from 2025-01-01)",
+       "Independence Day",
+       "Labor Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; in a six-day workweek a Saturday holiday stays Saturday",
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "six_day_week"
+       ]
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2025-01-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "worked": "premium per Art. 3(B)(2) and (D)(3)",
+      "not_worked": {
+       "accrual": false,
+       "daily": {
+        "hours": 8,
+        "basis": "straight",
+        "eligibility": "works the scheduled workday before and after (none if the next workday follows a hiatus of a week or more)"
+       },
+       "excluded": "long-form television, pilots, first season of a one-hour series"
+      }
+     },
+     "citation": "Art. 7",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The following days shall be recognized as holidays: New Year's Day, Martin Luther King Jr. Day, Presidents' Day, Good Friday",
+      "clause_hash": "sha256:b68436ca7f3f0778ae70b0f862a7886ba05a865f39d7630e26f5aa8467d5c8e6",
+      "last_checked": "2026-10-18"
+     },
+     "notes": "Day pay on every leg; there is no separate distant rule in Art. 7."
     }
    ]
   },
@@ -7530,6 +7723,117 @@
       "source": "MOA - 2024 IATSE Basic Agreement - Fully Executed.pdf"
      },
      "notes": "All agreements with on-call classifications. Overrides older 1.5 x 1/5 footnotes for the 7th."
+    },
+    {
+     "term_id": "IATSE_WCSL_2024.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Good Friday",
+       "Memorial Day",
+       "Juneteenth (from 2025-01-01)",
+       "Independence Day",
+       "Labor Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; on distant location a Saturday holiday stays Saturday",
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "distant"
+       ]
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2025-01-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "worked": "daily: 2x the Regular Basic Hourly Rate; on-call working a distant holiday: 1/6 of the on-call weekly salary",
+      "canada_swap": "Victoria Day for Memorial Day, Canada Day for Independence Day, at Producer election with notice",
+      "not_worked": {
+       "accrual": true,
+       "accrual_basis": {
+        "kind": "percent_of_annual_straight_time",
+        "pct": 4.583,
+        "from": "2025-01-01",
+        "to": "2027-12-31",
+        "otherwise": 4.0
+       },
+       "daily": null,
+       "daily_text": "Daily employees: 4.583% of annual straight work time earnings, incl. night premiums, as payment for holidays not worked (2025-2027; 4% in 2024). No day line in the zone.",
+       "distant": {
+        "hours": null,
+        "hours_from": "the local's distant schedule minimum call (schedule_header.<local>.distant, A_daily.min_call_hours)",
+        "basis": "work_time",
+        "applies_to": "daily",
+        "offset_against_accrual": true,
+        "text": "Holidays not worked on distant location, daily employees: work time credit of the minimum call (\"compensation for readiness to perform services\"). Straight-time pay for these days is offset against the annual holiday accrual."
+       },
+       "weekly": "Weekly schedule: work time credit of the minimum call for each holiday not worked; on-call: included in salary; annual offset against 4.583% of weekly schedule earnings (Para. 9(e)). A day = 1/5 of the weekly rate (studio), 1/6 (distant)."
+      }
+     },
+     "citation": "West Coast Studio Local Agreements Para. 9(b)-(e), 31(g) (Local 44 text read); 2024 IATSE BA MOA item 8",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "New Year's Day, Presidents' Day (third Monday in February), Good Friday, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, the day after Thanksgiving and Christmas Day shall be recognized as holidays",
+      "clause_hash": "sha256:373f5cd1b632599ef67801cc46349f8ff6ab210e99730d952c311b1fd6da1a4e",
+      "last_checked": "2026-10-18"
+     },
+     "notes": "Template text read from Local 44 (Para. 9, 31(g)); MOA item 8 adds Juneteenth and 4.583% to every West Coast Studio Local Agreement. Inheriting locals: 80, 892, 695, 700, 705, 706, 728, 729, 871, 884, 800 (IMA, SDMM, STG), 600 West Coast. Their own paragraph numbers may differ. Local 800 Art Directors carries its own row."
     }
    ]
   },
@@ -7811,6 +8115,116 @@
       "last_checked": "2026-10-11"
      },
      "notes": "Travel plus recesses under 8 hrs is an interruption, 8+ hrs is a full rest (39(a))."
+    },
+    {
+     "term_id": "TEAMSTERS399_DRV_2024.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Good Friday",
+       "Memorial Day",
+       "Juneteenth (from 2025-01-01)",
+       "Independence Day",
+       "Labor Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; on distant location a Saturday holiday stays Saturday",
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "distant"
+       ]
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2025-01-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "worked": "daily: 2x the Regular Basic Hourly Rate; on-call working a distant holiday: 1/6 of the on-call weekly salary",
+      "canada_swap": "Victoria Day for Memorial Day, Canada Day for Independence Day, at Producer election with notice",
+      "not_worked": {
+       "accrual": true,
+       "accrual_basis": {
+        "kind": "percent_of_annual_straight_time",
+        "pct": 4.583,
+        "from": "2025-01-01",
+        "to": "2027-12-31",
+        "otherwise": 4.0
+       },
+       "daily": null,
+       "daily_text": "Daily employees: 4.583% of annual straight work time earnings, incl. night premiums, as payment for holidays not worked (2025-2027; 4% in 2024). No day line in the zone.",
+       "distant": {
+        "hours": 9.5,
+        "hours_from": "distant minimum daily call, 9 1/2 hours (Para. 33(b))",
+        "basis": "work_time",
+        "applies_to": "daily",
+        "offset_against_accrual": true,
+        "text": "Holidays not worked on distant location, daily employees: work time credit of the minimum call (\"compensation for readiness to perform services\"). Straight-time pay for these days is offset against the annual holiday accrual."
+       }
+      }
+     },
+     "citation": "Para. 8(b)-(d), 33(b), 33(g)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "New Year's Day, Martin Luther King, Jr. Day, Presidents' Day (third Monday in February), Good Friday, Memorial Day",
+      "clause_hash": "sha256:12cb4e3d76b4bd1c66c5d15ab14fe14167a883d6124b7d77d9e77588429da347",
+      "last_checked": "2026-10-18"
+     },
+     "notes": "Chef Assistant-Drivers and Chef Assistants are paid 8 hrs straight per unworked holiday if employed the workday before and after (sideletter, effective on or after 8/4/24), not the accrual."
     }
    ]
   },
@@ -8383,6 +8797,117 @@
       "last_checked": "2026-10-11"
      },
      "notes": ""
+    },
+    {
+     "term_id": "LOCAL44_2021.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Good Friday",
+       "Memorial Day",
+       "Juneteenth (from 2025-01-01)",
+       "Independence Day",
+       "Labor Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; on distant location a Saturday holiday stays Saturday",
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "distant"
+       ]
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2025-01-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "worked": "daily: 2x the Regular Basic Hourly Rate; on-call working a distant holiday: 1/6 of the on-call weekly salary",
+      "canada_swap": "Victoria Day for Memorial Day, Canada Day for Independence Day, at Producer election with notice",
+      "not_worked": {
+       "accrual": true,
+       "accrual_basis": {
+        "kind": "percent_of_annual_straight_time",
+        "pct": 4.583,
+        "from": "2025-01-01",
+        "to": "2027-12-31",
+        "otherwise": 4.0
+       },
+       "daily": null,
+       "daily_text": "Daily employees: 4.583% of annual straight work time earnings, incl. night premiums, as payment for holidays not worked (2025-2027; 4% in 2024). No day line in the zone.",
+       "distant": {
+        "hours": 9.5,
+        "hours_from": "Local 44 distant Schedule A minimum call (IATSE_WCSL_2024.schedule_header.Local 44.distant)",
+        "basis": "work_time",
+        "applies_to": "daily",
+        "offset_against_accrual": true,
+        "text": "Holidays not worked on distant location, daily employees: work time credit of the minimum call (\"compensation for readiness to perform services\"). Straight-time pay for these days is offset against the annual holiday accrual."
+       },
+       "weekly": "Weekly schedule: work time credit of the minimum call for each holiday not worked; on-call: included in salary; annual offset against 4.583% of weekly schedule earnings (Para. 9(e)). A day = 1/5 of the weekly rate (studio), 1/6 (distant)."
+      }
+     },
+     "citation": "Para. 9(b)-(e), 31(g); 2024 IATSE BA MOA item 8",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "New Year's Day, Presidents' Day (third Monday in February), Good Friday, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, the day after Thanksgiving and Christmas Day shall be recognized as holidays",
+      "clause_hash": "sha256:373f5cd1b632599ef67801cc46349f8ff6ab210e99730d952c311b1fd6da1a4e",
+      "last_checked": "2026-10-18"
+     },
+     "notes": "Local 44 does not inherit IATSE_WCSL_2024, so it carries the row itself."
     }
    ]
   },
@@ -13586,6 +14111,106 @@
       "last_checked": "2026-10-12"
      },
      "notes": ""
+    },
+    {
+     "term_id": "TEAMSTERS399_LM_2024.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Good Friday",
+       "Memorial Day",
+       "Juneteenth (from 2025-01-01)",
+       "Independence Day",
+       "Labor Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; on distant location a Saturday holiday stays Saturday",
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "distant"
+       ]
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2025-01-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "not_worked": {
+       "accrual": true,
+       "accrual_basis": {
+        "kind": "percent_of_weekly_earnings",
+        "pct": 4.583,
+        "from": "2025-01-01",
+        "to": "2026-12-31",
+        "otherwise": 4.0
+       },
+       "daily": null,
+       "weekly": "on-call: holiday salary paid is offset against 4.583% of weekly schedule earnings (2025 and 2026); a day = 1/5 of the weekly rate (studio), 1/6 (distant)"
+      }
+     },
+     "citation": "Para. 8(a)-(b)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "New Year's Day, Martin Luther King Jr. Day, Presidents' Day (third Monday in February), Good Friday, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, the day after Thanksgiving and Christmas Day shall be recognized as holidays",
+      "clause_hash": "sha256:521f5c97a71dad164a899a4ad4e53bf5bcf803e991a20df83f52a1127413621e",
+      "last_checked": "2026-10-18"
+     },
+     "notes": "The agreement states 4.583% for 2025 and 2026 only; 2027 is not stated. Check the 2024 Location Managers MOA before pricing 2027."
     }
    ]
   },
@@ -14326,6 +14951,117 @@
       "last_checked": "2026-10-12"
      },
      "notes": ""
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL40_2024.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Good Friday",
+       "Memorial Day",
+       "Juneteenth (from 2025-01-01)",
+       "Independence Day",
+       "Labor Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; on distant location a Saturday holiday stays Saturday",
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "distant"
+       ]
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2025-01-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "worked": "daily: 2x the Regular Basic Hourly Rate; on-call working a distant holiday: 1/6 of the on-call weekly salary",
+      "canada_swap": "Victoria Day for Memorial Day, Canada Day for Independence Day, at Producer election with notice",
+      "not_worked": {
+       "accrual": true,
+       "accrual_basis": {
+        "kind": "percent_of_annual_straight_time",
+        "pct": 4.583,
+        "from": "2025-01-01",
+        "to": "2027-12-31",
+        "otherwise": 4.0
+       },
+       "daily": null,
+       "daily_text": "Daily employees: 4.583% of annual straight work time earnings, incl. night premiums, as payment for holidays not worked (2025-2027; 4% in 2024). No day line in the zone.",
+       "distant": {
+        "hours": 9.5,
+        "hours_from": "distant Schedule A minimum call, 9 1/2 hours (Para. 31(a))",
+        "basis": "work_time",
+        "applies_to": "daily",
+        "offset_against_accrual": true,
+        "text": "Holidays not worked on distant location, daily employees: work time credit of the minimum call (\"compensation for readiness to perform services\"). Straight-time pay for these days is offset against the annual holiday accrual."
+       },
+       "weekly": "Weekly schedule: work time credit of the minimum call for each holiday not worked; on-call: included in salary; annual offset against 4.583% of weekly schedule earnings (Para. 9(e)). A day = 1/5 of the weekly rate (studio), 1/6 (distant)."
+      }
+     },
+     "citation": "Para. 9, 31(g) (holidays not worked 9(c); distant 31(g))",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "New Year's Day, Martin Luther King Jr. Day, Presidents' Day (third Monday in February), Good Friday, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, the day after Thanksgiving and Christmas Day shall be recognized as holidays",
+      "clause_hash": "sha256:a028d34050c3ee4a8719bd802bb8af3d9bff9f58a28539f5fa831d64699d5e02",
+      "last_checked": "2026-10-18"
+     },
+     "notes": "Basic Crafts text matches the West Coast Studio Local template; Juneteenth and 4.583% are written into the 2024 agreement."
     }
    ]
   },
@@ -14829,6 +15565,117 @@
       "last_checked": "2026-10-12"
      },
      "notes": ""
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL78_2024.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Good Friday",
+       "Memorial Day",
+       "Juneteenth (from 2025-01-01)",
+       "Independence Day",
+       "Labor Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; on distant location a Saturday holiday stays Saturday",
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "distant"
+       ]
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2025-01-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "worked": "daily: 2x the Regular Basic Hourly Rate; on-call working a distant holiday: 1/6 of the on-call weekly salary",
+      "canada_swap": "Victoria Day for Memorial Day, Canada Day for Independence Day, at Producer election with notice",
+      "not_worked": {
+       "accrual": true,
+       "accrual_basis": {
+        "kind": "percent_of_annual_straight_time",
+        "pct": 4.583,
+        "from": "2025-01-01",
+        "to": "2027-12-31",
+        "otherwise": 4.0
+       },
+       "daily": null,
+       "daily_text": "Daily employees: 4.583% of annual straight work time earnings, incl. night premiums, as payment for holidays not worked (2025-2027; 4% in 2024). No day line in the zone.",
+       "distant": {
+        "hours": 9.5,
+        "hours_from": "distant Schedule A minimum call, 9 1/2 hours (Para. 31(a))",
+        "basis": "work_time",
+        "applies_to": "daily",
+        "offset_against_accrual": true,
+        "text": "Holidays not worked on distant location, daily employees: work time credit of the minimum call (\"compensation for readiness to perform services\"). Straight-time pay for these days is offset against the annual holiday accrual."
+       },
+       "weekly": "Weekly schedule: work time credit of the minimum call for each holiday not worked; on-call: included in salary; annual offset against 4.583% of weekly schedule earnings (Para. 9(e)). A day = 1/5 of the weekly rate (studio), 1/6 (distant)."
+      }
+     },
+     "citation": "Para. 9, 31(g) (holidays not worked 9(c); distant 31(g))",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "New Year's Day, Martin Luther King Jr. Day, Presidents' Day (third Monday in February), Good Friday, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, the day after Thanksgiving and Christmas Day shall be recognized as holidays",
+      "clause_hash": "sha256:f6d04dbcd49ad0a35e1fe5b205fa949e082ce8454d958e5e69cfa5bfad406199",
+      "last_checked": "2026-10-18"
+     },
+     "notes": "Basic Crafts text matches the West Coast Studio Local template; Juneteenth and 4.583% are written into the 2024 agreement."
     }
    ]
   },
@@ -15333,6 +16180,117 @@
       "last_checked": "2026-10-12"
      },
      "notes": ""
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL724_2024.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Good Friday",
+       "Memorial Day",
+       "Juneteenth (from 2025-01-01)",
+       "Independence Day",
+       "Labor Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; on distant location a Saturday holiday stays Saturday",
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "distant"
+       ]
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2025-01-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "worked": "daily: 2x the Regular Basic Hourly Rate; on-call working a distant holiday: 1/6 of the on-call weekly salary",
+      "canada_swap": "Victoria Day for Memorial Day, Canada Day for Independence Day, at Producer election with notice",
+      "not_worked": {
+       "accrual": true,
+       "accrual_basis": {
+        "kind": "percent_of_annual_straight_time",
+        "pct": 4.583,
+        "from": "2025-01-01",
+        "to": "2027-12-31",
+        "otherwise": 4.0
+       },
+       "daily": null,
+       "daily_text": "Daily employees: 4.583% of annual straight work time earnings, incl. night premiums, as payment for holidays not worked (2025-2027; 4% in 2024). No day line in the zone.",
+       "distant": {
+        "hours": 9.5,
+        "hours_from": "distant Schedule A minimum call, 9 1/2 hours (Para. 31(a))",
+        "basis": "work_time",
+        "applies_to": "daily",
+        "offset_against_accrual": true,
+        "text": "Holidays not worked on distant location, daily employees: work time credit of the minimum call (\"compensation for readiness to perform services\"). Straight-time pay for these days is offset against the annual holiday accrual."
+       },
+       "weekly": "Weekly schedule: work time credit of the minimum call for each holiday not worked; on-call: included in salary; annual offset against 4.583% of weekly schedule earnings (Para. 9(e)). A day = 1/5 of the weekly rate (studio), 1/6 (distant)."
+      }
+     },
+     "citation": "Para. 9, 31(g) (holidays not worked 9(c); distant 31(g))",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "New Year's Day, Martin Luther King Jr. Day, Presidents' Day (third Monday in February), Good Friday, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, the day after Thanksgiving and Christmas Day shall be recognized as holidays",
+      "clause_hash": "sha256:72af7054573b3dd8c8a875db466b50ade04480ebec8cdee7b5c1a56faaec4c92",
+      "last_checked": "2026-10-18"
+     },
+     "notes": "Basic Crafts text matches the West Coast Studio Local template; Juneteenth and 4.583% are written into the 2024 agreement."
     }
    ]
   },
@@ -15836,6 +16794,117 @@
       "last_checked": "2026-10-12"
      },
      "notes": ""
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL755_2024.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day",
+       "Presidents' Day",
+       "Good Friday",
+       "Memorial Day",
+       "Juneteenth (from 2025-01-01)",
+       "Independence Day",
+       "Labor Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; on distant location a Saturday holiday stays Saturday",
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "distant"
+       ]
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2025-01-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "worked": "daily: 2x the Regular Basic Hourly Rate; on-call working a distant holiday: 1/6 of the on-call weekly salary",
+      "canada_swap": "Victoria Day for Memorial Day, Canada Day for Independence Day, at Producer election with notice",
+      "not_worked": {
+       "accrual": true,
+       "accrual_basis": {
+        "kind": "percent_of_annual_straight_time",
+        "pct": 4.583,
+        "from": "2025-01-01",
+        "to": "2027-12-31",
+        "otherwise": 4.0
+       },
+       "daily": null,
+       "daily_text": "Daily employees: 4.583% of annual straight work time earnings, incl. night premiums, as payment for holidays not worked (2025-2027; 4% in 2024). No day line in the zone.",
+       "distant": {
+        "hours": 9.5,
+        "hours_from": "distant Schedule A minimum call, 9 1/2 hours (Para. 31(a))",
+        "basis": "work_time",
+        "applies_to": "daily",
+        "offset_against_accrual": true,
+        "text": "Holidays not worked on distant location, daily employees: work time credit of the minimum call (\"compensation for readiness to perform services\"). Straight-time pay for these days is offset against the annual holiday accrual."
+       },
+       "weekly": "Weekly schedule: work time credit of the minimum call for each holiday not worked; on-call: included in salary; annual offset against 4.583% of weekly schedule earnings (Para. 9(e)). A day = 1/5 of the weekly rate (studio), 1/6 (distant)."
+      }
+     },
+     "citation": "Para. 9, 31(g) (holidays not worked 9(c); distant 31(g))",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "New Year's Day, Martin Luther King Jr. Day, Presidents' Day (third Monday in February), Good Friday, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, the day after Thanksgiving and Christmas Day shall be recognized as holidays",
+      "clause_hash": "sha256:a028d34050c3ee4a8719bd802bb8af3d9bff9f58a28539f5fa831d64699d5e02",
+      "last_checked": "2026-10-18"
+     },
+     "notes": "Basic Crafts text matches the West Coast Studio Local template; Juneteenth and 4.583% are written into the 2024 agreement."
     }
    ]
   },
@@ -18090,6 +19159,147 @@
       "source": "MOA - 2024 IATSE Basic Agreement - Fully Executed.pdf"
      },
      "notes": ""
+    },
+    {
+     "term_id": "LOCAL800_AD_2018.holidays",
+     "topic": "holidays",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "*"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "holiday_list",
+      "days": [
+       "New Year's Day",
+       "Martin Luther King Jr. Day (from 2022-01-01)",
+       "Presidents' Day",
+       "Good Friday",
+       "Memorial Day",
+       "Juneteenth (from 2025-01-01)",
+       "Independence Day",
+       "Labor Day",
+       "Thanksgiving Day",
+       "Day after Thanksgiving",
+       "Christmas Day"
+      ],
+      "observance": "Saturday -> previous Friday, Sunday -> following Monday; on distant location a Saturday holiday stays Saturday",
+      "worked": "on-call: an additional 1/5 of the weekly rate (studio); 1/6 of the weekly on-call salary on distant location (Para. 31(g)); see premium_day.on_call",
+      "not_worked": {
+       "daily": null,
+       "weekly": "on-call employees accrue unworked holiday pay as 4.583% of weekly schedule earnings in 2025-2027 (4% from 2022), offset by holiday pay received (Para. 9(e))",
+       "accrual": true,
+       "accrual_basis": {
+        "kind": "percent_of_weekly_earnings",
+        "pct": 4.583,
+        "from": "2025-01-01",
+        "to": "2027-12-31",
+        "otherwise": 4.0
+       },
+       "day_value": "1/5 of the weekly rate (studio workweeks), 1/6 (distant location workweeks) (Para. 9(e)(2))"
+      },
+      "calendar": [
+       {
+        "key": "new_years"
+       },
+       {
+        "key": "mlk",
+        "from": "2022-01-01"
+       },
+       {
+        "key": "presidents"
+       },
+       {
+        "key": "good_friday"
+       },
+       {
+        "key": "memorial"
+       },
+       {
+        "key": "juneteenth",
+        "from": "2025-01-01"
+       },
+       {
+        "key": "independence"
+       },
+       {
+        "key": "labor"
+       },
+       {
+        "key": "thanksgiving"
+       },
+       {
+        "key": "day_after_thanksgiving"
+       },
+       {
+        "key": "christmas"
+       }
+      ],
+      "observance_rule": {
+       "saturday": "friday",
+       "sunday": "monday",
+       "saturday_stays": [
+        "distant"
+       ]
+      }
+     },
+     "citation": "Para. 9(b), 9(e); 2021 BA MOA item 7; 2024 BA MOA item 8",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "New Year's Day, Presidents' Day (third Monday in February), Good Friday, Memorial Day",
+      "clause_hash": "sha256:c08f0ac238874f4fc5acbaba5b618a548e7d7771f368f8c2dce30b0a07d2672e",
+      "last_checked": "2026-10-18"
+     },
+     "notes": "Good Friday is a Local 800 holiday; Veterans Day is not. Unworked holiday pay is an accrual (CK period bible WE 6/13/26: HOL 4.583%)."
+    },
+    {
+     "term_id": "LOCAL800_AD_2018.idle_day.distant",
+     "topic": "idle_pay",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "idle"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "allowance",
+      "weekly_on_call": {
+       "kind": "weekly_fraction",
+       "fraction": 0.08333333333333333,
+       "text": "one-twelfth (1/12) of the scheduled minimum \"on call\" weekly rate"
+      },
+      "plus": "pension and health contributions for 7 hours (6th day) or 8 hours (7th day)",
+      "day": "6th or 7th day not worked in the distant workweek"
+     },
+     "citation": "Para. 31(f)(1)(ii)-(iii)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "For each sixth day not worked in an employee's workweek during a full six (6) day workweek",
+      "clause_hash": "sha256:083a0561a8e6f52f2302382f53c1fe74b892d33bf4c82afd5d05996193e8df5a",
+      "last_checked": "2026-10-18"
+     },
+     "notes": "Matches budget practice: Ghosted (LA 800 AD) $4,930 = $4,225.68 x 14/12; CK \"rate on location with 1/12 idle\"."
     }
    ],
    "inherits": [
