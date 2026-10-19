@@ -1,14 +1,13 @@
-# Incentive Watcher — review needed — 2026-10-12
+# Incentive Watcher — review needed — 2026-10-19
 
 **Coverage: 40 of 46 targets live, 6 blind.** A blind target reports nothing, which looks exactly like good news.
 
 ```
-INCENTIVE CANON WATCHER — 2026-10-12
-Targets: 46 | staged to pending[]: 2
+INCENTIVE CANON WATCHER — 2026-10-19
+Targets: 46 | staged to pending[]: 1
 
 CHANGED (staged for approval):
   GA [review] detected=(none)  Georgia Entertainment Industry Investment Act  https://dor.georgia.gov/film-tax-credits
-  VA [review] detected=$250,000  prior to January 1, 2031, any motion picture production company with qualifying expenses of at least $250,000  https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-439.12:03/
 
 LIVE VALUES (semantics=value):
   MO detected=$7,860,522  https://mofilm.org/tax-incentives/motion-media-production/
@@ -22,7 +21,7 @@ BLOCKED (403 — needs a fallback source):
 
 FETCH ERRORS:
   MD md_commerce — HTTP 404
-  MS ms_code — HTTP 503
+  MS ms_code — HTTP 404
   PR pr_ddec — Exception: Address unavailable: https://puertoricofilm.ddec.pr.gov/incentives/
 
 Source-ranking exceptions in play: statute/reg > revenue > film office > industry.
