@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-14",
- "last_changed_at": "2026-10-14",
+ "generated_at": "2026-10-19",
+ "last_changed_at": "2026-10-19",
  "sources_modified_at": null,
- "content_sha256": "5a1741885fda0ee343fafc82de6527bbe64648fc15fb382d1bd9a079dbcda601",
+ "content_sha256": "4bc239edce63002388831c6020987290b1f44a5ea9ee8bd267e84aaa57731398",
  "_meta": {
   "reference": "LA IATSE and Basic Crafts local wage schedules, extracted from archived AMPTP documents.",
   "schema": 3,
@@ -97,7 +97,8 @@
   "la_generated_by": "canon/extract.py + canon/build_canon_v3.py",
   "la_period": "2026-08-02",
   "terms_stamp_note": "Each row carries terms_agreement_id, the terms_canon.json agreement that says what a day of each kind pays for that local. Stamped from extract.py TERMS_BY_LOCAL; the resolver copies it through.",
-  "extract_note_2026_10_14": "extract.py splits a detected column that takes two figures from one printed line (Local 695 p86, $103.56 per hour and $1,009.71 per day under one heading band). Before the split the hourly was overwritten and the day figure carried a 'Per Hour Per Day' header."
+  "extract_note_2026_10_14": "extract.py splits a detected column that takes two figures from one printed line (Local 695 p86, $103.56 per hour and $1,009.71 per day under one heading band). Before the split the hourly was overwritten and the day figure carried a 'Per Hour Per Day' header.",
+  "extract_note_2026_10_19": "Local 695 sound rows (Schedules 1 and 11) rebuilt from the source text, pp. 14-15 and 86-87. Two-line classifications (Operative Supervisor and/or Engineer; Service Recorder/TV Engineer/Video Assist; Utility Sound Technician/Second Assistant Sound; Microphone Boom Operator/First Assistant Sound; Audio Utility Person/Audio Assist/Chyron Operator) had shifted figures onto the wrong occupation code: 8144 carried entry-level figures, 8181 journeyman, 8151 the A-2 figures, and two compound keys (8173+8111, 8176+8141) were emitted. Each code now carries its own printed figures; 8111 and 8141 are restored. Header fixes: 'Per / Hour' normalised to 'Per Hour' (892 2211 and others); 700-MAJ distant 4136/4137/4146/4147, 800-IMA 5861 and Local 44 apprentice rungs 7378-7381 headers now name their unit."
  },
  "rates": [
   {
@@ -1049,7 +1050,7 @@
    "rates": [
     {
      "col": 0,
-     "header": "Applicable Journeyman Scale Rate",
+     "header": "Applicable Journeyman Scale Rate / Per Hour",
      "value": 32.34
     }
    ],
@@ -1077,7 +1078,7 @@
    "rates": [
     {
      "col": 0,
-     "header": "Applicable Journeyman Scale Rate",
+     "header": "Applicable Journeyman Scale Rate / Per Hour",
      "value": 37.09
     }
    ],
@@ -1105,7 +1106,7 @@
    "rates": [
     {
      "col": 0,
-     "header": "Applicable Journeyman Scale Rate",
+     "header": "Applicable Journeyman Scale Rate / Per Hour",
      "value": 42.41
     }
    ],
@@ -1133,7 +1134,7 @@
    "rates": [
     {
      "col": 0,
-     "header": "Applicable Journeyman Scale Rate",
+     "header": "Applicable Journeyman Scale Rate / Per Hour",
      "value": 47.71
     }
    ],
@@ -2177,889 +2178,6 @@
    "source_page": 19
   },
   {
-   "global": "LA.695.8105.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8105",
-   "description": "Production Mixer Y-1",
-   "footnotes": "2",
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 103.56
-    },
-    {
-     "col": 0,
-     "header": "Weekly / 5 consecutive / Per Hour",
-     "value": 87.84
-    },
-    {
-     "col": 1,
-     "header": "Studio / Schedule / Employees / Minimum / Regular Basic / Journeyman / Per Day",
-     "value": 932.04
-    },
-    {
-     "col": 1,
-     "header": "Studio / Schedule / Guarantee - / days; / Minimum / Regular Basic / Journeyman / Per Week",
-     "value": 4269.02
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8109.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8109",
-   "description": "Supervising Engineer Y-3",
-   "footnotes": "2",
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 103.56
-    },
-    {
-     "col": 0,
-     "header": "Weekly / 5 consecutive / Per Hour",
-     "value": 87.84
-    },
-    {
-     "col": 1,
-     "header": "Studio / Schedule / Employees / Minimum / Regular Basic / Journeyman / Per Day",
-     "value": 932.04
-    },
-    {
-     "col": 1,
-     "header": "Studio / Schedule / Guarantee - / days; / Minimum / Regular Basic / Journeyman / Per Week",
-     "value": 4269.02
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8131.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8131",
-   "description": "Maintenance Technician Y-6",
-   "footnotes": null,
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 70.62
-    },
-    {
-     "col": 0,
-     "header": "Weekly / 48.6 cumulative / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 63.31
-    },
-    {
-     "col": 1,
-     "header": "Studio / Schedule / Employees / Minimum / Regular Basic / Journeyman / Per Day",
-     "value": 635.58
-    },
-    {
-     "col": 1,
-     "header": "Schedule / Guarantee - / hours; / Journeyman / Weekly / Guar. / Per Week",
-     "value": 3349.1
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8144.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8144",
-   "description": "Video Assist Y-7 Utility Sound Technician/",
-   "footnotes": "4",
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 2,
-     "header": "1-1/2 after 9 / Call - 9 hours / Hourly Rate / Entry / Per Hour",
-     "value": 61.78
-    },
-    {
-     "col": 2,
-     "header": "B-2 7 / 5 consecutive / Minimum Call / Entry / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 55.54
-    },
-    {
-     "col": 3,
-     "header": "and/or 40; / Level 1 / Per Day",
-     "value": 556.02
-    },
-    {
-     "col": 3,
-     "header": "days; / - 8 hours / Level 1 / Weekly / Guar. / Per Week",
-     "value": 2938.07
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8151.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8151",
-   "description": "Chyron Operator A-2 Microphone Boom Operator/",
-   "footnotes": "5",
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 70.62
-    },
-    {
-     "col": 0,
-     "header": "Weekly / 48.6 cumulative / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 63.28
-    },
-    {
-     "col": 1,
-     "header": "Employees - / Minimum / Regular Basic / Journeyman / Per Day",
-     "value": 564.96
-    },
-    {
-     "col": 1,
-     "header": "Schedule / Guarantee - / hours; / Journeyman / Weekly / Guar. / Per Week",
-     "value": 2531.2
-    },
-    {
-     "col": 2,
-     "header": "1-1/2 after 9 / Call - 9 hours / Hourly Rate / Entry / Per Hour",
-     "value": 70.62
-    },
-    {
-     "col": 2,
-     "header": "B-2 7 / 5 consecutive / Minimum Call / Entry / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 63.28
-    },
-    {
-     "col": 3,
-     "header": "and/or 40; / Level 1 / Per Day",
-     "value": 564.96
-    },
-    {
-     "col": 3,
-     "header": "days; / - 8 hours / Level 1 / Weekly / Guar. / Per Week",
-     "value": 2531.2
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8161.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8161",
-   "description": "Sound/Video Service Person III Y-9",
-   "footnotes": null,
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 56.88
-    },
-    {
-     "col": 0,
-     "header": "Weekly / 48.6 cumulative / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 54.27
-    },
-    {
-     "col": 1,
-     "header": "Employees - / Minimum / Regular Basic / Journeyman / Per Day",
-     "value": 511.92
-    },
-    {
-     "col": 1,
-     "header": "Schedule / Guarantee - / hours; / Journeyman / Weekly / Guar. / Per Week",
-     "value": 2870.88
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8171.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8171",
-   "description": "Production Mixer Y-1",
-   "footnotes": "2",
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 2,
-     "header": "Minimum Rates / A-1 / - 1-1/2 after / Call - 9 hours / Hourly Rate / Entry / Per Hour",
-     "value": 89.79
-    },
-    {
-     "col": 2,
-     "header": "Minimum Rates / B-1 6 / 48.6 cumulative / 1-1/2 after / Call - 8 hours / Hourly Rate / Entry / Per Hour",
-     "value": 76.4
-    },
-    {
-     "col": 3,
-     "header": "9; / Level 1 / Per Day",
-     "value": 808.11
-    },
-    {
-     "col": 3,
-     "header": "hours; / 48.6 hours; / Level 1 / Per Week",
-     "value": 3713.04
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8173.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8173",
-   "description": "Supervising Engineer Y-3",
-   "footnotes": "2",
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 2,
-     "header": "Minimum Rates / B-1 6 / 48.6 cumulative / 1-1/2 after / Call - 8 hours / Hourly Rate / Entry / Per Hour",
-     "value": 76.4
-    },
-    {
-     "col": 3,
-     "header": "hours; / 48.6 hours; / Level 1 / Per Week",
-     "value": 3713.04
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 15
-  },
-  {
-   "global": "LA.695.8173+8111.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8173+8111",
-   "description": "Supervising Engineer Y-3 1-1/2 after 40 hours Operative Supervisor",
-   "footnotes": "2",
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 2,
-     "header": "Minimum Rates / A-1 / - 1-1/2 after / Call - 9 hours / Hourly Rate / Entry / Per Hour",
-     "value": 89.79
-    },
-    {
-     "col": 3,
-     "header": "9; / Level 1 / Per Day",
-     "value": 808.11
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8174.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8174",
-   "description": "and/or Engineer Y-4 Operative Supervisor",
-   "footnotes": null,
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 80.42
-    },
-    {
-     "col": 0,
-     "header": "Weekly / 48.6 cumulative / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 70.62
-    },
-    {
-     "col": 1,
-     "header": "Studio / Schedule / Employees / Minimum / Regular Basic / Journeyman / Per Day",
-     "value": 723.78
-    },
-    {
-     "col": 1,
-     "header": "Schedule / Guarantee - / hours; / Journeyman / Weekly / Guar. / Per Week",
-     "value": 3735.8
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8176.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8176",
-   "description": "Maintenance Technician Y-6",
-   "footnotes": null,
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 2,
-     "header": "Minimum Rates / A-1 / - 1-1/2 after / Call - 9 hours / Hourly Rate / Entry / Per Hour",
-     "value": 61.78
-    },
-    {
-     "col": 3,
-     "header": "9; / Level 1 / Per Day",
-     "value": 556.02
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8176+8141.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8176+8141",
-   "description": "Maintenance Technician Y-6 Service Recorder/TV Engineer/",
-   "footnotes": null,
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 2,
-     "header": "B-2 7 / 5 consecutive / Minimum Call / Entry / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 55.54
-    },
-    {
-     "col": 3,
-     "header": "days; / - 8 hours / Level 1 / Weekly / Guar. / Per Week",
-     "value": 2938.07
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 15
-  },
-  {
-   "global": "LA.695.8178.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8178",
-   "description": "Video Assist Y-7 Service Recorder/TV Engineer/",
-   "footnotes": "4",
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 70.62
-    },
-    {
-     "col": 0,
-     "header": "Weekly / 48.6 cumulative / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 63.31
-    },
-    {
-     "col": 1,
-     "header": "Employees - / Minimum / Regular Basic / Journeyman / Per Day",
-     "value": 635.58
-    },
-    {
-     "col": 1,
-     "header": "Schedule / Guarantee - / hours; / Journeyman / Weekly / Guar. / Per Week",
-     "value": 3349.1
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8180.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8180",
-   "description": "Second Assistant Sound Y-7a Utility Sound Technician/",
-   "footnotes": null,
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 70.62
-    },
-    {
-     "col": 0,
-     "header": "Weekly / 48.6 cumulative / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 63.31
-    },
-    {
-     "col": 1,
-     "header": "Employees - / Minimum / Regular Basic / Journeyman / Per Day",
-     "value": 635.58
-    },
-    {
-     "col": 1,
-     "header": "Schedule / Guarantee - / hours; / Journeyman / Weekly / Guar. / Per Week",
-     "value": 3349.1
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8181.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8181",
-   "description": "First Assistant Sound Y-8 Microphone Boom Operator/",
-   "footnotes": null,
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 80.42
-    },
-    {
-     "col": 0,
-     "header": "Weekly / 48.6 cumulative / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 70.62
-    },
-    {
-     "col": 1,
-     "header": "Employees - / Minimum / Regular Basic / Journeyman / Per Day",
-     "value": 723.78
-    },
-    {
-     "col": 1,
-     "header": "Schedule / Guarantee - / hours; / Journeyman / Weekly / Guar. / Per Week",
-     "value": 3735.8
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8182.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8182",
-   "description": "Sound/Video Service Person III Y-9",
-   "footnotes": null,
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 2,
-     "header": "1-1/2 after 9 / Call - 9 hours / Hourly Rate / Entry / Per Hour",
-     "value": 45.36
-    },
-    {
-     "col": 2,
-     "header": "B-2 7 / 5 consecutive / Minimum Call / Entry / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 47.84
-    },
-    {
-     "col": 3,
-     "header": "and/or 40; / Level 1 / Per Day",
-     "value": 408.24
-    },
-    {
-     "col": 3,
-     "header": "days; / - 8 hours / Level 1 / Weekly / Guar. / Per Week",
-     "value": 2530.74
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8184.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8184",
-   "description": "Sound/Video Service Person II Y-13",
-   "footnotes": null,
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 2,
-     "header": "1-1/2 after 9 / Call - 9 hours / Hourly Rate / Entry / Per Hour",
-     "value": 34.13
-    },
-    {
-     "col": 2,
-     "header": "B-2 7 / 5 consecutive / Minimum Call / Entry / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 32.64
-    },
-    {
-     "col": 3,
-     "header": "and/or 40; / Level 1 / Per Day",
-     "value": 307.17
-    },
-    {
-     "col": 3,
-     "header": "days; / - 8 hours / Level 1 / Weekly / Guar. / Per Week",
-     "value": 1726.66
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8185.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8185",
-   "description": "Sound/Video Service Person I Y-16",
-   "footnotes": null,
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 28.9
-    },
-    {
-     "col": 1,
-     "header": "Employees - / Minimum / Regular Basic / Journeyman / Per Day",
-     "value": 260.1
-    },
-    {
-     "col": 2,
-     "header": "1-1/2 after 9 / Call - 9 hours / Hourly Rate / Entry / Per Hour",
-     "value": 28.9
-    },
-    {
-     "col": 3,
-     "header": "and/or 40; / Level 1 / Per Day",
-     "value": 260.1
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8192.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8192",
-   "description": "Production Sound/Video Trainee Y-16a",
-   "footnotes": null,
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 28.9
-    },
-    {
-     "col": 1,
-     "header": "Employees - / Minimum / Regular Basic / Journeyman / Per Day",
-     "value": 260.1
-    },
-    {
-     "col": 2,
-     "header": "1-1/2 after 9 / Call - 9 hours / Hourly Rate / Entry / Per Hour",
-     "value": 28.9
-    },
-    {
-     "col": 3,
-     "header": "and/or 40; / Level 1 / Per Day",
-     "value": 260.1
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8194.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8194",
-   "description": "Sound/Video Service Person II Y-13",
-   "footnotes": null,
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 39.33
-    },
-    {
-     "col": 0,
-     "header": "Weekly / 48.6 cumulative / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 37.56
-    },
-    {
-     "col": 1,
-     "header": "Employees - / Minimum / Regular Basic / Journeyman / Per Day",
-     "value": 353.97
-    },
-    {
-     "col": 1,
-     "header": "Schedule / Guarantee - / hours; / Journeyman / Weekly / Guar. / Per Week",
-     "value": 1986.92
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
-   "global": "LA.695.8199.S",
-   "guild": "IATSE",
-   "local": "695",
-   "local_name": "Production Sound / Video Assist",
-   "occ": "8199",
-   "description": "Second Assistant Sound Y-7a Audio Utility Person/Audio Assist/",
-   "footnotes": null,
-   "work_relation": "studio",
-   "production_type": "general",
-   "rate_variant": "full",
-   "schedule_no": "1",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
-   "period_start": "2026-08-02",
-   "period_end": "2027-07-31",
-   "terms_agreement_id": "LOCAL695_2024",
-   "rates": [
-    {
-     "col": 2,
-     "header": "1-1/2 after 9 / Call - 9 hours / Hourly Rate / Entry / Per Hour",
-     "value": 61.78
-    },
-    {
-     "col": 2,
-     "header": "B-2 7 / 5 consecutive / Minimum Call / Entry / Reg. Basic / Hourly Rate / Per Hour",
-     "value": 55.54
-    },
-    {
-     "col": 3,
-     "header": "and/or 40; / Level 1 / Per Day",
-     "value": 556.02
-    },
-    {
-     "col": 3,
-     "header": "days; / - 8 hours / Level 1 / Weekly / Guar. / Per Week",
-     "value": 2938.07
-    }
-   ],
-   "rate_status": "PUBLISHED",
-   "source_class": "PRIMARY-EXTRACTED",
-   "source_doc": "00320346",
-   "source_page": 14
-  },
-  {
    "global": "LA.695.8105.D",
    "guild": "IATSE",
    "local": "695",
@@ -3078,22 +2196,22 @@
    "rates": [
     {
      "col": 0,
-     "header": "Distant / Daily / Per Hour",
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
      "value": 103.56
     },
     {
-     "col": 0,
-     "header": "Distant / Weekly / 6 day / Per Hour",
+     "col": 1,
+     "header": "Distant / Schedule B-14 / Weekly Guarantee - 54 cumulative hours; 6 day week / Regular Basic Hourly Rate / Journeyman / Per Hour",
      "value": 87.84
     },
     {
-     "col": 1,
-     "header": "Location / Schedule / Employees / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
      "value": 1009.71
     },
     {
-     "col": 1,
-     "header": "Location / Schedule / Guarantee - / week; 1-1/2 / Minimum / Regular Basic / Journeyman / Per Week",
+     "col": 3,
+     "header": "Distant / Schedule B-14 / Weekly Guarantee - 54 cumulative hours; 6 day week / Weekly Guarantee / Journeyman / Per Week",
      "value": 4743.36
     }
    ],
@@ -3101,6 +2219,49 @@
    "source_class": "PRIMARY-EXTRACTED",
    "source_doc": "00320346",
    "source_page": 86
+  },
+  {
+   "global": "LA.695.8105.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8105",
+   "description": "Production Mixer Y-1",
+   "footnotes": "2",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 103.56
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-16 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 87.84
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 932.04
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-16 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Journeyman / Per Week",
+     "value": 4269.02
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
   },
   {
    "global": "LA.695.8109.D",
@@ -3121,22 +2282,22 @@
    "rates": [
     {
      "col": 0,
-     "header": "Distant / Daily / Per Hour",
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
      "value": 103.56
     },
     {
-     "col": 0,
-     "header": "Distant / Weekly / 6 day / Per Hour",
+     "col": 1,
+     "header": "Distant / Schedule B-14 / Weekly Guarantee - 54 cumulative hours; 6 day week / Regular Basic Hourly Rate / Journeyman / Per Hour",
      "value": 87.84
     },
     {
-     "col": 1,
-     "header": "Location / Schedule / Employees / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
      "value": 1009.71
     },
     {
-     "col": 1,
-     "header": "Location / Schedule / Guarantee - / week; 1-1/2 / Minimum / Regular Basic / Journeyman / Per Week",
+     "col": 3,
+     "header": "Distant / Schedule B-14 / Weekly Guarantee - 54 cumulative hours; 6 day week / Weekly Guarantee / Journeyman / Per Week",
      "value": 4743.36
     }
    ],
@@ -3146,13 +2307,56 @@
    "source_page": 86
   },
   {
-   "global": "LA.695.8131.D",
+   "global": "LA.695.8109.S",
    "guild": "IATSE",
    "local": "695",
    "local_name": "Production Sound / Video Assist",
-   "occ": "8131",
-   "description": "Maintenance Technician Y-6",
-   "footnotes": null,
+   "occ": "8109",
+   "description": "Supervising Engineer Y-3",
+   "footnotes": "2",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 103.56
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-16 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 87.84
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 932.04
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-16 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Journeyman / Per Week",
+     "value": 4269.02
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
+  },
+  {
+   "global": "LA.695.8111.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8111",
+   "description": "Operative Supervisor and/or Engineer Y-4",
+   "footnotes": "",
    "work_relation": "distant",
    "production_type": "general",
    "rate_variant": "full",
@@ -3164,22 +2368,108 @@
    "rates": [
     {
      "col": 0,
-     "header": "Distant / Daily / Per Hour",
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 80.42
+    },
+    {
+     "col": 1,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
      "value": 70.62
     },
     {
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 784.1
+    },
+    {
+     "col": 3,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Journeyman / Per Week",
+     "value": 4625.61
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8111.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8111",
+   "description": "Operative Supervisor and/or Engineer Y-4",
+   "footnotes": "",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
      "col": 0,
-     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 80.42
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 723.78
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Journeyman / Per Week",
+     "value": 3735.8
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
+  },
+  {
+   "global": "LA.695.8131.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8131",
+   "description": "Maintenance Technician Y-6",
+   "footnotes": "",
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 1,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
      "value": 63.31
     },
     {
-     "col": 1,
-     "header": "Location / Schedule / Employees / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
      "value": 688.55
     },
     {
-     "col": 1,
-     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
+     "col": 3,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Journeyman / Per Week",
      "value": 4146.81
     }
    ],
@@ -3189,12 +2479,55 @@
    "source_page": 86
   },
   {
-   "global": "LA.695.8144.D",
+   "global": "LA.695.8131.S",
    "guild": "IATSE",
    "local": "695",
    "local_name": "Production Sound / Video Assist",
-   "occ": "8144",
-   "description": "Video Assist Y-7 Utility Sound Technician/",
+   "occ": "8131",
+   "description": "Maintenance Technician Y-6",
+   "footnotes": "",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 63.31
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 635.58
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Journeyman / Per Week",
+     "value": 3349.1
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
+  },
+  {
+   "global": "LA.695.8141.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8141",
+   "description": "Service Recorder/TV Engineer/ Video Assist Y-7",
    "footnotes": "3",
    "work_relation": "distant",
    "production_type": "general",
@@ -3206,24 +2539,24 @@
    "terms_agreement_id": "LOCAL695_2024",
    "rates": [
     {
-     "col": 2,
-     "header": "1-1/2 after 9 / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
-     "value": 61.78
+     "col": 0,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 1,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 63.31
     },
     {
      "col": 2,
-     "header": "B-2 5 / 6 consecutive / hours; / Call - 8 hours / Entry / Regular / Basic / Hourly Rate / Per Hour",
-     "value": 55.54
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 688.55
     },
     {
      "col": 3,
-     "header": "and/or 40; / Level 1 / Per Day",
-     "value": 602.36
-    },
-    {
-     "col": 3,
-     "header": "days; / Level 1 / Weekly / Guar. / Per Week",
-     "value": 3637.87
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Journeyman / Per Week",
+     "value": 4146.81
     }
    ],
    "rate_status": "PUBLISHED",
@@ -3232,13 +2565,56 @@
    "source_page": 86
   },
   {
-   "global": "LA.695.8151.D",
+   "global": "LA.695.8141.S",
    "guild": "IATSE",
    "local": "695",
    "local_name": "Production Sound / Video Assist",
-   "occ": "8151",
-   "description": "Second Assistant Sound Y-7a Microphone Boom Operator/",
-   "footnotes": null,
+   "occ": "8141",
+   "description": "Service Recorder/TV Engineer/ Video Assist Y-7",
+   "footnotes": "3,4",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 63.31
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 635.58
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Journeyman / Per Week",
+     "value": 3349.1
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
+  },
+  {
+   "global": "LA.695.8144.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8144",
+   "description": "Utility Sound Technician/ Second Assistant Sound Y-7a",
+   "footnotes": "",
    "work_relation": "distant",
    "production_type": "general",
    "rate_variant": "full",
@@ -3249,30 +2625,159 @@
    "terms_agreement_id": "LOCAL695_2024",
    "rates": [
     {
-     "col": 2,
-     "header": "1-1/2 after 9 / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
-     "value": 61.78
+     "col": 0,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 1,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 63.31
     },
     {
      "col": 2,
-     "header": "B-2 5 / 6 consecutive / hours; / Call - 8 hours / Entry / Regular / Basic / Hourly Rate / Per Hour",
-     "value": 55.54
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 688.55
     },
     {
      "col": 3,
-     "header": "and/or 40; / Level 1 / Per Day",
-     "value": 602.36
-    },
-    {
-     "col": 3,
-     "header": "days; / Level 1 / Weekly / Guar. / Per Week",
-     "value": 3637.87
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Journeyman / Per Week",
+     "value": 4146.81
     }
    ],
    "rate_status": "PUBLISHED",
    "source_class": "PRIMARY-EXTRACTED",
    "source_doc": "00320346",
    "source_page": 86
+  },
+  {
+   "global": "LA.695.8144.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8144",
+   "description": "Utility Sound Technician/ Second Assistant Sound Y-7a",
+   "footnotes": "",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 63.31
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 635.58
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Journeyman / Per Week",
+     "value": 3349.1
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
+  },
+  {
+   "global": "LA.695.8151.D",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8151",
+   "description": "Microphone Boom Operator/ First Assistant Sound Y-8",
+   "footnotes": "",
+   "work_relation": "distant",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "11",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 80.42
+    },
+    {
+     "col": 1,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 784.1
+    },
+    {
+     "col": 3,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Journeyman / Per Week",
+     "value": 4625.61
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 86
+  },
+  {
+   "global": "LA.695.8151.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8151",
+   "description": "Microphone Boom Operator/ First Assistant Sound Y-8",
+   "footnotes": "",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 80.42
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 723.78
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Journeyman / Per Week",
+     "value": 3735.8
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
   },
   {
    "global": "LA.695.8159.D",
@@ -3347,7 +2852,7 @@
    "local_name": "Production Sound / Video Assist",
    "occ": "8161",
    "description": "Sound/Video Service Person III Y-9",
-   "footnotes": null,
+   "footnotes": "",
    "work_relation": "distant",
    "production_type": "general",
    "rate_variant": "full",
@@ -3359,22 +2864,22 @@
    "rates": [
     {
      "col": 0,
-     "header": "Daily / Per Hour",
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
      "value": 56.88
     },
     {
-     "col": 0,
-     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
+     "col": 1,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
      "value": 54.27
     },
     {
-     "col": 1,
-     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
      "value": 554.58
     },
     {
-     "col": 1,
-     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
+     "col": 3,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Journeyman / Per Week",
      "value": 3554.69
     }
    ],
@@ -3382,6 +2887,49 @@
    "source_class": "PRIMARY-EXTRACTED",
    "source_doc": "00320346",
    "source_page": 86
+  },
+  {
+   "global": "LA.695.8161.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8161",
+   "description": "Sound/Video Service Person III Y-9",
+   "footnotes": "",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 56.88
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 54.27
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 511.92
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Journeyman / Per Week",
+     "value": 2870.88
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
   },
   {
    "global": "LA.695.8166.D",
@@ -3525,23 +3073,23 @@
    "terms_agreement_id": "LOCAL695_2024",
    "rates": [
     {
-     "col": 2,
-     "header": "Minimum / A-1 / - 1-1/2 after / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "col": 0,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
      "value": 89.79
     },
     {
-     "col": 2,
-     "header": "Minimum / B-1 4 / 54 cumulative / after 54 / Call - 8 hours / Hourly Rate / Entry / Per Hour",
+     "col": 1,
+     "header": "Distant / Schedule B-14 / Weekly Guarantee - 54 cumulative hours; 6 day week / Regular Basic Hourly Rate / Entry Level / Per Hour",
      "value": 76.4
     },
     {
-     "col": 3,
-     "header": "Rates / 9; / Level 1 / Per Day",
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
      "value": 875.45
     },
     {
      "col": 3,
-     "header": "Rates / hours; / hours; / Level 1 / Per Week",
+     "header": "Distant / Schedule B-14 / Weekly Guarantee - 54 cumulative hours; 6 day week / Weekly Guarantee / Entry Level / Per Week",
      "value": 4125.6
     }
    ],
@@ -3549,6 +3097,49 @@
    "source_class": "PRIMARY-EXTRACTED",
    "source_doc": "00320346",
    "source_page": 86
+  },
+  {
+   "global": "LA.695.8171.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8171",
+   "description": "Production Mixer Y-1",
+   "footnotes": "2",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 89.79
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-16 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 76.4
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 808.11
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-16 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Entry Level / Per Week",
+     "value": 3713.04
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
   },
   {
    "global": "LA.695.8173.D",
@@ -3568,53 +3159,73 @@
    "terms_agreement_id": "LOCAL695_2024",
    "rates": [
     {
-     "col": 2,
-     "header": "Minimum / B-1 4 / 54 cumulative / after 54 / Call - 8 hours / Hourly Rate / Entry / Per Hour",
+     "col": 0,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 89.79
+    },
+    {
+     "col": 1,
+     "header": "Distant / Schedule B-14 / Weekly Guarantee - 54 cumulative hours; 6 day week / Regular Basic Hourly Rate / Entry Level / Per Hour",
      "value": 76.4
     },
     {
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 875.45
+    },
+    {
      "col": 3,
-     "header": "Rates / hours; / hours; / Level 1 / Per Week",
+     "header": "Distant / Schedule B-14 / Weekly Guarantee - 54 cumulative hours; 6 day week / Weekly Guarantee / Entry Level / Per Week",
      "value": 4125.6
     }
    ],
    "rate_status": "PUBLISHED",
    "source_class": "PRIMARY-EXTRACTED",
    "source_doc": "00320346",
-   "source_page": 87
+   "source_page": 86
   },
   {
-   "global": "LA.695.8173+8111.D",
+   "global": "LA.695.8173.S",
    "guild": "IATSE",
    "local": "695",
    "local_name": "Production Sound / Video Assist",
-   "occ": "8173+8111",
-   "description": "Supervising Engineer Y-3 1-1/2 after 40 hours Operative Supervisor",
+   "occ": "8173",
+   "description": "Supervising Engineer Y-3",
    "footnotes": "2",
-   "work_relation": "distant",
+   "work_relation": "studio",
    "production_type": "general",
    "rate_variant": "full",
-   "schedule_no": "11",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
    "period_start": "2026-08-02",
    "period_end": "2027-07-31",
    "terms_agreement_id": "LOCAL695_2024",
    "rates": [
     {
-     "col": 2,
-     "header": "Minimum / A-1 / - 1-1/2 after / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
      "value": 89.79
     },
     {
+     "col": 1,
+     "header": "Schedule B-16 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 76.4
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 808.11
+    },
+    {
      "col": 3,
-     "header": "Rates / 9; / Level 1 / Per Day",
-     "value": 875.45
+     "header": "Schedule B-16 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Entry Level / Per Week",
+     "value": 3713.04
     }
    ],
    "rate_status": "PUBLISHED",
    "source_class": "PRIMARY-EXTRACTED",
    "source_doc": "00320346",
-   "source_page": 86
+   "source_page": 14
   },
   {
    "global": "LA.695.8174.D",
@@ -3622,8 +3233,8 @@
    "local": "695",
    "local_name": "Production Sound / Video Assist",
    "occ": "8174",
-   "description": "and/or Engineer Y-4 Operative Supervisor",
-   "footnotes": null,
+   "description": "Operative Supervisor and/or Engineer Y-4",
+   "footnotes": "",
    "work_relation": "distant",
    "production_type": "general",
    "rate_variant": "full",
@@ -3635,29 +3246,72 @@
    "rates": [
     {
      "col": 0,
-     "header": "Distant / Daily / Per Hour",
-     "value": 80.42
-    },
-    {
-     "col": 0,
-     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
-     "value": 70.62
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 70.07
     },
     {
      "col": 1,
-     "header": "Location / Schedule / Employees / Minimum Call / Regular Basic / Journeyman / Per Day",
-     "value": 784.1
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 61.77
     },
     {
-     "col": 1,
-     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
-     "value": 4625.61
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 683.18
+    },
+    {
+     "col": 3,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Entry Level / Per Week",
+     "value": 4045.94
     }
    ],
    "rate_status": "PUBLISHED",
    "source_class": "PRIMARY-EXTRACTED",
    "source_doc": "00320346",
    "source_page": 86
+  },
+  {
+   "global": "LA.695.8174.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8174",
+   "description": "Operative Supervisor and/or Engineer Y-4",
+   "footnotes": "",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 70.07
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 61.77
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 630.63
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Entry Level / Per Week",
+     "value": 3267.63
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
   },
   {
    "global": "LA.695.8176.D",
@@ -3666,7 +3320,7 @@
    "local_name": "Production Sound / Video Assist",
    "occ": "8176",
    "description": "Maintenance Technician Y-6",
-   "footnotes": null,
+   "footnotes": "",
    "work_relation": "distant",
    "production_type": "general",
    "rate_variant": "full",
@@ -3677,14 +3331,24 @@
    "terms_agreement_id": "LOCAL695_2024",
    "rates": [
     {
-     "col": 2,
-     "header": "Minimum / A-1 / - 1-1/2 after / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "col": 0,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
      "value": 61.78
     },
     {
-     "col": 3,
-     "header": "Rates / 9; / Level 1 / Per Day",
+     "col": 1,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 55.54
+    },
+    {
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
      "value": 602.36
+    },
+    {
+     "col": 3,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Entry Level / Per Week",
+     "value": 3637.87
     }
    ],
    "rate_status": "PUBLISHED",
@@ -3693,37 +3357,47 @@
    "source_page": 86
   },
   {
-   "global": "LA.695.8176+8141.D",
+   "global": "LA.695.8176.S",
    "guild": "IATSE",
    "local": "695",
    "local_name": "Production Sound / Video Assist",
-   "occ": "8176+8141",
-   "description": "Maintenance Technician Y-6 Service Recorder/TV Engineer/",
-   "footnotes": null,
-   "work_relation": "distant",
+   "occ": "8176",
+   "description": "Maintenance Technician Y-6",
+   "footnotes": "",
+   "work_relation": "studio",
    "production_type": "general",
    "rate_variant": "full",
-   "schedule_no": "11",
-   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Production Sound Technicians, Television Engineers, Video Assist Technicians and Studio P",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
    "period_start": "2026-08-02",
    "period_end": "2027-07-31",
    "terms_agreement_id": "LOCAL695_2024",
    "rates": [
     {
-     "col": 2,
-     "header": "B-2 5 / 6 consecutive / hours; / Call - 8 hours / Entry / Regular / Basic / Hourly Rate / Per Hour",
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 61.78
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Entry Level / Per Hour",
      "value": 55.54
     },
     {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 556.02
+    },
+    {
      "col": 3,
-     "header": "days; / Level 1 / Weekly / Guar. / Per Week",
-     "value": 3637.87
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Entry Level / Per Week",
+     "value": 2938.07
     }
    ],
    "rate_status": "PUBLISHED",
    "source_class": "PRIMARY-EXTRACTED",
    "source_doc": "00320346",
-   "source_page": 87
+   "source_page": 14
   },
   {
    "global": "LA.695.8178.D",
@@ -3731,7 +3405,7 @@
    "local": "695",
    "local_name": "Production Sound / Video Assist",
    "occ": "8178",
-   "description": "Video Assist Y-7 Service Recorder/TV Engineer/",
+   "description": "Service Recorder/TV Engineer/ Video Assist Y-7",
    "footnotes": "3",
    "work_relation": "distant",
    "production_type": "general",
@@ -3744,29 +3418,72 @@
    "rates": [
     {
      "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 70.62
-    },
-    {
-     "col": 0,
-     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
-     "value": 63.31
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 61.78
     },
     {
      "col": 1,
-     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
-     "value": 688.55
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 55.54
     },
     {
-     "col": 1,
-     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
-     "value": 4146.81
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 602.36
+    },
+    {
+     "col": 3,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Entry Level / Per Week",
+     "value": 3637.87
     }
    ],
    "rate_status": "PUBLISHED",
    "source_class": "PRIMARY-EXTRACTED",
    "source_doc": "00320346",
    "source_page": 86
+  },
+  {
+   "global": "LA.695.8178.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8178",
+   "description": "Service Recorder/TV Engineer/ Video Assist Y-7",
+   "footnotes": "3,4",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 61.78
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 55.54
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 556.02
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Entry Level / Per Week",
+     "value": 2938.07
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
   },
   {
    "global": "LA.695.8180.D",
@@ -3774,8 +3491,8 @@
    "local": "695",
    "local_name": "Production Sound / Video Assist",
    "occ": "8180",
-   "description": "Second Assistant Sound Y-7a Utility Sound Technician/",
-   "footnotes": null,
+   "description": "Utility Sound Technician/ Second Assistant Sound Y-7a",
+   "footnotes": "",
    "work_relation": "distant",
    "production_type": "general",
    "rate_variant": "full",
@@ -3787,23 +3504,23 @@
    "rates": [
     {
      "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 70.62
-    },
-    {
-     "col": 0,
-     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
-     "value": 63.31
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 61.78
     },
     {
      "col": 1,
-     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
-     "value": 688.55
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 55.54
     },
     {
-     "col": 1,
-     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
-     "value": 4146.81
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 602.36
+    },
+    {
+     "col": 3,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Entry Level / Per Week",
+     "value": 3637.87
     }
    ],
    "rate_status": "PUBLISHED",
@@ -3812,13 +3529,56 @@
    "source_page": 86
   },
   {
+   "global": "LA.695.8180.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8180",
+   "description": "Utility Sound Technician/ Second Assistant Sound Y-7a",
+   "footnotes": "",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 61.78
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 55.54
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 556.02
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Entry Level / Per Week",
+     "value": 2938.07
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
+  },
+  {
    "global": "LA.695.8181.D",
    "guild": "IATSE",
    "local": "695",
    "local_name": "Production Sound / Video Assist",
    "occ": "8181",
-   "description": "First Assistant Sound Y-8 Microphone Boom Operator/",
-   "footnotes": null,
+   "description": "Microphone Boom Operator/ First Assistant Sound Y-8",
+   "footnotes": "",
    "work_relation": "distant",
    "production_type": "general",
    "rate_variant": "full",
@@ -3830,29 +3590,72 @@
    "rates": [
     {
      "col": 0,
-     "header": "Daily / Per Hour",
-     "value": 80.42
-    },
-    {
-     "col": 0,
-     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
-     "value": 70.62
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 70.07
     },
     {
      "col": 1,
-     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
-     "value": 784.1
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 61.77
     },
     {
-     "col": 1,
-     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
-     "value": 4625.61
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 683.18
+    },
+    {
+     "col": 3,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Entry Level / Per Week",
+     "value": 4045.94
     }
    ],
    "rate_status": "PUBLISHED",
    "source_class": "PRIMARY-EXTRACTED",
    "source_doc": "00320346",
    "source_page": 86
+  },
+  {
+   "global": "LA.695.8181.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8181",
+   "description": "Microphone Boom Operator/ First Assistant Sound Y-8",
+   "footnotes": "",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 70.07
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 61.77
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 630.63
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Entry Level / Per Week",
+     "value": 3267.63
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
   },
   {
    "global": "LA.695.8182.D",
@@ -3861,7 +3664,7 @@
    "local_name": "Production Sound / Video Assist",
    "occ": "8182",
    "description": "Sound/Video Service Person III Y-9",
-   "footnotes": null,
+   "footnotes": "",
    "work_relation": "distant",
    "production_type": "general",
    "rate_variant": "full",
@@ -3872,23 +3675,23 @@
    "terms_agreement_id": "LOCAL695_2024",
    "rates": [
     {
-     "col": 2,
-     "header": "1-1/2 after 9 / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "col": 0,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
      "value": 45.36
     },
     {
-     "col": 2,
-     "header": "B-2 5 / 6 consecutive / hours; / Call - 8 hours / Entry / Regular / Basic / Hourly Rate / Per Hour",
+     "col": 1,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
      "value": 47.84
     },
     {
-     "col": 3,
-     "header": "and/or 40; / Level 1 / Per Day",
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
      "value": 442.26
     },
     {
      "col": 3,
-     "header": "days; / Level 1 / Weekly / Guar. / Per Week",
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Entry Level / Per Week",
      "value": 3133.52
     }
    ],
@@ -3898,13 +3701,56 @@
    "source_page": 86
   },
   {
+   "global": "LA.695.8182.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8182",
+   "description": "Sound/Video Service Person III Y-9",
+   "footnotes": "",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 45.36
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 47.84
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 408.24
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Entry Level / Per Week",
+     "value": 2530.74
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
+  },
+  {
    "global": "LA.695.8184.D",
    "guild": "IATSE",
    "local": "695",
    "local_name": "Production Sound / Video Assist",
    "occ": "8184",
    "description": "Sound/Video Service Person II Y-13",
-   "footnotes": null,
+   "footnotes": "",
    "work_relation": "distant",
    "production_type": "general",
    "rate_variant": "full",
@@ -3915,23 +3761,23 @@
    "terms_agreement_id": "LOCAL695_2024",
    "rates": [
     {
-     "col": 2,
-     "header": "1-1/2 after 9 / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
+     "col": 0,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
      "value": 34.13
     },
     {
-     "col": 2,
-     "header": "B-2 5 / 6 consecutive / hours; / Call - 8 hours / Entry / Regular / Basic / Hourly Rate / Per Hour",
+     "col": 1,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
      "value": 32.64
     },
     {
-     "col": 3,
-     "header": "and/or 40; / Level 1 / Per Day",
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
      "value": 332.77
     },
     {
      "col": 3,
-     "header": "days; / Level 1 / Weekly / Guar. / Per Week",
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Entry Level / Per Week",
      "value": 2137.92
     }
    ],
@@ -3941,13 +3787,56 @@
    "source_page": 86
   },
   {
+   "global": "LA.695.8184.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8184",
+   "description": "Sound/Video Service Person II Y-13",
+   "footnotes": "",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 34.13
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Entry Level / Per Hour",
+     "value": 32.64
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Entry Level / Per Day",
+     "value": 307.17
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Entry Level / Per Week",
+     "value": 1726.66
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
+  },
+  {
    "global": "LA.695.8185.D",
    "guild": "IATSE",
    "local": "695",
    "local_name": "Production Sound / Video Assist",
    "occ": "8185",
    "description": "Sound/Video Service Person I Y-16",
-   "footnotes": null,
+   "footnotes": "",
    "work_relation": "distant",
    "production_type": "general",
    "rate_variant": "full",
@@ -3959,22 +3848,12 @@
    "rates": [
     {
      "col": 0,
-     "header": "Daily / Per Hour",
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
      "value": 28.9
-    },
-    {
-     "col": 1,
-     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
-     "value": 281.78
     },
     {
      "col": 2,
-     "header": "1-1/2 after 9 / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
-     "value": 28.9
-    },
-    {
-     "col": 3,
-     "header": "and/or 40; / Level 1 / Per Day",
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
      "value": 281.78
     }
    ],
@@ -3982,6 +3861,39 @@
    "source_class": "PRIMARY-EXTRACTED",
    "source_doc": "00320346",
    "source_page": 86
+  },
+  {
+   "global": "LA.695.8185.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8185",
+   "description": "Sound/Video Service Person I Y-16",
+   "footnotes": "",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 28.9
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 260.1
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
   },
   {
    "global": "LA.695.8192.D",
@@ -3990,7 +3902,7 @@
    "local_name": "Production Sound / Video Assist",
    "occ": "8192",
    "description": "Production Sound/Video Trainee Y-16a",
-   "footnotes": null,
+   "footnotes": "",
    "work_relation": "distant",
    "production_type": "general",
    "rate_variant": "full",
@@ -4002,22 +3914,12 @@
    "rates": [
     {
      "col": 0,
-     "header": "Daily / Per Hour",
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
      "value": 28.9
-    },
-    {
-     "col": 1,
-     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
-     "value": 281.78
     },
     {
      "col": 2,
-     "header": "1-1/2 after 9 / - 9-1/2 hours / Hourly Rate / Entry / Per Hour",
-     "value": 28.9
-    },
-    {
-     "col": 3,
-     "header": "and/or 40; / Level 1 / Per Day",
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
      "value": 281.78
     }
    ],
@@ -4027,13 +3929,46 @@
    "source_page": 86
   },
   {
+   "global": "LA.695.8192.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8192",
+   "description": "Production Sound/Video Trainee Y-16a",
+   "footnotes": "",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 28.9
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 260.1
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
+  },
+  {
    "global": "LA.695.8194.D",
    "guild": "IATSE",
    "local": "695",
    "local_name": "Production Sound / Video Assist",
    "occ": "8194",
    "description": "Sound/Video Service Person II Y-13",
-   "footnotes": null,
+   "footnotes": "",
    "work_relation": "distant",
    "production_type": "general",
    "rate_variant": "full",
@@ -4045,22 +3980,22 @@
    "rates": [
     {
      "col": 0,
-     "header": "Daily / Per Hour",
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
      "value": 39.33
     },
     {
-     "col": 0,
-     "header": "Weekly / Regular / Basic / Hourly Rate / Per Hour",
+     "col": 1,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
      "value": 37.56
     },
     {
-     "col": 1,
-     "header": "Employees - / Minimum Call / Regular Basic / Journeyman / Per Day",
+     "col": 2,
+     "header": "Distant / Schedule A-1 / Daily Employees / Minimum Call - 9-1/2 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
      "value": 383.47
     },
     {
-     "col": 1,
-     "header": "Schedule / Guarantee - / 57 cumulative / Minimum / Journeyman / Weekly / Guar. / Per Week",
+     "col": 3,
+     "header": "Distant / Schedule B-2 / Weekly Guarantee - 6 consecutive days; 57 cumulative hours / Weekly Guarantee / Journeyman / Per Week",
      "value": 2460.18
     }
    ],
@@ -4068,6 +4003,92 @@
    "source_class": "PRIMARY-EXTRACTED",
    "source_doc": "00320346",
    "source_page": 86
+  },
+  {
+   "global": "LA.695.8194.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8194",
+   "description": "Sound/Video Service Person II Y-13",
+   "footnotes": "",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 39.33
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 37.56
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 353.97
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Journeyman / Per Week",
+     "value": 1986.92
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
+  },
+  {
+   "global": "LA.695.8199.S",
+   "guild": "IATSE",
+   "local": "695",
+   "local_name": "Production Sound / Video Assist",
+   "occ": "8199",
+   "description": "Audio Utility Person/Audio Assist/ Chyron Operator A-2",
+   "footnotes": "5",
+   "work_relation": "studio",
+   "production_type": "general",
+   "rate_variant": "full",
+   "schedule_no": "1",
+   "schedule_descriptor": "2024-27 Local #695 Wage Schedules Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026 to and including July 31, 2027. I.A.T.S.E. Pr",
+   "period_start": "2026-08-02",
+   "period_end": "2027-07-31",
+   "terms_agreement_id": "LOCAL695_2024",
+   "rates": [
+    {
+     "col": 0,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 70.62
+    },
+    {
+     "col": 1,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Regular Basic Hourly Rate / Journeyman / Per Hour",
+     "value": 63.28
+    },
+    {
+     "col": 2,
+     "header": "Schedule A-1 / Daily Employees / Minimum Call - 9 hours / Regular Basic Hourly Rate / Journeyman / Per Day",
+     "value": 564.96
+    },
+    {
+     "col": 3,
+     "header": "Schedule B-27 / Weekly Guarantee - 48.6 cumulative hours; 5 consecutive days / Weekly Guarantee / Journeyman / Per Week",
+     "value": 2531.2
+    }
+   ],
+   "rate_status": "PUBLISHED",
+   "source_class": "PRIMARY-EXTRACTED",
+   "source_doc": "00320346",
+   "source_page": 14
   },
   {
    "global": "LA.700-MAJ.4105.D",
@@ -5543,22 +5564,22 @@
    "rates": [
     {
      "col": 0,
-     "header": "Schedule / Daily / 1-1/2 after 9 / Minimum Call",
+     "header": "Schedule / Daily / 1-1/2 after 9 / Minimum Call / Per Hour",
      "value": 80.42
     },
     {
      "col": 1,
-     "header": "A-4 / Employees / and/or 40; / - 9-1/2 hours",
+     "header": "A-4 / Employees / and/or 40; / - 9-1/2 hours / Per Day",
      "value": 784.1
     },
     {
      "col": 2,
-     "header": "Schedule / Weekly / Weekly Guar. - / 6 consecutive / Minimum Call",
+     "header": "Schedule / Weekly / Weekly Guar. - / 6 consecutive / Minimum Call / Per Hour",
      "value": 70.62
     },
     {
      "col": 3,
-     "header": "B-4 11,12 / Employees / 57 cum. hours; / days; / - 8 hours",
+     "header": "B-4 11,12 / Employees / 57 cum. hours; / days; / - 8 hours / Per Week",
      "value": 4625.61
     }
    ],
@@ -5629,22 +5650,22 @@
    "rates": [
     {
      "col": 0,
-     "header": "Schedule / Daily / 1-1/2 after 9 / Minimum Call",
+     "header": "Schedule / Daily / 1-1/2 after 9 / Minimum Call / Per Hour",
      "value": 70.07
     },
     {
      "col": 1,
-     "header": "A-4 / Employees / and/or 40; / - 9-1/2 hours",
+     "header": "A-4 / Employees / and/or 40; / - 9-1/2 hours / Per Day",
      "value": 683.18
     },
     {
      "col": 2,
-     "header": "Schedule / Weekly / Weekly Guar. - / 6 consecutive / Minimum Call",
+     "header": "Schedule / Weekly / Weekly Guar. - / 6 consecutive / Minimum Call / Per Hour",
      "value": 61.77
     },
     {
      "col": 3,
-     "header": "B-4 11,12 / Employees / 57 cum. hours; / days; / - 8 hours",
+     "header": "B-4 11,12 / Employees / 57 cum. hours; / days; / - 8 hours / Per Week",
      "value": 4045.94
     }
    ],
@@ -5857,22 +5878,22 @@
    "rates": [
     {
      "col": 0,
-     "header": "Schedule / Daily / 1-1/2 after 9 / Minimum Call",
+     "header": "Schedule / Daily / 1-1/2 after 9 / Minimum Call / Per Hour",
      "value": 67.69
     },
     {
      "col": 1,
-     "header": "A-4 / Employees / and/or 40; / - 9-1/2 hours",
+     "header": "A-4 / Employees / and/or 40; / - 9-1/2 hours / Per Day",
      "value": 659.98
     },
     {
      "col": 2,
-     "header": "Schedule / Weekly / Weekly Guar. - / 6 consecutive / Minimum Call",
+     "header": "Schedule / Weekly / Weekly Guar. - / 6 consecutive / Minimum Call / Per Hour",
      "value": 60.9
     },
     {
      "col": 3,
-     "header": "B-4 11,12 / Employees / 57 cum. hours; / days; / - 8 hours",
+     "header": "B-4 11,12 / Employees / 57 cum. hours; / days; / - 8 hours / Per Week",
      "value": 3988.95
     }
    ],
@@ -5943,22 +5964,22 @@
    "rates": [
     {
      "col": 0,
-     "header": "Schedule / Daily / 1-1/2 after 9 / Minimum Call",
+     "header": "Schedule / Daily / 1-1/2 after 9 / Minimum Call / Per Hour",
      "value": 59.23
     },
     {
      "col": 1,
-     "header": "A-4 / Employees / and/or 40; / - 9-1/2 hours",
+     "header": "A-4 / Employees / and/or 40; / - 9-1/2 hours / Per Day",
      "value": 577.49
     },
     {
      "col": 2,
-     "header": "Schedule / Weekly / Weekly Guar. - / 6 consecutive / Minimum Call",
+     "header": "Schedule / Weekly / Weekly Guar. - / 6 consecutive / Minimum Call / Per Hour",
      "value": 53.49
     },
     {
      "col": 3,
-     "header": "B-4 11,12 / Employees / 57 cum. hours; / days; / - 8 hours",
+     "header": "B-4 11,12 / Employees / 57 cum. hours; / days; / - 8 hours / Per Week",
      "value": 3503.6
     }
    ],
@@ -14594,7 +14615,7 @@
    "rates": [
     {
      "col": 1,
-     "header": "Schedule B-1 / Weekly Guarantee / 6 days; / 48-hour guarantee; / 1-1/2 after 40 hours / Minimum Call - / 8 hours all days",
+     "header": "Schedule B-1 / Weekly Guarantee / 6 days; / 48-hour guarantee; / 1-1/2 after 40 hours / Minimum Call - / 8 hours all days / Per Hour",
      "value": 48.58
     }
    ],
@@ -14622,7 +14643,7 @@
    "rates": [
     {
      "col": 1,
-     "header": "Schedule B-1 / Weekly Guarantee - / 40 hours; / 5 consecutive days; / 1-1/2 after 40 hours / Minimum Call; / 8 hours all days",
+     "header": "Schedule B-1 / Weekly Guarantee - / 40 hours; / 5 consecutive days; / 1-1/2 after 40 hours / Minimum Call; / 8 hours all days / Per Hour",
      "value": 48.58
     }
    ],
@@ -15389,12 +15410,12 @@
    "rates": [
     {
      "col": 0,
-     "header": "Schedule A-1 / Daily Employees / 8 hour minimum; / 1-1/2 after / 8 hours daily / and/or 40 hours / Per / Hour",
+     "header": "Schedule A-1 / Daily Employees / 8 hour minimum; / 1-1/2 after / 8 hours daily / and/or 40 hours / Per Hour",
      "value": 63.12
     },
     {
      "col": 1,
-     "header": "Schedule / Weekly / Weekly / 40 / Minimum Call / 1-1/2 after 40 / Per / Hour",
+     "header": "Schedule / Weekly / Weekly / 40 / Minimum Call / 1-1/2 after 40 / Per Hour",
      "value": 58.18
     },
     {
