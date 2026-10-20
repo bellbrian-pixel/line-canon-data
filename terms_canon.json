@@ -10452,7 +10452,7 @@
         "day_class": "standard",
         "steps": [
          {
-          "after_hours": 8,
+          "after_hours": 9,
           "basis": "worked",
           "factor": 1.5
          },
@@ -10467,7 +10467,7 @@
         "day_class": "6th",
         "steps": [
          {
-          "after_hours": 8,
+          "after_hours": 9,
           "basis": "worked",
           "factor": 1.5
          },
@@ -10508,7 +10508,8 @@
          }
         ]
        }
-      ]
+      ],
+      "min_call_hours": 9.5
      },
      "citation": "EP Paymaster 2026-27 (Aug 2026), p.154",
      "status": "PAYMASTER",
@@ -10520,7 +10521,12 @@
       "page": 154,
       "hash_method": "paymaster_page"
      },
-     "notes": "PAYMASTER bridge row (Brian 2026-10-12): base agreement not available; retire when the local agreement text is harvested. No 15-hr step on distant (same as Local 44 Para. 44(b))."
+     "notes": "PAYMASTER bridge row (Brian 2026-10-12): base agreement not available; retire when the local agreement text is harvested. No 15-hr step on distant (same as Local 44 Para. 44(b)). 19 Oct 2026: base step moved from 8 to 9 hours for standard and 6th days, per the printed Wage Schedule #11 Schedule A-1 header p.86 (\"Daily Employees - 1-1/2 after 9; Minimum Call - 9-1/2 hours\"); the paymaster page shows 8. Wage scale governs (source policy 10/12).",
+     "also_checked": {
+      "anchor": "Wage Schedule #11: The following distant location minimum wage scale shall be effective for the period commencing with August 2, 2026",
+      "clause_hash": "sha256:7d09f30f1533bd87b124cccddd4a1cce68bf5497c9ebfc28cae41cf2d1596719",
+      "last_checked": "2026-10-19"
+     }
     },
     {
      "term_id": "LOCAL695_2024.idle_day.distant.paymaster",
@@ -10562,6 +10568,255 @@
      },
      "notes": "PAYMASTER bridge row (Brian 2026-10-12): base agreement not available; retire when the local agreement text is harvested. Plus 8 pension hrs.",
      "pension_hours": 8
+    },
+    {
+     "term_id": "LOCAL695_2024.golden.zone_location",
+     "topic": "ot_ladder",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "local",
+       "nearby"
+      ],
+      "day_class": [
+       "standard",
+       "6th",
+       "7th",
+       "holiday"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null,
+      "step_gates": {
+       "3.0": "2024-08-04",
+       "4.5": "2024-08-04",
+       "6.0": "2024-08-04"
+      }
+     },
+     "effective": [],
+     "value": {
+      "kind": "golden_table",
+      "basis": "elapsed (incl. meals) from reporting",
+      "min_call_hours": 9,
+      "rows": [
+       {
+        "day_class": "standard",
+        "steps": [
+         {
+          "after_hours": 9,
+          "basis": "worked",
+          "factor": 1.5,
+          "condition": "or after 40 in the week for Y-4 to Y-16 (A-1 \"1-1/2 after 9 and/or 40\"); Y-1 Mixer and Y-3 Supervising Engineer after 9 only"
+         },
+         {
+          "after_hours": 14,
+          "basis": "elapsed",
+          "factor": 2.0
+         },
+         {
+          "after_hours": 15,
+          "basis": "elapsed",
+          "factor": 3.0
+         }
+        ]
+       },
+       {
+        "day_class": "6th",
+        "steps": [
+         {
+          "after_hours": 0,
+          "basis": "worked",
+          "factor": 1.5
+         },
+         {
+          "after_hours": 14,
+          "basis": "elapsed",
+          "factor": 3.0
+         },
+         {
+          "after_hours": 15,
+          "basis": "elapsed",
+          "factor": 4.5
+         }
+        ]
+       },
+       {
+        "day_class": "7th",
+        "steps": [
+         {
+          "after_hours": 0,
+          "basis": "worked",
+          "factor": 2.0
+         },
+         {
+          "after_hours": 14,
+          "basis": "elapsed",
+          "factor": 4.0
+         },
+         {
+          "after_hours": 15,
+          "basis": "elapsed",
+          "factor": 6.0
+         }
+        ]
+       },
+       {
+        "day_class": "holiday",
+        "steps": [
+         {
+          "after_hours": 0,
+          "basis": "worked",
+          "factor": 2.0
+         },
+         {
+          "after_hours": 14,
+          "basis": "elapsed",
+          "factor": 4.0
+         },
+         {
+          "after_hours": 15,
+          "basis": "elapsed",
+          "factor": 6.0
+         }
+        ]
+       }
+      ]
+     },
+     "citation": "Wage Schedule #1 (8/2/26-7/31/27) Schedule A-1 header, p.14; golden steps 2024 Basic Agreement MOA item 9.a, Para. 11(a)(1) (IATSE_WCSL_2024.golden.zone_location)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026",
+      "clause_hash": "sha256:875abaa28fc3a0a8386f236c32ba3ead426a4d218f4852a9e9e0e56d4dc7011c",
+      "last_checked": "2026-10-19"
+     },
+     "notes": "Daily employees: 9-hour minimum call, 1.5x after 9 (not 8). Studio zone, secondary zone or nearby. 15-hr steps for pictures commencing PP on or after 8/4/24. Weekly employees (B-16 Y-1/Y-3, B-27 others): 48.6 cumulative-hour guarantee, 1.5x after 48.6. 6th/7th base factors per LOCAL695_2024.premium_day.6th_7th.paymaster. Local 695 agreement text (2021) not in hand."
+    },
+    {
+     "term_id": "LOCAL695_2024.golden.studio_premises",
+     "topic": "ot_ladder",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "local"
+      ],
+      "day_class": [
+       "standard",
+       "6th",
+       "7th",
+       "holiday"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null,
+      "step_gates": {
+       "3.0": "2024-08-04",
+       "4.5": "2024-08-04",
+       "6.0": "2024-08-04"
+      }
+     },
+     "effective": [],
+     "value": {
+      "kind": "golden_table",
+      "basis": "elapsed (incl. meals) from reporting",
+      "min_call_hours": 9,
+      "rows": [
+       {
+        "day_class": "standard",
+        "steps": [
+         {
+          "after_hours": 9,
+          "basis": "worked",
+          "factor": 1.5,
+          "condition": "or after 40 in the week for Y-4 to Y-16 (A-1 \"1-1/2 after 9 and/or 40\"); Y-1 Mixer and Y-3 Supervising Engineer after 9 only"
+         },
+         {
+          "after_hours": 12,
+          "basis": "elapsed",
+          "factor": 2.0
+         },
+         {
+          "after_hours": 15,
+          "basis": "elapsed",
+          "factor": 3.0
+         }
+        ]
+       },
+       {
+        "day_class": "6th",
+        "steps": [
+         {
+          "after_hours": 0,
+          "basis": "worked",
+          "factor": 1.5
+         },
+         {
+          "after_hours": 12,
+          "basis": "elapsed",
+          "factor": 3.0
+         },
+         {
+          "after_hours": 15,
+          "basis": "elapsed",
+          "factor": 4.5
+         }
+        ]
+       },
+       {
+        "day_class": "7th",
+        "steps": [
+         {
+          "after_hours": 0,
+          "basis": "worked",
+          "factor": 2.0
+         },
+         {
+          "after_hours": 12,
+          "basis": "elapsed",
+          "factor": 4.0
+         },
+         {
+          "after_hours": 15,
+          "basis": "elapsed",
+          "factor": 6.0
+         }
+        ]
+       },
+       {
+        "day_class": "holiday",
+        "steps": [
+         {
+          "after_hours": 0,
+          "basis": "worked",
+          "factor": 2.0
+         },
+         {
+          "after_hours": 12,
+          "basis": "elapsed",
+          "factor": 4.0
+         },
+         {
+          "after_hours": 15,
+          "basis": "elapsed",
+          "factor": 6.0
+         }
+        ]
+       }
+      ]
+     },
+     "citation": "Wage Schedule #1 (8/2/26-7/31/27) Schedule A-1 header, p.14; golden steps 2024 Basic Agreement MOA item 9.a, Para. 11(a)(2) (IATSE_WCSL_2024.golden.studio_premises)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Wage Schedule #1: The following studio minimum wage schedule for other than one-half hour prime time dramatic television motion pictures recorded digitally shall be effective for the period commencing with August 2, 2026",
+      "clause_hash": "sha256:875abaa28fc3a0a8386f236c32ba3ead426a4d218f4852a9e9e0e56d4dc7011c",
+      "last_checked": "2026-10-19"
+     },
+     "notes": "Shift entirely on studio premises: golden at 12 elapsed. Otherwise as golden.zone_location."
     }
    ],
    "missing_base": "2021 Local 695 Agreement",
