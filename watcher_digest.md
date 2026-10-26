@@ -1,13 +1,10 @@
-# Incentive Watcher — review needed — 2026-10-19
+# Incentive Watcher — review needed — 2026-10-26
 
 **Coverage: 40 of 46 targets live, 6 blind.** A blind target reports nothing, which looks exactly like good news.
 
 ```
-INCENTIVE CANON WATCHER — 2026-10-19
-Targets: 46 | staged to pending[]: 1
-
-CHANGED (staged for approval):
-  GA [review] detected=(none)  Georgia Entertainment Industry Investment Act  https://dor.georgia.gov/film-tax-credits
+INCENTIVE CANON WATCHER — 2026-10-26
+Targets: 46 | staged to pending[]: 0
 
 LIVE VALUES (semantics=value):
   MO detected=$7,860,522  https://mofilm.org/tax-incentives/motion-media-production/
