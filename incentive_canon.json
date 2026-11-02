@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26",
+  "generated_at": "2026-11-02",
   "_meta": {
     "canon": "US State Film Production Incentives",
     "verified_on": "2026-08-19",
@@ -84,7 +84,22 @@
       "annual_cap": "$5M",
       "project_cap": "None",
       "verified_on": "2026-08-19",
-      "notes": "Merit-based, two-stage, not first-come. 50% CO resident crew; 80% financing proof. [UNRESOLVED]"
+      "notes": "Merit-based, two-stage, not first-come. 50% CO resident crew; 80% financing proof. [UNRESOLVED]",
+      "pending": [
+        {
+          "field": "max_pct",
+          "current": 22,
+          "detected": "20%",
+          "detected_at": "2026-11-02",
+          "source_url": "https://oedit.colorado.gov/colorado-film-incentive",
+          "locator": "up to 20% of qualified expenses, or 22% if using locations in an Enterprise Zone",
+          "locator_hash": "c56fde9405668a83e8925fe13f983858",
+          "kind": "CHANGED",
+          "window": "sources and Partners Home Programs and Funding Colorado Film Incentive Colorado Film Incentive Program Summary The Colorado Film Incentive encourages film production in Colorado with a tax credit for up to 20% of qualified expenses, or 22% if using locations in an Enterprise Zone. The incentive creates jobs for Coloradans and historically has provided on average an 18-to-1 return on investment for",
+          "status": "unconfirmed"
+        }
+      ],
+      "rejected": []
     },
     {
       "code": "CT",
@@ -867,6 +882,18 @@
           "locator_hash": "c666b12278b36725c33050e6c538bbdb",
           "kind": "CHANGED",
           "window": "eport. Code of Virginia Title 58.1. Taxation Chapter 3. Income Tax 10/12/2026 § 58.1-439.12:03 . Motion picture production tax credit. A. For taxable years beginning on and after January 1, 2011, but prior to January 1, 2031, any motion picture production company with qualifying expenses of at least $250,000 with respect to a motion picture production filmed in Virginia shall be allowed a refundab",
+          "status": "unconfirmed"
+        },
+        {
+          "field": "review",
+          "current": null,
+          "detected": "$250,000",
+          "detected_at": "2026-11-02",
+          "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-439.12:03/",
+          "locator": "prior to January 1, 2031, any motion picture production company with qualifying expenses of at least $250,000",
+          "locator_hash": "bd52bc6fb3e4ddb694155ccf862e8f91",
+          "kind": "CHANGED",
+          "window": "report. Code of Virginia Title 58.1. Taxation Chapter 3. Income Tax 11/2/2026 § 58.1-439.12:03 . Motion picture production tax credit. A. For taxable years beginning on and after January 1, 2011, but prior to January 1, 2031, any motion picture production company with qualifying expenses of at least $250,000 with respect to a motion picture production filmed in Virginia shall be allowed a refundab",
           "status": "unconfirmed"
         }
       ],
