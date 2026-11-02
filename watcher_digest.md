@@ -1,10 +1,14 @@
-# Incentive Watcher — review needed — 2026-10-26
+# Incentive Watcher — review needed — 2026-11-02
 
 **Coverage: 40 of 46 targets live, 6 blind.** A blind target reports nothing, which looks exactly like good news.
 
 ```
-INCENTIVE CANON WATCHER — 2026-10-26
-Targets: 46 | staged to pending[]: 0
+INCENTIVE CANON WATCHER — 2026-11-02
+Targets: 46 | staged to pending[]: 2
+
+CHANGED (staged for approval):
+  CO [max_pct] detected=20%  up to 20% of qualified expenses, or 22% if using locations in an Enterprise Zone  https://oedit.colorado.gov/colorado-film-incentive
+  VA [review] detected=$250,000  prior to January 1, 2031, any motion picture production company with qualifying expenses of at least $250,000  https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-439.12:03/
 
 LIVE VALUES (semantics=value):
   MO detected=$7,860,522  https://mofilm.org/tax-incentives/motion-media-production/
