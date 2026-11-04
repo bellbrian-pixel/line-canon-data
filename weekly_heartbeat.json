@@ -1,0 +1,13 @@
+{
+ "schema": "weekly_heartbeat/1",
+ "generated_at": "2026-11-04",
+ "started": "2026-11-04T16:03:11.580Z",
+ "ok": true,
+ "failed": [],
+ "steps": {
+  "rates": "OK",
+  "archive": "OK",
+  "termspublish": "OK",
+  "termswatch": "OK"
+ }
+}
