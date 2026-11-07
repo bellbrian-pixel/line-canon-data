@@ -1179,6 +1179,63 @@
       "clause_hash_prev": "sha256:ab357fc8328507f040c324635a799ac1c4b9a2bd9834f40f4fb04d98eac15ca0"
      },
      "notes": ""
+    },
+    {
+     "term_id": "TEAMSTERS817_LOC_2024.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": [
+       {
+        "citation": "2021 Agreement Art. 34",
+        "relation": "nearby",
+        "windows": [
+         {
+          "from": "2023-10-01",
+          "to": null,
+          "daily": null,
+          "breakfast": 11,
+          "lunch": 12,
+          "dinner": 16,
+          "incidentals": null,
+          "lodging_allowance": null
+         }
+        ]
+       }
+      ]
+     },
+     "citation": "2024 MOA item 15 amending 2021 Agreement Art. 26(b)(i)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "“i. Employees shall be entitled to reimbursement for actual room and board expenses on location",
+      "clause_hash": "sha256:0ac050ccccad1933acd3ca75bd250489057006b5461565ef2445123462d7a6bc",
+      "source": "NY_LOCAL817_LOC_RATES_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "2024 MOA item 15: actual room and board, meal minimums 12.50/17.50/25 from the ratification Sunday (assumed 2024-10-06). OPEN: confirm the date; receipted reimbursement, so the minimums are a floor not a per diem."
     }
    ]
   },
@@ -2199,6 +2256,147 @@
       "last_checked": "2026-10-13"
      },
      "notes": "Part A only. Good Friday is not a Local 52 holiday. Unworked holiday pay behaves like a percentage fringe on straight time, not a per-day amount."
+    },
+    {
+     "term_id": "LOCAL52_MAJORS_2024.per_diem.distant.2024-10-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-10-01",
+       "to": "2024-10-19"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 6.5,
+       "lunch": 8.5,
+       "dinner": 14
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null
+     },
+     "citation": "Sec. 6(a)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Employees on location out of town shall be allowed the sum set forth in the chart below for breakfast, lunch and dinner, plus first class hotel accommodations, if available.",
+      "clause_hash": "sha256:14dbc43d806cfb2f05226968fdd2b6903648642204152d9c170475c5d9999236",
+      "source": "2024 Local 52 Majors Agreement.pdf Sec. 6(a)",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Distant Hires = required to remain away from home overnight. Meals provided may be deducted at these rates (Sec. 6(b)). The Buffalo zone table (Sec. 5(b)(3)(ii)) carries the same figures."
+    },
+    {
+     "term_id": "LOCAL52_MAJORS_2024.per_diem.distant.2024-10-20",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-10-20",
+       "to": "2026-10-17"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null
+     },
+     "citation": "Sec. 6(a)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Employees on location out of town shall be allowed the sum set forth in the chart below for breakfast, lunch and dinner, plus first class hotel accommodations, if available.",
+      "clause_hash": "sha256:14dbc43d806cfb2f05226968fdd2b6903648642204152d9c170475c5d9999236",
+      "source": "2024 Local 52 Majors Agreement.pdf Sec. 6(a)",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Distant Hires = required to remain away from home overnight. Meals provided may be deducted at these rates (Sec. 6(b)). The Buffalo zone table (Sec. 5(b)(3)(ii)) carries the same figures."
+    },
+    {
+     "term_id": "LOCAL52_MAJORS_2024.per_diem.distant.2026-10-18",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-10-18",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null
+     },
+     "citation": "Sec. 6(a)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Employees on location out of town shall be allowed the sum set forth in the chart below for breakfast, lunch and dinner, plus first class hotel accommodations, if available.",
+      "clause_hash": "sha256:14dbc43d806cfb2f05226968fdd2b6903648642204152d9c170475c5d9999236",
+      "source": "2024 Local 52 Majors Agreement.pdf Sec. 6(a)",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Distant Hires = required to remain away from home overnight. Meals provided may be deducted at these rates (Sec. 6(b)). The Buffalo zone table (Sec. 5(b)(3)(ii)) carries the same figures."
     }
    ]
   },
@@ -2600,6 +2798,175 @@
       "last_checked": "2026-10-14"
      },
      "notes": "Accrual in the Northeast; day pay incl. Good Friday (no Veterans' Day) in the Southeastern States. A 161 hire is under 161 wherever it shoots (J3)."
+    },
+    {
+     "term_id": "LOCAL161_MAJORS_2025.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": [
+       {
+        "citation": "Part III Art. 24(b)(3)(A)(ii) (NE states outside NY metro)",
+        "relation": "nearby",
+        "windows": [
+         {
+          "from": "2022-01-01",
+          "to": "2025-03-08",
+          "daily": 60,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2025-03-09",
+          "to": "2026-03-07",
+          "daily": 70,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2026-03-08",
+          "to": "2027-03-06",
+          "daily": 80,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2027-03-07",
+          "to": null,
+          "daily": 90,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         }
+        ]
+       },
+       {
+        "citation": "Part IV Art. 39(b) (Southeast)",
+        "relation": "nearby",
+        "windows": [
+         {
+          "from": "2022-01-01",
+          "to": "2025-03-08",
+          "daily": 60,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2025-03-09",
+          "to": "2026-03-07",
+          "daily": 70,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2026-03-08",
+          "to": "2027-03-06",
+          "daily": 80,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2027-03-07",
+          "to": null,
+          "daily": 90,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         }
+        ]
+       },
+       {
+        "citation": "Part IV Art. 39(c),(e),(f)",
+        "relation": "distant",
+        "windows": [
+         {
+          "from": "2025-03-09",
+          "to": "2026-03-07",
+          "daily": 59.5,
+          "breakfast": 11.5,
+          "lunch": 16,
+          "dinner": 32,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2026-03-08",
+          "to": "2027-03-06",
+          "daily": 70,
+          "breakfast": 14,
+          "lunch": 21,
+          "dinner": 35,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2027-03-07",
+          "to": null,
+          "daily": 75,
+          "breakfast": 16,
+          "lunch": 22,
+          "dinner": 37,
+          "incidentals": null,
+          "lodging_allowance": null
+         }
+        ]
+       }
+      ]
+     },
+     "citation": "Part III Art. 24(b)(3)(A)(iii)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "(iii) A Distant Hire is defined as any employee who is not a Local Hire and whose principal",
+      "clause_hash": "sha256:ec2f7828d8d73ccf10144f6d738ceda1cc4cb3f3e9e9b64fdb9e19cf9d41f9a3",
+      "source": "NY_LOCAL161_2025.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Part IV (Southeast) prices distant hires 59.50 / 70 / 75 (3/9/25, 3/8/26, 3/7/27) and nearby living 70 / 80 / 90; Part III distant hires get a hotel and no figure. OPEN: which Part governs a NY hire working distant."
     }
    ]
   },
@@ -2950,6 +3317,46 @@
       "last_checked": "2026-10-14"
      },
      "notes": "Non-accrual: every listed holiday is a day line when the eligibility test is met."
+    },
+    {
+     "term_id": "LOCAL764_MAJORS_2025.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": []
+     },
+     "citation": "Art. 8(b)(1)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "(b) Distant Locations A Distant Location is any workplace where the employee is lodged overnight.",
+      "clause_hash": "sha256:85729a25cb0d3e61890a74ea95dab63e76e9736cf4b411bed32cbe69c2556761",
+      "source": "NY_LOCAL764_2025.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Art. 8(b)(1)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent."
     }
    ]
   },
@@ -3347,6 +3754,145 @@
       "last_checked": "2026-10-14"
      },
      "notes": "Part III: unworked pay only for MLK and Juneteenth, plus every holiday on a distant leg. Part IV: every listed holiday incl. Good Friday. Florida is Part III in 798 (Part IV in 161)."
+    },
+    {
+     "term_id": "LOCAL798_MAJORS_2025.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": [
+       {
+        "citation": "Part III Art. 19(c)",
+        "relation": "nearby",
+        "windows": [
+         {
+          "from": "2025-03-09",
+          "to": null,
+          "daily": null,
+          "breakfast": 4,
+          "lunch": 5.5,
+          "dinner": 9,
+          "incidentals": null,
+          "lodging_allowance": null
+         }
+        ]
+       },
+       {
+        "citation": "Part IV Art. 39(b) (Southeast)",
+        "relation": "nearby",
+        "windows": [
+         {
+          "from": "2022-07-31",
+          "to": "2025-03-08",
+          "daily": 60,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2025-03-09",
+          "to": "2026-02-28",
+          "daily": 70,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2026-03-01",
+          "to": "2027-02-27",
+          "daily": 80,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2027-02-28",
+          "to": null,
+          "daily": 90,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         }
+        ]
+       },
+       {
+        "citation": "Part IV Art. 39(c),(e)",
+        "relation": "distant",
+        "windows": [
+         {
+          "from": "2022-07-31",
+          "to": "2025-03-08",
+          "daily": 57,
+          "breakfast": 12,
+          "lunch": 16,
+          "dinner": 29,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2025-03-09",
+          "to": "2027-03-06",
+          "daily": 70,
+          "breakfast": 14,
+          "lunch": 21,
+          "dinner": 35,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2027-03-07",
+          "to": null,
+          "daily": 75,
+          "breakfast": 16,
+          "lunch": 22,
+          "dinner": 37,
+          "incidentals": null,
+          "lodging_allowance": null
+         }
+        ]
+       }
+      ]
+     },
+     "citation": "Part III Art. 18(b)(2) and Art. 19(c)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "(c) On distant locations, the Company shall furnish first class lodging accommodations and three",
+      "clause_hash": "sha256:14da4af683b8cd1cf564f332e30c750a11473507c10f3bf8cb0cb5556676588f",
+      "source": "NY_LOCAL798_2025.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Part III furnishes first-class lodging and three meals (no figure). Part IV (Southeast) prices 57 / 70 / 75 (7/31/22, 3/9/25, 3/7/27). OPEN: which Part governs."
     }
    ]
   },
@@ -3750,42 +4296,6 @@
      "notes": "Per sixth or seventh day not worked in the workweek while lodged away from home."
     },
     {
-     "term_id": "USA829_MPPA_2024.out_of_town.per_diem",
-     "topic": "per_diem",
-     "mode": "HARVEST",
-     "applies": {
-      "work_relation": [
-       "distant"
-      ],
-      "day_class": [
-       "*"
-      ],
-      "production_type": [
-       "theatrical"
-      ],
-      "commencing_on_or_after": null,
-      "report_mode": null,
-      "production_mode": null
-     },
-     "effective": [],
-     "value": {
-      "kind": "figure",
-      "amount": 30,
-      "unit": "per_day",
-      "currency": "USD",
-      "fringe_global": "U829PD",
-      "covers": "local transportation and other expenses, excluding authorized car rental; first class lodging provided"
-     },
-     "citation": "Art. 12.A",
-     "status": "READ_FROM_BYTES",
-     "watch": {
-      "anchor": "shall also be provided with a per diem expense allowance of $30 per",
-      "clause_hash": "sha256:b5af7a151438cb94dfb39311ad3e8e1a926dcd7e52a203f9cd2ebf0d69a26978",
-      "last_checked": "2026-10-13"
-     },
-     "notes": ""
-    },
-    {
      "term_id": "USA829_MPPA_2024.out_of_town.meals",
      "topic": "meal_allowance",
      "mode": "HARVEST",
@@ -3951,6 +4461,104 @@
       "last_checked": "2026-10-13"
      },
      "notes": "Non-accrual agreement (J5). MLK / Juneteenth are the only unworked holidays with day pay; the app shows the rule without an amount until the holiday model (J5) prices by date."
+    },
+    {
+     "term_id": "USA829_MPPA_2024.per_diem.distant.2024-10-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-10-01",
+       "to": "2026-09-30"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 10,
+       "lunch": 10,
+       "dinner": 20
+      },
+      "incidentals": 30,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "fringe_global": "U829PD",
+      "covers_incidentals": "local transportation and other expenses, excluding authorized car rental; first class lodging provided"
+     },
+     "citation": "Art. 12.A",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "shall also be provided with a per diem expense allowance of $30 per",
+      "clause_hash": "sha256:b5af7a151438cb94dfb39311ad3e8e1a926dcd7e52a203f9cd2ebf0d69a26978",
+      "last_checked": "2026-10-19",
+      "meals_anchor": "An employee engaged on an overnight location, out of town, shall be provided with first class lodging accommodations",
+      "meals_clause_hash": "sha256:14c0fdcd142ad50f6229f53de36e1e23961ae514103009868db1c003d5362345"
+     },
+     "notes": "Re-expressed 2026-10-19 from USA829_MPPA_2024.out_of_town.per_diem ($30) and .out_of_town.meals. Meals apply if no meal is provided."
+    },
+    {
+     "term_id": "USA829_MPPA_2024.per_diem.distant.2026-10-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-10-01",
+       "to": "2027-09-30"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11,
+       "lunch": 11,
+       "dinner": 23
+      },
+      "incidentals": 30,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "fringe_global": "U829PD",
+      "covers_incidentals": "local transportation and other expenses, excluding authorized car rental; first class lodging provided"
+     },
+     "citation": "Art. 12.A",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "shall also be provided with a per diem expense allowance of $30 per",
+      "clause_hash": "sha256:b5af7a151438cb94dfb39311ad3e8e1a926dcd7e52a203f9cd2ebf0d69a26978",
+      "last_checked": "2026-10-19",
+      "meals_anchor": "An employee engaged on an overnight location, out of town, shall be provided with first class lodging accommodations",
+      "meals_clause_hash": "sha256:14c0fdcd142ad50f6229f53de36e1e23961ae514103009868db1c003d5362345"
+     },
+     "notes": "Re-expressed 2026-10-19 from USA829_MPPA_2024.out_of_town.per_diem ($30) and .out_of_town.meals. Meals apply if no meal is provided."
     }
    ]
   },
@@ -4831,6 +5439,198 @@
       "hash_method": "ocr",
       "last_checked": "2026-10-19"
      }
+    },
+    {
+     "term_id": "SAG_CBA_2014.per_diem.distant.2014-07-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2014-07-01",
+       "to": "2023-12-09"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 12,
+       "lunch": 18,
+       "dinner": 30
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "applies_to": "principal performers"
+     },
+     "citation": "CBA Sec. 35.B.(2)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "All performers shall be entitled to a basic per diem allowance for meals on overnight locations,",
+      "clause_hash": "sha256:8f08c5522b119999108757f4b80c34821155169e558440e94ee637a1e1750a47",
+      "source": "SAG_CBA_2014.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Background actors: 2026 MOA item 29.b, $75 from 2026-07-01 and $80 from 2028-07-01 (not yet a row; needs a position key)."
+    },
+    {
+     "term_id": "SAG_CBA_2014.per_diem.distant.2023-12-10",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2023-12-10",
+       "to": "2025-12-06"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "applies_to": "principal performers"
+     },
+     "citation": "CBA Sec. 35.B.(2); 2023 MOA item 21",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "21\\. Per Diem (Union Proposal No. 30) Increase the per diem amounts in Section 35.B.(2) ofthe",
+      "clause_hash": "sha256:5aa675cc1cafdb807cfe2f4b1a845ace90f35303c1ed0fc8e21ebe91098a45cd",
+      "source": "SAG_CBA_2014_moa2023.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Step date computed: first Sunday after ratification (2023-12-05). Background actors: 2026 MOA item 29.b, $75 from 2026-07-01 and $80 from 2028-07-01 (not yet a row; needs a position key)."
+    },
+    {
+     "term_id": "SAG_CBA_2014.per_diem.distant.2025-12-07",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2025-12-07",
+       "to": "2028-06-30"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "applies_to": "principal performers"
+     },
+     "citation": "CBA Sec. 35.B.(2); 2023 MOA item 21",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "21\\. Per Diem (Union Proposal No. 30) Increase the per diem amounts in Section 35.B.(2) ofthe",
+      "clause_hash": "sha256:5aa675cc1cafdb807cfe2f4b1a845ace90f35303c1ed0fc8e21ebe91098a45cd",
+      "source": "SAG_CBA_2014_moa2023.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Step date computed: two years after the first step. Background actors: 2026 MOA item 29.b, $75 from 2026-07-01 and $80 from 2028-07-01 (not yet a row; needs a position key)."
+    },
+    {
+     "term_id": "SAG_CBA_2014.per_diem.distant.2028-07-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2028-07-01",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 17,
+       "lunch": 24,
+       "dinner": 39
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "applies_to": "principal performers"
+     },
+     "citation": "CBA Sec. 35.B.(2); 2026 MOA item 29.a",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "29. Per Diem a. Increase Per Diem (Union Proposal No. 29.a.) Increase the per diem amounts in",
+      "clause_hash": "sha256:0a3d028820dd0544d20126bcb0e649d2d129cc2e43c0ff49d3029fcccbd68c9e",
+      "source": "SAG_CBA_2014_moa2026.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "MOA adds $1/$2/$2; the $80 total is arithmetic. Background actors: 2026 MOA item 29.b, $75 from 2026-07-01 and $80 from 2028-07-01 (not yet a row; needs a position key)."
     }
    ]
   },
@@ -5314,6 +6114,46 @@
       "last_checked": "2026-10-14"
      },
      "notes": "Juneteenth effective the later of 8/1/24 or the first Sunday after AMPTP notice of ratification; 2024-08-01 used. Outside the Corridor only (A) and (C) apply: no distant-leg day pay."
+    },
+    {
+     "term_id": "LOCAL600_ICG_2021.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": []
+     },
+     "citation": "Para 37(a)-(b)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The employee's necessary traveling expenses, meals and lodging shall be made available at the",
+      "clause_hash": "sha256:f486cb662dedb9793608544b3c5e1cf64fa186a2468ed4b979b5040d7cff9b67",
+      "source": "LOCAL600_ICG_2021.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Para 37(a)-(b)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent."
     }
    ]
   },
@@ -5728,6 +6568,89 @@
       "last_checked": "2026-10-14"
      },
      "notes": "Treated as accrual (no budget line): the fund, funded by contributions, pays unworked holidays. Flagged to Brian 13 Oct against the J5 grouping."
+    },
+    {
+     "term_id": "TEAMSTERS817_DRV_2025.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": [
+       {
+        "citation": "Art. 8(e)",
+        "relation": "distant",
+        "windows": [
+         {
+          "from": "2025-11-02",
+          "to": null,
+          "daily": 50,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         }
+        ]
+       },
+       {
+        "citation": "Art. 8(e)",
+        "relation": "distant",
+        "windows": [
+         {
+          "from": "2025-11-02",
+          "to": "2027-10-30",
+          "daily": null,
+          "breakfast": 14,
+          "lunch": 21,
+          "dinner": 35,
+          "incidentals": null,
+          "lodging_allowance": null
+         },
+         {
+          "from": "2027-10-31",
+          "to": null,
+          "daily": null,
+          "breakfast": 16,
+          "lunch": 22,
+          "dinner": 37,
+          "incidentals": null,
+          "lodging_allowance": null
+         }
+        ]
+       }
+      ]
+     },
+     "citation": "Art. 8(c)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "(c) Location Outside the Metropolitan Area. On all location work outside a thirty mile (30) mile",
+      "clause_hash": "sha256:b85d4f426840db4c5deeb723deb1482ec735fc44cb22176699f8238341e69f54",
+      "source": "NY_LOCAL817_DRV_2025.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Art. 8(e): $50/day beyond 50 miles from 11/2/25, or 14/21/35 (16/22/37 from 10/31/27) when IATSE crew are on the same production, time and place. OPEN: which applies on our features, and whether the $50 steps on 10/31/27. Art. 8(c) table needs a check against the PDF."
     }
    ]
   },
@@ -6139,6 +7062,331 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Day pay on every leg; there is no separate distant rule in Art. 7."
+    },
+    {
+     "term_id": "IATSE_ASA_2024.per_diem.distant.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null
+     },
+     "citation": "Art. 3(I)(1); 3(H)(3)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Room: Art. 3(H)(3), reasonable single occupancy hotel. Meals provided may be deducted at these rates (Art. 3(I)(2)). 8/4/24 and 8/2/26 are the MOA dates \"or the first Sunday after ratification\"."
+    },
+    {
+     "term_id": "IATSE_ASA_2024.per_diem.distant.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null
+     },
+     "citation": "Art. 3(I)(1); 3(H)(3)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Room: Art. 3(H)(3), reasonable single occupancy hotel. Meals provided may be deducted at these rates (Art. 3(I)(2)). 8/4/24 and 8/2/26 are the MOA dates \"or the first Sunday after ratification\"."
+    },
+    {
+     "term_id": "IATSE_ASA_2024.per_diem.distant.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": "2027-07-31"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null
+     },
+     "citation": "Art. 3(I)(1); 3(H)(3)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Room: Art. 3(H)(3), reasonable single occupancy hotel. Meals provided may be deducted at these rates (Art. 3(I)(2)). 8/4/24 and 8/2/26 are the MOA dates \"or the first Sunday after ratification\"."
+    },
+    {
+     "term_id": "IATSE_ASA_2024.per_diem.nearby.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "allowance",
+      "lodging_allowance": 91,
+      "living_allowance": 91,
+      "living_allowance_weekly": 637,
+      "hotel_in_lieu": "on employee request"
+     },
+     "citation": "Art. 3(H)(2)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "\"Nearby Hires\" shall be paid a weekly living allowance of no less than $637.00 per week",
+      "clause_hash": "sha256:a20c764c9c09d1dce07af91b1e8505ea9b2c0ef2256a6111a48851d63160b245",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(H)(2); 2024-2027 MOA item 11",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Nearby Hire = resides outside 60 miles of the location and inside the Local's jurisdiction. Living allowance in place of room and meals; on the employee's request the Employer may provide a single occupancy room instead. Not priced by the app yet (it queries work_relation distant only)."
+    },
+    {
+     "term_id": "IATSE_ASA_2024.per_diem.nearby.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2025-08-02"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "allowance",
+      "lodging_allowance": 101,
+      "living_allowance": 101,
+      "living_allowance_weekly": 707,
+      "hotel_in_lieu": "on employee request"
+     },
+     "citation": "Art. 3(H)(2)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "\"Nearby Hires\" shall be paid a weekly living allowance of no less than $637.00 per week",
+      "clause_hash": "sha256:a20c764c9c09d1dce07af91b1e8505ea9b2c0ef2256a6111a48851d63160b245",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(H)(2); 2024-2027 MOA item 11",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Nearby Hire = resides outside 60 miles of the location and inside the Local's jurisdiction. Living allowance in place of room and meals; on the employee's request the Employer may provide a single occupancy room instead. Not priced by the app yet (it queries work_relation distant only)."
+    },
+    {
+     "term_id": "IATSE_ASA_2024.per_diem.nearby.2025-08-03",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2025-08-03",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "allowance",
+      "lodging_allowance": 111,
+      "living_allowance": 111,
+      "living_allowance_weekly": 777,
+      "hotel_in_lieu": "on employee request"
+     },
+     "citation": "Art. 3(H)(2)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "\"Nearby Hires\" shall be paid a weekly living allowance of no less than $637.00 per week",
+      "clause_hash": "sha256:a20c764c9c09d1dce07af91b1e8505ea9b2c0ef2256a6111a48851d63160b245",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(H)(2); 2024-2027 MOA item 11",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Nearby Hire = resides outside 60 miles of the location and inside the Local's jurisdiction. Living allowance in place of room and meals; on the employee's request the Employer may provide a single occupancy room instead. Not priced by the app yet (it queries work_relation distant only)."
+    },
+    {
+     "term_id": "IATSE_ASA_2024.per_diem.nearby.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": "2027-07-31"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "allowance",
+      "lodging_allowance": 121,
+      "living_allowance": 121,
+      "living_allowance_weekly": 847,
+      "hotel_in_lieu": "on employee request"
+     },
+     "citation": "Art. 3(H)(2)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "\"Nearby Hires\" shall be paid a weekly living allowance of no less than $637.00 per week",
+      "clause_hash": "sha256:a20c764c9c09d1dce07af91b1e8505ea9b2c0ef2256a6111a48851d63160b245",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(H)(2); 2024-2027 MOA item 11",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Nearby Hire = resides outside 60 miles of the location and inside the Local's jurisdiction. Living allowance in place of room and meals; on the employee's request the Employer may provide a single occupancy room instead. Not priced by the app yet (it queries work_relation distant only)."
     }
    ]
   },
@@ -7987,6 +9235,46 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Template text read from Local 44 (Para. 9, 31(g)); MOA item 8 adds Juneteenth and 4.583% to every West Coast Studio Local Agreement. Inheriting locals: 80, 892, 695, 700, 705, 706, 728, 729, 871, 884, 800 (IMA, SDMM, STG), 600 West Coast. Their own paragraph numbers may differ. Local 800 Art Directors carries its own row."
+    },
+    {
+     "term_id": "IATSE_WCSL_2024.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": []
+     },
+     "citation": "Payroll Company provisions (Art. on Payroll Companies, para E)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "On distant location productions, reasonable notice of termination, whenever possible, must be given",
+      "clause_hash": "sha256:ef83ec649547877b87ab4905d305e31e7429fcb7eda660bafbec85b0404f31ed",
+      "source": "IATSE_WCSL_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Payroll Company provisions (Art. on Payroll Companies, para E)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent."
     }
    ]
   },
@@ -8378,6 +9666,117 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Chef Assistant-Drivers and Chef Assistants are paid 8 hrs straight per unworked holiday if employed the workday before and after (sideletter, effective on or after 8/4/24), not the accrual."
+    },
+    {
+     "term_id": "TEAMSTERS399_DRV_2024.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": [
+       {
+        "citation": "Para 40(h)(1)",
+        "relation": "distant",
+        "windows": [
+         {
+          "from": "2024-10-06",
+          "to": "2027-07-31",
+          "daily": 50,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         }
+        ]
+       },
+       {
+        "citation": "Para 18(k)(1)",
+        "relation": "nearby",
+        "windows": [
+         {
+          "from": "2024-10-06",
+          "to": "2027-07-31",
+          "daily": 50,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         }
+        ]
+       }
+      ]
+     },
+     "citation": "Para 35",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "35. Traveling Expenses and Accommodations The employee's necessary traveling expenses, meals and",
+      "clause_hash": "sha256:37d7d07b6ef2048b16924b039e0bf1be928ce61f43434877004416a110b3d591",
+      "source": "TEAMSTERS399_DRV_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Para 35). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent. Also in the contract: Para 40(h)(1): per_diem [{\"from\": \"2024-10-06\", \"to\": \"2027-07-31\", \"daily\": 50, \"breakfast\": null, \"lunch\": null, \"dinner\": null, \"incidentals\": null, \"lodging_allowance\": null}]; Para 18(k)(1): per_diem [{\"from\": \"2024-10-06\", \"to\": \"2027-07-31\", \"daily\": 50, \"breakfast\": null, \"lunch\": null, \"dinner\": null, \"incidentals\": null, \"lodging_allowance\": null}]"
+    },
+    {
+     "term_id": "TEAMSTERS399_DRV_2024.distant_location_allowance",
+     "topic": "distant_location_allowance",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "figure",
+      "amount": 6,
+      "unit": "per_day",
+      "currency": "USD",
+      "adds_to": "studio rate",
+      "on_call_only": true
+     },
+     "citation": "Para 33(c)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "\"On Call\" employees shall receive, in addition to their current studio rate, a distant location",
+      "clause_hash": "sha256:07410f55a2cd7153d6b3964e7c493adec057562afa1762964090055ef64cc915",
+      "source": "TEAMSTERS399_DRV_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Paid in addition to the studio rate on distant location days."
     }
    ]
   },
@@ -9061,6 +10460,84 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Local 44 does not inherit IATSE_WCSL_2024, so it carries the row itself."
+    },
+    {
+     "term_id": "LOCAL44_2021.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": []
+     },
+     "citation": "Para 37(a)-(b)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The employee's necessary traveling expenses, meals and lodging shall be made available at the",
+      "clause_hash": "sha256:2fbf57baa5b91dc9372226a728c07577747666083533e7dbd25a774cf8ffa128",
+      "source": "LOCAL44_2021.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Para 37(a)-(b)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent."
+    },
+    {
+     "term_id": "LOCAL44_2021.distant_location_allowance",
+     "topic": "distant_location_allowance",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "figure",
+      "amount": 6,
+      "unit": "per_day",
+      "currency": "USD",
+      "adds_to": "studio rate",
+      "on_call_only": true
+     },
+     "citation": "Para 31(c)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Employees hired under the \"On Call\" schedule shall receive, in addition to their current studio",
+      "clause_hash": "sha256:e811623b97b5f67580d96de5484fb3d7d4c781fc466bc633a503e76a0d6ccb55",
+      "source": "LOCAL44_2021.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Paid in addition to the studio rate on distant location days."
     }
    ]
   },
@@ -14107,7 +15584,7 @@
     },
     {
      "term_id": "IATSE_LBTA_2026.per_diem.distant",
-     "topic": "housing",
+     "topic": "per_diem",
      "mode": "HARVEST",
      "applies": {
       "work_relation": [
@@ -14125,17 +15602,18 @@
      },
      "effective": [],
      "value": {
-      "kind": "figure",
-      "amount": 60,
-      "unit": "per_day",
-      "currency": "USD",
-      "breakdown": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
        "breakfast": 12,
        "lunch": 16,
        "dinner": 32
       },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
       "trigger": "primary residence more than 60 miles from the production location",
-      "housing": "single room housing if available, or housing allowance",
+      "housing_text": "single room housing if available, or housing allowance",
       "air": "coach"
      },
      "citation": "Art. XXI.G",
@@ -14143,9 +15621,9 @@
      "watch": {
       "anchor": "Any employee whose primary residence is more than sixty (60) miles from a production location shall be provided with a per diem allowance",
       "clause_hash": "sha256:af95ce0b9570650689b4731707066133f2c89d0da1ee91c8433a000ccf9fbac6",
-      "last_checked": "2026-10-12"
+      "last_checked": "2026-10-19"
      },
-     "notes": "Meals provided may be deducted at these rates."
+     "notes": "Meals provided may be deducted at these rates. Re-expressed 2026-10-19 (topic housing -> per_diem). Housing: single room if available, or a housing allowance (no figure)."
     },
     {
      "term_id": "IATSE_LBTA_2026.work_relation.definitions",
@@ -14619,6 +16097,101 @@
       "last_checked": "2026-10-18"
      },
      "notes": "The agreement states 4.583% for 2025 and 2026 only; 2027 is not stated. Check the 2024 Location Managers MOA before pricing 2027."
+    },
+    {
+     "term_id": "TEAMSTERS399_LM_2024.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": [
+       {
+        "citation": "Para 37(b) (as amended by 2024 MOA item 6)",
+        "relation": "nearby",
+        "windows": [
+         {
+          "from": "2024-08-01",
+          "to": "2027-07-31",
+          "daily": 27.5,
+          "breakfast": null,
+          "lunch": null,
+          "dinner": null,
+          "incidentals": null,
+          "lodging_allowance": null
+         }
+        ]
+       }
+      ]
+     },
+     "citation": "Para 14(a)-(b)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "14. TRAVELING EXPENSES AND ACCOMMODATIONS (a) Traveling Expenses The employee's necessary traveling",
+      "clause_hash": "sha256:84457263e6c8f8cb992512ea2dbefb61897f1a5419be133aa32fdaaf1858d579",
+      "source": "TEAMSTERS399_LM_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Para 14(a)-(b)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent. Also in the contract: Para 37(b) (as amended by 2024 MOA item 6): per_diem [{\"from\": \"2024-08-01\", \"to\": \"2027-07-31\", \"daily\": 27.5, \"breakfast\": null, \"lunch\": null, \"dinner\": null, \"incidentals\": null, \"lodging_allowance\": null}]"
+    },
+    {
+     "term_id": "TEAMSTERS399_LM_2024.distant_location_allowance",
+     "topic": "distant_location_allowance",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "figure",
+      "amount": 6,
+      "unit": "per_day",
+      "currency": "USD",
+      "adds_to": "studio rate",
+      "on_call_only": false
+     },
+     "citation": "Para 12(a)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "12. DISTANT LOCATION MINIMUM WAGE SCALE (a) All employees shall receive, in addition to their",
+      "clause_hash": "sha256:87331078b53e697703ee374d18a45a5624035128d6044f5b8f0fea919737e777",
+      "source": "TEAMSTERS399_LM_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Paid in addition to the studio rate on distant location days."
     }
    ]
   },
@@ -14856,6 +16429,46 @@
       "last_checked": "2026-10-12"
      },
      "notes": "Theatrical Associate Casting Director: on-call weekly $2,378 from 10/4/26."
+    },
+    {
+     "term_id": "TEAMSTERS399_817_CASTING_2024.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": []
+     },
+     "citation": "Art. 8 (pay day only)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The regular pay day will be on Friday for employees working on distant location. The parties",
+      "clause_hash": "sha256:fc847183b6843248ccfbb7597ab0d6ad5fa7badb0c5a15ab902bbb389ccf952b",
+      "source": "TEAMSTERS399_817_CASTING_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Art. 8 (pay day only)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent."
     }
    ]
   },
@@ -15470,6 +17083,84 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Basic Crafts text matches the West Coast Studio Local template; Juneteenth and 4.583% are written into the 2024 agreement."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL40_2024.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": []
+     },
+     "citation": "Para 37(a)-(b)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The employee’s necessary traveling expenses, meals and lodging shall be made available at the",
+      "clause_hash": "sha256:b91acd10fc12d120994c1689f6d0ebc810a138b84fab27f3020e3f370033364e",
+      "source": "BASICCRAFTS_LOCAL40_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Para 37(a)-(b)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL40_2024.distant_location_allowance",
+     "topic": "distant_location_allowance",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "figure",
+      "amount": 6,
+      "unit": "per_day",
+      "currency": "USD",
+      "adds_to": "studio rate",
+      "on_call_only": true
+     },
+     "citation": "Para 31(c)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Employees hired under the “on call” schedule shall receive, in addition to their current studio",
+      "clause_hash": "sha256:de29a67cc366b077c2871e7f7bb0f9e1fa617137aa6295fc7679a74253b3e895",
+      "source": "BASICCRAFTS_LOCAL40_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Paid in addition to the studio rate on distant location days."
     }
    ]
   },
@@ -16084,6 +17775,84 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Basic Crafts text matches the West Coast Studio Local template; Juneteenth and 4.583% are written into the 2024 agreement."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL78_2024.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": []
+     },
+     "citation": "Para 37(a)-(b)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The employee's necessary traveling expenses, meals and lodging shall be made available at the",
+      "clause_hash": "sha256:98ade95e3205732b60725b339114772e164ef419f656167ce48e5662c5a6d367",
+      "source": "BASICCRAFTS_LOCAL78_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Para 37(a)-(b)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL78_2024.distant_location_allowance",
+     "topic": "distant_location_allowance",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "figure",
+      "amount": 6,
+      "unit": "per_day",
+      "currency": "USD",
+      "adds_to": "studio rate",
+      "on_call_only": true
+     },
+     "citation": "Para 31(d)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Employees hired under the \"On Call\" schedule shall receive, in addition to their current studio",
+      "clause_hash": "sha256:3317f0cfe825e014582f0e09cea34b2079a6d64c08cd0d5ea7548366bf6be8f4",
+      "source": "BASICCRAFTS_LOCAL78_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Paid in addition to the studio rate on distant location days."
     }
    ]
   },
@@ -16699,6 +18468,84 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Basic Crafts text matches the West Coast Studio Local template; Juneteenth and 4.583% are written into the 2024 agreement."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL724_2024.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": []
+     },
+     "citation": "Para 37(a)-(b)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The employee's necessary traveling expenses, meals and lodging shall be made available at the",
+      "clause_hash": "sha256:98ade95e3205732b60725b339114772e164ef419f656167ce48e5662c5a6d367",
+      "source": "BASICCRAFTS_LOCAL724_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Para 37(a)-(b)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL724_2024.distant_location_allowance",
+     "topic": "distant_location_allowance",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "figure",
+      "amount": 6,
+      "unit": "per_day",
+      "currency": "USD",
+      "adds_to": "studio rate",
+      "on_call_only": true
+     },
+     "citation": "Para 31(c)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Employees hired under the \"on call\" schedule shall receive, in addition to their current studio",
+      "clause_hash": "sha256:ce2a63e82ad60fc4d97c985a21f26f3b9fabd1b87bf7fc7da1d6d3c8d1a0fc33",
+      "source": "BASICCRAFTS_LOCAL724_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Paid in addition to the studio rate on distant location days."
     }
    ]
   },
@@ -17313,6 +19160,84 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Basic Crafts text matches the West Coast Studio Local template; Juneteenth and 4.583% are written into the 2024 agreement."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL755_2024.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": []
+     },
+     "citation": "Para 37(a)-(b)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The employee's necessary traveling expenses, meals and lodging shall be made available at the",
+      "clause_hash": "sha256:1a3b03bbcbfafdc149b0686c766063a9654561ceea4ebfa80bcd43f0d734cc78",
+      "source": "BASICCRAFTS_LOCAL755_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Para 37(a)-(b)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL755_2024.distant_location_allowance",
+     "topic": "distant_location_allowance",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "figure",
+      "amount": 6,
+      "unit": "per_day",
+      "currency": "USD",
+      "adds_to": "studio rate",
+      "on_call_only": true
+     },
+     "citation": "Para 31(d)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Employees hired under the \"On Call\" schedule shall receive, in addition to their current studio",
+      "clause_hash": "sha256:abe9356e901b548fec893513c186a8f5ee8a320ef706e487c629a85d22ec529c",
+      "source": "BASICCRAFTS_LOCAL755_2024.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Paid in addition to the studio rate on distant location days."
     }
    ]
   },
@@ -18444,6 +20369,84 @@
       "source": "MOA - 2024 IATSE Basic Agreement - Fully Executed.pdf"
      },
      "notes": ""
+    },
+    {
+     "term_id": "LOCAL800_IMA_2018.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": []
+     },
+     "citation": "Para 37(a)-(b)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The employee's necessary traveling expenses, meals and lodging shall be made available at the",
+      "clause_hash": "sha256:f486cb662dedb9793608544b3c5e1cf64fa186a2468ed4b979b5040d7cff9b67",
+      "source": "LOCAL800_IMA_2018.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Para 37(a)-(b)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent."
+    },
+    {
+     "term_id": "LOCAL800_IMA_2018.distant_location_allowance",
+     "topic": "distant_location_allowance",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "figure",
+      "amount": 6,
+      "unit": "per_day",
+      "currency": "USD",
+      "adds_to": "studio rate",
+      "on_call_only": true
+     },
+     "citation": "Para 31(c)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Employees hired under the \"On Call\" schedule shall receive, in addition to their current studio",
+      "clause_hash": "sha256:e5557008289a7081c29559a1a6f53d1eb2559ae8bfc90269850a9dc41a61fded",
+      "source": "LOCAL800_IMA_2018.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Paid in addition to the studio rate on distant location days."
     }
    ],
    "inherits": [
@@ -18985,6 +20988,46 @@
       "source": "MOA - 2024 IATSE Basic Agreement - Fully Executed.pdf"
      },
      "notes": ""
+    },
+    {
+     "term_id": "LOCAL800_SDMM_2018.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": []
+     },
+     "citation": "Para 37(a)-(b)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The employee's necessary traveling expenses, meals and lodging shall be made available at the",
+      "clause_hash": "sha256:f486cb662dedb9793608544b3c5e1cf64fa186a2468ed4b979b5040d7cff9b67",
+      "source": "LOCAL800_SDMM_2018.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Para 37(a)-(b)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent."
     }
    ],
    "inherits": [
@@ -19439,6 +21482,46 @@
       "source": "MOA - 2024 IATSE Basic Agreement - Fully Executed.pdf"
      },
      "notes": ""
+    },
+    {
+     "term_id": "LOCAL800_STG_2018.per_diem.watch",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant",
+       "nearby"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "figures_found": []
+     },
+     "citation": "Para 37(a)-(b)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The employee's necessary traveling expenses, meals and lodging shall be made available at the",
+      "clause_hash": "sha256:fef196664af19cf5995439ddde5184a2708d26669bda3587865d4e7a4015f92c",
+      "source": "LOCAL800_STG_2018.txt",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Para 37(a)-(b)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent."
     }
    ],
    "inherits": [
@@ -19708,6 +21791,82 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Matches budget practice: Ghosted (LA 800 AD) $4,930 = $4,225.68 x 14/12; CK \"rate on location with 1/12 idle\"."
+    },
+    {
+     "term_id": "LOCAL800_AD_2018.per_diem.distant",
+     "topic": "per_diem",
+     "mode": "WATCH",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": null,
+      "incidentals": null,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "meals_furnished": true
+     },
+     "citation": "Para 37(a), 37(b)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "The employee's necessary traveling expenses, meals and lodging shall be made available at the Producer's expense.",
+      "clause_hash": "sha256:f486cb662dedb9793608544b3c5e1cf64fa186a2468ed4b979b5040d7cff9b67",
+      "source": "2018_Local_800_Art_Directors_Agreement.pdf Para 37",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Contract furnishes meals and lodging at the Producer's expense and names no meal figure; single room where reasonably available (37(b)). Unchanged by the 2024 Local 800 AD MOA (items 1-3 only). WATCH row: carries no price, so the IATSE_WCSL_2024 inheritance applies if the Basic Agreement carries a figure. OPEN for Brian: which per diem to budget (prior NY budgets borrowed Local 52 $70/$75)."
+    },
+    {
+     "term_id": "LOCAL800_AD_2018.distant_location_allowance",
+     "topic": "distant_location_allowance",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "figure",
+      "amount": 6,
+      "unit": "per_day",
+      "currency": "USD",
+      "adds_to": "studio rate"
+     },
+     "citation": "Para 31(c)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "a distant location allowance of six dollars ($6.00) per diem.",
+      "clause_hash": "sha256:16af680719468cb11b8d5563d20e34582fcc92ed1ae9430f35d667ac9506d01d",
+      "source": "2018_Local_800_Art_Directors_Agreement.pdf Para 31(c)",
+      "last_checked": "2026-10-19",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Paid in addition to the studio rate on distant location days; departure and return days count (31(d))."
     }
    ],
    "inherits": [
