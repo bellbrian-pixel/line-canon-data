@@ -3067,6 +3067,91 @@
             "hash_text": "Drive text export"
           },
           "notes": "Part IV (Southeast) prices distant hires 59.50 / 70 / 75 (3/9/25, 3/8/26, 3/7/27) and nearby living 70 / 80 / 90; Part III distant hires get a hotel and no figure. OPEN: which Part governs a NY hire working distant."
+        },
+        {
+          "term_id": "LOCAL161_MAJORS_2025.idle.unworked_6th_7th",
+          "topic": "idle",
+          "mode": "HARVEST",
+          "applies": {
+            "work_relation": [
+              "distant"
+            ],
+            "day_class": [
+              "idle"
+            ],
+            "production_type": [
+              "theatrical"
+            ],
+            "commencing_on_or_after": null,
+            "report_mode": null,
+            "production_mode": null
+          },
+          "effective": [],
+          "value": {
+            "kind": "hours",
+            "hours": 4,
+            "basis": "straight",
+            "rate_of": "base_hourly",
+            "work_time": false,
+            "benefit_hours": 8,
+            "max_per_week": 2,
+            "condition": "Distant Hire: each idle sixth or seventh day in a workweek",
+            "pays": "4 hours at the employee’s scale hourly rate plus pension and welfare contributions for 8 hours. Where the employer is obligated to make an aggregate pension, health and welfare contribution for regular workdays, only the aggregate portion allocated to pension and welfare is payable on the idle day. The 4 hours are not work time.",
+            "text_basis": "Art. 41(a) states the Distant Hire idle day in these words; Art. 24(c) states the same 4-hour allowance at no less than the minimum wage rate, not work time, plus 8 hours of pension and health and welfare."
+          },
+          "citation": "Art. 41(a)",
+          "status": "READ_FROM_BYTES",
+          "watch": {
+            "anchor": "ARTICLE 41. IDLE PAY (a) Distant Hires The Employer shall pay each Distant Hire employee four (4) hours at the employee’s scale hourly rate for each idle sixth or seventh day in a workweek, plus pension and welfare contributions for eight (8) hours.",
+            "last_checked": "2026-11-07"
+          },
+          "notes": "Art. 41(b): a Nearby Hire on a six-day workweek draws only a daily benefit-plan contribution for an idle seventh day and no wage hours, so no wage idle row is written for nearby work. The 4 hours are paid at the employee’s scale hourly rate (Art. 41(a)); Art. 24(c) sets the same allowance at the minimum wage rate as a floor."
+        },
+        {
+          "term_id": "LOCAL161_MAJORS_2025.travel.travel_only",
+          "topic": "travel",
+          "mode": "HARVEST",
+          "applies": {
+            "work_relation": [
+              "distant"
+            ],
+            "day_class": [
+              "travel"
+            ],
+            "production_type": [
+              "theatrical"
+            ],
+            "commencing_on_or_after": null,
+            "report_mode": null,
+            "production_mode": null
+          },
+          "effective": [],
+          "value": {
+            "kind": "travel_rule",
+            "travel_day_pay": {
+              "min_hours": 4,
+              "max_hours": 8,
+              "basis": "straight",
+              "measure": "greater of 4 or actual"
+            },
+            "pension_hours_rule": {
+              "kind": "daily_threshold",
+              "threshold_hours": 6,
+              "under": "half day",
+              "over": "full day",
+              "effective_from": "2025-03-09",
+              "text": "pension and health contributions based on one-half of the applicable daily contributions where actual travel time is 6 hours or less, and a full day of contributions where it exceeds 6 hours"
+            },
+            "label": "Art. 44(g): min 4, max 8",
+            "actual_hours_source": "the leg’s estimated drive time from the app’s geocoding, clamped to the 4-hour minimum and the 8-hour cap; the producer may set it per leg"
+          },
+          "citation": "Art. 44(g)",
+          "status": "READ_FROM_BYTES",
+          "watch": {
+            "anchor": "ARTICLE 44. TRAVEL (g) “Travel Only” Day: For any day of the week (including holidays) on which an employee travels only, the employee shall receive an allowance of four (4) hours of pay at straight time or pay for time actually traveled, whichever is greater, but in no event more than eight (8) hours of pay at straight time.",
+            "last_checked": "2026-11-07"
+          },
+          "notes": "Pension and health on a travel-only day is a daily contribution split at 6 hours of actual travel time (half day at 6 or less, full day above), never a per-hour figure, so no benefit hours are stated on this row. Art. 44(f) pays Distant Hires portal to portal from the housing provided; Art. 44(d) pays Nearby Hires their regular hourly rate off the zone edge."
         }
       ]
     },
@@ -3457,6 +3542,92 @@
             "hash_text": "Drive text export"
           },
           "notes": "Contract furnishes meals and lodging at the Producer's expense and names no figure (Art. 8(b)(1)). WATCH row: no price. OPEN for Brian: the per diem to budget where the contract is silent."
+        },
+        {
+          "term_id": "LOCAL764_MAJORS_2025.idle.unworked_6th_7th",
+          "topic": "idle",
+          "mode": "HARVEST",
+          "applies": {
+            "work_relation": [
+              "distant"
+            ],
+            "day_class": [
+              "idle"
+            ],
+            "production_type": [
+              "theatrical"
+            ],
+            "commencing_on_or_after": null,
+            "report_mode": null,
+            "production_mode": null
+          },
+          "effective": [],
+          "value": {
+            "kind": "hours",
+            "hours": 4,
+            "basis": "straight",
+            "rate_of": "base_hourly",
+            "work_time": true,
+            "benefit_hours": 8,
+            "max_per_week": 2,
+            "condition": "Distant Location (lodged overnight): any idle sixth or seventh day",
+            "pays": "a four-hour minimum day at the employee’s scale plus pension and welfare contributions for 8 hours",
+            "text_basis": "Art. 8(b)(5) states a four (4) hour minimum day for any idle sixth or seventh day on distant location plus pension and welfare contributions of eight (8) hours. The clause pays a minimum day and does not say the hours are not work time, unlike Local 161 Art. 41(a)."
+          },
+          "citation": "Art. 8(b)(5)",
+          "status": "READ_FROM_BYTES",
+          "watch": {
+            "anchor": "8. LOCATION (b) Distant Locations (5) Employees shall be paid a four (4) hour minimum day for any idle sixth or seventh day on distant location, plus pension and welfare contributions of eight (8) hours.",
+            "last_checked": "2026-11-07"
+          },
+          "notes": ""
+        },
+        {
+          "term_id": "LOCAL764_MAJORS_2025.travel.travel_only",
+          "topic": "travel",
+          "mode": "HARVEST",
+          "applies": {
+            "work_relation": [
+              "distant"
+            ],
+            "day_class": [
+              "travel"
+            ],
+            "production_type": [
+              "theatrical"
+            ],
+            "commencing_on_or_after": null,
+            "report_mode": null,
+            "production_mode": null
+          },
+          "effective": [],
+          "value": {
+            "kind": "travel_rule",
+            "travel_day_pay": {
+              "min_hours": 4,
+              "max_hours": 8,
+              "basis": "straight",
+              "measure": "greater of 4 or actual"
+            },
+            "pension_hours_rule": {
+              "kind": "flat",
+              "hours": 8
+            },
+            "work_then_travel": {
+              "factor": 1,
+              "cap_window": null,
+              "text": "Art. 8(b)(3): when an employee works and travels in the same day, all time is paid as time worked — no overtime multiplier and no cap on the travel hours (contrast Local 52 Sec. 7(b) at 1.5x capped at 4 hours). Art. 8(b)(4): travel to and from the local lodging on a distant location is paid as work time."
+            },
+            "label": "Art. 8(b)(2): min 4, max 8",
+            "actual_hours_source": "the leg’s estimated drive time from the app’s geocoding, clamped to the 4-hour minimum and the 8-hour cap; the producer may set it per leg"
+          },
+          "citation": "Art. 8(b)(2)",
+          "status": "READ_FROM_BYTES",
+          "watch": {
+            "anchor": "8. LOCATION (b) Distant Locations (2) For any day of the week (including holidays) on which an employee travels only, the employee shall receive an allowance equivalent to four (4) hours of pay at straight time or pay for the time actually traveled, whichever is greater, plus pension and welfare contributions for eight (8) hours, but in no event more than eight (8) hours of pay at straight time.",
+            "last_checked": "2026-11-07"
+          },
+          "notes": "Pension and welfare on a travel-only day is a flat 8 hours of contributions whatever the hours paid, so the benefit hours and the paid hours part company on this clause."
         }
       ]
     },
