@@ -85,21 +85,16 @@
       "project_cap": "None",
       "verified_on": "2026-08-19",
       "notes": "Merit-based, two-stage, not first-come. 50% CO resident crew; 80% financing proof. [UNRESOLVED]",
-      "pending": [
+      "pending": [],
+      "rejected": [
         {
           "field": "max_pct",
-          "current": 22,
-          "detected": "20%",
-          "detected_at": "2026-11-02",
-          "source_url": "https://oedit.colorado.gov/colorado-film-incentive",
+          "value": "20%",
           "locator": "up to 20% of qualified expenses, or 22% if using locations in an Enterprise Zone",
           "locator_hash": "c56fde9405668a83e8925fe13f983858",
-          "kind": "CHANGED",
-          "window": "sources and Partners Home Programs and Funding Colorado Film Incentive Colorado Film Incentive Program Summary The Colorado Film Incentive encourages film production in Colorado with a tax credit for up to 20% of qualified expenses, or 22% if using locations in an Enterprise Zone. The incentive creates jobs for Coloradans and historically has provided on average an 18-to-1 return on investment for",
-          "status": "unconfirmed"
+          "rejected_at": "2026-11-08"
         }
-      ],
-      "rejected": []
+      ]
     },
     {
       "code": "CT",
