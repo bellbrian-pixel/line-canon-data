@@ -170,26 +170,20 @@
       "project_cap": "None",
       "verified_on": "2026-08-19",
       "notes": "20% base + 10% logo. Mandatory audit. Post-production credit reinstated 2026 ($11M).",
-      "pending": [
-        {
-          "field": "review",
-          "current": null,
-          "detected": null,
-          "detected_at": "2026-10-19",
-          "source_url": "https://dor.georgia.gov/film-tax-credits",
-          "locator": "Georgia Entertainment Industry Investment Act",
-          "locator_hash": "4d7e62a677f60df1cf5240784567370e",
-          "kind": "CHANGED",
-          "window": " the Office Event Requests Contact Breadcrumb Home Taxes Tax Credits Film Tax Credits Film Tax Credits Film & Interactive projects created in Georgia may be eligible for a Georgia film tax credit The Georgia Entertainment Industry Investment Act provides a film tax credit for feature film, series, pilots, movies for television, televised commercial advertisements, and music video productions, and ",
-          "status": "unconfirmed"
-        }
-      ],
+      "pending": [],
       "rejected": [
         {
           "field": "review",
           "value": null,
           "locator": "Georgia Entertainment Industry Investment Act",
           "locator_hash": "d9ac9cfb83006c166632777157780ad5",
+          "rejected_at": "2026-11-08"
+        },
+        {
+          "field": "review",
+          "value": null,
+          "locator": "Georgia Entertainment Industry Investment Act",
+          "locator_hash": "4d7e62a677f60df1cf5240784567370e",
           "rejected_at": "2026-11-08"
         }
       ]
