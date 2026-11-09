@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04",
-  "last_changed_at": "2026-10-14",
+  "generated_at": "2026-11-09",
+  "last_changed_at": "2026-11-09",
   "sources_modified_at": {
-    "DGA": "2026-10-04T13:22:52Z",
+    "DGA": "2026-11-06T14:40:12Z",
     "SAG": "2026-10-04T13:22:52Z",
     "WGA": "2026-10-04T13:22:52Z",
     "ASA": "2026-10-04T20:57:47Z",
@@ -102,7 +102,7 @@
       "value": 2911.0,
       "value_effective": "",
       "type": "INPUT",
-      "next": 2984.0,
+      "next": 2983.0,
       "next_effective": "07/01/26-06/30/27",
       "terms_agreement_id": "DGA_BA_2023"
     },
@@ -128,7 +128,7 @@
       "value": 10860.0,
       "value_effective": "",
       "type": "INPUT",
-      "next": 11132.0,
+      "next": 11131.0,
       "next_effective": "07/01/26-06/30/27",
       "terms_agreement_id": "DGA_BA_2023"
     },
@@ -167,7 +167,7 @@
       "value": 5416.0,
       "value_effective": "",
       "type": "INPUT",
-      "next": 5551.0,
+      "next": 5552.0,
       "next_effective": "07/01/26-06/30/27",
       "terms_agreement_id": "DGA_BA_2023"
     },
@@ -206,7 +206,7 @@
       "value": 1873.0,
       "value_effective": "",
       "type": "INPUT",
-      "next": 1920.0,
+      "next": 1919.0,
       "next_effective": "07/01/26-06/30/27",
       "terms_agreement_id": "DGA_BA_2023"
     },
@@ -310,7 +310,7 @@
       "value": 902.0,
       "value_effective": "",
       "type": "INPUT",
-      "next": 925.0,
+      "next": 924.0,
       "next_effective": "07/01/26-06/30/27",
       "terms_agreement_id": "DGA_BA_2023"
     },
