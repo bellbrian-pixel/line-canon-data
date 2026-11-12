@@ -121,20 +121,7 @@
       "project_cap": null,
       "verified_on": "2026-08-19",
       "notes": "Signed 7/1/26; fiscal note places funding in FY2028–29. Confirm window before relying.",
-      "pending": [
-        {
-          "field": "review",
-          "current": null,
-          "detected": null,
-          "detected_at": "2026-11-09",
-          "source_url": "https://legis.delaware.gov/BillDetail?LegislationId=142661",
-          "locator": "Progress Status: House Revenue & Finance",
-          "locator_hash": "8f26b37e122da0626f761c795647a707",
-          "kind": "CHANGED",
-          "window": "nance Hearing Room - YouTube View All Legislation View All Senate Legislation View All House Legislation House Rules Senate Rules Glossary of Terms House Bill 237 153rd General Assembly (2025 - 2026) Progress Status: House Revenue & Finance 6/30/25 What typically happens next? The General Assembly has ended, the current status is the final status. Details Introduced on: 6/30/25 Primary Sponsor: Mi",
-          "status": "unconfirmed"
-        }
-      ],
+      "pending": [],
       "rejected": [
         {
           "field": "review",
@@ -142,6 +129,13 @@
           "locator": "Progress Status: House Revenue & Finance",
           "locator_hash": "daedb720ef7dbb93de36cff2d1fab50b",
           "rejected_at": "2026-09-27"
+        },
+        {
+          "field": "review",
+          "value": null,
+          "locator": "Progress Status: House Revenue & Finance",
+          "locator_hash": "8f26b37e122da0626f761c795647a707",
+          "rejected_at": "2026-11-12"
         }
       ]
     },
