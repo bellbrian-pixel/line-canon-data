@@ -1181,6 +1181,50 @@
      "notes": ""
     },
     {
+     "term_id": "TEAMSTERS817_LOC_2024.per_diem.distant",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 12.5,
+       "lunch": 17.5,
+       "dinner": 25
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "basis": "minimum reimbursement of actual room and board",
+      "housing_text": "single room, first-class accommodations"
+     },
+     "citation": "2024 MOA item 15, Art. 26.b.i",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Employees shall be entitled to reimbursement for actual room and board expenses on location with a minimum of $10.00 for breakfast, $15.00 for lunch and $20.00 for dinner ($12.50",
+      "clause_hash": "sha256:67a12aa3dcc301cfd3cf335ebe81e2c4c9d80b09a5b90b588a029964a022da92",
+      "source": "NY_LOCAL817_LOC_RATES_2024.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Minimums under actual room-and-board reimbursement. Step date is the first Sunday after AMPTP notice of ratification (not named in any document held); no window, as on TEAMSTERS817_LOC_2024.housing_meals.distant."
+    },
+    {
      "term_id": "TEAMSTERS817_LOC_2024.per_diem.watch",
      "topic": "per_diem",
      "mode": "WATCH",
@@ -5750,6 +5794,206 @@
       "last_checked": "2026-10-19"
      },
      "notes": "Directors (4-107) carry the same list and observance; their pay is a deal, so no line is priced. The 2026 BA MOA is not yet read for holidays."
+    },
+    {
+     "term_id": "DGA_BA_2023.per_diem.distant.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 24,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "applies_to": "UPMs and Assistant Directors (not Directors)",
+      "meals_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01",
+      "incidentals_from": "BA 13-114 incidental allowance"
+     },
+     "citation": "BA 13-114 incidental allowance ($24; $25 from 7/1/28, 2026 MOA item 2.b); meals per producer ruling R1 (IATSE ASA Art. 3(I)(1))",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "the incidental allowance shall be increased to $25",
+      "clause_hash": "sha256:353f5c3b8076f99aadaea16bb019b5f31f59e5d2d37200b89d2ac0dcda102b15",
+      "source": "DGA_BA_2023_moa2026.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "The DGA rate canon carries no meal figure for UPMs/ADs on distant location, only the 13-114 incidental, so ruling R1 prices the meals. Directors are outside Article 13: no incidental."
+    },
+    {
+     "term_id": "DGA_BA_2023.per_diem.distant.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 24,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "applies_to": "UPMs and Assistant Directors (not Directors)",
+      "meals_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04",
+      "incidentals_from": "BA 13-114 incidental allowance"
+     },
+     "citation": "BA 13-114 incidental allowance ($24; $25 from 7/1/28, 2026 MOA item 2.b); meals per producer ruling R1 (IATSE ASA Art. 3(I)(1))",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "the incidental allowance shall be increased to $25",
+      "clause_hash": "sha256:353f5c3b8076f99aadaea16bb019b5f31f59e5d2d37200b89d2ac0dcda102b15",
+      "source": "DGA_BA_2023_moa2026.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "The DGA rate canon carries no meal figure for UPMs/ADs on distant location, only the 13-114 incidental, so ruling R1 prices the meals. Directors are outside Article 13: no incidental."
+    },
+    {
+     "term_id": "DGA_BA_2023.per_diem.distant.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": "2028-06-30"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 24,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "applies_to": "UPMs and Assistant Directors (not Directors)",
+      "meals_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02",
+      "incidentals_from": "BA 13-114 incidental allowance"
+     },
+     "citation": "BA 13-114 incidental allowance ($24; $25 from 7/1/28, 2026 MOA item 2.b); meals per producer ruling R1 (IATSE ASA Art. 3(I)(1))",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "the incidental allowance shall be increased to $25",
+      "clause_hash": "sha256:353f5c3b8076f99aadaea16bb019b5f31f59e5d2d37200b89d2ac0dcda102b15",
+      "source": "DGA_BA_2023_moa2026.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "The DGA rate canon carries no meal figure for UPMs/ADs on distant location, only the 13-114 incidental, so ruling R1 prices the meals. Directors are outside Article 13: no incidental."
+    },
+    {
+     "term_id": "DGA_BA_2023.per_diem.distant.2028-07-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2028-07-01",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 25,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "applies_to": "UPMs and Assistant Directors (not Directors)",
+      "meals_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02",
+      "incidentals_from": "BA 13-114 incidental allowance"
+     },
+     "citation": "BA 13-114 incidental allowance ($24; $25 from 7/1/28, 2026 MOA item 2.b); meals per producer ruling R1 (IATSE ASA Art. 3(I)(1))",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "the incidental allowance shall be increased to $25",
+      "clause_hash": "sha256:353f5c3b8076f99aadaea16bb019b5f31f59e5d2d37200b89d2ac0dcda102b15",
+      "source": "DGA_BA_2023_moa2026.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "The DGA rate canon carries no meal figure for UPMs/ADs on distant location, only the 13-114 incidental, so ruling R1 prices the meals. Directors are outside Article 13: no incidental."
     }
    ]
   },
@@ -6411,6 +6655,108 @@
       "hash_text": "Drive text export"
      },
      "notes": "MOA adds $1/$2/$2; the $80 total is arithmetic. Background actors: 2026 MOA item 29.b, $75 from 2026-07-01 and $80 from 2028-07-01 (not yet a row; needs a position key)."
+    },
+    {
+     "term_id": "SAG_CBA_2014.per_diem.distant.background.2026-07-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null,
+      "position": [
+       "background"
+      ]
+     },
+     "effective": [
+      {
+       "from": "2026-07-01",
+       "to": "2028-06-30"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "applies_to": "background actors"
+     },
+     "citation": "2026 MOA item 29.b (Sched. X Pt I Sec. 37(c); Pt II Sec. 38.C)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "All background actors shall be entitled to a basic per diem allowance for meals on overnight locations",
+      "clause_hash": "sha256:fd8ad3a60b0493d795d411230e4c657ee8add7ecb56f2acd96ffb195fb7f09fb",
+      "source": "SAG_CBA_2014_moa2026.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "New in the 2026 MOA; background actors had no per diem clause before 7/1/26. 7/1/26 is \"July 1, 2026 or the first Sunday after ratification\", whichever is later."
+    },
+    {
+     "term_id": "SAG_CBA_2014.per_diem.distant.background.2028-07-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null,
+      "position": [
+       "background"
+      ]
+     },
+     "effective": [
+      {
+       "from": "2028-07-01",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 17,
+       "lunch": 24,
+       "dinner": 39
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "applies_to": "background actors"
+     },
+     "citation": "2026 MOA item 29.b (Sched. X Pt I Sec. 37(c); Pt II Sec. 38.C)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "All background actors shall be entitled to a basic per diem allowance for meals on overnight locations",
+      "clause_hash": "sha256:fd8ad3a60b0493d795d411230e4c657ee8add7ecb56f2acd96ffb195fb7f09fb",
+      "source": "SAG_CBA_2014_moa2026.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "New in the 2026 MOA; background actors had no per diem clause before 7/1/26. 7/1/26 is \"July 1, 2026 or the first Sunday after ratification\", whichever is later."
     }
    ]
   },
