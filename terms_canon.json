@@ -1,6 +1,6 @@
 {
  "schema": "terms_canon/1",
- "generated": "2026-10-19",
+ "generated": "2026-11-14",
  "rule": "Every contract gets three canons - labor (rates), fringe, terms. A weekly fetch compares each source file sha256 and each term clause_hash; a change in any of the three is flagged.",
  "value_kinds_added": [
   "schedule_header (vet doc sec.4)",
@@ -2800,6 +2800,150 @@
      "notes": "Accrual in the Northeast; day pay incl. Good Friday (no Veterans' Day) in the Southeastern States. A 161 hire is under 161 wherever it shoots (J3)."
     },
     {
+     "term_id": "LOCAL161_MAJORS_2025.per_diem.distant.asa_ruling.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Part III Art. 24(b)(3)(A)(iii) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause. Outside the Southeastern States only; Part IV rows govern there (ruling R2)."
+    },
+    {
+     "term_id": "LOCAL161_MAJORS_2025.per_diem.distant.asa_ruling.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Part III Art. 24(b)(3)(A)(iii) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause. Outside the Southeastern States only; Part IV rows govern there (ruling R2)."
+    },
+    {
+     "term_id": "LOCAL161_MAJORS_2025.per_diem.distant.asa_ruling.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Part III Art. 24(b)(3)(A)(iii) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause. Outside the Southeastern States only; Part IV rows govern there (ruling R2)."
+    },
+    {
      "term_id": "LOCAL161_MAJORS_2025.per_diem.watch",
      "topic": "per_diem",
      "mode": "WATCH",
@@ -2967,6 +3111,180 @@
       "hash_text": "Drive text export"
      },
      "notes": "Part IV (Southeast) prices distant hires 59.50 / 70 / 75 (3/9/25, 3/8/26, 3/7/27) and nearby living 70 / 80 / 90; Part III distant hires get a hotel and no figure. OPEN: which Part governs a NY hire working distant."
+    },
+    {
+     "term_id": "LOCAL161_MAJORS_2025.per_diem.distant.part_iv.2025-03-09",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null,
+      "states": [
+       "FL",
+       "GA",
+       "MD",
+       "NC",
+       "SC",
+       "VA",
+       "WV"
+      ]
+     },
+     "effective": [
+      {
+       "from": "2025-03-09",
+       "to": "2026-03-07"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null
+     },
+     "citation": "Part IV Art. 39(c),(e),(f); producer ruling R2 (2026-11-14)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "(e) The Employer shall pay per diem to Distant Hires, as defined in Article 39(c) above, at the",
+      "clause_hash": "sha256:4941699eabbf792193f7d780412911b609fbdeb42881a353c05c635c4517fda1",
+      "source": "NY_LOCAL161_2025.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export",
+      "scope_anchor": "Effective March 9, 2025, the working conditions for employees working on theatrical or television motion pictures in Florida, Georgia, Maryland, North Carolina, South Carolina, Virginia and West Virginia",
+      "scope_hash": "sha256:78f811170da1fa053bfda2628ad8bdd6b6052ddc263b052be30f428344073671"
+     },
+     "notes": "Part IV governs a hire working in the Southeastern States FL/GA/MD/NC/SC/VA/WV. Distant Hires also get a single-occupancy hotel."
+    },
+    {
+     "term_id": "LOCAL161_MAJORS_2025.per_diem.distant.part_iv.2026-03-08",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null,
+      "states": [
+       "FL",
+       "GA",
+       "MD",
+       "NC",
+       "SC",
+       "VA",
+       "WV"
+      ]
+     },
+     "effective": [
+      {
+       "from": "2026-03-08",
+       "to": "2027-03-06"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null
+     },
+     "citation": "Part IV Art. 39(c),(e),(f); producer ruling R2 (2026-11-14)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "(e) The Employer shall pay per diem to Distant Hires, as defined in Article 39(c) above, at the",
+      "clause_hash": "sha256:4941699eabbf792193f7d780412911b609fbdeb42881a353c05c635c4517fda1",
+      "source": "NY_LOCAL161_2025.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export",
+      "scope_anchor": "Effective March 9, 2025, the working conditions for employees working on theatrical or television motion pictures in Florida, Georgia, Maryland, North Carolina, South Carolina, Virginia and West Virginia",
+      "scope_hash": "sha256:78f811170da1fa053bfda2628ad8bdd6b6052ddc263b052be30f428344073671"
+     },
+     "notes": "Part IV governs a hire working in the Southeastern States FL/GA/MD/NC/SC/VA/WV. Distant Hires also get a single-occupancy hotel."
+    },
+    {
+     "term_id": "LOCAL161_MAJORS_2025.per_diem.distant.part_iv.2027-03-07",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null,
+      "states": [
+       "FL",
+       "GA",
+       "MD",
+       "NC",
+       "SC",
+       "VA",
+       "WV"
+      ]
+     },
+     "effective": [
+      {
+       "from": "2027-03-07",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null
+     },
+     "citation": "Part IV Art. 39(c),(e),(f); producer ruling R2 (2026-11-14)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "(e) The Employer shall pay per diem to Distant Hires, as defined in Article 39(c) above, at the",
+      "clause_hash": "sha256:4941699eabbf792193f7d780412911b609fbdeb42881a353c05c635c4517fda1",
+      "source": "NY_LOCAL161_2025.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export",
+      "scope_anchor": "Effective March 9, 2025, the working conditions for employees working on theatrical or television motion pictures in Florida, Georgia, Maryland, North Carolina, South Carolina, Virginia and West Virginia",
+      "scope_hash": "sha256:78f811170da1fa053bfda2628ad8bdd6b6052ddc263b052be30f428344073671"
+     },
+     "notes": "Part IV governs a hire working in the Southeastern States FL/GA/MD/NC/SC/VA/WV. Distant Hires also get a single-occupancy hotel."
     }
    ]
   },
@@ -3317,6 +3635,150 @@
       "last_checked": "2026-10-14"
      },
      "notes": "Non-accrual: every listed holiday is a day line when the eligibility test is met."
+    },
+    {
+     "term_id": "LOCAL764_MAJORS_2025.per_diem.distant.asa_ruling.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Art. 8(b)(1) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "LOCAL764_MAJORS_2025.per_diem.distant.asa_ruling.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Art. 8(b)(1) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "LOCAL764_MAJORS_2025.per_diem.distant.asa_ruling.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Art. 8(b)(1) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
     },
     {
      "term_id": "LOCAL764_MAJORS_2025.per_diem.watch",
@@ -3756,6 +4218,150 @@
      "notes": "Part III: unworked pay only for MLK and Juneteenth, plus every holiday on a distant leg. Part IV: every listed holiday incl. Good Friday. Florida is Part III in 798 (Part IV in 161)."
     },
     {
+     "term_id": "LOCAL798_MAJORS_2025.per_diem.distant.asa_ruling.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Part III Art. 18(b)(2) and Art. 19(c) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause. Outside the Southeastern States only; Part IV rows govern there (ruling R2)."
+    },
+    {
+     "term_id": "LOCAL798_MAJORS_2025.per_diem.distant.asa_ruling.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Part III Art. 18(b)(2) and Art. 19(c) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause. Outside the Southeastern States only; Part IV rows govern there (ruling R2)."
+    },
+    {
+     "term_id": "LOCAL798_MAJORS_2025.per_diem.distant.asa_ruling.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Part III Art. 18(b)(2) and Art. 19(c) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause. Outside the Southeastern States only; Part IV rows govern there (ruling R2)."
+    },
+    {
      "term_id": "LOCAL798_MAJORS_2025.per_diem.watch",
      "topic": "per_diem",
      "mode": "WATCH",
@@ -3893,6 +4499,180 @@
       "hash_text": "Drive text export"
      },
      "notes": "Part III furnishes first-class lodging and three meals (no figure). Part IV (Southeast) prices 57 / 70 / 75 (7/31/22, 3/9/25, 3/7/27). OPEN: which Part governs."
+    },
+    {
+     "term_id": "LOCAL798_MAJORS_2025.per_diem.distant.part_iv.2022-07-31",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null,
+      "states": [
+       "GA",
+       "LA",
+       "MD",
+       "NC",
+       "SC",
+       "VA",
+       "WV"
+      ]
+     },
+     "effective": [
+      {
+       "from": "2022-07-31",
+       "to": "2025-03-08"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 12,
+       "lunch": 16,
+       "dinner": 29
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null
+     },
+     "citation": "Part IV Art. 39(c),(e); producer ruling R2 (2026-11-14)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "(e) The Employer shall pay per diem to Distant Hires, as defined in Article 39(c) above, at the",
+      "clause_hash": "sha256:9cf336ac69a0ce80b0c69920f01fc2a717238189ca38326b1d6496d24bde8f6b",
+      "source": "NY_LOCAL798_2025.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export",
+      "scope_anchor": "The working conditions set forth in this Part IV shall apply to: (a) Employees working on motion pictures in Georgia, Louisiana, Maryland, North Carolina, South Carolina, Virginia and West Virginia",
+      "scope_hash": "sha256:08a9cf5c3a61d1c6cf093c9f8902a3a346c29f395b8a2992563606e5b00eb642"
+     },
+     "notes": "Part IV governs a hire working in the Southeastern States GA/LA/MD/NC/SC/VA/WV. Distant Hires also get a single-occupancy hotel."
+    },
+    {
+     "term_id": "LOCAL798_MAJORS_2025.per_diem.distant.part_iv.2025-03-09",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null,
+      "states": [
+       "GA",
+       "LA",
+       "MD",
+       "NC",
+       "SC",
+       "VA",
+       "WV"
+      ]
+     },
+     "effective": [
+      {
+       "from": "2025-03-09",
+       "to": "2027-03-06"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null
+     },
+     "citation": "Part IV Art. 39(c),(e); producer ruling R2 (2026-11-14)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "(e) The Employer shall pay per diem to Distant Hires, as defined in Article 39(c) above, at the",
+      "clause_hash": "sha256:9cf336ac69a0ce80b0c69920f01fc2a717238189ca38326b1d6496d24bde8f6b",
+      "source": "NY_LOCAL798_2025.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export",
+      "scope_anchor": "The working conditions set forth in this Part IV shall apply to: (a) Employees working on motion pictures in Georgia, Louisiana, Maryland, North Carolina, South Carolina, Virginia and West Virginia",
+      "scope_hash": "sha256:08a9cf5c3a61d1c6cf093c9f8902a3a346c29f395b8a2992563606e5b00eb642"
+     },
+     "notes": "Part IV governs a hire working in the Southeastern States GA/LA/MD/NC/SC/VA/WV. Distant Hires also get a single-occupancy hotel."
+    },
+    {
+     "term_id": "LOCAL798_MAJORS_2025.per_diem.distant.part_iv.2027-03-07",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null,
+      "states": [
+       "GA",
+       "LA",
+       "MD",
+       "NC",
+       "SC",
+       "VA",
+       "WV"
+      ]
+     },
+     "effective": [
+      {
+       "from": "2027-03-07",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null
+     },
+     "citation": "Part IV Art. 39(c),(e); producer ruling R2 (2026-11-14)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "(e) The Employer shall pay per diem to Distant Hires, as defined in Article 39(c) above, at the",
+      "clause_hash": "sha256:9cf336ac69a0ce80b0c69920f01fc2a717238189ca38326b1d6496d24bde8f6b",
+      "source": "NY_LOCAL798_2025.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export",
+      "scope_anchor": "The working conditions set forth in this Part IV shall apply to: (a) Employees working on motion pictures in Georgia, Louisiana, Maryland, North Carolina, South Carolina, Virginia and West Virginia",
+      "scope_hash": "sha256:08a9cf5c3a61d1c6cf093c9f8902a3a346c29f395b8a2992563606e5b00eb642"
+     },
+     "notes": "Part IV governs a hire working in the Southeastern States GA/LA/MD/NC/SC/VA/WV. Distant Hires also get a single-occupancy hotel."
     }
    ]
   },
@@ -6116,6 +6896,150 @@
      "notes": "Juneteenth effective the later of 8/1/24 or the first Sunday after AMPTP notice of ratification; 2024-08-01 used. Outside the Corridor only (A) and (C) apply: no distant-leg day pay."
     },
     {
+     "term_id": "LOCAL600_ICG_2021.per_diem.distant.asa_ruling.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "LOCAL600_ICG_2021.per_diem.distant.asa_ruling.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "LOCAL600_ICG_2021.per_diem.distant.asa_ruling.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
      "term_id": "LOCAL600_ICG_2021.per_diem.watch",
      "topic": "per_diem",
      "mode": "WATCH",
@@ -6568,6 +7492,114 @@
       "last_checked": "2026-10-14"
      },
      "notes": "Treated as accrual (no budget line): the fund, funded by contributions, pays unworked holidays. Flagged to Brian 13 Oct against the J5 grouping."
+    },
+    {
+     "term_id": "TEAMSTERS817_DRV_2025.per_diem.distant.2027-10-31",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2027-10-31",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "condition": "IATSE-represented employees assigned to the production at the same time and place",
+      "without_iatse": {
+       "daily": 50,
+       "steps": false
+      },
+      "trigger": "more than 50 miles from Columbus Circle",
+      "lodging_text": "actual room and board, first class room (Art. 8(c))"
+     },
+     "citation": "Art. 8(e); 8(c)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Meals on Distant Location. Effective November 2, 2025, employees on Distant Location outside a radius more than fifty (50) miles from Columbus Circle shall be paid a per diem of $50.00",
+      "clause_hash": "sha256:2817fab4d49362d083fd9e17865fd9304baa52d9b27388e579b7cf3c0139746c",
+      "source": "NY_LOCAL817_DRV_2025.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Features always carry IATSE crew, so the meal figures price. Without IATSE crew: $50/day, which does not step on 10/31/27. 30 to 50 miles: Art. 8(c) actual room and board with minimum meals ($9.50/$14/$16.50 from 11/2/25), not priced."
+    },
+    {
+     "term_id": "TEAMSTERS817_DRV_2025.per_diem.distant.2025-11-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2025-11-02",
+       "to": "2027-10-30"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "condition": "IATSE-represented employees assigned to the production at the same time and place",
+      "without_iatse": {
+       "daily": 50,
+       "steps": false
+      },
+      "trigger": "more than 50 miles from Columbus Circle",
+      "lodging_text": "actual room and board, first class room (Art. 8(c))"
+     },
+     "citation": "Art. 8(e); 8(c)",
+     "status": "READ_FROM_BYTES",
+     "watch": {
+      "anchor": "Meals on Distant Location. Effective November 2, 2025, employees on Distant Location outside a radius more than fifty (50) miles from Columbus Circle shall be paid a per diem of $50.00",
+      "clause_hash": "sha256:2817fab4d49362d083fd9e17865fd9304baa52d9b27388e579b7cf3c0139746c",
+      "source": "NY_LOCAL817_DRV_2025.txt",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Features always carry IATSE crew, so the meal figures price. Without IATSE crew: $50/day, which does not step on 10/31/27. 30 to 50 miles: Art. 8(c) actual room and board with minimum meals ($9.50/$14/$16.50 from 11/2/25), not priced."
     },
     {
      "term_id": "TEAMSTERS817_DRV_2025.per_diem.watch",
@@ -9237,6 +10269,150 @@
      "notes": "Template text read from Local 44 (Para. 9, 31(g)); MOA item 8 adds Juneteenth and 4.583% to every West Coast Studio Local Agreement. Inheriting locals: 80, 892, 695, 700, 705, 706, 728, 729, 871, 884, 800 (IMA, SDMM, STG), 600 West Coast. Their own paragraph numbers may differ. Local 800 Art Directors carries its own row."
     },
     {
+     "term_id": "IATSE_WCSL_2024.per_diem.distant.asa_ruling.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Payroll Company provisions (Art. on Payroll Companies, para E) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "IATSE_WCSL_2024.per_diem.distant.asa_ruling.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Payroll Company provisions (Art. on Payroll Companies, para E) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "IATSE_WCSL_2024.per_diem.distant.asa_ruling.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Payroll Company provisions (Art. on Payroll Companies, para E) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
      "term_id": "IATSE_WCSL_2024.per_diem.watch",
      "topic": "per_diem",
      "mode": "WATCH",
@@ -9666,6 +10842,150 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Chef Assistant-Drivers and Chef Assistants are paid 8 hrs straight per unworked holiday if employed the workday before and after (sideletter, effective on or after 8/4/24), not the accrual."
+    },
+    {
+     "term_id": "TEAMSTERS399_DRV_2024.per_diem.distant.asa_ruling.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 35 furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "TEAMSTERS399_DRV_2024.per_diem.distant.asa_ruling.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 35 furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "TEAMSTERS399_DRV_2024.per_diem.distant.asa_ruling.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 35 furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
     },
     {
      "term_id": "TEAMSTERS399_DRV_2024.per_diem.watch",
@@ -10460,6 +11780,150 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Local 44 does not inherit IATSE_WCSL_2024, so it carries the row itself."
+    },
+    {
+     "term_id": "LOCAL44_2021.per_diem.distant.asa_ruling.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "LOCAL44_2021.per_diem.distant.asa_ruling.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "LOCAL44_2021.per_diem.distant.asa_ruling.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
     },
     {
      "term_id": "LOCAL44_2021.per_diem.watch",
@@ -16099,6 +17563,150 @@
      "notes": "The agreement states 4.583% for 2025 and 2026 only; 2027 is not stated. Check the 2024 Location Managers MOA before pricing 2027."
     },
     {
+     "term_id": "TEAMSTERS399_LM_2024.per_diem.distant.asa_ruling.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 14(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "TEAMSTERS399_LM_2024.per_diem.distant.asa_ruling.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 14(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "TEAMSTERS399_LM_2024.per_diem.distant.asa_ruling.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 14(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
      "term_id": "TEAMSTERS399_LM_2024.per_diem.watch",
      "topic": "per_diem",
      "mode": "WATCH",
@@ -16429,6 +18037,150 @@
       "last_checked": "2026-10-12"
      },
      "notes": "Theatrical Associate Casting Director: on-call weekly $2,378 from 10/4/26."
+    },
+    {
+     "term_id": "TEAMSTERS399_817_CASTING_2024.per_diem.distant.asa_ruling.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Art. 8 (pay day only) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "TEAMSTERS399_817_CASTING_2024.per_diem.distant.asa_ruling.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Art. 8 (pay day only) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "TEAMSTERS399_817_CASTING_2024.per_diem.distant.asa_ruling.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Art. 8 (pay day only) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
     },
     {
      "term_id": "TEAMSTERS399_817_CASTING_2024.per_diem.watch",
@@ -17083,6 +18835,150 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Basic Crafts text matches the West Coast Studio Local template; Juneteenth and 4.583% are written into the 2024 agreement."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL40_2024.per_diem.distant.asa_ruling.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL40_2024.per_diem.distant.asa_ruling.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL40_2024.per_diem.distant.asa_ruling.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
     },
     {
      "term_id": "BASICCRAFTS_LOCAL40_2024.per_diem.watch",
@@ -17775,6 +19671,150 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Basic Crafts text matches the West Coast Studio Local template; Juneteenth and 4.583% are written into the 2024 agreement."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL78_2024.per_diem.distant.asa_ruling.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL78_2024.per_diem.distant.asa_ruling.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL78_2024.per_diem.distant.asa_ruling.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
     },
     {
      "term_id": "BASICCRAFTS_LOCAL78_2024.per_diem.watch",
@@ -18470,6 +20510,150 @@
      "notes": "Basic Crafts text matches the West Coast Studio Local template; Juneteenth and 4.583% are written into the 2024 agreement."
     },
     {
+     "term_id": "BASICCRAFTS_LOCAL724_2024.per_diem.distant.asa_ruling.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL724_2024.per_diem.distant.asa_ruling.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL724_2024.per_diem.distant.asa_ruling.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
      "term_id": "BASICCRAFTS_LOCAL724_2024.per_diem.watch",
      "topic": "per_diem",
      "mode": "WATCH",
@@ -19160,6 +21344,150 @@
       "last_checked": "2026-10-18"
      },
      "notes": "Basic Crafts text matches the West Coast Studio Local template; Juneteenth and 4.583% are written into the 2024 agreement."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL755_2024.per_diem.distant.asa_ruling.2026-08-02",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2026-08-02",
+       "to": null
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 16,
+       "lunch": 22,
+       "dinner": 37
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL755_2024.per_diem.distant.asa_ruling.2024-08-04",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-04",
+       "to": "2026-08-01"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 14,
+       "lunch": 21,
+       "dinner": 35
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
+    },
+    {
+     "term_id": "BASICCRAFTS_LOCAL755_2024.per_diem.distant.asa_ruling.2024-08-01",
+     "topic": "per_diem",
+     "mode": "HARVEST",
+     "applies": {
+      "work_relation": [
+       "distant"
+      ],
+      "day_class": [
+       "*"
+      ],
+      "production_type": [
+       "theatrical"
+      ],
+      "commencing_on_or_after": null,
+      "report_mode": null,
+      "production_mode": null
+     },
+     "effective": [
+      {
+       "from": "2024-08-01",
+       "to": "2024-08-03"
+      }
+     ],
+     "value": {
+      "kind": "per_diem",
+      "daily": null,
+      "meals": {
+       "breakfast": 11.5,
+       "lunch": 16,
+       "dinner": 32
+      },
+      "incidentals": 0,
+      "lodging": "furnished",
+      "lodging_allowance": null,
+      "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
+     },
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Para 37(a)-(b) furnishes meals with no figure",
+     "status": "BRIAN_RULING",
+     "watch": {
+      "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
+      "clause_hash": "sha256:83d7f7dee6b0e67966a0a82035dba7a3d127f70bf02d27667d2f13085c2c7d2c",
+      "source": "2024 Area Standards Agreement.pdf Art. 3(I)(1); 2024-2027 MOA item 12",
+      "last_checked": "2026-11-14",
+      "hash_text": "Drive text export"
+     },
+     "notes": "Where the contract furnishes meals with no figure, budget the IATSE Area Standards per diem. Watched on the ASA clause."
     },
     {
      "term_id": "BASICCRAFTS_LOCAL755_2024.per_diem.watch",
