@@ -10305,7 +10305,7 @@
       "lodging_allowance": null,
       "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2026-08-02"
      },
-     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Payroll Company provisions (Art. on Payroll Companies, para E) furnishes meals with no figure",
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); each local agreement's Para 37(a)-(b) furnishes meals and lodging with no figure",
      "status": "BRIAN_RULING",
      "watch": {
       "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
@@ -10353,7 +10353,7 @@
       "lodging_allowance": null,
       "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-04"
      },
-     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Payroll Company provisions (Art. on Payroll Companies, para E) furnishes meals with no figure",
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); each local agreement's Para 37(a)-(b) furnishes meals and lodging with no figure",
      "status": "BRIAN_RULING",
      "watch": {
       "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
@@ -10401,7 +10401,7 @@
       "lodging_allowance": null,
       "borrowed_from": "IATSE_ASA_2024.per_diem.distant.2024-08-01"
      },
-     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); contract Payroll Company provisions (Art. on Payroll Companies, para E) furnishes meals with no figure",
+     "citation": "Producer ruling R1 (2026-11-14): IATSE ASA Art. 3(I)(1); each local agreement's Para 37(a)-(b) furnishes meals and lodging with no figure",
      "status": "BRIAN_RULING",
      "watch": {
       "anchor": "The Employer shall pay per diem to Distant Hires, as defined in Article 3(H)(1)(c) above, at the following rates per day:",
@@ -10441,7 +10441,7 @@
       "lodging_allowance": null,
       "figures_found": []
      },
-     "citation": "Payroll Company provisions (Art. on Payroll Companies, para E)",
+     "citation": "each local agreement's Para 37(a)-(b) (the Basic Agreement sets no distant per diem)",
      "status": "READ_FROM_BYTES",
      "watch": {
       "anchor": "On distant location productions, reasonable notice of termination, whenever possible, must be given",
