@@ -1,26 +1,21 @@
-# Incentive Watcher — review needed — 2026-11-09
+# Incentive Watcher — review needed — 2026-11-16
 
-**Coverage: 40 of 46 targets live, 6 blind.** A blind target reports nothing, which looks exactly like good news.
+**Coverage: 43 of 47 targets live, 4 blind.** A blind target reports nothing, which looks exactly like good news.
 
 ```
-INCENTIVE CANON WATCHER — 2026-11-09
-Targets: 46 | staged to pending[]: 1
+INCENTIVE CANON WATCHER — 2026-11-16
+Targets: 47 | staged to pending[]: 0
 
-CHANGED (staged for approval):
-  DE [review] detected=(none)  Progress Status: House Revenue & Finance  https://legis.delaware.gov/BillDetail?LegislationId=142661
+NOTE: Text normaliser v5 -> v6. All fingerprints discarded and re-baselined; no CHANGED comparison this run.
 
 LIVE VALUES (semantics=value):
   MO detected=$7,860,522  https://mofilm.org/tax-incentives/motion-media-production/
-
-LOCATOR NOT FOUND (likely redesign — re-derive locator, NOT a value change):
-  KY ky_film  https://kyfilm.org/incentives/
 
 BLOCKED (403 — needs a fallback source):
   AZ az_cc  https://www.azcommerce.com/film-media/incentive/
   MN mn_emn  https://www.exploreminnesota.com/film/incentives
 
 FETCH ERRORS:
-  MD md_commerce — HTTP 404
   MS ms_code — HTTP 404
   PR pr_ddec — Exception: Address unavailable: https://puertoricofilm.ddec.pr.gov/incentives/
 
