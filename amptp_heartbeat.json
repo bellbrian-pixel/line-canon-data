@@ -1,7 +1,7 @@
 {
   "watcher": "AMPTP Contracts",
   "watcher_version": "v5.1",
-  "generated_at": "2026-11-16",
-  "ran_at_utc": "2026-11-16T11:07:13.189Z",
+  "generated_at": "2026-11-23",
+  "ran_at_utc": "2026-11-23T11:07:08.149Z",
   "note": "Weekly heartbeat. Re-stamped every Monday run even when no new contracts are found."
 }
